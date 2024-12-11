@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.org/posts/archiver/</loc>
+    <lastmod>2024-12-08T20:20:32-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/</loc>
+    <lastmod>2024-12-08T20:20:32-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/</loc>
+    <lastmod>2024-12-08T20:20:32-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/algorithms/</loc>
+    <lastmod>2024-12-08T20:18:33-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/stuff/</loc>
+    <lastmod>2024-12-08T19:20:28-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/aoc-2024-day1/</loc>
+    <lastmod>2024-12-05T13:55:24-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/aoc-2024-day2/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/toki-pona-math/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/icpc-regionals/</loc>
+    <lastmod>2023-10-21T22:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://example.org/categories/</loc>
+  </url><url>
+    <loc>https://example.org/tags/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Algorithms | My New Hugo Site</title>
+
+      <link rel="stylesheet" href="/css/main.min.07d56f955a5448c9ec75c5dcd90a8cd42b8e6e984950479bbc311de89c8f6296.css" integrity="sha256-B9VvlVpUSMnsdcXc2QqM1CuObphJUEebvDEd6JyPYpY=" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/syntax.min.f984e748964012a66603eab3b8d1130b2af239e1eb6064a71c9ce0594163bca4.css" />
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<table class="header">
+  <tr>
+    <td colspan="2" rowspan="2" class="width-auto">
+        <h1 class="title">Algorithms</h1>
+        <span class="subtitle"></span>
+    </td>
+    <th>Version</th>
+    <td class="width-min">1.0.0</td>
+  </tr>
+  <tr>
+    <th>Updated</th>
+    <td class="width-min"><time style="white-space: pre;">2024-12-08</time></td>
+  </tr>
+  <tr>
+    <th class="width-min">Author</th><td class="width-auto"><a href="mailto:daestrada@pm.me"><cite>Diego A. Estrada Rivera</cite></a></td>
+    <th class="width-min">License</th>
+    <td>MIT</td>
+  </tr>
+</table>
+<main>
+    
+
+
+  <p>So it was a fine summer morning. Our investigation team was about to start our project &ldquo;Counting Arithmetical Structures on Cycles with a Doubled Edge&rdquo;, what a mouthful. I&rsquo;ll go into detail what this all means.</p>
+<p>We&rsquo;ll start simple.</p>
+<h2 id="what-is-a-graph">What is a graph?</h2>
+<p>A graph is a pretty common concept and I feel like the Wikipedia<a href="https://en.wikipedia.org/wiki/Graph_theory">1</a> page for it does a great job of explaining this! Nevertheless I should mention that graphs have families and a specific kind of family that was important for our investigation was the family of graphs on cycles. More specifically, graphs on a cycle that have a doubled edge in between a single pair of adjacent vertices. We will call graphs on a cycle with a doubled edge &ldquo;C tilde&rdquo;.</p>
+<h2 id="what-is-an-arithmetical-structure">What is an arithmetical structure?</h2>
+<p>Now an arithmetical structure is simply a way in which we label the vertices on this graph. We&rsquo;ll attach numbers to each vertex. After we&rsquo;ve attached numbers to all of the vertex we will check if it&rsquo;s a valid arithmetical structure. We will refer to the numbers acting as &ldquo;labels&rdquo; for this graph simply as &ldquo;numbers from now on. A labeling is a valid arithmetical structure if:</p>
+<ol>
+<li>Each vertex&rsquo;s number divides the sum of all of the numbers of the vertices adjacent to it.</li>
+<li>The greatest common divisor of all the vertices&rsquo; numbers is 1.</li>
+</ol>
+<p>Armed with this knowledge we can start to code!</p>
+<h2 id="brute-force-search">Brute Force Search</h2>
+<p>We can brute force search our way into finding arithmetical structures for C tilde.
+For example, for C tilde 3 we have a weird pizza shaped thing..</p>
+<p><img src="path1.svg" alt="">
+If we label the top two vertices &ldquo;a&rdquo; and &ldquo;b&rdquo; and the bottom vertex &ldquo;c&rdquo; we can say that a valid arithmetical structure meets the following criteria (in Python):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">assert</span> <span class="n">gcd</span><span class="p">([</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">])</span> <span class="o">==</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl"><span class="k">assert</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span><span class="p">)</span> <span class="o">%</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="k">assert</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span><span class="p">)</span> <span class="o">%</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"><span class="k">assert</span> <span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> <span class="o">%</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span></code></pre></div><ol>
+<li>Their <code>gcd</code> must be 1.</li>
+<li>The sum of <code>b + b + c</code> or <code>2 * b + c</code> must be divisible by <code>a</code>.</li>
+<li>The sum of <code>a + a + c</code> or <code>2 * a + c</code> must be divisible by <code>b</code>.</li>
+<li>The sum of <code>a + b</code> must be divisible by <code>c</code>.</li>
+</ol>
+<p>So if we pop this into a function:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">is_valid</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">c</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">	<span class="n">divisible</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span><span class="p">)</span> <span class="o">%</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span><span class="p">)</span> <span class="o">%</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> <span class="o">%</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="n">gcd</span><span class="p">([</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">])</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">divisible</span>
+</span></span></code></pre></div><p>and iterate over all possible values:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">		<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="n">is_valid</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">				<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+</span></span></code></pre></div><p>This will print all of the valid arithmetical structures on C tilde 3 with vertex values under 1000.</p>
+<p>Now if we wanted to do this for C tilde 6&hellip;</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">is_valid</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">c</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">d</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">e</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">f</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">	<span class="n">divisible</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">b</span> <span class="o">+</span> <span class="n">f</span><span class="p">)</span> <span class="o">%</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">	<span class="n">divisible</span> <span class="o">&amp;=</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span><span class="p">)</span> <span class="o">%</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">	<span class="n">divisible</span> <span class="o">&amp;=</span> <span class="p">(</span><span class="n">b</span> <span class="o">+</span> <span class="n">d</span><span class="p">)</span> <span class="o">%</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">	<span class="n">divisible</span> <span class="o">&amp;=</span> <span class="p">(</span><span class="n">c</span> <span class="o">+</span> <span class="n">e</span><span class="p">)</span> <span class="o">%</span> <span class="n">d</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">	<span class="n">divisible</span> <span class="o">&amp;=</span> <span class="p">(</span><span class="n">d</span> <span class="o">+</span> <span class="n">f</span><span class="p">)</span> <span class="o">%</span> <span class="n">e</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">	<span class="n">divisible</span> <span class="o">&amp;=</span> <span class="p">(</span><span class="n">e</span> <span class="o">+</span> <span class="n">a</span><span class="p">)</span> <span class="o">%</span> <span class="n">f</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="n">gcd</span><span class="p">([</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">e</span><span class="p">,</span> <span class="n">f</span><span class="p">])</span> <span class="ow">and</span> <span class="n">divisible</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">		<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">				<span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">					<span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">						<span class="k">if</span> <span class="n">is_valid</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">e</span><span class="p">,</span> <span class="n">f</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">							<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">e</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+</span></span></code></pre></div><p>This is looking horrible&hellip;.</p>
+<p>This doesn&rsquo;t actually run on the compute server we host our jupyter notebooks on so I had to transpile this to C++. It has a complexity of <code>O(n^m)</code> where <code>n</code> is the upper bound and <code>m</code> is the degree of the doubled edge cycle. Additionally, I will save you the horrors of looking at the C++ version of all of this&hellip; (for now)</p>
+<p>The C++ version took 5 days to output all of the structures for C tilde 8&hellip;</p>
+<h2 id="optimizations">Optimizations</h2>
+<p>For simplicity let&rsquo;s just say that we have a function <code>F</code> that will return the part of the doubled edge cycle that doesn&rsquo;t have the doubled edge. Think about it as return a chain of vertices and we just have to close the loop with the two edges at the end.</p>
+<p>The function goes a little like this</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">auto</span> <span class="nf">F</span><span class="p">(</span><span class="kt">uint64_t</span> <span class="n">x</span><span class="p">,</span> <span class="kt">uint64_t</span> <span class="n">y</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">uint64_t</span><span class="o">&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">auto</span> <span class="n">lst</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="p">{</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="n">lst</span><span class="p">.</span><span class="n">reserve</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">lst</span><span class="p">.</span><span class="n">back</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">1u</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">lst</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">mod</span><span class="p">(</span><span class="o">-</span><span class="n">lst</span><span class="p">.</span><span class="n">at</span><span class="p">(</span><span class="n">lst</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">-</span> <span class="mi">2u</span><span class="p">),</span> <span class="n">lst</span><span class="p">.</span><span class="n">back</span><span class="p">()));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">lst</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p><em>sidenote: C++ modulus doesn&rsquo;t compute negative modulus correctly so I had to implement that myself with <code>mod</code>[2]</em></p>
+<p>This means the search space went from <code>n^m</code> to just <code>n^2</code>!  Now we need to iterate over every pair of two numbers from 1 to the upper bound and check if we can merge them at the start.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">auto</span> <span class="nf">search</span><span class="p">(</span><span class="kt">uint64_t</span> <span class="n">upper_bound</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">std</span><span class="o">::</span><span class="n">unordered_set</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">uint64_t</span><span class="o">&gt;&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">std</span><span class="o">::</span><span class="n">unordered_set</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">uint64_t</span><span class="o">&gt;&gt;</span> <span class="n">ct</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">uint64_t</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">1u</span><span class="p">;</span> <span class="n">a</span> <span class="o">&lt;=</span> <span class="n">upper_bound</span><span class="p">;</span> <span class="o">++</span><span class="n">a</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">uint64_t</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1u</span><span class="p">;</span> <span class="n">b</span> <span class="o">&lt;=</span> <span class="n">upper_bound</span><span class="p">;</span> <span class="o">++</span><span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	        <span class="k">if</span> <span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">gcd</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		        <span class="k">continue</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	        <span class="k">auto</span> <span class="n">forwards</span> <span class="o">=</span> <span class="n">F</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	        <span class="k">auto</span> <span class="n">backwards</span> <span class="o">=</span> <span class="n">F</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><ul>
+<li></li>
+<li>[2]: <code>auto mod(auto x, auto y) { return ((a % m) + m) % m; }</code></li>
+</ul>
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

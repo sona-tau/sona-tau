@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>We Lost the ICPC Regionals | My New Hugo Site</title>
+
+      <link rel="stylesheet" href="/css/main.min.07d56f955a5448c9ec75c5dcd90a8cd42b8e6e984950479bbc311de89c8f6296.css" integrity="sha256-B9VvlVpUSMnsdcXc2QqM1CuObphJUEebvDEd6JyPYpY=" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/syntax.min.f984e748964012a66603eab3b8d1130b2af239e1eb6064a71c9ce0594163bca4.css" />
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<table class="header">
+  <tr>
+    <td colspan="2" rowspan="2" class="width-auto">
+        <h1 class="title">We Lost the ICPC Regionals</h1>
+        <span class="subtitle"></span>
+    </td>
+    <th>Version</th>
+    <td class="width-min">1.0.0</td>
+  </tr>
+  <tr>
+    <th>Updated</th>
+    <td class="width-min"><time style="white-space: pre;">2023-10-21</time></td>
+  </tr>
+  <tr>
+    <th class="width-min">Author</th><td class="width-auto"><a href="mailto:daestrada@pm.me"><cite>Diego A. Estrada Rivera</cite></a></td>
+    <th class="width-min">License</th>
+    <td>MIT</td>
+  </tr>
+</table>
+<main>
+    
+
+
+  <p>We lost the ICPC Regionals!!</p>
+<h1 id="intro">Intro</h1>
+<p>After a grueling five hour match our team couldn&rsquo;t solve a single exercise. We were very out of it at the end and just couldn&rsquo;t find a way to solve any of the exercises. Even though the exercises were pretty hard some of our solutions were indeed correct but couldn&rsquo;t beat the time limit they gave us for those exercises. For example one of the exercises was to find out all the numbers between 2 and N that fit the following description:</p>
+<p>For x in <code>[2, N]</code>, N base x is a palindrome. The complicated part of this problem being the fact that the largest N they give you is 2^15 and your time limit is 1 second. Changing a decimal number to a different base will always take an <code>O(log n)</code> amount of steps; checking if it&rsquo;s a palindrome will take <code>O(n/2)</code> steps max; doing that for every number in <code>[2, N]</code> is <code>O(n log(n))</code>. Note that an average computer can only do 10^8 calculations per second, but our largest number is 2^15 which means that anything equal or slower in complexity than a linear solution would be too slow.</p>
+<p>During the competition several things we noticed were that N in <code>[3, N)</code> will always have at least 1 palindrome in the base <code>N-1</code>. That is because you can always express <code>N</code> as <code>(1 * (N-1) + 1)</code>. The next palindrome number would be 22 but wwe couldn&rsquo;t notice why this palindrome would only sometimes appear.</p>
+<p>For the sake of explanation I will refer to <code>palindrome-pairs</code> as a palindrome made of 2 digits.</p>
+<p>After the competition concluded, on the ride back, our professor had mentioned that you will always have palindrome-pairs made of the factors of that number strictly less than that number&rsquo;s square root. Which makes sense for our first example since every number has the number 1 as a factor. Furthermore, the number 36, whose factors are: { 1, 2, 3, 4, 6, 9, 18, 36 } can be expressed as:</p>
+<ul>
+<li>11 in base 35</li>
+<li>22 in base 17</li>
+<li>33 in base 11</li>
+<li>44 in base 8</li>
+<li>121 in base 6 awwww
+It was almost working.</li>
+</ul>
+<p>I say almost because 121 IS a palindrome but it&rsquo;s also not a palindrome-pair. Unfortunately we couldn&rsquo;t come up with any better algorithm for this and ended up submitting this solution twice and getting TLE&rsquo;d.</p>
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://example.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 08 Dec 2024 20:20:32 -0400</lastBuildDate>
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archiver</title>
+      <link>https://example.org/posts/archiver/</link>
+      <pubDate>Sun, 08 Dec 2024 20:20:32 -0400</pubDate>
+      <guid>https://example.org/posts/archiver/</guid>
+      <description>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Algorithms</title>
+      <link>https://example.org/posts/algorithms/</link>
+      <pubDate>Sun, 08 Dec 2024 20:18:33 -0400</pubDate>
+      <guid>https://example.org/posts/algorithms/</guid>
+      <description>&lt;p&gt;So it was a fine summer morning. Our investigation team was about to start our project &amp;ldquo;Counting Arithmetical Structures on Cycles with a Doubled Edge&amp;rdquo;, what a mouthful. I&amp;rsquo;ll go into detail what this all means.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stuff</title>
+      <link>https://example.org/posts/stuff/</link>
+      <pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate>
+      <guid>https://example.org/posts/stuff/</guid>
+      <description>&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;    &#xA;    ijo li ike tawa kulupu pi pipi waso la ona li ike tawa pipi waso&#xA;&#xA;&lt;/bdi&gt;&#xA;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;That which is not good for the beehive, cannot be good for the bees. - Marcus Aurelius&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>AOC day 1</title>
+      <link>https://example.org/posts/aoc-2024-day1/</link>
+      <pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate>
+      <guid>https://example.org/posts/aoc-2024-day1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AOC day 2</title>
+      <link>https://example.org/posts/aoc-2024-day2/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/aoc-2024-day2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathematics in toki pona</title>
+      <link>https://example.org/posts/toki-pona-math/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/toki-pona-math/</guid>
+      <description>&lt;h1 id=&#34;hahahugoshortcode7s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;     toki open &#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;From my perception, toki pona does not have lots of common mathematical&#xA;definitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>We Lost the ICPC Regionals</title>
+      <link>https://example.org/posts/icpc-regionals/</link>
+      <pubDate>Sat, 21 Oct 2023 22:00:00 -0400</pubDate>
+      <guid>https://example.org/posts/icpc-regionals/</guid>
+      <description>&lt;p&gt;We lost the ICPC Regionals!!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
