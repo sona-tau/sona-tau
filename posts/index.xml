@@ -6,8 +6,15 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 08 Dec 2024 20:20:32 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 09:35:31 -0400</lastBuildDate>
     <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Licker</title>
+      <link>https://example.org/posts/licker/</link>
+      <pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate>
+      <guid>https://example.org/posts/licker/</guid>
+      <description>&lt;h1 id=&#34;behold-the-licker&#34;&gt;Behold The Licker&lt;/h1&gt;&#xA;&lt;p&gt;The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Archiver</title>
       <link>https://example.org/posts/archiver/</link>
@@ -48,7 +55,7 @@
       <link>https://example.org/posts/toki-pona-math/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://example.org/posts/toki-pona-math/</guid>
-      <description>&lt;h1 id=&#34;hahahugoshortcode7s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;     toki open &#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;From my perception, toki pona does not have lots of common mathematical&#xA;definitions.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;hahahugoshortcode10s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;     toki open &#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;From my perception, toki pona does not have lots of common mathematical&#xA;definitions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>We Lost the ICPC Regionals</title>

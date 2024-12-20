@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Licker | My New Hugo Site</title>
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=IBM Plex Mono" type="text/css" media="all" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira Mono" type="text/css" media="all" />
+
+
+<style>
+body {
+    font-family: 'IBM Plex Mono';
+}
+ code {
+     font-family: 'Fira Mono'; 
+ }
+</style>
+
+      <link rel="stylesheet" href="/css/main.min.11af66a184e8022fceaad6cbec209e3d67517b24b2ef564c20a53ea236a20d9e.css" integrity="sha256-Ea9moYToAi/OqtbL7CCePWdReySy71ZMIKU&#43;ojaiDZ4=" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/syntax.min.14e61992514fff6118d2aa5f5dacc3f9b109f0f8b2307d7910852fa23f81a4c2.css" />
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<table class="header">
+  <tr>
+    <td colspan="2" rowspan="2" class="width-auto">
+        <h1 class="title">Licker</h1>
+        <span class="subtitle"></span>
+    </td>
+    <th>Version</th>
+    <td class="width-min">1.0.0</td>
+  </tr>
+  <tr>
+    <th>Updated</th>
+    <td class="width-min"><time style="white-space: pre;">2024-12-20</time></td>
+  </tr>
+  <tr>
+    <th class="width-min">Author</th><td class="width-auto"><a href="mailto:daestrada@pm.me"><cite>Diego A. Estrada Rivera</cite></a></td>
+    <th class="width-min">License</th>
+    <td>MIT</td>
+  </tr>
+</table>
+<main>
+    
+
+
+  <h1 id="behold-the-licker">Behold The Licker</h1>
+<p>The title is a portmanteau of the words &ldquo;license&rdquo; and &ldquo;picker&rdquo;.</p>
+<p>See it in action here:</p>
+<p><img src="https://codeberg.org/diego-est/licker/raw/branch/master/demo.gif" alt="gif demonstrating licker"></p>
+<p>This is the first time I write go and I gotta say, it&rsquo;s the most normal language of all time.
+I am neither impressed nor let down by it, it feels like I&rsquo;m writing C but without any of the footguns provided.
+I did enjoy how well documented the stdlib is and how much functionality it provides.</p>
+<p>However, there are some strange quirks.
+I have no idea why the default location for installing binaries with <code>go install</code> is in <code>~/go</code>.
+It would have been much nicer if it had asked me where it was going to start putting binaries first.
+Specially considering my home directory is a place where I do lots of things, it would not have been surprising to me if I had a folder named <code>go</code> in home directory at any given time.
+Nevertheless, I just had to change a single environment variable to get it up and running in my preferred location: <code>$XDG_DATA_HOME/go</code>.</p>
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
