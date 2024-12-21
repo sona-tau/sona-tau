@@ -76,7 +76,7 @@ body {
 <p>This post will talk about Category Theory.
 As complex and confusing as Category Theory is, I don&rsquo;t think most of the things
 mentioned here about Category Theory are that hard to understand.
-In any case I would like to remove some of the gatekeeping in the part of
+In any case I would like to remove some of the gate keeping in the part of
 Category Theory that intersects with the field of Computer Science.
 Although some of these concepts are not entirely necessary for industry work I
 do find understanding some of this can be a great help in tackling and thinking
@@ -139,8 +139,8 @@ of types&rdquo;??</p>
 <p>Let&rsquo;s just assume we already have a functor that does this and let&rsquo;s call it
 <code>F</code>.
 How does <code>F</code> look like and what does it do?
-Well this functor <code>F</code>, in order to actually be a functor, needs to take a
-objects, types in our case, and map it to other objects, also types in this
+Well this functor <code>F</code>, in order to actually be a functor, needs to take
+objects, types in our case, and map them to other objects, also types in this
 case.
 Additionally, it needs to take a function between those types and map it to
 another function, but we will see this later.
@@ -163,7 +163,7 @@ Some extra notation, that will be useful in a moment, is to call a type <code>a<
 gets wrapped with our example functor <code>F</code> as <code>F a</code>.</p>
 <p>Secondly, our functor <code>F</code> has to take a function <code>func</code> between two types <code>a</code>,
 <code>b</code> and map it to a function called <code>F func</code> that goes between <code>F a</code> and <code>F b</code>.
-Since we are defining a new &ldquo;mapping thingymabob&rdquo; that has to happen, this means
+Since we are defining a new &ldquo;mapping thingamabob&rdquo; that has to happen, this means
 we need to define a new function.
 Let&rsquo;s call that function <code>fmap</code> for no particular reason!
 Our setup will now look like the following:</p>
