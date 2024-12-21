@@ -10,7 +10,7 @@
 
 :root {
   --font-family: "IBM Plex Mono", monospace;
-  --line-height: 1rem;
+  --line-height: 1.15rem;
   --border-thickness: 2px;
   /*
   --text-color: #111;
@@ -56,10 +56,8 @@ html {
   padding: 0;
   flex-direction: column;
   align-items: center;
-  /*background: var(--background-color);
-  background: repeating-radial-gradient(circle at 17% 32%, #222, #111 0.00085px); */
   background: repeating-radial-gradient(#111 0 0.0001%,#222 0 0.0002%),
-    repeating-conic-gradient(#111 0 0.0001%,#222 0 0.0002%);
+              repeating-conic-gradient(#111 0 0.0001%,#222 0 0.0002%);
   background-blend-mode: difference;
   color: var(--text-color);
 }
@@ -84,7 +82,10 @@ body {
 }
 
 img {
-    max-width:100%;
+    max-width: 61.8%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -205,7 +206,6 @@ p {
 
 img, video {
   display: block;
-  /* width: 100%; */
   object-fit: contain;
   overflow: hidden;
 }
@@ -253,7 +253,7 @@ figure pre {
 
 
 pre, code {
-  font-family: var(--font-family);
+    font-family: "Jetbrains Mono", monospace;
 }
 
 code {
