@@ -6,8 +6,15 @@
     <description>Recent content in Welcome! on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 20 Dec 2024 09:35:31 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2024 10:34:47 -0400</lastBuildDate>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Monad Is Not A Burrito</title>
+      <link>https://example.org/posts/burritos/</link>
+      <pubDate>Sat, 21 Dec 2024 10:34:47 -0400</pubDate>
+      <guid>https://example.org/posts/burritos/</guid>
+      <description>&lt;p&gt;Repeat after me:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a burrito.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a taco.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a wrapper.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>Licker</title>
       <link>https://example.org/posts/licker/</link>
@@ -55,7 +62,7 @@
       <link>https://example.org/posts/toki-pona-math/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://example.org/posts/toki-pona-math/</guid>
-      <description>&lt;h1 id=&#34;hahahugoshortcode10s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;     toki open &#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;From my perception, toki pona does not have lots of common mathematical&#xA;definitions.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;hahahugoshortcode12s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;     toki open &#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;From my perception, toki pona does not have lots of common mathematical&#xA;definitions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>We Lost the ICPC Regionals</title>
