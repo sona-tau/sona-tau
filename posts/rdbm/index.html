@@ -14,7 +14,7 @@
 <meta name="twitter:image" content="https://diego-est.dev/banner.png">
 <meta name="twitter:site" content="@SunglYou">
 <meta content="#43B581" data-react-helmet="true" name="theme-color" />
-<title>Contact | My website!</title>
+<title>R. O. N. DB Manager | My website!</title>
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=IBM Plex Mono" type="text/css" media="all" />
 
@@ -42,18 +42,18 @@ body {
 <table class="header">
   <tr>
     <td colspan="2" rowspan="2" class="width-auto">
-        <h1 class="title">Contact</h1>
-        <span class="subtitle">Find me here!</span>
+        <h1 class="title">R. O. N. DB Manager</h1>
+        <span class="subtitle">Glorified getter and setter written in Rust.</span>
     </td>
     <th>Version</th>
-    <td class="width-min">1.0.0</td>
+    <td class="width-min">0.1.0</td>
   </tr>
   <tr>
     <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">1970-01-01</time></td>
+    <td class="width-min"><time style="white-space: pre;">2024-03-31</time></td>
   </tr>
   <tr>
-    <th class="width-min">Author</th><td class="width-auto"><a href="mailto:daestrada@pm.me"><cite>Diego A. Estrada Rivera</cite></a></td>
+    <th class="width-min">Author</th><td class="width-auto"><a href="mailto:daestrada@pm.me"><cite>diego</cite></a></td>
     <th class="width-min">License</th>
     <td>MIT</td>
   </tr>
@@ -66,16 +66,37 @@ body {
     
 
 
-  <h1 id="contact">Contact</h1>
-<p>Hello o/</p>
-<p>Feel free to contact me through any of the following services:</p>
+  <!-- raw HTML omitted -->
+<p><strong>rdbm</strong> is a rust program for getting and setting a custom ron resource file.</p>
+<p>Similar to <code>.Xresources</code>, <code>rdbm</code> will create a <code>resources.ron</code> in your <code>~/.config/</code> directory.
+You can then use <code>rdbm</code> to set multiple &ldquo;key-value&rdquo; pairs similar to <code>.Xresources</code>.
+In this case <code>rdbm</code> aims to replace <code>xrdb</code>.</p>
+<h1 id="project-pagehttpscodebergorgdiego-estrdbm"><a href="https://codeberg.org/diego-est/rdbm">Project Page</a></h1>
 <ul>
-<li>email: <a href="mailto:daestrada@pm.me">daestrada@pm.me</a></li>
-<li>Mastodon: <a href="https://mastodon.world/@diegoEstrada">@diegoest@mstdn.world</a></li>
-<li>Matrix: <a href="https://matrix.org/try-matrix/">@daestrada:matrix.org</a></li>
-<li>Discord: <a href="https://discord.com/channels/@me">sunglow.</a></li>
+<li><a href="https://github.com/ron-rs/ron">ron Documentation</a></li>
+<li><a href="https://wikipedia.org/wiki/Xrdb">xrdb Information</a></li>
 </ul>
-
+<h1 id="documentation">Documentation</h1>
+<p>Here is a short preview of each subcommand:</p>
+<h2 id="view-current-resource-file">view current resource file</h2>
+<pre tabindex="0"><code>rdbm all
+</code></pre><h2 id="set-a-key-value-pair">set a key-value pair</h2>
+<pre tabindex="0"><code>rdbm set &#34;color0&#34; &#34;#222F30&#34;
+</code></pre><h2 id="get-a-value">get a value</h2>
+<pre tabindex="0"><code>rdbm get &#34;color0&#34;
+</code></pre><h2 id="rdbm-help-page">rdbm help page</h2>
+<pre tabindex="0"><code>rdbm --help
+rdbm help
+rdbm set --help
+</code></pre><h1 id="project-goals">Project Goals</h1>
+<ul>
+<li>Remove entries</li>
+<li>Get/Set multiple values</li>
+<li>Custom <code>resource.ron</code> path</li>
+<li>Group key-value pairs (similar to having <code>URxvt*color0</code> and <code>xterm*color0</code> in .Xresources)</li>
+<li>Sort entries in resource file</li>
+<li>Preserve order of entries in resource file</li>
+</ul>
   
 
 

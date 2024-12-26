@@ -1,75 +1,138 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome! on My New Hugo Site</title>
-    <link>https://example.org/</link>
-    <description>Recent content in Welcome! on My New Hugo Site</description>
+    <title>Hello there! on My website!</title>
+    <link>https://diego-est.dev/</link>
+    <description>Recent content in Hello there! on My website!</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 21 Dec 2024 10:34:47 -0400</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Dec 2024 13:38:04 -0400</lastBuildDate>
+    <atom:link href="https://diego-est.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Monospace Web</title>
+      <link>https://diego-est.dev/posts/the-monospace-web/</link>
+      <pubDate>Mon, 23 Dec 2024 13:38:04 -0400</pubDate>
+      <guid>https://diego-est.dev/posts/the-monospace-web/</guid>
+      <description>&lt;p&gt;I know lots of places on this website say &amp;ldquo;This is my website&amp;rdquo;, &amp;ldquo;Hello there,&#xA;this is my stuff&amp;rdquo;, and other messages that might imply that all of the things&#xA;presented here are my personal work. Hopefully I&amp;rsquo;ve been clear enough in giving&#xA;credit where credit is due. In this case I actually want to give a shoutout to&#xA;Oskar Wickström the original creator of 95% of this template.&#xA;You can see their original site at &lt;a href=&#34;https://owickstrom.github.io/the-monospace-web/&#34;&gt;The Monospace Web&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Monad Is Not A Burrito</title>
-      <link>https://example.org/posts/burritos/</link>
+      <link>https://diego-est.dev/posts/burritos/</link>
       <pubDate>Sat, 21 Dec 2024 10:34:47 -0400</pubDate>
-      <guid>https://example.org/posts/burritos/</guid>
+      <guid>https://diego-est.dev/posts/burritos/</guid>
       <description>&lt;p&gt;Repeat after me:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a burrito.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a taco.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a wrapper.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Licker</title>
-      <link>https://example.org/posts/licker/</link>
+      <link>https://diego-est.dev/posts/licker/</link>
       <pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate>
-      <guid>https://example.org/posts/licker/</guid>
+      <guid>https://diego-est.dev/posts/licker/</guid>
       <description>&lt;h1 id=&#34;behold-the-licker&#34;&gt;Behold The Licker&lt;/h1&gt;&#xA;&lt;p&gt;The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Archiver</title>
-      <link>https://example.org/posts/archiver/</link>
+      <link>https://diego-est.dev/posts/archiver/</link>
       <pubDate>Sun, 08 Dec 2024 20:20:32 -0400</pubDate>
-      <guid>https://example.org/posts/archiver/</guid>
+      <guid>https://diego-est.dev/posts/archiver/</guid>
       <description>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Algorithms</title>
-      <link>https://example.org/posts/algorithms/</link>
+      <link>https://diego-est.dev/posts/algorithms/</link>
       <pubDate>Sun, 08 Dec 2024 20:18:33 -0400</pubDate>
-      <guid>https://example.org/posts/algorithms/</guid>
+      <guid>https://diego-est.dev/posts/algorithms/</guid>
       <description>&lt;p&gt;So it was a fine summer morning. Our investigation team was about to start our project &amp;ldquo;Counting Arithmetical Structures on Cycles with a Doubled Edge&amp;rdquo;, what a mouthful. I&amp;rsquo;ll go into detail what this all means.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Stuff</title>
-      <link>https://example.org/posts/stuff/</link>
+      <title>About</title>
+      <link>https://diego-est.dev/about/</link>
+      <pubDate>Sun, 08 Dec 2024 20:15:58 -0400</pubDate>
+      <guid>https://diego-est.dev/about/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;We have two ears and one mouth so we can listen twice as much as we speak. - Epictetus&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Translations</title>
+      <link>https://diego-est.dev/posts/stuff/</link>
       <pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate>
-      <guid>https://example.org/posts/stuff/</guid>
-      <description>&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;    &#xA;    ijo li ike tawa kulupu pi pipi waso la ona li ike tawa pipi waso&#xA;&#xA;&lt;/bdi&gt;&#xA;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;That which is not good for the beehive, cannot be good for the bees. - Marcus Aurelius&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+      <guid>https://diego-est.dev/posts/stuff/</guid>
+      <description>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into &lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;    toki pona&#xA;&lt;/bdi&gt;&#xA;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lipu lon luka</title>
+      <link>https://diego-est.dev/posts/enchiridion-tok/</link>
+      <pubDate>Sun, 08 Dec 2024 19:19:04 -0400</pubDate>
+      <guid>https://diego-est.dev/posts/enchiridion-tok/</guid>
+      <description>&lt;h1 id=&#34;hahahugoshortcode14s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;    lipu lon luka&#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This is an &lt;em&gt;almost&lt;/em&gt; complete translation of The Enchiridion by Epictetus into toki pona.&#xA;If you have any suggestions, feel free to contact me through any of my contacts, &lt;a href=&#34;../../contact/&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>AOC day 1</title>
-      <link>https://example.org/posts/aoc-2024-day1/</link>
+      <link>https://diego-est.dev/posts/aoc-2024-day1/</link>
       <pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate>
-      <guid>https://example.org/posts/aoc-2024-day1/</guid>
-      <description></description>
+      <guid>https://diego-est.dev/posts/aoc-2024-day1/</guid>
+      <description>&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;    &#xA;    wan wan.&#xA;    pana pi toki tawa lipu li nasin lipu tu e wan.&#xA;    pana pi toki tawa lipu li suli&#xA;&#xA;&lt;/bdi&gt;&#xA;&#xA;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;    &#xA;    poka li sin pana ala li nanpa sewi e luka.&#xA;    ale li sin pana&#xA;&#xA;&lt;/bdi&gt;&#xA;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bqn&#34; data-lang=&#34;bqn&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;|-&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˝&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;´&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;|-&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˝&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>AOC day 2</title>
-      <link>https://example.org/posts/aoc-2024-day2/</link>
+      <link>https://diego-est.dev/posts/aoc-2024-day2/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/aoc-2024-day2/</guid>
+      <guid>https://diego-est.dev/posts/aoc-2024-day2/</guid>
       <description></description>
     </item>
     <item>
       <title>Mathematics in toki pona</title>
-      <link>https://example.org/posts/toki-pona-math/</link>
+      <link>https://diego-est.dev/posts/toki-pona-math/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/toki-pona-math/</guid>
-      <description>&lt;h1 id=&#34;hahahugoshortcode11s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;     toki open &#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;From my perception, toki pona does not have lots of common mathematical&#xA;definitions.&lt;/p&gt;</description>
+      <guid>https://diego-est.dev/posts/toki-pona-math/</guid>
+      <description>&lt;h1 id=&#34;hahahugoshortcode16s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;     toki open &#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;From my perception, toki pona does not have lots of common mathematical&#xA;definitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zig CTFP</title>
+      <link>https://diego-est.dev/posts/zig-ctfp/</link>
+      <pubDate>Wed, 07 Aug 2024 11:38:20 -0400</pubDate>
+      <guid>https://diego-est.dev/posts/zig-ctfp/</guid>
+      <description>&lt;p&gt;Let this blog post be living proof that Zig is in fact also a functional&#xA;programming language.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hare Rope</title>
+      <link>https://diego-est.dev/posts/hare-rope/</link>
+      <pubDate>Mon, 27 May 2024 21:10:02 -0400</pubDate>
+      <guid>https://diego-est.dev/posts/hare-rope/</guid>
+      <description>&lt;p&gt;A Rope is a data structure that manages an ordered set of characters. Just like&#xA;a string!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>R. O. N. DB Manager</title>
+      <link>https://diego-est.dev/posts/rdbm/</link>
+      <pubDate>Sun, 31 Mar 2024 13:32:48 -0400</pubDate>
+      <guid>https://diego-est.dev/posts/rdbm/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;strong&gt;rdbm&lt;/strong&gt; is a rust program for getting and setting a custom ron resource file.&lt;/p&gt;&#xA;&lt;p&gt;Similar to &lt;code&gt;.Xresources&lt;/code&gt;, &lt;code&gt;rdbm&lt;/code&gt; will create a &lt;code&gt;resources.ron&lt;/code&gt; in your &lt;code&gt;~/.config/&lt;/code&gt; directory.&#xA;You can then use &lt;code&gt;rdbm&lt;/code&gt; to set multiple &amp;ldquo;key-value&amp;rdquo; pairs similar to &lt;code&gt;.Xresources&lt;/code&gt;.&#xA;In this case &lt;code&gt;rdbm&lt;/code&gt; aims to replace &lt;code&gt;xrdb&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C&#43;&#43; Prelude</title>
+      <link>https://diego-est.dev/posts/cpp-prelude/</link>
+      <pubDate>Mon, 08 Jan 2024 18:04:59 -0400</pubDate>
+      <guid>https://diego-est.dev/posts/cpp-prelude/</guid>
+      <description>&lt;p&gt;Modern C++ makes me sad when I look at it. So this is my attempt to change&#xA;several of the defaults we use to code in C++. Additionally, several features&#xA;that are missing in the language (but enabled through obscure compiler macros&#xA;and directives) are enabled.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fractal Renderer</title>
+      <link>https://diego-est.dev/posts/mandelbrot/</link>
+      <pubDate>Fri, 24 Nov 2023 21:28:33 -0400</pubDate>
+      <guid>https://diego-est.dev/posts/mandelbrot/</guid>
+      <description>&lt;p&gt;Mandelbrot fractal research repo&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://diego-est.dev/posts/mandelbrot/mandelbrot.png&#34; alt=&#34;1.5K mandelbrot image.&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>We Lost the ICPC Regionals</title>
-      <link>https://example.org/posts/icpc-regionals/</link>
+      <link>https://diego-est.dev/posts/icpc-regionals/</link>
       <pubDate>Sat, 21 Oct 2023 22:00:00 -0400</pubDate>
-      <guid>https://example.org/posts/icpc-regionals/</guid>
+      <guid>https://diego-est.dev/posts/icpc-regionals/</guid>
       <description>&lt;p&gt;We lost the ICPC Regionals!!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://diego-est.dev/contact/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <guid>https://diego-est.dev/contact/</guid>
+      <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;p&gt;Hello o/&lt;/p&gt;&#xA;&lt;p&gt;Feel free to contact me through any of the following services:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;email: &lt;a href=&#34;mailto:daestrada@pm.me&#34;&gt;daestrada@pm.me&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Mastodon: &lt;a href=&#34;https://mastodon.world/@diegoEstrada&#34;&gt;@diegoest@mstdn.world&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Matrix: &lt;a href=&#34;https://matrix.org/try-matrix/&#34;&gt;@daestrada:matrix.org&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Discord: &lt;a href=&#34;https://discord.com/channels/@me&#34;&gt;sunglow.&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

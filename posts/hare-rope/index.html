@@ -14,7 +14,7 @@
 <meta name="twitter:image" content="https://diego-est.dev/banner.png">
 <meta name="twitter:site" content="@SunglYou">
 <meta content="#43B581" data-react-helmet="true" name="theme-color" />
-<title>Contact | My website!</title>
+<title>Hare Rope | My website!</title>
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=IBM Plex Mono" type="text/css" media="all" />
 
@@ -42,15 +42,15 @@ body {
 <table class="header">
   <tr>
     <td colspan="2" rowspan="2" class="width-auto">
-        <h1 class="title">Contact</h1>
-        <span class="subtitle">Find me here!</span>
+        <h1 class="title">Hare Rope</h1>
+        <span class="subtitle">Rope implementation in harelang.</span>
     </td>
     <th>Version</th>
     <td class="width-min">1.0.0</td>
   </tr>
   <tr>
     <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">1970-01-01</time></td>
+    <td class="width-min"><time style="white-space: pre;">2024-05-27</time></td>
   </tr>
   <tr>
     <th class="width-min">Author</th><td class="width-auto"><a href="mailto:daestrada@pm.me"><cite>Diego A. Estrada Rivera</cite></a></td>
@@ -66,16 +66,67 @@ body {
     
 
 
-  <h1 id="contact">Contact</h1>
-<p>Hello o/</p>
-<p>Feel free to contact me through any of the following services:</p>
-<ul>
-<li>email: <a href="mailto:daestrada@pm.me">daestrada@pm.me</a></li>
-<li>Mastodon: <a href="https://mastodon.world/@diegoEstrada">@diegoest@mstdn.world</a></li>
-<li>Matrix: <a href="https://matrix.org/try-matrix/">@daestrada:matrix.org</a></li>
-<li>Discord: <a href="https://discord.com/channels/@me">sunglow.</a></li>
-</ul>
-
+  <p>A Rope is a data structure that manages an ordered set of characters. Just like
+a string!</p>
+<p>You can read more about it on its <a href="https://en.wikipedia.org/wiki/Rope_(data_structure)">Wikipedia article.</a></p>
+<p>Some of the key Big-O differences are the following:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Operation</th>
+          <th>Rope</th>
+          <th>String</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Index</td>
+          <td>O(log n)</td>
+          <td><strong>O(1)</strong></td>
+      </tr>
+      <tr>
+          <td>Split</td>
+          <td>O(log n)</td>
+          <td><strong>O(1)</strong></td>
+      </tr>
+      <tr>
+          <td>Concatenate</td>
+          <td><strong>O(1)</strong> amort., <strong>O(log n)</strong> worst</td>
+          <td>O(n)</td>
+      </tr>
+      <tr>
+          <td>Iterate over each character</td>
+          <td><em>O(n)</em></td>
+          <td><em>O(n)</em></td>
+      </tr>
+      <tr>
+          <td>Insert</td>
+          <td><strong>O(log n)</strong></td>
+          <td>O(n)</td>
+      </tr>
+      <tr>
+          <td>Append</td>
+          <td><strong>O(1)</strong> amort., <strong>O(log n)</strong> worst</td>
+          <td>O(1) amort., O(n) worst</td>
+      </tr>
+      <tr>
+          <td>Delete</td>
+          <td><strong>O(log n)</strong></td>
+          <td>O(n)</td>
+      </tr>
+      <tr>
+          <td>Report</td>
+          <td>O(j + log n)</td>
+          <td><strong>O(j)</strong></td>
+      </tr>
+      <tr>
+          <td>Build</td>
+          <td><em>O(n)</em></td>
+          <td><em>O(n)</em></td>
+      </tr>
+  </tbody>
+</table>
+<p><em>Table taken from <a href="https://en.wikipedia.org/wiki/Rope_(data_structure)#Comparison_with_monolithic_arrays">Comparison with monolithic arrays</a></em></p>
   
 
 

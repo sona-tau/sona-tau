@@ -14,7 +14,7 @@
 <meta name="twitter:image" content="https://diego-est.dev/banner.png">
 <meta name="twitter:site" content="@SunglYou">
 <meta content="#43B581" data-react-helmet="true" name="theme-color" />
-<title>Contact | My website!</title>
+<title>Fractal Renderer | My website!</title>
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=IBM Plex Mono" type="text/css" media="all" />
 
@@ -42,15 +42,15 @@ body {
 <table class="header">
   <tr>
     <td colspan="2" rowspan="2" class="width-auto">
-        <h1 class="title">Contact</h1>
-        <span class="subtitle">Find me here!</span>
+        <h1 class="title">Fractal Renderer</h1>
+        <span class="subtitle">Rendering fractals in parallel with C lang.</span>
     </td>
     <th>Version</th>
     <td class="width-min">1.0.0</td>
   </tr>
   <tr>
     <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">1970-01-01</time></td>
+    <td class="width-min"><time style="white-space: pre;">2023-11-24</time></td>
   </tr>
   <tr>
     <th class="width-min">Author</th><td class="width-auto"><a href="mailto:daestrada@pm.me"><cite>Diego A. Estrada Rivera</cite></a></td>
@@ -66,16 +66,38 @@ body {
     
 
 
-  <h1 id="contact">Contact</h1>
-<p>Hello o/</p>
-<p>Feel free to contact me through any of the following services:</p>
+  <p>Mandelbrot fractal research repo</p>
+<p><img src="/posts/mandelbrot/mandelbrot.png" alt="1.5K mandelbrot image."></p>
+<h2 id="introduction">Introduction</h2>
+<p>I&rsquo;ve worked on this project several times now and I&rsquo;ve split it up into several parts:</p>
+<h2 id="c">C</h2>
+<p>My first try at a renderer was using a guide provided by Tsoding in his project <code>olive.c</code>.</p>
 <ul>
-<li>email: <a href="mailto:daestrada@pm.me">daestrada@pm.me</a></li>
-<li>Mastodon: <a href="https://mastodon.world/@diegoEstrada">@diegoest@mstdn.world</a></li>
-<li>Matrix: <a href="https://matrix.org/try-matrix/">@daestrada:matrix.org</a></li>
-<li>Discord: <a href="https://discord.com/channels/@me">sunglow.</a></li>
+<li><a href="https://github.com/tsoding/olive.c">olive.c</a></li>
 </ul>
-
+<p>Using these basic concepts, I then used the tutorial provided by The Coding Train to render a mandelbrot fractal:</p>
+<ul>
+<li><a href="https://thecodingtrain.com/challenges/21-mandelbrot-set-with-p5js">The Coding Train challenge: mandel brot set in p5.js</a></li>
+</ul>
+<p><code>mandelbrot/</code> has my first c port. Afterwards, I tried parallelizing my renderer
+using multithreading and openmp: <code>mandelbrot-gamma/</code> <code>mandelbrot-lambda/</code> <del>is
+in the works but it&rsquo;s supposed to be the same as mandelbrot-gamma but using
+lambdas</del> I will probably remove this further on since mandelbrot-gamma has
+proven to be the way forward for this project.</p>
+<h2 id="here-it-is">Here it is:</h2>
+<p><img src="/posts/mandelbrot/mandelbrot.png" alt="1.5K mandelbrot image.">
+<img src="/posts/mandelbrot/mandelbrot-zoom.png" alt="1.5k mandelbrot image very zoomed in with a histogram applied."></p>
+<h2 id="todo">TODO():</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> histogram coloring</li>
+<li><input checked="" disabled="" type="checkbox"> fancy colors</li>
+<li><input checked="" disabled="" type="checkbox"> specify spot to generate in
+<ul>
+<li>even has zoom now</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> animate</li>
+</ul>
   
 
 

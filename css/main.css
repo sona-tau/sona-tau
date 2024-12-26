@@ -59,7 +59,7 @@ html {
   background: repeating-radial-gradient(#111 0 0.0001%,#222 0 0.0002%),
               repeating-conic-gradient(#111 0 0.0001%,#222 0 0.0002%);
   background-blend-mode: difference;
-  color: var(--text-color);
+  background-color: #010101;
 }
 
 body {
@@ -70,11 +70,12 @@ body {
   max-width: calc(min(80ch, round(down, 100%, 1ch)));
   line-height: var(--line-height);
   overflow-x: hidden;
+  color: var(--text-color);
 }
 
 @media screen and (max-width: 480px) {
   :root {
-    font-size: 14px;
+    font-size: 16px;
   }
   body {
     padding: var(--line-height) 1ch;
@@ -253,7 +254,8 @@ figure pre {
 
 
 pre, code {
-    font-family: "Jetbrains Mono", monospace;
+    font-family: "IBM Plex Mono", monospace;
+    font-variant-numeric: tabular-nums lining-nums;
 }
 
 code {
