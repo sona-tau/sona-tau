@@ -1,7 +1,31 @@
 @font-face {
   font-family:"linja lipamanka";
-  src:url(https://static.wikitide.net/sonaponawiki/4/4c/linjalipamanka-normal.woff) format("woff")
+  src:url(https://lipamanka.gay/linjalipamanka-normal.woff) format("woff")
 }
+
+/*
+@font-face {
+    font-family:"Fairfax Pona HD";
+    src: url(https://static.wikitide.net/sonaponawiki/1/12/FairfaxPonaHD.woff) format("woff");
+}
+*/
+
+@font-face {
+    font-family: "nasin nanpa";
+    src: url(https://static.wikitide.net/sonaponawiki/e/ec/nasin-nanpa.woff) format("woff");
+}
+
+/*
+@font-face {
+    font-family: "sitelen seli kiwen";
+    src: url(https://static.wikitide.net/sonaponawiki/7/7b/sitelenselikiwenmonoatuki.woff) format("woff");
+}
+
+@font-face {
+    font-family: "linja waso";
+    src: url(https://github.com/ItMarki/linja-waso/blob/main/fonts/linja-waso.ttf) format("ttf");
+}
+*/
 
 :root {
   --font-family: "IBM Plex Mono", monospace;
@@ -479,7 +503,12 @@ label input {
   font-style: normal;
 }
 .sitelen-pona, .sitelen-pona-static {
-    font-family: "linja lipamanka",sans-serif;
-  font-size: 1.2em;
-  line-height: 0.8em;
+    font-family: "nasin nanpa",sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+br {
+    text-indent: 0;
+    margin: 0;
 }
