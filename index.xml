@@ -6,8 +6,15 @@
     <description>Recent content in Hello there! on My website!</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 23 Dec 2024 13:38:04 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 07:50:59 -0400</lastBuildDate>
     <atom:link href="https://diego-est.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>toki pi kulupu pini</title>
+      <link>https://diego-est.dev/posts/kulupu-pini/</link>
+      <pubDate>Mon, 20 Jan 2025 07:50:59 -0400</pubDate>
+      <guid>https://diego-est.dev/posts/kulupu-pini/</guid>
+      <description>&lt;p&gt;The Cult of Done is a manifesto written by Bre Pettis with Kio Stark in August of 2016.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13&#34;&gt;English manifesto&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>The Monospace Web</title>
       <link>https://diego-est.dev/posts/the-monospace-web/</link>
@@ -62,7 +69,7 @@
       <link>https://diego-est.dev/posts/enchiridion-tok/</link>
       <pubDate>Sun, 08 Dec 2024 19:19:04 -0400</pubDate>
       <guid>https://diego-est.dev/posts/enchiridion-tok/</guid>
-      <description>&lt;h1 id=&#34;hahahugoshortcode11s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;    toki open&#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Translation of The Enchiridion by Epictetus into toki pona.&#xA;Original translation taken from: &lt;a href=&#34;http://classics.mit.edu/Epictetus/epicench.1b.txt&#34;&gt;http://classics.mit.edu/Epictetus/epicench.1b.txt&lt;/a&gt;&#xA;If you have any suggestions, feel free to contact me through any of my contacts, &lt;a href=&#34;../../contact/&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;enchiridion&lt;/strong&gt;, &lt;em&gt;noun&lt;/em&gt;&#xA;en·chi·rid·i·on [ˌen-ˌkī-ˈri-dē-ən]&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Plural: enchiridia [ˌen-ˌkī-ˈri-dē-ə]&lt;/li&gt;&#xA;&lt;li&gt;Meaning: handbook, manual&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h1 id=&#34;hahahugoshortcode5s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;    toki open&#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Translation of The Enchiridion by Epictetus into toki pona.&#xA;Original translation taken from: &lt;a href=&#34;http://classics.mit.edu/Epictetus/epicench.1b.txt&#34;&gt;http://classics.mit.edu/Epictetus/epicench.1b.txt&lt;/a&gt;&#xA;If you have any suggestions, feel free to contact me through any of my contacts, &lt;a href=&#34;../../contact/&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;enchiridion&lt;/strong&gt;, &lt;em&gt;noun&lt;/em&gt;&#xA;en·chi·rid·i·on [ˌen-ˌkī-ˈri-dē-ən]&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Plural: enchiridia [ˌen-ˌkī-ˈri-dē-ə]&lt;/li&gt;&#xA;&lt;li&gt;Meaning: handbook, manual&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>AOC day 1</title>
@@ -83,7 +90,7 @@
       <link>https://diego-est.dev/posts/toki-pona-math/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://diego-est.dev/posts/toki-pona-math/</guid>
-      <description>&lt;h1 id=&#34;hahahugoshortcode15s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;     toki open &#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;From my perception, toki pona does not have lots of common mathematical&#xA;definitions.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;hahahugoshortcode17s0hbhb&#34;&gt;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;     toki open &#xA;&lt;/bdi&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;From my perception, toki pona does not have lots of common mathematical&#xA;definitions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zig CTFP</title>
