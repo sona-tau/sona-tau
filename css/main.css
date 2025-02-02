@@ -1,42 +1,9 @@
-@font-face {
-  font-family:"linja lipamanka";
-  src:url(https://lipamanka.gay/linjalipamanka-normal.woff) format("woff")
-}
-
-/*
-@font-face {
-    font-family:"Fairfax Pona HD";
-    src: url(https://static.wikitide.net/sonaponawiki/1/12/FairfaxPonaHD.woff) format("woff");
-}
-*/
-
-@font-face {
-    font-family: "nasin nanpa";
-    src: url(https://static.wikitide.net/sonaponawiki/e/ec/nasin-nanpa.woff) format("woff");
-}
-
-/*
-@font-face {
-    font-family: "sitelen seli kiwen";
-    src: url(https://static.wikitide.net/sonaponawiki/7/7b/sitelenselikiwenmonoatuki.woff) format("woff");
-}
-
-@font-face {
-    font-family: "linja waso";
-    src: url(https://github.com/ItMarki/linja-waso/blob/main/fonts/linja-waso.ttf) format("ttf");
-}
-*/
+@import url("/css/fonts.css");
 
 :root {
   --font-family: "IBM Plex Mono", monospace;
   --line-height: 1.15rem;
   --border-thickness: 2px;
-  /*
-  --text-color: #111;
-  --text-color-alt: #666;
-  --background-color: #eee;
-  --background-color-alt: #eee;
-  */
 
   --font-weight-normal: 500;
   --font-weight-medium: 600;
@@ -51,12 +18,35 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: #eee;
-    --text-color-alt: #aaa;
-    --background-color: #111;
-    --background-color-alt: #222;
-  }
+    :root {
+        --text-color: #eee;
+        --text-color-alt: #aaa;
+        --background-color: #111;
+        --background-color-alt: #222;
+        --background-color-hard: #010101;
+        background:
+            repeating-radial-gradient(var(--background-color) 0 0.0001%, var(--background-color-alt) 0 0.0002%),
+            repeating-conic-gradient(var(--background-color) 0 0.0001%,var(--background-color-alt) 0 0.0002%);
+        background-blend-mode: difference;
+        background-color: var(--background-color-hard);
+        color: var(--text-color);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --text-color: #111;
+        --text-color-alt: #222;
+        --background-color: #eee;
+        --background-color-alt: #aaa;
+        --background-color-hard: #efefef;
+        background:
+            repeating-radial-gradient(var(--background-color-alt) 0 0.0001%, var(--background-color) 0 0.02%),
+            repeating-conic-gradient(var(--background-color-alt) 0 0.0001%,var(--background-color) 0 0.2%);
+        background-blend-mode: difference;
+        background-color: var(--background-color-hard);
+        color: var(--text-color);
+    }
 }
 
 * {
@@ -75,10 +65,6 @@ html {
   padding: 0;
   flex-direction: column;
   align-items: center;
-  background: repeating-radial-gradient(#111 0 0.0001%,#222 0 0.0002%),
-              repeating-conic-gradient(#111 0 0.0001%,#222 0 0.0002%);
-  background-blend-mode: difference;
-  background-color: #010101;
 }
 
 body {
@@ -89,7 +75,6 @@ body {
   max-width: calc(min(80ch, round(down, 100%, 1ch)));
   line-height: var(--line-height);
   overflow-x: hidden;
-  color: var(--text-color);
 }
 
 @media screen and (max-width: 480px) {
@@ -497,15 +482,49 @@ label input {
   text-align: right;
 }
 
+.light-mode-toggle-label {
+    text-align: right;
+}
+
+.light-mode {
+    --text-color: #111;
+    --text-color-alt: #222;
+    --background-color: #eee;
+    --background-color-alt: #aaa;
+    --background-color-hard: #efefef;
+    background:
+        repeating-radial-gradient(var(--background-color-alt) 0 0.0001%, var(--background-color) 0 0.02%),
+        repeating-conic-gradient(var(--background-color-alt) 0 0.0001%,var(--background-color) 0 0.2%);
+    background-blend-mode: difference;
+    background-color: var(--background-color-hard);
+}
+
+.dark-mode {
+    --text-color: #eee;
+    --text-color-alt: #aaa;
+    --background-color: #111;
+    --background-color-alt: #222;
+    --background-color-hard: #010101;
+    background:
+    repeating-radial-gradient(var(--background-color) 0 0.0001%, var(--background-color-alt) 0 0.0002%),
+    repeating-conic-gradient(var(--background-color) 0 0.0001%,var(--background-color-alt) 0 0.0002%);
+    background-blend-mode: difference;
+    background-color: var(--background-color-hard);
+}
+
 /* toki pona language support */
 
 .sitelen-pona, .sitelen-pona-static, .sitelen-pona .toki-pona, .sitelen-pona-static .toki-pona, .sitelen-sitelen, .sitelen-sitelen-static, .sitelen-sitelen .toki-pona, .sitelen-sitelen-static .toki-pona {
   font-style: normal;
 }
-.sitelen-pona, .sitelen-pona-static {
-    font-family: "nasin nanpa",sans-serif;
-    font-size: 1.2em;
-    line-height: 1.2em;
+
+.light-mode-toggle-label {
+  text-align: right;
+}
+
+.sitelen-pona-static, .sitelen-pona {
+  font-family: "Fairfax Pona HD";
+  font-style: normal;
 }
 
 br {

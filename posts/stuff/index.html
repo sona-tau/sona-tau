@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" dir="ltr">
+<html lang="en-US" dir="ltr" id="html">
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
@@ -16,25 +16,21 @@
 <meta content="#43B581" data-react-helmet="true" name="theme-color" />
 <title>Translations | My website!</title>
 
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=IBM Plex Mono" type="text/css" media="all" />
-
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira Mono" type="text/css" media="all" />
-
 
 <style>
 body {
     font-family: 'IBM Plex Mono';
 }
  code {
-     font-family: 'Fira Mono'; 
+     font-family: 'IBM Plex Mono'; 
  }
 </style>
 
-      <link rel="stylesheet" href="/css/main.min.91dd2b01122c5e0b3262af339f7d5c5712d4e2198424eca2ef88daa4a341230f.css" integrity="sha256-kd0rARIsXgsyYq8zn31cVxLU4hmEJOyi74japKNBIw8=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/main.min.15dcf4556255180784694b1561b1f2bbf9e58ada9c9ae2a91f8242fbbf8353c1.css" integrity="sha256-Fdz0VWJVGAeEaUsVYbHyu/nlitqcmuKpH4JC&#43;7&#43;DU8E=" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/syntax.min.14e61992514fff6118d2aa5f5dacc3f9b109f0f8b2307d7910852fa23f81a4c2.css" />
 
 
-      <script src="/js/main.fcccc39f84221f52cc1191a30592cfbb512136298d74042d4b42b2337cd1d7ac.js" integrity="sha256-/MzDn4QiH1LMEZGjBZLPu1EhNimNdAQtS0KyM3zR16w=" crossorigin="anonymous"></script>
+      <script src="/js/main.da8a91f903d7f233623539233fe95de9b2d6901c04061a893b1d5ca12913141f.js" integrity="sha256-2oqR&#43;QPX8jNiNTkjP&#43;ld6bLWkBwEBhqJOx1coSkTFB8=" crossorigin="anonymous"></script>
 
 
 </head>
@@ -62,6 +58,10 @@ body {
     <input type="checkbox" class="debug-toggle" />
     Debug mode
 </label>
+<label class="light-mode-toggle-label" id="light-mode-toggle-label">
+    <input type="checkbox" class="light-mode-toggle" />
+    Light mode
+</label>
   <main>
     
 
@@ -86,33 +86,34 @@ That which is not good for the beehive, cannot be good for the bees. - Marcus Au
 </p>
 <p><bdi class="sitelen-pona-static" lang="tok" title="Toki Pona language-text">
     
-mi kulupu e jan pali <br>
-zzzz en jan jo ala pi (jo mute) <br>
-zzzz en jan pi (pilin+ike) <br>
-zzzz en jan pi (kalama-ike) <br>
-zzzz en jan pi (wile+ike) <br>
-zzzz en jan ike.<br><br>
+mi kulupu e jan pali zz<br>
+zzzz en jan pi (jo mute) <br>
+zzzz en jan pi (pilin ike) <br>
+zzzz en jan pi (kalama ike) <br>
+zzzz en jan pi (wile ike) <br>
+zzzz en jan pi (nasin ike).<br><br>
 zz ona li pali e nasin tan zz<br>
 zz ona li sona+ala e ijo+pona anu ijo+ike. zz<br>
-taso mi ken lukin e nasin pona la ni1li pona. zz<br>
-  zz mi ken lukin e nasin ike  la ni1li ike.  zz<br>
+taso mi ken lukin e nasin pona la ni4li pona. zz<br>
+  zz mi ken lukin e nasin ike  la ni4li ike.  zz<br>
 jan li pali e ike la <br>
 zz mi lukin e ona la <br>
-    jan sama mi. zz<br>
-nasin pi (jan li pali e ike) la <br>
-zz zz zz ona li sewi pali sama mi li sewi pali. zz<br>
-zz zz zz zz telo kule ona sama telo kule mi zz<br>
-zz zz zz zz en mama ona sama mama mi tan-ala tu<br>
-taso ona li pali e lili sewi sama mi pali e lili sewi. zz<br>
-zz jan li pali e ike la <br>
-zz jan ken-ala pakala e mi tan ala ken pona e ike mi. zz<br><br>
-mi wile pilin+utala ala tawa jan. zz<br><br>
+    jan sama mi. zz<br><br>
+
+zzzz nasin pi (jan li pali e ike) la <br>
+zzzzzzzz ona li sewi pali sama mi li sewi pali. zz<br>
+zzzzzzzzzz telo kule ona sama telo kule mi zz<br>
+zzzzzzzzzz en mama ona sama mama mi tan ala tu<br>
+taso ona li pali zz e lili sewi sama mi pali e lili sewi. zz<br>
+zz jan li pali zz e ike la <br>
+zz jan ken ala pakala e mi tan ala ken pona e ike mi. zz<br><br>
+mi wile pilin utala ala tawa jan. zz<br><br>
 sewi li pali e mi mute tan pali kulupu la <br>
 zzzzzzzzzzzzzzni2sama noka zz<br>
 zzzzzzzzzzzzzzzz sama luka zz<br>
 zzzzzzzzzzzzzzzz sama oko selo zz<br>
 zzzzzzzzzzzzzzzz sama kiwen walo uta. zz<br>
-mi lukin+ala li sona+ala tawa jan la <br>
+mi lukin ala li sona+ala tawa jan la <br>
 zz mi pali ante tawa jan.zz
 
 </bdi>
@@ -138,7 +139,8 @@ I shall meet with the busy-body, the ungrateful, arrogant, deceitful, envious,
 </p>
 <p><bdi class="sitelen-pona-static" lang="tok" title="Toki Pona language-text">
     
-    jan [pipi .. n] li toki+a e ni3zz nasin lili li pali e nasin suli . zz
+    jan [pipi .... n] li toki a e ni2nasin lili li pali zz <br>
+    zzzzzzzzzzzzzzzzzzzz e zz nasin suli . zz
 
 </bdi>
 

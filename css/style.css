@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Fairfax Pona HD";
+    src: url('/fonts/FairfaxPonaHD-patched.woff2') format("woff2");
+}
+/* toki pona language support */
+
+.sitelen-pona, .sitelen-pona-static, .sitelen-pona .toki-pona, .sitelen-pona-static .toki-pona, .sitelen-sitelen, .sitelen-sitelen-static, .sitelen-sitelen .toki-pona, .sitelen-sitelen-static .toki-pona {
+  font-style: normal;
+}
+.sitelen-pona, .sitelen-pona-static {
+    font-family: "Fairfax Pona HD",sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+

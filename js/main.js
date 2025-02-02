@@ -81,5 +81,19 @@
     document.body.classList.toggle("debug", debugToggle.checked);
   }
   debugToggle.addEventListener("change", onDebugToggle);
-  onDebugToggle();
+  if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) {
+    t = document.getElementById("light-mode-toggle-label");
+    t.innerHTML = '<input class="light-mode-toggle" type="checkbox" />  Dark mode&nbsp;';
+  }
+  var t;
+  var lightToggle = document.querySelector(".light-mode-toggle");
+  function onLightToggle() {
+    var element = document.getElementById("html");
+    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      element.classList.toggle("light-mode", lightToggle.checked);
+    } else {
+      element.classList.toggle("dark-mode", lightToggle.checked);
+    }
+  }
+  lightToggle.addEventListener("change", onLightToggle);
 })();
