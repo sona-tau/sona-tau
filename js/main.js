@@ -82,13 +82,12 @@
   }
   debugToggle.addEventListener("change", onDebugToggle);
   if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) {
-    t = document.getElementById("light-mode-toggle-label");
+    const t = document.getElementById("light-mode-toggle-label");
     t.innerHTML = '<input class="light-mode-toggle" type="checkbox" />  Dark mode&nbsp;';
   }
-  var t;
   var lightToggle = document.querySelector(".light-mode-toggle");
   function onLightToggle() {
-    var element = document.getElementById("html");
+    const element = document.getElementById("html");
     if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
       element.classList.toggle("light-mode", lightToggle.checked);
     } else {
@@ -96,4 +95,13 @@
     }
   }
   lightToggle.addEventListener("change", onLightToggle);
+  var sppToggle = document.querySelector(".sitelen-pona-pona-toggle");
+  function onsppToggle() {
+    const elements = document.getElementsByClassName("sitelen-pona");
+    for (let element of elements) {
+      element.classList.toggle("sitelen-pona-pona", sppToggle.checked);
+    }
+    console.log("toggled spp");
+  }
+  sppToggle.addEventListener("change", onsppToggle);
 })();

@@ -2,137 +2,137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello there! on My website!</title>
-    <link>https://diego-est.dev/</link>
+    <link>https://stau.space/</link>
     <description>Recent content in Hello there! on My website!</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 20 Jan 2025 07:50:59 -0400</lastBuildDate>
-    <atom:link href="https://diego-est.dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stau.space/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>toki pi kulupu pini</title>
-      <link>https://diego-est.dev/posts/kulupu-pini/</link>
+      <link>https://stau.space/posts/kulupu-pini/</link>
       <pubDate>Mon, 20 Jan 2025 07:50:59 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/kulupu-pini/</guid>
+      <guid>https://stau.space/posts/kulupu-pini/</guid>
       <description>&lt;p&gt;The Cult of Done is a manifesto written by Bre Pettis with Kio Stark in August of 2016.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13&#34;&gt;English manifesto&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>The Monospace Web</title>
-      <link>https://diego-est.dev/posts/the-monospace-web/</link>
+      <link>https://stau.space/posts/the-monospace-web/</link>
       <pubDate>Mon, 23 Dec 2024 13:38:04 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/the-monospace-web/</guid>
+      <guid>https://stau.space/posts/the-monospace-web/</guid>
       <description>&lt;p&gt;I know lots of places on this website say &amp;ldquo;This is my website&amp;rdquo;, &amp;ldquo;Hello there,&#xA;this is my stuff&amp;rdquo;, and other messages that might imply that all of the things&#xA;presented here are my personal work. Hopefully I&amp;rsquo;ve been clear enough in giving&#xA;credit where credit is due. In this case I actually want to give a shoutout to&#xA;Oskar Wickström the original creator of 95% of this template.&#xA;You can see their original site at &lt;a href=&#34;https://owickstrom.github.io/the-monospace-web/&#34;&gt;The Monospace Web&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Monad Is Not A Burrito</title>
-      <link>https://diego-est.dev/posts/burritos/</link>
+      <link>https://stau.space/posts/burritos/</link>
       <pubDate>Sat, 21 Dec 2024 10:34:47 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/burritos/</guid>
+      <guid>https://stau.space/posts/burritos/</guid>
       <description>&lt;p&gt;Repeat after me:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a burrito.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a taco.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a wrapper.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Licker</title>
-      <link>https://diego-est.dev/posts/licker/</link>
+      <link>https://stau.space/posts/licker/</link>
       <pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/licker/</guid>
+      <guid>https://stau.space/posts/licker/</guid>
       <description>&lt;h1 id=&#34;behold-the-licker&#34;&gt;Behold The Licker&lt;/h1&gt;&#xA;&lt;p&gt;The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Archiver</title>
-      <link>https://diego-est.dev/posts/archiver/</link>
+      <link>https://stau.space/posts/archiver/</link>
       <pubDate>Sun, 08 Dec 2024 20:20:32 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/archiver/</guid>
+      <guid>https://stau.space/posts/archiver/</guid>
       <description>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Algorithms</title>
-      <link>https://diego-est.dev/posts/algorithms/</link>
+      <link>https://stau.space/posts/algorithms/</link>
       <pubDate>Sun, 08 Dec 2024 20:18:33 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/algorithms/</guid>
+      <guid>https://stau.space/posts/algorithms/</guid>
       <description>&lt;p&gt;So it was a fine summer morning. Our investigation team was about to start our project &amp;ldquo;Counting Arithmetical Structures on Cycles with a Doubled Edge&amp;rdquo;, what a mouthful. I&amp;rsquo;ll go into detail what this all means.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://diego-est.dev/about/</link>
+      <link>https://stau.space/about/</link>
       <pubDate>Sun, 08 Dec 2024 20:15:58 -0400</pubDate>
-      <guid>https://diego-est.dev/about/</guid>
+      <guid>https://stau.space/about/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;We have two ears and one mouth so we can listen twice as much as we speak. - Epictetus&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Translations</title>
-      <link>https://diego-est.dev/posts/stuff/</link>
+      <link>https://stau.space/posts/stuff/</link>
       <pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/stuff/</guid>
+      <guid>https://stau.space/posts/stuff/</guid>
       <description>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AOC day 1</title>
-      <link>https://diego-est.dev/posts/aoc-2024-day1/</link>
+      <link>https://stau.space/posts/aoc-2024-day1/</link>
       <pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/aoc-2024-day1/</guid>
-      <description>&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;    &#xA;    wan wan. &lt;br&gt;&#xA;    zz pana pi (toki tawa lipu) li nasin lipu tu e wan. &lt;br&gt;&#xA;    zz pana pi (toki tawa lipu) li suli. &lt;br&gt;&#xA;&#xA;&lt;/bdi&gt;&#xA;&#xA;&lt;bdi class=&#34;sitelen-pona-static&#34; lang=&#34;tok&#34; title=&#34;Toki Pona language-text&#34;&gt;&#xA;    &#xA;    zz poka li sin pana ala li nanpa sewi e luka. &lt;br&gt;&#xA;    zz ale li sin pana. &lt;br&gt;&#xA;&#xA;&lt;/bdi&gt;&#xA;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bqn&#34; data-lang=&#34;bqn&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;|-&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˝&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;´&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;|-&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˝&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>https://stau.space/posts/aoc-2024-day1/</guid>
+      <description>&lt;bdi class=&#34;sitelen-pona&#34; lang=&#34;tok&#34; title=&#34;sitelen pona text&#34;&gt;&#xA;    &#xA;    wan wan. &lt;br&gt;&#xA;    zz pana pi (toki tawa lipu) li nasin lipu tu e wan. &lt;br&gt;&#xA;    zz pana pi (toki tawa lipu) li suli. &lt;br&gt;&#xA;&#xA;&lt;/bdi&gt;&#xA;&#xA;&lt;bdi class=&#34;sitelen-pona&#34; lang=&#34;tok&#34; title=&#34;sitelen pona text&#34;&gt;&#xA;    &#xA;    zz poka li sin pana ala li nanpa sewi e luka. &lt;br&gt;&#xA;    zz ale li sin pana. &lt;br&gt;&#xA;&#xA;&lt;/bdi&gt;&#xA;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bqn&#34; data-lang=&#34;bqn&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;|-&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˝&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;´&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;|-&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˝&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pana&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>AOC day 2</title>
-      <link>https://diego-est.dev/posts/aoc-2024-day2/</link>
+      <link>https://stau.space/posts/aoc-2024-day2/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://diego-est.dev/posts/aoc-2024-day2/</guid>
+      <guid>https://stau.space/posts/aoc-2024-day2/</guid>
       <description></description>
     </item>
     <item>
       <title>Mathematics in toki pona</title>
-      <link>https://diego-est.dev/posts/toki-pona-math/</link>
+      <link>https://stau.space/posts/toki-pona-math/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://diego-est.dev/posts/toki-pona-math/</guid>
+      <guid>https://stau.space/posts/toki-pona-math/</guid>
       <description>&lt;p&gt;The language toki pona lacks a lot of common mathematical definitions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zig CTFP</title>
-      <link>https://diego-est.dev/posts/zig-ctfp/</link>
+      <link>https://stau.space/posts/zig-ctfp/</link>
       <pubDate>Wed, 07 Aug 2024 11:38:20 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/zig-ctfp/</guid>
+      <guid>https://stau.space/posts/zig-ctfp/</guid>
       <description>&lt;p&gt;Let this blog post be living proof that Zig is in fact also a functional&#xA;programming language.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hare Rope</title>
-      <link>https://diego-est.dev/posts/hare-rope/</link>
+      <link>https://stau.space/posts/hare-rope/</link>
       <pubDate>Mon, 27 May 2024 21:10:02 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/hare-rope/</guid>
+      <guid>https://stau.space/posts/hare-rope/</guid>
       <description>&lt;p&gt;A Rope is a data structure that manages an ordered set of characters. Just like&#xA;a string!&lt;/p&gt;</description>
     </item>
     <item>
       <title>R. O. N. DB Manager</title>
-      <link>https://diego-est.dev/posts/rdbm/</link>
+      <link>https://stau.space/posts/rdbm/</link>
       <pubDate>Sun, 31 Mar 2024 13:32:48 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/rdbm/</guid>
+      <guid>https://stau.space/posts/rdbm/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;strong&gt;rdbm&lt;/strong&gt; is a rust program for getting and setting a custom ron resource file.&lt;/p&gt;&#xA;&lt;p&gt;Similar to &lt;code&gt;.Xresources&lt;/code&gt;, &lt;code&gt;rdbm&lt;/code&gt; will create a &lt;code&gt;resources.ron&lt;/code&gt; in your &lt;code&gt;~/.config/&lt;/code&gt; directory.&#xA;You can then use &lt;code&gt;rdbm&lt;/code&gt; to set multiple &amp;ldquo;key-value&amp;rdquo; pairs similar to &lt;code&gt;.Xresources&lt;/code&gt;.&#xA;In this case &lt;code&gt;rdbm&lt;/code&gt; aims to replace &lt;code&gt;xrdb&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>C&#43;&#43; Prelude</title>
-      <link>https://diego-est.dev/posts/cpp-prelude/</link>
+      <link>https://stau.space/posts/cpp-prelude/</link>
       <pubDate>Mon, 08 Jan 2024 18:04:59 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/cpp-prelude/</guid>
+      <guid>https://stau.space/posts/cpp-prelude/</guid>
       <description>&lt;p&gt;Modern C++ makes me sad when I look at it. So this is my attempt to change&#xA;several of the defaults we use to code in C++. Additionally, several features&#xA;that are missing in the language (but enabled through obscure compiler macros&#xA;and directives) are enabled.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fractal Renderer</title>
-      <link>https://diego-est.dev/posts/mandelbrot/</link>
+      <link>https://stau.space/posts/mandelbrot/</link>
       <pubDate>Fri, 24 Nov 2023 21:28:33 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/mandelbrot/</guid>
-      <description>&lt;p&gt;Mandelbrot fractal research repo&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://diego-est.dev/posts/mandelbrot/mandelbrot.png&#34; alt=&#34;1.5K mandelbrot image.&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://stau.space/posts/mandelbrot/</guid>
+      <description>&lt;p&gt;Mandelbrot fractal research repo&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://stau.space/posts/mandelbrot/mandelbrot.png&#34; alt=&#34;1.5K mandelbrot image.&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>We Lost the ICPC Regionals</title>
-      <link>https://diego-est.dev/posts/icpc-regionals/</link>
+      <link>https://stau.space/posts/icpc-regionals/</link>
       <pubDate>Sat, 21 Oct 2023 22:00:00 -0400</pubDate>
-      <guid>https://diego-est.dev/posts/icpc-regionals/</guid>
+      <guid>https://stau.space/posts/icpc-regionals/</guid>
       <description>&lt;p&gt;We lost the ICPC Regionals!!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://diego-est.dev/contact/</link>
+      <link>https://stau.space/contact/</link>
       <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <guid>https://diego-est.dev/contact/</guid>
-      <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;p&gt;Hello o/&lt;/p&gt;&#xA;&lt;p&gt;Feel free to contact me through any of the following services:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;email: &lt;a href=&#34;mailto:daestrada@pm.me&#34;&gt;daestrada@pm.me&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Mastodon: &lt;a href=&#34;https://mastodon.world/@diegoEstrada&#34;&gt;@diegoest@mstdn.world&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Matrix: &lt;a href=&#34;https://matrix.org/try-matrix/&#34;&gt;@daestrada:matrix.org&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Discord: &lt;a href=&#34;https://discord.com/channels/@me&#34;&gt;sunglow.&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>https://stau.space/contact/</guid>
+      <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;p&gt;Hello o/&lt;/p&gt;&#xA;&lt;p&gt;Feel free to contact me through any of the following services:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;email: &lt;a href=&#34;mailto:sona@stau.space&#34;&gt;sona@stau.space&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Discord: &lt;a href=&#34;https://discord.com/channels/@me&#34;&gt;sunglow.&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
