@@ -8,7 +8,7 @@
 	--font-weight-medium: 600;
 	--font-weight-bold: 800;
 
-	font-family: var(--font-family);
+	font-family: monospace;
 	font-optical-sizing: auto;
 	font-weight: var(--font-weight-normal);
 	font-style: normal;
@@ -122,6 +122,10 @@ img {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+	border: var(--border-thickness) solid var(--cursor);
+	font-style: italic;
+	color: var(--bright-white);
+	padding-bottom: 0 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -202,11 +206,7 @@ table {
 
 th, td {
 	border: var(--border-thickness) solid var(--cursor);
-	padding:
-	calc((var(--line-height) / 2))
-	calc(1ch - var(--border-thickness) / 2)
-	calc((var(--line-height) / 2) - (var(--border-thickness)))
-	;
+	padding: calc((var(--line-height) / 2)) calc(1ch - var(--border-thickness) / 2) calc((var(--line-height) / 2) - (var(--border-thickness)));
 	line-height: var(--line-height);
 	vertical-align: top;
 	text-align: left;
@@ -250,11 +250,6 @@ img, video {
 	display: block;
 	object-fit: contain;
 	overflow: hidden;
-}
-
-img {
-	font-style: italic;
-	color: var(--text-color-alt);
 }
 
 details {
