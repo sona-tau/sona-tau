@@ -27,7 +27,7 @@ body {
 </style>
 
     <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/syntax.min.14e61992514fff6118d2aa5f5dacc3f9b109f0f8b2307d7910852fa23f81a4c2.css" />
+        <link rel="stylesheet" href="/css/syntax.min.4ac5bc17a9e52026ea6229b1dc45750650edab09b6debf0861e4f4180f95500f.css" />
 
 
       <script src="/js/main.js"></script>
@@ -42,16 +42,20 @@ body {
         <span class="subtitle"></span>
     </td>
     <th>Version</th>
-    <td class="width-min"></td>
+    <td class="width-min" style="color: var(--green);"></td>
   </tr>
   <tr>
     <th>Updated</th>
     <td class="width-min"><time style="white-space: pre;">2024-12-28</time></td>
   </tr>
   <tr>
-    <th class="width-min">Author</th><td class="width-auto"><a href=""><cite></cite></a></td>
+    <th class="width-min">Author</th><td class="width-auto">
+        <a href="">
+            <i></i>
+        </a>
+    </td>
     <th class="width-min">License</th>
-    <td>MIT</td>
+    <td style="color: var(--red);">MIT</td>
   </tr>
 </table>
 <label class="debug-toggle-label">
@@ -83,7 +87,18 @@ body {
 
   </main>
   <footer>
-    <p>Copyright 2025. All rights reserved.</p>
+    <div id="page-size" style="position:fixed;left:10px;bottom:5px;background:transparent;"></div>
+<script>
+var req = new XMLHttpRequest();
+req.open('GET', document.location, true);
+req.send(null);
+req.onload = function() {
+        var kilobytes = req.getResponseHeader("Content-Length") / 1024.0;
+        document.getElementById("page-size")
+            .innerHTML = kilobytes.toFixed(2) + " kb";
+    };
+</script>
+<p>Copyright 2025. All rights reserved.</p>
 
   </footer>
   <div class="debug-grid"></div>
