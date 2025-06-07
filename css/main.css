@@ -1,14 +1,14 @@
 @import url("/css/fonts.css");
 
 :root {
-	--font-family: monospace;
+	--font-family: monospace, sans-serif !important;
 	--line-height: 1.15rem;
 	--border-thickness: 2px;
 	--font-weight-normal: 500;
 	--font-weight-medium: 600;
 	--font-weight-bold: 800;
 
-	font-family: monospace;
+	font-family: var(--font-family);
 	font-optical-sizing: auto;
 	font-weight: var(--font-weight-normal);
 	font-style: normal;
