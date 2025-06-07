@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr" id="html">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta charset="utf-8">
+	<meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta property="og:title" content="Sona's blog!">
 <meta property="og:description" content="Sona's website for publishing projects, blogs and more!">
@@ -19,59 +19,66 @@
 
 <style>
 body {
-    font-family: 'IBM Plex Mono';
+	font-family: 'IBM Plex Mono';
 }
- code {
-     font-family: 'IBM Plex Mono'; 
- }
+code {
+	font-family: 'IBM Plex Mono'; 
+}
 </style>
 
-    <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/syntax.min.4ac5bc17a9e52026ea6229b1dc45750650edab09b6debf0861e4f4180f95500f.css" />
+
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" href="/css/syntax.min.5601597dfee06702b9665cb6567a5aa0305323dc1ffdd9374dfc5513d28c44e3.css" />
 
 
-      <script src="/js/main.js"></script>
+			<script src="/js/main.js"></script>
 
 
 </head>
 <body>
 <table class="header">
-  <tr>
-    <td colspan="2" rowspan="2" class="width-auto">
-        <h1 class="title">Omnium-gatherum</h1>
-        <span class="subtitle"></span>
-    </td>
-    <th>Version</th>
-    <td class="width-min" style="color: var(--green);">1.0.0</td>
-  </tr>
-  <tr>
-    <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">2024-12-20</time></td>
-  </tr>
-  <tr>
-    <th class="width-min">Author</th><td class="width-auto">
-        <a href="mailto:sona@stau.space">
-            <i>Sona T. Estrada Rivera</i>
-        </a>
-    </td>
-    <th class="width-min">License</th>
-    <td style="color: var(--red);">MIT</td>
-  </tr>
+	<tr>
+		<td colspan="2" rowspan="2" class="width-auto">
+			<h1 class="title">Omnium-gatherum</h1>
+			<span class="subtitle"></span>
+		</td>
+		<th>Version</th>
+		<td class="width-min" style="color: var(--green);">1.0.0</td>
+	</tr>
+	
+	<tr>
+		<th>Updated</th>
+		<td class="width-min">
+			<time style="white-space: pre;">2024-12-20</time>
+		</td>
+	</tr>
+	
+	<tr>
+		<th class="width-min">Author</th><td class="width-auto">
+			<a href="mailto:sona@stau.space">
+				<i>Sona T. Estrada Rivera</i>
+			</a>
+		</td>
+		<th class="width-min">License</th>
+		<td style="color: var(--red);">MIT</td>
+	</tr>
 </table>
+
 <label class="debug-toggle-label">
-    <input type="checkbox" class="debug-toggle" />
-    Debug mode
+	<input type="checkbox" class="debug-toggle" />
+	Debug mode
 </label>
+
 <label class="light-mode-toggle-label" id="light-mode-toggle-label">
-    <input type="checkbox" class="light-mode-toggle" />
-    Light mode
+	<input type="checkbox" class="light-mode-toggle" />
+	Light mode
 </label>
 
-  <main>
-    
 
 
-  <p>Omnium-gatherum (noun)</p>
+<main>
+	
+	<p>Omnium-gatherum (noun)</p>
 <blockquote>
 <p>om·ni·um-gath·er·um (ˌäm-nē-əm-ˈga-t͟hə-rəm)</p>
 </blockquote>
@@ -84,8 +91,8 @@ body {
 
 
 <details>
-    <summary> Did you know? </summary>
-    <p>
+		<summary> Did you know? </summary>
+		<p>
 English abounds in Latin phrases. They roll off the learned tongue like peas off a fork: tabula rasa, ab ovo, a posteriori, deus ex machina, ex cathedra, mea culpa, terra firma, vox populi, ad hominem, sub rosa. Omnium-gatherum belongs on that list too, right? Not exactly. Omnium-gatherum sounds like Latin, and indeed omnium (the genitive plural of Latin omnis, meaning "all") is the real thing. But gatherum is simply English gather with -um tacked on to give it a classical ring. We're not suggesting, however, that the phrase is anything less than literate. After all, the first person known to have used it was John Croke, a lawyer who was educated at Eton and Cambridge in the 16th century.
 - Merriam-webster dictionary
 </p>
@@ -126,26 +133,29 @@ SICP
 sim
 site
 zig</p>
-  
+	
 
 
-  </main>
-  <footer>
-    <div id="page-size" style="position:fixed;left:10px;bottom:5px;background:transparent;"></div>
+</main>
+
+<footer>
+	<div id="page-size" style="position:fixed;left:10px;bottom:5px;background:transparent;"></div>
 <script>
-var req = new XMLHttpRequest();
-req.open('GET', document.location, true);
-req.send(null);
-req.onload = function() {
-        var kilobytes = req.getResponseHeader("Content-Length") / 1024.0;
-        document.getElementById("page-size")
-            .innerHTML = kilobytes.toFixed(2) + " kb";
-    };
+	const req = new XMLHttpRequest();
+	req.open("GET", document.location, true);
+	req.send(null);
+	req.onload = () => {
+		const kilobytes = req.getResponseHeader("Content-Length") / 1024.0;
+		document.getElementById("page-size").innerHTML = kilobytes.toFixed(2) + " kb";
+	};
 </script>
 <p>Copyright 2025. All rights reserved.</p>
 
-  </footer>
-  <div class="debug-grid"></div>
-  <script src="/js/main.js"></script>
+</footer>
+
+<div class="debug-grid"></div>
+
+<script src="/js/main.js"></script>
+
 </body>
 </html>
