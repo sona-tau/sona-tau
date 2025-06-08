@@ -28,8 +28,9 @@
 		--bright-cyan: #65B8C1;
 		--bright-white: #888F94;
 		/* cursor */
-		--cursor: #C4CACF;
-		--text: #1C1917;
+		--cursor: #5d5a57;
+		--text: #a1938c;
+		--literal: #716660;
 		/* normal */
 		--black: #1C1917;
 		--blue: #6099C0;
@@ -170,7 +171,7 @@ a {
 }
 
 a:link, a:visited {
-	color: var(--bright-blue);
+	color: var(--text);
 }
 
 p {

@@ -28,12 +28,27 @@ code {
 
 
 		<link rel="stylesheet" href="/css/main.css">
-		<link rel="stylesheet" href="/css/syntax.min.5601597dfee06702b9665cb6567a5aa0305323dc1ffdd9374dfc5513d28c44e3.css" />
+		<link rel="stylesheet" href="/css/syntax.min.086b2426f65bd1637f9abb3af4ed2a5db4d635d080d6756161f81c062c708d91.css" />
 
 
 			<script src="/js/main.js"></script>
 
 
+	
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+
+	
 </head>
 <body>
 <table class="header">
@@ -63,16 +78,6 @@ code {
 		<td style="color: var(--red);">MIT</td>
 	</tr>
 </table>
-
-<label class="debug-toggle-label">
-	<input type="checkbox" class="debug-toggle" />
-	Debug mode
-</label>
-
-<label class="light-mode-toggle-label" id="light-mode-toggle-label">
-	<input type="checkbox" class="light-mode-toggle" />
-	Light mode
-</label>
 
 
 
