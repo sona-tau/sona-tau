@@ -27,8 +27,8 @@ code {
 </style>
 
 
-			<link rel="stylesheet" href="/css/main.min.034788c0900fc936f7c227d2f5a1b5fe85801577782bfe6d27eabe02525eaf2e.css" integrity="sha256-A0eIwJAPyTb3wifS9aG1/oWAFXd4K/5tJ&#43;q&#43;AlJery4=" crossorigin="anonymous">
-		<link rel="stylesheet" href="/css/syntax.min.086b2426f65bd1637f9abb3af4ed2a5db4d635d080d6756161f81c062c708d91.css" />
+			<link rel="stylesheet" href="/css/main.min.6e1b8e6633f62da60dbb95c4e19b780a7dab1210c54b9ca8f3f83ad53df87c1e.css" integrity="sha256-bhuOZjP2LaYNu5XE4Zt4Cn2rEhDFS5yo8/g61T34fB4=" crossorigin="anonymous">
+		<link rel="stylesheet" href="/css/syntax.min.1b174baa023a0ab671cb0a1ccf6321b2318eb24ac5e55b8e549e89531d8ede59.css" />
 
 
 			<script src="/js/main.fb6f33b6c27ddc1f3426f171446c7a52eff6151b8f221a0dcb9abd3345ebcc14.js" integrity="sha256-&#43;28ztsJ93B80JvFxRGx6Uu/2FRuPIhoNy5q9M0XrzBQ=" crossorigin="anonymous"></script>
@@ -49,33 +49,20 @@ code {
 </script>
 
 	
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="stau.space" />
+	<link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
 <table class="header">
 	<tr>
-		<td colspan="2" rowspan="2" class="width-auto">
+		<td style="width:100%">
 			<h1 class="title">A Monad Is Not A Burrito</h1>
 			<span class="subtitle">Okay, it kind of is but that&#39;s like calling an airplane a car.</span>
 		</td>
-		<th>Version</th>
-		<td class="width-min" style="color: var(--green);">1.0.1</td>
-	</tr>
-	
-	<tr>
-		<th>Updated</th>
-		<td class="width-min">
-			<time style="white-space: pre;">2024-12-21</time>
-		</td>
-	</tr>
-	
-	<tr>
-		<th class="width-min">Author</th><td class="width-auto">
-			<a href="mailto:sona@stau.space">
-				<i>sona</i>
-			</a>
-		</td>
-		<th class="width-min">License</th>
-		<td style="color: var(--red);">MIT</td>
 	</tr>
 </table>
 
@@ -123,23 +110,45 @@ between those types.
 We don&rsquo;t really care about other categories unless you go very deep into
 Category Theory, which we will not do.
 An example of this would be:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Python</span>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Python</span>
 </span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">is_even</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">True</span>
 </span></span><span class="line"><span class="cl">    <span class="k">else</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">False</span>
-</span></span></code></pre></div><p>In this case, we have a function that takes an <code>int</code> and returns a
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In this case, we have a function that takes an <code>int</code> and returns a
 <code>bool</code>.
 In our category we will see this as an arrow being drawn from the dot that says
 <code>int</code> to the dot that says <code>bool</code> and that arrow&rsquo;s name will be <code>is_even</code>.</p>
 <p><img src="./intro1.png" alt="Our new category"></p>
 <p>Another example could be:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="c1">// C
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="c1">// C
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">only_forty_two</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">42</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>In which case our category would look like:</p>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In which case our category would look like:</p>
 <p><img src="./intro2.png" alt="Only forty two"></p>
 <h1 id="a-functor-is-a-burrito">A functor is a burrito</h1>
 <p>Don&rsquo;t worry I will explain what a functor is in a moment.
@@ -169,13 +178,37 @@ Let&rsquo;s focus on the first part, mapping types to other types.
 Where have we seen this before? &hellip;
 A function that takes in a type as a parameter and outputs a type.
 This seems very similar to:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// C++
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="c1">// C++
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Python</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Python</span>
 </span></span><span class="line"><span class="cl"><span class="nb">list</span><span class="p">[</span><span class="n">T</span><span class="p">]</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="c1">// Rust
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="c1">// Rust
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nb">Vec</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w">
-</span></span></span></code></pre></div><p>In this case, <code>std::vector</code>, <code>list</code> and <code>Vec</code> take in a type <code>T</code> and output a
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>In this case, <code>std::vector</code>, <code>list</code> and <code>Vec</code> take in a type <code>T</code> and output a
 new type, <code>std::vector&lt;T&gt;</code>, <code>list[T]</code> and <code>Vec[T]</code> respectively.
 This means that a functor <strong>must</strong> be a wrapper around a type&hellip;
 A <strong>burrito</strong> if you will.
@@ -247,18 +280,44 @@ different functions with this functor.</p>
 <p>Let&rsquo;s do an example.
 We need a wrapper, let&rsquo;s use <code>Option</code> from Rust as our functor!
 We then have:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="k">fn</span> <span class="nf">bind</span><span class="o">&lt;</span><span class="n">A</span><span class="p">,</span><span class="w"> </span><span class="n">B</span><span class="o">&gt;</span><span class="p">(</span><span class="n">opt</span>: <span class="nb">Option</span><span class="o">&lt;</span><span class="n">A</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="n">func</span>: <span class="nc">fn</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Option</span><span class="o">&lt;</span><span class="n">B</span><span class="o">&gt;</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Option</span><span class="o">&lt;</span><span class="n">B</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="k">fn</span> <span class="nf">bind</span><span class="o">&lt;</span><span class="n">A</span><span class="p">,</span><span class="w"> </span><span class="n">B</span><span class="o">&gt;</span><span class="p">(</span><span class="n">opt</span>: <span class="nb">Option</span><span class="o">&lt;</span><span class="n">A</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="n">func</span>: <span class="nc">fn</span><span class="p">(</span><span class="n">A</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Option</span><span class="o">&lt;</span><span class="n">B</span><span class="o">&gt;</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Option</span><span class="o">&lt;</span><span class="n">B</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">match</span><span class="w"> </span><span class="n">opt</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nb">Some</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">func</span><span class="p">(</span><span class="n">a</span><span class="p">),</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nb">None</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="nb">None</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
-</span></span></span></code></pre></div><p>This makes more sense once we start using <code>bind</code> to compose lots of these
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>This makes more sense once we start using <code>bind</code> to compose lots of these
 <code>func</code>&rsquo;s together!</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="kd">let</span><span class="w"> </span><span class="n">_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">bind</span><span class="p">(</span><span class="n">bind</span><span class="p">(</span><span class="n">bind</span><span class="p">(</span><span class="n">bind</span><span class="p">(</span><span class="n">option</span><span class="p">,</span><span class="w"> </span><span class="n">to_int</span><span class="p">),</span><span class="w"> </span><span class="n">to_char</span><span class="p">),</span><span class="w"> </span><span class="n">to_string</span><span class="p">),</span><span class="w"> </span><span class="n">to_float</span><span class="p">);</span><span class="w">
-</span></span></span></code></pre></div><p>This looks prettier in Haskell:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-hs" data-lang="hs"><span class="line"><span class="cl"><span class="kr">let</span> <span class="kr">_</span> <span class="ow">=</span> <span class="n">option</span> <span class="o">&gt;&gt;=</span> <span class="n">to_int</span> <span class="o">&gt;&gt;=</span> <span class="n">to_char</span> <span class="o">&gt;&gt;=</span> <span class="n">to_string</span> <span class="o">&gt;&gt;=</span> <span class="n">to_float</span>
-</span></span></code></pre></div><h1 id="why-do-i-care">Why do I care?</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="kd">let</span><span class="w"> </span><span class="n">_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">bind</span><span class="p">(</span><span class="n">bind</span><span class="p">(</span><span class="n">bind</span><span class="p">(</span><span class="n">bind</span><span class="p">(</span><span class="n">option</span><span class="p">,</span><span class="w"> </span><span class="n">to_int</span><span class="p">),</span><span class="w"> </span><span class="n">to_char</span><span class="p">),</span><span class="w"> </span><span class="n">to_string</span><span class="p">),</span><span class="w"> </span><span class="n">to_float</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>This looks prettier in Haskell:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-hs" data-lang="hs"><span class="line"><span class="cl"><span class="kr">let</span> <span class="kr">_</span> <span class="ow">=</span> <span class="n">option</span> <span class="o">&gt;&gt;=</span> <span class="n">to_int</span> <span class="o">&gt;&gt;=</span> <span class="n">to_char</span> <span class="o">&gt;&gt;=</span> <span class="n">to_string</span> <span class="o">&gt;&gt;=</span> <span class="n">to_float</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="why-do-i-care">Why do I care?</h1>
 <p>I see people say:</p>
 <blockquote>
 <p>but a monad is a burrito</p>
@@ -297,7 +356,10 @@ code:
 		document.getElementById("page-size").innerHTML = kilobytes.toFixed(2) + " kb";
 	};
 </script>
-<p>Copyright 2025. All rights reserved.</p>
+<p>
+Copyright 2025. All rights reserved. <br> <br>
+Last updated on <time>2024 12 21</time>. <br> <br>Author: <a href="mailto:sona@stau.space"><i>sona</i></a>
+</p>
 
 </footer>
 

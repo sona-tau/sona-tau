@@ -27,8 +27,8 @@ code {
 </style>
 
 
-			<link rel="stylesheet" href="/css/main.min.034788c0900fc936f7c227d2f5a1b5fe85801577782bfe6d27eabe02525eaf2e.css" integrity="sha256-A0eIwJAPyTb3wifS9aG1/oWAFXd4K/5tJ&#43;q&#43;AlJery4=" crossorigin="anonymous">
-		<link rel="stylesheet" href="/css/syntax.min.086b2426f65bd1637f9abb3af4ed2a5db4d635d080d6756161f81c062c708d91.css" />
+			<link rel="stylesheet" href="/css/main.min.6e1b8e6633f62da60dbb95c4e19b780a7dab1210c54b9ca8f3f83ad53df87c1e.css" integrity="sha256-bhuOZjP2LaYNu5XE4Zt4Cn2rEhDFS5yo8/g61T34fB4=" crossorigin="anonymous">
+		<link rel="stylesheet" href="/css/syntax.min.1b174baa023a0ab671cb0a1ccf6321b2318eb24ac5e55b8e549e89531d8ede59.css" />
 
 
 			<script src="/js/main.fb6f33b6c27ddc1f3426f171446c7a52eff6151b8f221a0dcb9abd3345ebcc14.js" integrity="sha256-&#43;28ztsJ93B80JvFxRGx6Uu/2FRuPIhoNy5q9M0XrzBQ=" crossorigin="anonymous"></script>
@@ -49,33 +49,20 @@ code {
 </script>
 
 	
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="stau.space" />
+	<link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
 <table class="header">
 	<tr>
-		<td colspan="2" rowspan="2" class="width-auto">
+		<td style="width:100%">
 			<h1 class="title">C&#43;&#43; Prelude</h1>
 			<span class="subtitle">Sensible defaults for a very irrational language.</span>
 		</td>
-		<th>Version</th>
-		<td class="width-min" style="color: var(--green);">0.1.0</td>
-	</tr>
-	
-	<tr>
-		<th>Updated</th>
-		<td class="width-min">
-			<time style="white-space: pre;">2024-01-08</time>
-		</td>
-	</tr>
-	
-	<tr>
-		<th class="width-min">Author</th><td class="width-auto">
-			<a href="mailto:sona@stau.space">
-				<i>sona</i>
-			</a>
-		</td>
-		<th class="width-min">License</th>
-		<td style="color: var(--red);">MIT</td>
 	</tr>
 </table>
 
@@ -94,11 +81,21 @@ and directives) are enabled.</p>
 reason they are opt-in. To enable them define the the containers or algorithms
 directive <strong>before</strong> including the header.</p>
 <p>Like this:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#define CONTAINERS
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#define CONTAINERS
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define ALGORITHMS
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define IO
 </span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&#34;prelude.hpp&#34;</span><span class="cp">
-</span></span></span></code></pre></div><p>The following containers are included:</p>
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>The following containers are included:</p>
 <ul>
 <li>unordered_map</li>
 <li>unordered_set</li>
@@ -362,7 +359,19 @@ first/second/third/etc members of that tuple.</p>
 types like c-strings. We can, instead, make a better <code>Main</code> that is the one we
 define our program in and forward the arguments in a type-safe manner.</p>
 <p>Implementation taken from <a href="https://www.youtube.com/watch?v=zCzD9uSDI8c">C++ Weekly ep 361 by Jason Turner</a></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">I32</span> <span class="nf">main</span><span class="p">(</span><span class="k">const</span> <span class="n">I32</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="n">Handle</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">CString</span><span class="o">&gt;</span> <span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">I32</span> <span class="nf">main</span><span class="p">(</span><span class="k">const</span> <span class="n">I32</span> <span class="n">argc</span><span class="p">,</span> <span class="k">const</span> <span class="n">Handle</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">CString</span><span class="o">&gt;</span> <span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// declare function inside main
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="n">proc</span> <span class="n">Main</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">span</span><span class="o">&lt;</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string_view</span><span class="o">&gt;</span><span class="p">)</span> <span class="k">noexcept</span> <span class="o">-&gt;</span> <span class="n">I32</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
@@ -370,7 +379,9 @@ define our program in and forward the arguments in a type-safe manner.</p>
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="n">let</span> <span class="n">args</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string_view</span><span class="o">&gt;</span><span class="p">(</span><span class="n">argv</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">next</span><span class="p">(</span><span class="n">argv</span><span class="p">,</span> <span class="k">static_cast</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">ptrdiff_t</span><span class="o">&gt;</span><span class="p">(</span><span class="n">argc</span><span class="p">)));</span>
 </span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="n">Main</span><span class="p">(</span><span class="n">args</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>NOTE: It has been mentioned that <code>argv</code> has historically been used for passing
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>NOTE: It has been mentioned that <code>argv</code> has historically been used for passing
 sensitive information like passwords to programs. In that case, the array used
 to store the different arguments is chopped up to remove the sensitive
 information. For now, this method does not allow do that. Furthermore,
@@ -378,7 +389,46 @@ sending sensitive information through command line arguments is a bad idea IMO.<
 <h3 id="short-example">Short example</h3>
 <p>Solution for Rosetta Code &ldquo;<a href="https://rosettacode.org/wiki/Balanced_brackets">Balanced Brackets</a>&rdquo;
 using this prelude.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;format&gt;</span><span class="cp">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;format&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;random&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&#34;prelude.hpp&#34;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp"></span>
@@ -413,7 +463,9 @@ using this prelude.</p>
 </span></span><span class="line"><span class="cl">		    <span class="n">std</span><span class="o">::</span><span class="n">format</span><span class="p">(</span><span class="s">&#34; {}: {}&#34;</span><span class="p">,</span> <span class="n">balanced</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">?</span> <span class="s">&#34;ok&#34;</span> <span class="o">:</span> <span class="s">&#34;bad&#34;</span><span class="p">,</span> <span class="n">s</span><span class="p">));</span>
 </span></span><span class="line"><span class="cl">	<span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h1 id="todo">TODO:</h1>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="todo">TODO:</h1>
 <ul>
 <li><input disabled="" type="checkbox"> Add algorithms</li>
 <li><input disabled="" type="checkbox"> Improve range algorithms</li>
@@ -434,7 +486,10 @@ using this prelude.</p>
 		document.getElementById("page-size").innerHTML = kilobytes.toFixed(2) + " kb";
 	};
 </script>
-<p>Copyright 2025. All rights reserved.</p>
+<p>
+Copyright 2025. All rights reserved. <br> <br>
+Last updated on <time>2024 01 08</time>. <br> <br>Author: <a href="mailto:sona@stau.space"><i>sona</i></a>
+</p>
 
 </footer>
 
