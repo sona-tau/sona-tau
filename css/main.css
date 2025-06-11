@@ -203,24 +203,6 @@ summary {
 	cursor: pointer;
 }
 
-details[open] summary {
-	margin-bottom: var(--line-height);
-}
-
-details ::marker {
-	display: inline-block;
-	content: '▶';
-	margin: 0;
-}
-
-details[open] ::marker {
-	content: '▼';
-}
-
-details :last-child {
-	margin-bottom: 0;
-}
-
 pre {
 	white-space: pre;
 	overflow-x: auto;
@@ -568,6 +550,13 @@ label input {
 	font-family: "Fairfax Pona HD";
 	font-size: 1.2360679774997898rem;
 	line-height: 1.2360679774997898rem;
+}
+
+.sp2 {
+	font-family: "Fairfax Pona HD";
+	font-size: 2.472135rem;
+	line-height: 2.472135rem;
+	text-transform: lowercase;
 }
 
 br {
