@@ -1,110 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on My website!</title>
-    <link>https://stau.space/posts/</link>
-    <description>Recent content in Posts on My website!</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Mon, 20 Jan 2025 07:50:59 -0400</lastBuildDate>
-    <atom:link href="https://stau.space/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>toki pi kulupu pini</title>
-      <link>https://stau.space/posts/kulupu-pini/</link>
-      <pubDate>Mon, 20 Jan 2025 07:50:59 -0400</pubDate>
-      <guid>https://stau.space/posts/kulupu-pini/</guid>
-      <description>&lt;p&gt;The Cult of Done is a manifesto written by Bre Pettis with Kio Stark in August of 2016.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13&#34;&gt;English manifesto&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>The Monospace Web</title>
-      <link>https://stau.space/posts/the-monospace-web/</link>
-      <pubDate>Mon, 23 Dec 2024 13:38:04 -0400</pubDate>
-      <guid>https://stau.space/posts/the-monospace-web/</guid>
-      <description>&lt;p&gt;I know lots of places on this website say &amp;ldquo;This is my website&amp;rdquo;, &amp;ldquo;Hello there,&#xA;this is my stuff&amp;rdquo;, and other messages that might imply that all of the things&#xA;presented here are my personal work. Hopefully I&amp;rsquo;ve been clear enough in giving&#xA;credit where credit is due. In this case I actually want to give a shoutout to&#xA;Oskar Wickström the original creator of 95% of this template.&#xA;You can see their original site at &lt;a href=&#34;https://owickstrom.github.io/the-monospace-web/&#34;&gt;The Monospace Web&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>A Monad Is Not A Burrito</title>
-      <link>https://stau.space/posts/burritos/</link>
-      <pubDate>Sat, 21 Dec 2024 10:34:47 -0400</pubDate>
-      <guid>https://stau.space/posts/burritos/</guid>
-      <description>&lt;p&gt;Repeat after me:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a burrito.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a taco.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a wrapper.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>Licker</title>
-      <link>https://stau.space/posts/licker/</link>
-      <pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate>
-      <guid>https://stau.space/posts/licker/</guid>
-      <description>&lt;h1 id=&#34;behold-the-licker&#34;&gt;Behold The Licker&lt;/h1&gt;&#xA;&lt;p&gt;The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Archiver</title>
-      <link>https://stau.space/posts/archiver/</link>
-      <pubDate>Sun, 08 Dec 2024 20:20:32 -0400</pubDate>
-      <guid>https://stau.space/posts/archiver/</guid>
-      <description>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Translations</title>
-      <link>https://stau.space/posts/stuff/</link>
-      <pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate>
-      <guid>https://stau.space/posts/stuff/</guid>
-      <description>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AOC day 1</title>
-      <link>https://stau.space/posts/aoc-2024-day1/</link>
-      <pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate>
-      <guid>https://stau.space/posts/aoc-2024-day1/</guid>
-      <description>&lt;span class=&#34;sp&#34;&gt;&#xA;    wan wan. &lt;br&gt;&#xA;    zz pana pi (toki tawa lipu) li nasin lipu tu e wan. &lt;br&gt;&#xA;    zz pana pi (toki tawa lipu) li suli. &lt;br&gt;&#xA;&lt;/span&gt;&#xA;&lt;span class=&#34;sp&#34;&gt;&#xA;    zz poka li sin pana ala li nanpa sewi e luka. &lt;br&gt;&#xA;    zz ale li sin pana. &lt;br&gt;&#xA;&lt;/span&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bqn&#34; data-lang=&#34;bqn&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&lt;span class=&#34;sp&#34;&gt;pana&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&lt;span class=&#34;sp&#34;&gt;pana&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;|-&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˝&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&lt;span class=&#34;sp&#34;&gt;pana&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟨&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kp&#34;&gt;⟩&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;´&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;|-&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˝&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;∧&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;˘&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;⍉&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;&lt;span class=&#34;sp&#34;&gt;pana&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>AOC day 2</title>
-      <link>https://stau.space/posts/aoc-2024-day2/</link>
-      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://stau.space/posts/aoc-2024-day2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Zig CTFP</title>
-      <link>https://stau.space/posts/zig-ctfp/</link>
-      <pubDate>Wed, 07 Aug 2024 11:38:20 -0400</pubDate>
-      <guid>https://stau.space/posts/zig-ctfp/</guid>
-      <description>&lt;p&gt;Let this blog post be living proof that Zig is in fact also a functional&#xA;programming language.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hare Rope</title>
-      <link>https://stau.space/posts/hare-rope/</link>
-      <pubDate>Mon, 27 May 2024 21:10:02 -0400</pubDate>
-      <guid>https://stau.space/posts/hare-rope/</guid>
-      <description>&lt;p&gt;A Rope is a data structure that manages an ordered set of characters. Just like&#xA;a string!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>R. O. N. DB Manager</title>
-      <link>https://stau.space/posts/rdbm/</link>
-      <pubDate>Sun, 31 Mar 2024 13:32:48 -0400</pubDate>
-      <guid>https://stau.space/posts/rdbm/</guid>
-      <description>&lt;!-- LTeX: language=en,es --&gt;&#xA;&lt;p&gt;&lt;strong&gt;rdbm&lt;/strong&gt; is a rust program for getting and setting a custom ron resource file.&lt;/p&gt;&#xA;&lt;p&gt;Similar to &lt;code&gt;.Xresources&lt;/code&gt;, &lt;code&gt;rdbm&lt;/code&gt; will create a &lt;code&gt;resources.ron&lt;/code&gt; in your &lt;code&gt;~/.config/&lt;/code&gt; directory.&#xA;You can then use &lt;code&gt;rdbm&lt;/code&gt; to set multiple &amp;ldquo;key-value&amp;rdquo; pairs similar to &lt;code&gt;.Xresources&lt;/code&gt;.&#xA;In this case &lt;code&gt;rdbm&lt;/code&gt; aims to replace &lt;code&gt;xrdb&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>C&#43;&#43; Prelude</title>
-      <link>https://stau.space/posts/cpp-prelude/</link>
-      <pubDate>Mon, 08 Jan 2024 18:04:59 -0400</pubDate>
-      <guid>https://stau.space/posts/cpp-prelude/</guid>
-      <description>&lt;p&gt;Modern C++ makes me sad when I look at it. So this is my attempt to change&#xA;several of the defaults we use to code in C++. Additionally, several features&#xA;that are missing in the language (but enabled through obscure compiler macros&#xA;and directives) are enabled.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fractal Renderer</title>
-      <link>https://stau.space/posts/mandelbrot/</link>
-      <pubDate>Fri, 24 Nov 2023 21:28:33 -0400</pubDate>
-      <guid>https://stau.space/posts/mandelbrot/</guid>
-      <description>&lt;p&gt;Mandelbrot fractal research repo&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://stau.space/posts/mandelbrot/mandelbrot.png&#34; alt=&#34;1.5K mandelbrot image.&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>We Lost the ICPC Regionals</title>
-      <link>https://stau.space/posts/icpc-regionals/</link>
-      <pubDate>Sat, 21 Oct 2023 22:00:00 -0400</pubDate>
-      <guid>https://stau.space/posts/icpc-regionals/</guid>
-      <description>&lt;p&gt;We lost the ICPC Regionals!!&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My website!</title><link>https://stau.space/posts/</link><description>Recent content in Posts on My website!</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Jul 2025 18:56:46 -0400</lastBuildDate><atom:link href="https://stau.space/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>¡Feliz Cumpleaños Izánder!</title><link>https://stau.space/posts/hbd/</link><pubDate>Mon, 07 Jul 2025 18:56:46 -0400</pubDate><guid>https://stau.space/posts/hbd/</guid><description>&lt;dialog id="hintbox" style="position:absolute;top:0.5vw">&lt;div id="hintboxmsg">&lt;/div>&lt;form method="dialog">&lt;button>Close.&lt;/button>&lt;/form>&lt;/dialog>
+&lt;script>
+function answer(id, answer, location, event) {
+ if (event == null || event.code == "Enter") {
+ if (id.value.toUpperCase() == answer.toUpperCase()) {
+ hintboxmsg.innerHTML = `
+ &lt;h2>You did it!&lt;/h2>
+ Tu regalo está en: ${location}
+ `;
+ hintbox.showModal();
+ if (id == riddle1) {
+ second.hidden = false;
+ } else if (id == riddle2) {
+ third.hidden = false;
+ } else if (id == riddle3) {
+ hintboxmsg.innerHTML = `
+ &lt;h2>Felicidades, te amo Izánder y espero que hayas pasado un día bonito. :)&lt;/h2>
+ Tu último regalo está: ${location}
+ `;
+ hintbox.showModal();
+ }
+ } else if (id == riddle2) {
+ hint2.hidden = false;
+ }
+ }
+}
+
+function hint(msg) {
+ hintboxmsg.innerHTML = msg;
+ hintbox.showModal();
+}
+&lt;/script>
+&lt;h1 id="primer-riddle">Primer Riddle&lt;/h1>
+&lt;p>I have no door, but I open and close.&lt;/p></description></item><item><title>nasin toki</title><link>https://stau.space/posts/tok-style/</link><pubDate>Thu, 12 Jun 2025 20:27:45 -0400</pubDate><guid>https://stau.space/posts/tok-style/</guid><description>&lt;h1 id="toki-a">toki a&lt;/h1>
+&lt;p>This is my &lt;code>nasin&lt;/code> for writing &lt;span class="sp">toki-pona&lt;/span>.
+My &lt;code>nasin&lt;/code> includes things meant for better typesetting, improved readability of text, and preserving the generally artistic nature of &lt;span class="sp">toki-pona&lt;/span> whether that is in &lt;span class="sp">sitelen-pona&lt;/span> or &lt;code>sitilen Lasina&lt;/code>.&lt;/p>
+&lt;h2 id="ala-la">ala la&lt;/h2>
+&lt;p>Most of the readability that I talk about boils down to &amp;ldquo;put stuff that&amp;rsquo;s similar together&amp;rdquo;.
+When dealing with multiple subjects, several headnouns or verbs, your text might get cluttered and you might end up with a huge paragraph of text.
+This can be readable, but it doesn&amp;rsquo;t have to be this way.
+Specially in &lt;span class="sp">sitelen-pona&lt;/span> where horizontal and vertical spaces and symmetry are significant to the piece of text you are writing about.&lt;/p></description></item><item><title>toki pi kulupu pini</title><link>https://stau.space/posts/kulupu-pini/</link><pubDate>Mon, 20 Jan 2025 07:50:59 -0400</pubDate><guid>https://stau.space/posts/kulupu-pini/</guid><description>&lt;p>The Cult of Done is a manifesto written by Bre Pettis with Kio Stark in August of 2016.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13">English manifesto&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>The Monospace Web</title><link>https://stau.space/posts/the-monospace-web/</link><pubDate>Mon, 23 Dec 2024 13:38:04 -0400</pubDate><guid>https://stau.space/posts/the-monospace-web/</guid><description>&lt;p>I know lots of places on this website say &amp;ldquo;This is my website&amp;rdquo;, &amp;ldquo;Hello there,
+this is my stuff&amp;rdquo;, and other messages that might imply that all of the things
+presented here are my personal work. Hopefully I&amp;rsquo;ve been clear enough in giving
+credit where credit is due. In this case I actually want to give a shoutout to
+Oskar Wickström the original creator of 95% of this template.
+You can see their original site at &lt;a href="https://owickstrom.github.io/the-monospace-web/">The Monospace Web&lt;/a>.&lt;/p></description></item><item><title>A Monad Is Not A Burrito</title><link>https://stau.space/posts/burritos/</link><pubDate>Sat, 21 Dec 2024 10:34:47 -0400</pubDate><guid>https://stau.space/posts/burritos/</guid><description>&lt;p>Repeat after me:&lt;/p>
+&lt;blockquote>
+&lt;p>A monad is &lt;em>NOT&lt;/em> a burrito.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>A monad is &lt;em>NOT&lt;/em> a taco.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>A monad is &lt;em>NOT&lt;/em> a wrapper.&lt;/p>
+&lt;/blockquote></description></item><item><title>Licker</title><link>https://stau.space/posts/licker/</link><pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate><guid>https://stau.space/posts/licker/</guid><description>&lt;h1 id="behold-the-licker">Behold The Licker&lt;/h1>
+&lt;p>The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p></description></item><item><title>Archiver</title><link>https://stau.space/posts/archiver/</link><pubDate>Sun, 08 Dec 2024 20:20:32 -0400</pubDate><guid>https://stau.space/posts/archiver/</guid><description>&lt;p>Want to archive folders however you want?&lt;/p></description></item><item><title>Translations</title><link>https://stau.space/posts/stuff/</link><pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate><guid>https://stau.space/posts/stuff/</guid><description>&lt;p>Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p></description></item><item><title>AOC day 1</title><link>https://stau.space/posts/aoc-2024-day1/</link><pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate><guid>https://stau.space/posts/aoc-2024-day1/</guid><description>&lt;span class="sp">
+ wan wan. &lt;br>
+ zz pana pi (toki tawa lipu) li nasin lipu tu e wan. &lt;br>
+ zz pana pi (toki tawa lipu) li suli. &lt;br>
+&lt;/span>
+&lt;span class="sp">
+ zz poka li sin pana ala li nanpa sewi e luka. &lt;br>
+ zz ale li sin pana. &lt;br>
+&lt;/span>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bqn" data-lang="bqn">&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nf">⍉&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">&lt;span class="sp">pana&lt;/span>&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="kp">⟨&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟨&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">4&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">5&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">9&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟩&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟨&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">4&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟩&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟩&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nf">∧&lt;/span>&lt;span class="o">˘&lt;/span>&lt;span class="nf">⍉&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">&lt;span class="sp">pana&lt;/span>&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="kp">⟨&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟨&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">4&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">5&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">9&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟩&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟨&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">4&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟩&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟩&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nf">|-&lt;/span>&lt;span class="o">˝&lt;/span>&lt;span class="nf">∧&lt;/span>&lt;span class="o">˘&lt;/span>&lt;span class="nf">⍉&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">&lt;span class="sp">pana&lt;/span>&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="kp">⟨&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">5&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kp">⟩&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nf">+&lt;/span>&lt;span class="o">´&lt;/span>&lt;span class="nf">|-&lt;/span>&lt;span class="o">˝&lt;/span>&lt;span class="nf">∧&lt;/span>&lt;span class="o">˘&lt;/span>&lt;span class="nf">⍉&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nf">&lt;span class="sp">pana&lt;/span>&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="m">9&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>AOC day 2</title><link>https://stau.space/posts/aoc-2024-day2/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><guid>https://stau.space/posts/aoc-2024-day2/</guid><description/></item><item><title>Zig CTFP</title><link>https://stau.space/posts/zig-ctfp/</link><pubDate>Wed, 07 Aug 2024 11:38:20 -0400</pubDate><guid>https://stau.space/posts/zig-ctfp/</guid><description>&lt;p>Let this blog post be living proof that Zig is in fact also a functional
+programming language.&lt;/p></description></item><item><title>Hare Rope</title><link>https://stau.space/posts/hare-rope/</link><pubDate>Mon, 27 May 2024 21:10:02 -0400</pubDate><guid>https://stau.space/posts/hare-rope/</guid><description>&lt;p>A Rope is a data structure that manages an ordered set of characters. Just like
+a string!&lt;/p></description></item><item><title>R. O. N. DB Manager</title><link>https://stau.space/posts/rdbm/</link><pubDate>Sun, 31 Mar 2024 13:32:48 -0400</pubDate><guid>https://stau.space/posts/rdbm/</guid><description>&lt;!-- LTeX: language=en,es -->
+&lt;p>&lt;strong>rdbm&lt;/strong> is a rust program for getting and setting a custom ron resource file.&lt;/p>
+&lt;p>Similar to &lt;code>.Xresources&lt;/code>, &lt;code>rdbm&lt;/code> will create a &lt;code>resources.ron&lt;/code> in your &lt;code>~/.config/&lt;/code> directory.
+You can then use &lt;code>rdbm&lt;/code> to set multiple &amp;ldquo;key-value&amp;rdquo; pairs similar to &lt;code>.Xresources&lt;/code>.
+In this case &lt;code>rdbm&lt;/code> aims to replace &lt;code>xrdb&lt;/code>.&lt;/p></description></item><item><title>C++ Prelude</title><link>https://stau.space/posts/cpp-prelude/</link><pubDate>Mon, 08 Jan 2024 18:04:59 -0400</pubDate><guid>https://stau.space/posts/cpp-prelude/</guid><description>&lt;p>Modern C++ makes me sad when I look at it. So this is my attempt to change
+several of the defaults we use to code in C++. Additionally, several features
+that are missing in the language (but enabled through obscure compiler macros
+and directives) are enabled.&lt;/p></description></item><item><title>Fractal Renderer</title><link>https://stau.space/posts/mandelbrot/</link><pubDate>Fri, 24 Nov 2023 21:28:33 -0400</pubDate><guid>https://stau.space/posts/mandelbrot/</guid><description>&lt;p>Mandelbrot fractal research repo&lt;/p>
+&lt;p>&lt;img src="https://stau.space/posts/mandelbrot/mandelbrot.png" alt="1.5K mandelbrot image.">&lt;/p></description></item><item><title>We Lost the ICPC Regionals</title><link>https://stau.space/posts/icpc-regionals/</link><pubDate>Sat, 21 Oct 2023 22:00:00 -0400</pubDate><guid>https://stau.space/posts/icpc-regionals/</guid><description>&lt;p>We lost the ICPC Regionals!!&lt;/p></description></item></channel></rss>

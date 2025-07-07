@@ -1,24 +1,14 @@
 @font-face {
-    font-family: "Fairfax Pona HD";
-    src: url("/fonts/FairfaxPonaHD-patched.woff2") format("woff2");
+	font-family: "Fairfax Pona HD";
+	src: url("/fonts/FairfaxPonaHD-patched.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "sitelen pona pona";
-    src: url("/fonts/sitelen-pona-pona.woff2") format("woff2");
-}
-/* toki pona language support */
-.sitelen-pona {
-    font-style: normal
-    font-family: "Fairfax Pona HD",sans-serif;
-    font-size: 1.2em;
-    line-height: 1.2em;
+	font-family: "sitelen pona pona";
+	src: url("/fonts/sitelen-pona-pona.woff2") format("woff2");
 }
 
-.sitelen-pona-pona {
-    font-family: "sitelen pona pona" !important;
-    font-size: 24pt !important;
-    line-height: 1.2em !important;
-    text-rendering: optimizeLegibility !important;
-    font-feature-settings: "liga" 1 !important;
+@font-face {
+	font-family: "IBM Plex Mono";
+	src: url("/fonts/ibm-plex-mono-latin-400-normal.woff2") format("woff2")
 }
