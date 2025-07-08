@@ -4,7 +4,11 @@
             `,hintbox.showModal(),e==riddle1?second.hidden=!1:e==riddle2?third.hidden=!1:e==riddle3&&(hintboxmsg.innerHTML=`
                     <h2>Felicidades, te amo Izánder y espero que hayas pasado un día bonito. :)</h2>
                     Tu último regalo está: ${n}
-                    `,hintbox.showModal())):e==riddle2&&(hint2.hidden=!1))}function hint(e){hintboxmsg.innerHTML=e,hintbox.showModal()}</script><h1 id=primer-riddle>Primer Riddle</h1><p>I have no door, but I open and close.</p><p>What am I?</p><input id=riddle1 style=width:50% onkeyup='answer(riddle1,"drawer","la primera gaveta de Alys.",event)'>
+                    `,hintbox.showModal())):e==riddle2?(hintboxmsg.innerHTML=`
+                <h2>:( La sacaste mal.</h2>
+            `,hintbox.showModal(),hint2.hidden=!1):(hintboxmsg.innerHTML=`
+                <h2>:( La sacaste mal.</h2>
+            `,hintbox.showModal()))}function hint(e){hintboxmsg.innerHTML=e,hintbox.showModal()}</script><h1 id=primer-riddle>Primer Riddle</h1><p>I have no door, but I open and close.</p><p>What am I?</p><input id=riddle1 style=width:50% onkeyup='answer(riddle1,"drawer","la primera gaveta de Alys.",event)'>
 </input>
 <button onclick='answer(riddle1,"drawer","la primera gaveta de Alys.")'>Submit</button>
 <button onclick='hint("I keep your socks.")'>Hint</button><div id=second hidden><h1>Segundo Riddle</h1><p>I can fill a room, but I take up no space.</p><p>What am I?</p><input id=riddle2 style=width:50% onkeyup='answer(riddle2,"light","la silla de Sona.",event)'>
