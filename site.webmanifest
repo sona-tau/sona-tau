@@ -1,6 +1,6 @@
 {
-  "name": "stau.space",
-  "short_name": "stau",
+  "name": "Sona's Website",
+  "short_name": "sona",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#d0feff",
-  "background_color": "#d0feff",
+  "theme_color": "#eff1f5",
+  "background_color": "#eff1f5",
   "display": "standalone"
 }
