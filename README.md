@@ -1,5 +1,5 @@
-I am on SourceHut now!
-Check out my profile over there: https://sr.ht/~diego-est/
+I am on Tangled now!
+Check out my profile over there: https://tangled.org/stau.space
 
 
 ## Hello there
