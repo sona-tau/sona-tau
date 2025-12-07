@@ -1,9 +1,28 @@
-I am on Tangled now!
-Check out my profile over there: https://tangled.org/stau.space
-
+For my current projects please visit Tangled: https://tangled.org/stau.space
 
 # 💫 About Me:
-🐧 Linux and open source software are pretty awesome.<br>❤️ I love functional languages like APL, J, BQN and Haskell.<br>🏳️‍⚧️ Love your true self!<br>    This account is now read-only. For my current projects please visit Tangled: https://tangled.org/stau.space<br>
+
+Hi, I'm Sona Tau, a Computer Science and Mathematics undergrad student!
+
+Research topics:
+- Costas Arrays
+- Arithmetical Structures
+- MetaMathematics
+
+Interests:
+- formal verification
+- Category Theory
+- Linguistics
+- distributed systems
+- low-level programming
+
+Check out my projects in the pins!
+
+Also:
+- Issues/PRs should go on my [tangled profile](https://tangled.org/stau.space)
+- [e-mail](mailto:sona@stau.space)
+
+🏳️‍⚧️ Love your true self!
 
 
 ## 🌐 Socials:
