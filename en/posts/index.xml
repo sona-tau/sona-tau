@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on My website!</title><link>https://stau.space/en/posts/</link><description>Recent Posts in Posts on My website!</description><generator>Hugo 0.152.2</generator><language>en-US</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sat, 06 Dec 2025 20:04:38 -0400</lastBuildDate><atom:link href="https://stau.space/en/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Trivial toki pona Substitutions</title><link>https://stau.space/en/posts/ttps/</link><pubDate>Sun, 16 Nov 2025 17:23:50 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/en/posts/ttps/</guid><description>&lt;h1 id="toki-open"&gt;toki open&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on My website!</title><link>https://stau.space/en/posts/</link><description>Recent Posts in Posts on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sun, 07 Dec 2025 00:16:48 -0400</lastBuildDate><atom:link href="https://stau.space/en/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Trivial toki pona Substitutions</title><link>https://stau.space/en/posts/ttps/</link><pubDate>Sun, 16 Nov 2025 17:23:50 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/en/posts/ttps/</guid><description>&lt;h1 id="toki-open"&gt;toki open&lt;/h1&gt;
 &lt;p&gt;There is a family of programming languages that are called &amp;ldquo;Trivial Brainf*ck
 Substitutions&amp;rdquo; (TBFS for short). They basically take the 8 characters used in
 Brainf*ck and represent them using other strings of characters. This is (somewhat) the same idea behind sitelen pona and sitelen kuwi. I would even guess that it&amp;rsquo;s the same idea behind sitelen sitelen, but I don&amp;rsquo;t know enough yet about sitelen sitelen to make that conclusion.&lt;/p&gt;</description><content:encoded>&lt;h1 id="toki-open"&gt;toki open&lt;/h1&gt;
@@ -965,7 +965,7 @@ An example of this would be:&lt;/p&gt;
 &lt;code&gt;bool&lt;/code&gt;.
 In our category we will see this as an arrow being drawn from the dot that says
 &lt;code&gt;int&lt;/code&gt; to the dot that says &lt;code&gt;bool&lt;/code&gt; and that arrow&amp;rsquo;s name will be &lt;code&gt;is_even&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="./intro1.png" alt="Our new category"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stau.space/intro1.png" alt="Our new category"&gt;&lt;/p&gt;
 &lt;p&gt;Another example could be:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -982,7 +982,7 @@ In our category we will see this as an arrow being drawn from the dot that says
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;In which case our category would look like:&lt;/p&gt;
-&lt;p&gt;&lt;img src="./intro2.png" alt="Only forty two"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stau.space/intro2.png" alt="Only forty two"&gt;&lt;/p&gt;
 &lt;h1 id="a-functor-is-a-burrito"&gt;A functor is a burrito&lt;/h1&gt;
 &lt;p&gt;Don&amp;rsquo;t worry I will explain what a functor is in a moment.
 I want you to keep in the back of your mind the idea of a burrito: a tortilla
@@ -1060,12 +1060,12 @@ Our setup will now look like the following:&lt;/p&gt;
 &lt;li&gt;a type: &lt;code&gt;F a&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Our setup looks like this:
-&lt;img src="./sect2.1.png" alt="Setup"&gt;
+&lt;img src="https://stau.space/sect2.1.png" alt="Setup"&gt;
 The idea behind &lt;code&gt;fmap&lt;/code&gt; is that it puts the input side of &lt;code&gt;func&lt;/code&gt; inside the &lt;code&gt;F&lt;/code&gt;
 box that has an &lt;code&gt;a&lt;/code&gt; in it, &lt;code&gt;func&lt;/code&gt; will transform that &lt;code&gt;a&lt;/code&gt; into a &lt;code&gt;b&lt;/code&gt; inside that
 &lt;code&gt;F&lt;/code&gt; box, and that is what we want &lt;code&gt;fmap&lt;/code&gt; to do.
 Kind of like this:
-&lt;img src="./sect2.2.png" alt="fmap"&gt;&lt;/p&gt;
+&lt;img src="https://stau.space/sect2.2.png" alt="fmap"&gt;&lt;/p&gt;
 &lt;p&gt;Functors are very common in category theory.
 They might have a scary name but they are actually very simple building blocks
 used for other more complex category theory things.
@@ -1292,7 +1292,7 @@ Nevertheless, I just had to change a single environment variable to get it up an
 at the end of this.&lt;/li&gt;
 &lt;li&gt;Your &lt;code&gt;archives.json&lt;/code&gt; file is updated with all of the fresh timestamps and
 MD5-Sum.&lt;/li&gt;
-&lt;/ol&gt;</content:encoded><category>Project</category></item><item><title>Algorithms</title><link>https://stau.space/en/posts/algorithms/</link><pubDate>Sun, 08 Dec 2024 20:18:33 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/en/posts/algorithms/</guid><description>Villanova Summer REU</description><content:encoded>&lt;p&gt;So it was a fine summer morning.
+&lt;/ol&gt;</content:encoded><category>Projects</category></item><item><title>Algorithms</title><link>https://stau.space/en/posts/algorithms/</link><pubDate>Sun, 08 Dec 2024 20:18:33 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/en/posts/algorithms/</guid><description>Villanova Summer REU</description><content:encoded>&lt;p&gt;So it was a fine summer morning.
 Our research team was about to start our project &amp;ldquo;Counting Arithmetical Structures on Cycles with a Doubled Edge&amp;rdquo;.
 From the description of the project it is immediately obvious that this kind of counting can be done by brute force, and me being the only computer scientist in my group of mathematicians I start coding up a couple algorithms for this.&lt;/p&gt;
 &lt;p&gt;Given the fact this article&amp;rsquo;s thesis isn&amp;rsquo;t arithmetical structures or combinatorics, you can read more about those here:&lt;/p&gt;

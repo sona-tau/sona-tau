@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Projects on My website!</title><link>https://stau.space/en/categories/projects/</link><description>Recent Posts in Projects on My website!</description><generator>Hugo 0.152.2</generator><language>en-US</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sat, 06 Dec 2025 20:04:38 -0400</lastBuildDate><atom:link href="https://stau.space/en/categories/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Licker</title><link>https://stau.space/en/posts/licker/</link><pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/en/posts/licker/</guid><description>&lt;h1 id="behold-the-licker"&gt;Behold The Licker&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Projects on My website!</title><link>https://stau.space/en/categories/projects/</link><description>Recent Posts in Projects on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sun, 07 Dec 2025 00:16:48 -0400</lastBuildDate><atom:link href="https://stau.space/en/categories/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Licker</title><link>https://stau.space/en/posts/licker/</link><pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/en/posts/licker/</guid><description>&lt;h1 id="behold-the-licker"&gt;Behold The Licker&lt;/h1&gt;
 &lt;p&gt;The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p&gt;</description><content:encoded>&lt;h1 id="behold-the-licker"&gt;Behold The Licker&lt;/h1&gt;
 &lt;p&gt;The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;See it in action here:&lt;/p&gt;
@@ -10,7 +10,119 @@ I did enjoy how well documented the stdlib is and how much functionality it prov
 I have no idea why the default location for installing binaries with &lt;code&gt;go install&lt;/code&gt; is in &lt;code&gt;~/go&lt;/code&gt;.
 It would have been much nicer if it had asked me where it was going to start putting binaries first.
 Specially considering my home directory is a place where I do lots of things, it would not have been surprising to me if I had a folder named &lt;code&gt;go&lt;/code&gt; in home directory at any given time.
-Nevertheless, I just had to change a single environment variable to get it up and running in my preferred location: &lt;code&gt;$XDG_DATA_HOME/go&lt;/code&gt;.&lt;/p&gt;</content:encoded><category>Projects</category></item><item><title>Translations</title><link>https://stau.space/en/posts/stuff/</link><pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/en/posts/stuff/</guid><description>Random stuff I've translated to toki pona.</description><content:encoded>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;
+Nevertheless, I just had to change a single environment variable to get it up and running in my preferred location: &lt;code&gt;$XDG_DATA_HOME/go&lt;/code&gt;.&lt;/p&gt;</content:encoded><category>Projects</category></item><item><title>Archiver</title><link>https://stau.space/en/posts/archiver/</link><pubDate>Sun, 08 Dec 2024 20:20:32 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/en/posts/archiver/</guid><description>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;</description><content:encoded>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;
+&lt;h1 id="context"&gt;Context&lt;/h1&gt;
+&lt;p&gt;I had been trying to figure out a more efficient way of backing up directories on my computers. For example, I have a huge directory where my &lt;a href="https://obsidian.md/" target="_blank" rel="external noopener noreferrer nofollow"&gt;Obsidian&lt;/a&gt; vault lives. This vault is filled with a bunch of pdf and markdown files that I use for my everyday notes. &lt;em&gt;I do like keeping this folder backed up in case my laptop or PC dies.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The way I would backup this folder was by simply turning it into a GitHub repo and uploading everything privately to my GitHub account. This was not what GitHub was made for and I was nearing 2GB for the entire repo. It was time to search for a different solution.&lt;/p&gt;
+&lt;p&gt;Enter the infamous &lt;code&gt;xz&lt;/code&gt; vulnerability. This put compression libraries on my radar. So I decided to get the entire directory and compress it down using &lt;code&gt;xz&lt;/code&gt; and &lt;code&gt;gzip&lt;/code&gt;. I noticed that the compression on &lt;code&gt;xz&lt;/code&gt; was far better than &lt;code&gt;gzip&lt;/code&gt;. For my purposes I wanted to optimize for size at the cost of compression speed. Additionally the nice people at &lt;a href="https://reddit.com/r/DataHoarder" target="_blank" rel="external noopener noreferrer nofollow"&gt;r/DataHoarder&lt;/a&gt; had mentioned that a really cool software program called &lt;code&gt;par2&lt;/code&gt; was a thing. I could recover any amount I wanted from a specific file, using bit parity magic.&lt;/p&gt;
+&lt;p&gt;For my purposes, I want to store big directories as small as possible, store their MD5-Sum to make sure I can verify the files are correct, and store their parity file to be able to recover any part of them I want (up to 30% in my case). This is because sharing things on a local NAS or even with &lt;a href="https://syncthing.net/" target="_blank" rel="external noopener noreferrer nofollow"&gt;Syncthing&lt;/a&gt; this way would be very easy and efficient.&lt;/p&gt;
+&lt;p&gt;Some downsides to this system are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;xz&lt;/code&gt; is not as common as I thought and it&amp;rsquo;s been somewhat complicated to move files to systems that don&amp;rsquo;t have this utility.&lt;/li&gt;
+&lt;li&gt;Incremental backups are not possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;PS&lt;/em&gt;: I recognize that &lt;code&gt;xz&lt;/code&gt; might have vulnerabilities that might not be.&lt;/p&gt;
+&lt;h1 id="archiver"&gt;Archiver&lt;/h1&gt;
+&lt;p&gt;Archiver is a bash script that helps you backup whatever you want, however you want.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;archive.json&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;span class="lnt"&gt;23
+&lt;/span&gt;&lt;span class="lnt"&gt;24
+&lt;/span&gt;&lt;span class="lnt"&gt;25
+&lt;/span&gt;&lt;span class="lnt"&gt;26
+&lt;/span&gt;&lt;span class="lnt"&gt;27
+&lt;/span&gt;&lt;span class="lnt"&gt;28
+&lt;/span&gt;&lt;span class="lnt"&gt;29
+&lt;/span&gt;&lt;span class="lnt"&gt;30
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;Wallpapers&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;target&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;~/Media/Pictures/Wallpapers&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;archive&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;walls&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;destination&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;~/OneDrive/Wallpapers&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;timestamps&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;last_archive&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1712438594&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;last_upload&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1712438693&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;sync_command&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;onedrive --synchronize --single-directory &amp;#39;Wallpapers&amp;#39;&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;md5sum&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;6de26f11ad638fd145f3d1412e0bf1c6&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;Books&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;target&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;~/Documents/Books&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;archive&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;books&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;destination&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;~/OneDrive/Books&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;timestamps&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;last_archive&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1712439022&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;last_upload&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;1712439638&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;sync_command&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;onedrive --synchronize --single-directory &amp;#39;Books&amp;#39;&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;md5sum&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;b4ae6185bb5a20d19c0b30f9778a10cb&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;You specify list of attribute sets with three key parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;target&lt;/code&gt;: the target directory you wish to backup&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;archive&lt;/code&gt;: the name of the archive and where you want to store the archive&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sync_command&lt;/code&gt;: the command you wish to use to back up this specific directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other details like &lt;code&gt;timestamps&lt;/code&gt; and &lt;code&gt;name&lt;/code&gt; are useful for other purposes if you wish to climb under the hood to use them. The MD5-Sum is also useful if you wish to verify the legitimacy of your files after retrieving them.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PS:&lt;/em&gt; an example &lt;code&gt;archives.json&lt;/code&gt; is provided.&lt;/p&gt;
+&lt;h2 id="methodology"&gt;Methodology&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Your &lt;code&gt;target&lt;/code&gt; gets converted into a tarball.&lt;/li&gt;
+&lt;li&gt;That tarball is compressed into an &lt;code&gt;xz&lt;/code&gt; archive.
+&lt;ul&gt;
+&lt;li&gt;This format was chosen because of its excellent compression ratio.&lt;/li&gt;
+&lt;li&gt;Though in the future I would like to implement multiple formats for this.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A parity archive is created from that compressed tarball.
+&lt;ul&gt;
+&lt;li&gt;Uses the &lt;code&gt;par2cmdline&lt;/code&gt; utilities.&lt;/li&gt;
+&lt;li&gt;A single block file with 30% redundancy is created.&lt;/li&gt;
+&lt;li&gt;Additionally, you can use the index file that&amp;rsquo;s created but &lt;code&gt;par2&lt;/code&gt; doesn&amp;rsquo;t really need it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A unix timestamp and MD5-Sum is taken from the archived tarball.&lt;/li&gt;
+&lt;li&gt;Your &lt;code&gt;sync_command&lt;/code&gt; hook is run at the end and a secondary timestamp is taken
+at the end of this.&lt;/li&gt;
+&lt;li&gt;Your &lt;code&gt;archives.json&lt;/code&gt; file is updated with all of the fresh timestamps and
+MD5-Sum.&lt;/li&gt;
+&lt;/ol&gt;</content:encoded><category>Projects</category></item><item><title>Translations</title><link>https://stau.space/en/posts/stuff/</link><pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/en/posts/stuff/</guid><description>Random stuff I've translated to toki pona.</description><content:encoded>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;
 &lt;span lang="tok"&gt;
 ijo li ike tawa kulupu pi (pipi waso) la &lt;br&gt;
 ona li ike tawa pipi waso
