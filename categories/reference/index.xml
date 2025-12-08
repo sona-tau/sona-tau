@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Reference on My website!</title><link>https://stau.space/categories/reference/</link><description>Recent Posts in Reference on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sun, 07 Dec 2025 20:07:57 -0400</lastBuildDate><atom:link href="https://stau.space/categories/reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Nasin Toki</title><link>https://stau.space/posts/nasin-toki/</link><pubDate>Sat, 04 Oct 2025 16:29:43 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/nasin-toki/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="nasin-toki"&gt;nasin toki&lt;/h1&gt;
+&lt;p&gt;This is my nasin for writing toki pona. My nasin includes things meant for better typesetting, improved readability of text, and preserving the generally artistic nature of toki pona whether that is in sitelen pona or sitelen Lasina.&lt;/p&gt;
+&lt;h2 id="ala-la"&gt;ala la&lt;/h2&gt;
+&lt;p&gt;Most of the readability that I talk about boils down to:&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ Related things should be together.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;When dealing with multiple subjects, several headnouns or verbs, your text might get cluttered, and you might end up with a huge paragraph of text. This can be, and probably will be, readable, but it doesn’t have to be this way, and surely it could be better. Specially in sitelen pona where horizontal and vertical spaces and symmetry are significant to the piece of text you are writing about.&lt;/p&gt;
+&lt;h2 id="wan-la"&gt;wan la&lt;/h2&gt;
+&lt;p&gt;Let’s see an example about how to use la in a sentence.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ma ali la
+ jan li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: On all places of planet Earth, there are people.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When using la, I have found text to be a lot more readable when the next piece of text is on the next line and indented to the right.&lt;/p&gt;
+&lt;p&gt;You should also do this when using ni.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;mi kama sona e ni:
+ ma ali la
+ jan li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: I have recently learned this: on all places of planet Earth, there are people.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here I inserted a colon : after the ni. I don’t find this necessary for readability, but it makes the text look more formal, in my opinion. Use it as you deem necessary.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;NOTE&lt;/em&gt;: When writing ni in sitelen pona you should use the directional ni.&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ &lt;span lang="tok"&gt;mi kama sona e ni: ma ali la jan li lon.&lt;/span&gt;
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;You might have also noticed that this really only works if/when the font you are using has fixed-width letters and spaces (in other words, a monospaced font). For example, writing this sentence without a fixed-width font would look like this:&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;mi kama sona e ni:&lt;/p&gt;
+&lt;p&gt;ma ali la&lt;/p&gt;
+&lt;p&gt;jan li lon.&lt;/p&gt;
+
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;As you can see, the spacing between each letter is not consistent. This will be more apparent as we go on.&lt;/p&gt;
+&lt;h2 id="tu-la"&gt;tu la&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s see an example using en first:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;mi kama sona e ni:
+ ma ali la
+ jan
+ en soweli
+ en waso
+ en kala
+ en kasi li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: I have recently learned this: on all places of planet Earth, there are people, mammals, birds, fish, and plants.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We can start to see the benefits of this in sitelen pona.
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ &lt;span lang="tok"&gt;mi kama sona e ni: ma ali la jan en soweli en waso en kala en kili li lon.&lt;/span&gt;
+ &lt;blockquote&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;This lets the reader immediately find where all the headnouns are, as opposed to having all the headnouns interspersed inside the block of a paragraph.&lt;/p&gt;
+&lt;p&gt;These shouldn&amp;rsquo;t be hard and fast rules. Remember we are trying to optimize for readability. If at any moment these recommendations hinder readability, you should try something else. In that same manner, feel free to bend these recommendations if you feel like your situation is similar enough to what I have described previously.&lt;/p&gt;
+&lt;p&gt;For example, you can do the same using anu here.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ma ali la
+ jan li lon
+ anu soweli li lon
+ anu waso li lon
+ anu kala li lon
+ anu kasi li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: On all places of planet Earth, there are people or there are mammals or there are birds or there are fish or there are plants.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You could also do this with any word you feel like is repeated several times and could be aligned vertically. Some cases where this happens are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;li&lt;/li&gt;
+&lt;li&gt;headnouns&lt;/li&gt;
+&lt;li&gt;names&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tu-wan-la"&gt;tu wan la&lt;/h2&gt;
+&lt;p&gt;Names in toki pona have evolved over time. We have, slowly but surely, narrowed the general nasin that people use to write names. I would like to propose some more changes to this.&lt;/p&gt;
+&lt;p&gt;First, as you might have already noticed, I do not shy away from ASCII characters in toki pona that are not just the uppercase and lowercase Latin alphabet (e.g., like using : after ni or ending sentences with.). We can make use of other ASCII characters like we do in other languages.&lt;/p&gt;
+&lt;p&gt;When writing names in sitelen Lasina that people prefer to write with sitelen pona, I like surrounding different parts of the name using []. For example, imagine that the Lord of the Ring&amp;rsquo;s character Pippin likes writing their name in sitelen pona as the following.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jan Pipin&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I like writing names like this, like:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jan [pipi : n]&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If he wanted to include his last name, Took, as the following in sitelen pona.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jan Pipin Tuke&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then his name could look like &lt;code&gt;jan [pipi : n] [tu . ken .]&lt;/code&gt;. This way, we can also clearly see that Pippin&amp;rsquo;s name has two clauses: &lt;code&gt;[pipi : n]&lt;/code&gt; and &lt;code&gt;[tu . ken .]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This serves a dual purpose. Some sitelen pona fonts will actually render things between a pair of square brackets, &lt;code&gt;[]&lt;/code&gt;, inside a cartouche. Being completely honest, the original idea for this came from this use. While editing documents written in sitelen Lasina that would then be rendered as sitelen pona, I saw a very consistent use of this, and realized that it made reading names a lot more simple, for the tradeoff of using 2 non-standard ASCII characters. In my opinion, the tradeoff is worth it.&lt;/p&gt;
+&lt;h2 id="tu-wan-wan-la"&gt;tu wan wan la&lt;/h2&gt;
+&lt;p&gt;One more thing I&amp;rsquo;d like to add while talking about names is, and this is just me using this space to vent about a pet-peeve of mine:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;*&lt;em&gt;&lt;strong&gt;Please do not automatically translate someone&amp;rsquo;s name into sitelen pona.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In the previous section I stated that Pippin enjoys writing his name in sitelen pona and I converted it back to sitelen Lasina in a way that sort of preserves the intent behind the symbols that Pippin uses. If you go the other way around, and translate a sitelen Lasina name into sitelen pona by merely converting each Latin character to some pre-selected sitelen pona symbol, I think this is wrong.&lt;/p&gt;
+&lt;p&gt;To me, this seems very disrespectful, and really undermines the beauty of sitelen pona. To me, names hold a very significant amount of value, and that obviously doesn&amp;rsquo;t have to be true to you. But, to people who do care, simply asking how they prefer to write their name makes a world of difference (and you also get to show kindness towards someone else, which is always nice).&lt;/p&gt;
+&lt;p&gt;If I could, I would have asked J.R.R. Tolkien how Pippin would have enjoyed writing his name in sitelen pona, but unfortunately I can&amp;rsquo;t really do that anymore.&lt;/p&gt;
+&lt;p&gt;To conclude this section, I made this diagram.
+Basically, always ask the person or group the name refers to, unless you are converting from some other language to sitelen Lasina, which should be done using tokiponization or if you are converting from sitelen pona to sitelen Lasina, which should be done with the process I described.&lt;/p&gt;
+&lt;h2 id="tu-tu-la"&gt;tu tu la&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s look at the following sentence.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ilo pi linluwi mun pi loje suno li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I won&amp;rsquo;t translate this into English yet in order to make a point. In this sentence, is the ilo a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;linluwi mun&lt;/code&gt; (satellite in orbit) that is also &lt;code&gt;loje suno&lt;/code&gt; (bright red)&lt;/li&gt;
+&lt;li&gt;combined: a bright red satellite in orbit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Or is it a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;linluwi&lt;/code&gt; (internet device) that is &lt;code&gt;mun&lt;/code&gt; (can communicate with satellites) and is also &lt;code&gt;loje suno&lt;/code&gt; (bright red)&lt;/li&gt;
+&lt;li&gt;combined: a bright red satellite phone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a rhetorical question, there cannot really be an answer without having me give more context about the situation. Which is an “Okay” situation to be in, but it doesn&amp;rsquo;t have to be this way either.&lt;/p&gt;
+&lt;p&gt;Using the previous section as inspiration, it seems like many sitelen pona fonts render the long pi when you surround a word using &lt;code&gt;()&lt;/code&gt;. This would get rid of the ambiguity completely. So, the two versions of the previous sentences are.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ilo pi (linluwi mun) pi (loje suno) li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: The bright red satellite is above us.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ilo pi (linluwi mun pi (loje suno)) li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: Here is the bright red satellite phone.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I can recognize that some people simply don&amp;rsquo;t like using many pi for fear of creating phrases that are too big. Since this article focuses on creating pieces of text that are readable, I also agree with this. Use them sparingly and make sure that you know why you are using them.&lt;/p&gt;
+&lt;p&gt;&amp;ndash; &lt;code&gt;jan [sona :]&lt;/code&gt;&lt;/p&gt;</content:encoded><category>Reference</category></item><item><title>nasin toki</title><link>https://stau.space/posts/tok-style/</link><pubDate>Thu, 12 Jun 2025 20:27:45 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-style/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="toki-a"&gt;toki a&lt;/h1&gt;
+&lt;p&gt;This is my &lt;code&gt;nasin&lt;/code&gt; for writing &lt;span lang="tok"&gt;toki-pona&lt;/span&gt;.
+My &lt;code&gt;nasin&lt;/code&gt; includes things meant for better typesetting, improved readability of text, and preserving the generally artistic nature of &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; whether that is in &lt;span lang="tok"&gt;sitelen-pona&lt;/span&gt; or &lt;code&gt;sitilen Lasina&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="ala-la"&gt;ala la&lt;/h2&gt;
+&lt;p&gt;Most of the readability that I talk about boils down to &amp;ldquo;put stuff that&amp;rsquo;s similar together&amp;rdquo;.
+When dealing with multiple subjects, several headnouns or verbs, your text might get cluttered and you might end up with a huge paragraph of text.
+This can be readable, but it doesn&amp;rsquo;t have to be this way.
+Specially in &lt;span lang="tok"&gt;sitelen-pona&lt;/span&gt; where horizontal and vertical spaces and symmetry are significant to the piece of text you are writing about.&lt;/p&gt;
+&lt;h2 id="wan-la"&gt;wan la&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s see an example of using &lt;code&gt;la&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;
+ma ali la
+ jan li lon.
+&lt;/pre&gt;
+&lt;p&gt;When using &lt;code&gt;la&lt;/code&gt;, I have found text to be a lot more readable when the next piece of text is on the next line and indented to the right.&lt;/p&gt;
+&lt;p&gt;You should also do this when using &lt;code&gt;ni&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;
+mi kama sona e ni:
+ ma ali la
+ jan li lon.
+&lt;/pre&gt;
+&lt;p&gt;Here I inserted a colon &lt;code&gt;:&lt;/code&gt; after the &lt;code&gt;ni&lt;/code&gt;.
+I don&amp;rsquo;t find this necessary for readability but it makes the text look more formal in my opinion.
+Use it as you deem necessary.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;NOTE&lt;/em&gt;: When writing &lt;code&gt;ni&lt;/code&gt; in &lt;span lang="tok"&gt;sitelen-pona&lt;/span&gt; you should use the directional &lt;code&gt;ni&lt;/code&gt;.&lt;/p&gt;
+&lt;span lang="tok"&gt;
+mi kama sona e ni8 zz&lt;br&gt;
+&amp;#12288;ma ali la zz&lt;br&gt;
+zz zz jan li lon.
+&lt;/span&gt;
+&lt;p&gt;&lt;code&gt;ni&lt;/code&gt; should point in the direction to what you are referring to.
+This becomes specially helpful in sentences where you want to talk about &amp;ldquo;this&amp;rdquo; and &amp;ldquo;that&amp;rdquo; but can only use &lt;code&gt;ni&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="tu-la"&gt;tu la&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s see an example using &lt;code&gt;en&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;
+mi kama sona e ni:
+ ma ali la
+ jan
+ en soweli
+ en waso
+ en kala
+ en kasi li lon.
+&lt;/pre&gt;
+&lt;p&gt;When using &lt;code&gt;en&lt;/code&gt;, try aligning each occurrence of &lt;code&gt;en&lt;/code&gt; with each other.
+Another example of this can be,&lt;/p&gt;
+&lt;pre&gt;
+mi kama sona e ni:
+ ma ali la
+ jan en
+ soweli en
+ waso en
+ kala en
+ kasi li lon.
+&lt;/pre&gt;
+&lt;p&gt;This looks way better is &lt;span lang="tok"&gt;sitelen-pona&lt;/span&gt;&lt;/p&gt;
+&lt;span lang="tok"&gt;
+mi kama sona e ni zz &lt;br&gt;
+zz ma ali la
+&lt;/span&gt;
+&lt;p&gt;This lets the reader simply glance over all the headnouns and find the important parts of the sentence easier.&lt;/p&gt;
+&lt;p&gt;You can do this with &lt;code&gt;anu&lt;/code&gt; too:&lt;/p&gt;
+&lt;pre&gt;
+&gt; ma ali la
+&gt; jan li lon
+&gt; anu soweli li lon
+&gt; anu waso li lon
+&gt; anu kala li lon
+&gt; anu kasi li lon
+&lt;/pre&gt;
+&lt;p&gt;This sentence, has a different meaning, and also &lt;em&gt;feels&lt;/em&gt; a lot different.&lt;/p&gt;
+&lt;h2 id="tu-wan-la"&gt;tu wan la&lt;/h2&gt;
+&lt;p&gt;When using &lt;code&gt;ni&lt;/code&gt;,&lt;/p&gt;
+&lt;pre&gt;
+lipu ni: mi sitelen nasin lon toki pona.
+
+n la
+ o lukin e ni:
+ mi kepeken linluwi leko
+ en mi kama sona e ni:
+ ma ali la
+ jan li lon
+ anu soweli li lon
+ anu waso li lon
+ anu kala li lon
+ anu kasi li lon.
+
+ ni li nasin mi:
+ mi kepeken nimi La la
+ mi kepeken weka.
+ mi kepeken toki mi.
+ mi toki e ni:
+ te ma ali la
+ jan li lon to.
+ mi kepeken nimi En
+
+n la
+ sina kepeken nimi En la
+ tenpo linja pini la
+ sina sitelen weka
+ en sina sitelen nimi En
+ en sina sitelen nimi wile.
+
+n la
+ sina kepeken nimi Pi la
+ sina kepeken sitelen "("
+ en sina kepeken sitelen ")".
+&lt;/pre&gt;
+&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>Mathematics in toki pona</title><link>https://stau.space/posts/tok-mat-faq/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-mat-faq/</guid><description>seme</description><content:encoded>&lt;h1 id="faq"&gt;FAQ&lt;/h1&gt;
+&lt;p&gt;Frequently asked questions about &lt;a href="https://stau.space/posts/tok-mat/"&gt;&lt;span lang="tok"&gt;toki pi (nasin nanpa)&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Why not use &lt;span lang="tok"&gt;ijo&lt;/span&gt; symbol instead of &lt;span lang="tok"&gt;ijo&lt;/span&gt; symbol?&lt;/h3&gt;
+&lt;section&gt;
+These are NOT the only symbols you can use for this.
+Far from it, in fact.
+&lt;ul&gt;
+&lt;li&gt;It would make more intuitive sense to use &lt;span lang="tok"&gt;wan&lt;/span&gt; for addition, but then using &lt;span lang="tok"&gt;tu&lt;/span&gt; for subtraction could sound strange.&lt;/li&gt;
+&lt;li&gt;You could use &lt;span lang="tok"&gt;sin&lt;/span&gt; instead for multiplication or addition.&lt;/li&gt;
+&lt;li&gt;You could use &lt;span lang="tok"&gt;ala&lt;/span&gt; for subtraction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;h3&gt;The symbols you chose are weird.&lt;/h3&gt;
+&lt;section&gt;
+I really think this is not as important as people make it out to be.
+If you think there is a difference between multiplication and addition, let me remind you that
+&lt;p&gt;[(\mathbb{R}_{&amp;gt; 0}, \times) \cong (\mathbb{R}, +).]&lt;/p&gt;
+&lt;/section&gt;
+&lt;h3&gt;Why did you choose those symbols in specific?&lt;/h3&gt;
+&lt;section&gt;
+A distinction that I would like to make clear is that, in the language of Mathematics, there is a general difference between the "product" and "sum" of something.
+I think this is best expressed in examples:
+&lt;ul&gt;
+&lt;li&gt;algebra of sets:
+&lt;ul&gt;
+&lt;li&gt;(A \cap B) := product&lt;/li&gt;
+&lt;li&gt;(A \cup B) := sum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;boolean logic:
+&lt;ul&gt;
+&lt;li&gt;(a \land b) := product&lt;/li&gt;
+&lt;li&gt;(a \lor b) := sum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;order theory:
+&lt;ul&gt;
+&lt;li&gt;(\inf{a, b}) := product&lt;/li&gt;
+&lt;li&gt;(\sup{a, b}) := sum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;algebraic data types (Haskell):
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;(a, b)&lt;/code&gt; := product&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;a | b&lt;/code&gt; := sum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Boolean logic, being the closest to natural language in my opinion, has the clearest example of what a general &amp;ldquo;product&amp;rdquo; and &amp;ldquo;sum&amp;rdquo; expresses.
+The &amp;ldquo;product&amp;rdquo; should express the notion of &amp;ldquo;both&amp;rdquo; things and &amp;ldquo;sum&amp;rdquo; should express the notion of &amp;ldquo;either&amp;rdquo; things.&lt;/p&gt;
+&lt;p&gt;With this in mind,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I am using &lt;span lang="tok"&gt;namako&lt;/span&gt; for addition because it expresses &amp;ldquo;additonal&amp;rdquo; or &amp;ldquo;extra&amp;rdquo; things.&lt;/li&gt;
+&lt;li&gt;I am using &lt;span lang="tok"&gt;weka&lt;/span&gt; for subtraction because of the dual reasons of &lt;span lang="tok"&gt;namako&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;I am using &lt;span lang="tok"&gt;wan&lt;/span&gt; for multiplication because it expresses the idea of &amp;ldquo;both&amp;rdquo; things that a &amp;ldquo;product&amp;rdquo; should express.&lt;/li&gt;
+&lt;li&gt;I am using &lt;span lang="tok"&gt;tu&lt;/span&gt; for division because of the dual reasons of &lt;span lang="tok"&gt;wan&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;h3&gt;Isn't it confusing that &lt;span lang="tok"&gt;wan&lt;/span&gt; and &lt;span lang="tok"&gt;tu&lt;/span&gt; refer to a number and an operation?&lt;/h3&gt;
+Yes.
+&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>Mathematics in toki pona</title><link>https://stau.space/posts/tok-mat/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-mat/</guid><description>o sina sona e nanpa!</description><content:encoded>&lt;p&gt;&lt;span class="tok"&gt;nasin nanpa lon toki-pona&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The language toki pona (&lt;span lang="tok"&gt;toki-pona&lt;/span&gt;) lacks a lot of common mathematical definitions.
+Although this is on purpose, I do enjoy talking about mathematics.
+In a language where kindness and compassion is so prevalent I see no reason why to avoid talking about something I feel so passionate about.
+Then, here is my documentation for how to speak about common mathematical terms.&lt;/p&gt;
+&lt;h1 id="始めます"&gt;始めます&lt;/h1&gt;
+&lt;p&gt;In &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; we have the general notion of numbers as defined in &lt;a href="https://sona.pona.la/wiki/Number_systems" target="_blank" rel="external noopener noreferrer nofollow"&gt;&amp;ldquo;nasin nanpa pona&amp;rdquo;&lt;/a&gt; (&lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt;).
+I will perhaps go through the core ideas of this number system later.
+For now, keep in mind that it is a very simple number system.
+In this document I attempt to talk about complex mathematical concepts in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt;.
+That means that in order to read this, you must be aware of how &lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt; works.
+Again, it is a very simple system and I highly encourage you to read up on it if you haven&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;There is no need to reinvent the wheel, specially in mathematics.
+I will use the standard mathematical symbols to refer to the four basic operations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(a + b) addition&lt;/li&gt;
+&lt;li&gt;(a - b) subtraction&lt;/li&gt;
+&lt;li&gt;(a \times b) multiplication&lt;/li&gt;
+&lt;li&gt;(\frac{a}{b}) division&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other common ascii symbols that I refer to are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system" target="_blank" rel="external noopener noreferrer nofollow"&gt;Hindu-Arabic numeral system&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;equality&lt;/li&gt;
+&lt;li&gt;exponentiation&lt;/li&gt;
+&lt;li&gt;parentheses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The reason for this is that, personally, I consider mathematics to be its own language.
+Talking about Mathematics (the language) in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; should be the same as talking about any other language in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt;.
+The language of Mathematics has its own culture and conventions and, depending on where on the planet you grew up in, your ideas about Mathematics can be different.
+Knowing this, I fully expect that different people will have different opinions on how Mathematics in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; should be spoken.&lt;/p&gt;
+&lt;p&gt;To learn more, check out the following links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://stau.space/posts/tok-mat/faq/"&gt;Frequently Asked Questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sona.pona.la/wiki/Number_systems" target="_blank" rel="external noopener noreferrer nofollow"&gt;toki pona number systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sona.pona.la/wiki/nasin_nanpa_pona" target="_blank" rel="external noopener noreferrer nofollow"&gt;nasin nanpa pona&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From here on out, I will be using the &lt;a href="https://sona.pona.la/wiki/nasin_nanpa_pona" target="_blank" rel="external noopener noreferrer nofollow"&gt;&amp;quot;&lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt;&amp;quot;&lt;/a&gt; number system.&lt;/p&gt;
+&lt;details&gt;
+ &lt;summary&gt;&lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt;&lt;/summary&gt;
+ I would much rather use &lt;a href="https://seximal.net"&gt;seximal&lt;/a&gt; for this.
+ However, most people use &lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt; and since I want this to be digestable to the most amount of people, I shall use that instead.
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;h2 class="sp2"&gt;toki open a&lt;/h2&gt;
+&lt;section class="sp"&gt;
+zz nanpa li lon mute. &lt;br&gt;
+zz kili 5 &lt;br&gt;
+en soweli wan &lt;br&gt;
+en lipu 31415 &lt;br&gt;
+en nanpa li lon e ma ali. &lt;br&gt;
+&lt;br&gt;
+nanpa li lon ala la &lt;br&gt;
+mi en sina en ona en ali li toki-pona ala. &lt;br&gt;
+&lt;br&gt;
+ni3 la nanpa li suli suli. &lt;br&gt;
+kin la nanpa li pona suli tawa oko en lawa. &lt;br&gt;
+&lt;br&gt;
+o sina sona e nanpa a zz
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 class="sp2"&gt;wan la toki pi (nasin nanpa)&lt;/h2&gt;
+&lt;section class="sp"&gt;
+lawa suli li toki tawa ona zz la &lt;br&gt;
+lawa suli li jo e nanpa nasa la &lt;br&gt;
+o sina pali lon toki pi (nasin nanpa) tawa ni7. zz &lt;br&gt;
+&lt;br&gt;
+tu la toki pi (ijo nanpa). &lt;br&gt;
+nanpa ni3 la te 0 1 2 3 4 5 6 7 8 9 to. &lt;br&gt;
+zz nanpa te 0 to li sama nanpa ala zz&lt;br&gt;
+en nanpa te 1 to li sama nanpa wan zz &lt;br&gt;
+en nanpa te 2 to li sama nanpa tu zz &lt;br&gt;
+en nanpa te 3 to li sama nanpa tu wan zz &lt;br&gt;
+en nanpa te 4 to li sama nanpa tu tu zz &lt;br&gt;
+en nanpa te 5 to li sama nanpa luka zz &lt;br&gt;
+en nanpa te 6 to li sama nanpa luka wan zz &lt;br&gt;
+en nanpa te 7 to li sama nanpa luka tu zz &lt;br&gt;
+en nanpa te 8 to li sama nanpa luka tu wan zz &lt;br&gt;
+en nanpa te 9 to li sama nanpa luka tu tu. &lt;br&gt;
+&lt;br&gt;
+o lukin e ni5 la
+&lt;img src="us.svg"&gt;
+&lt;br&gt;
+zz sina jo e kili tu zz &lt;br&gt;
+en mi jo e kili wan.
+o lukin e ni5 la
+&lt;img src="we.svg"&gt;
+&lt;br&gt;
+sina en mi li jo e kili tu wan. &lt;br&gt;
+&lt;br&gt;
+zz nanpa te 10 to li sama nanpa luka luka zz &lt;br&gt;
+en nanpa te 11 to li sama nanpa luka luka wan zz &lt;br&gt;
+en nanpa te 12 to li sama nanpa luka luka tu zz &lt;br&gt;
+en nanpa te 13 to li sama nanpa luka luka tu wan zz &lt;br&gt;
+zz . &lt;br&gt;
+zz . &lt;br&gt;
+zz . &lt;br&gt;
+nasin ni3 li sin. ni3 sama nanpa lon toki-pona.
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 class="sp2"&gt;tu wan la sama en namako en weka lon toki pi (nasin nanpa)&lt;/h2&gt;
+&lt;section class="sp"&gt;
+sama li sama te = to lon toki pi (nasin nanpa). &lt;br&gt;
+kon te = to li pona mute. kon te = to li sama kon sama. &lt;br&gt;
+o lukin e ni. &lt;br&gt;
+tu tu sama tu tu. &lt;br&gt;
+&lt;br&gt;
+namako li sama te + to lon toki pi (nasin nanpa). &lt;br&gt;
+o sina jo e ijo wan en ijo tu la &lt;br&gt;
+zz ijo wan namako ijo tu sama e ni2 ijo wan en ijo tu li pali wan. &lt;br&gt;
+&lt;br&gt;
+o lukin e ni. &lt;br&gt;
+zz tu zz namako wan zz zz zz sama tu wan. &lt;br&gt;
+zz luka zz namako tu tu zz zz sama luka tu tu. &lt;br&gt;
+zz tu wan namako tu wan namako luka sama luka luka wan. &lt;br&gt;
+ni3 li lukin e ni lon toki pi (nasin nanpa).
+\[
+ 2 + 1 = 3.
+\]
+\[
+ 5 + 4 = 9.
+\]
+\[
+ 3 + 3 + 5 = 11.
+\]
+&lt;br&gt;
+weka li sama te - to lon toki pi (nasin nanpa). &lt;br&gt;
+o sina jo e ijo wan en ijo tu la &lt;br&gt;
+zz ijo wan weka ijo tu sama e ni2 ijo wan en ijo tu li pali tu. &lt;br&gt;
+&lt;br&gt;
+o lukin e ni. &lt;br&gt;
+zz tu zz zz weka wan zz sama wan. &lt;br&gt;
+zz luka tu tu weka tu zz sama luka tu. &lt;br&gt;
+zz luka wan zz weka tu tu sama tu. &lt;br&gt;
+zz wan zz zz weka wan zz sama ala. &lt;br&gt;
+zz ala zz zz weka ala zz sama ala. &lt;br&gt;
+\[
+ 2 - 1 = 1.
+\]
+\[
+ 9 - 2 = 7.
+\]
+\[
+ 6 - 4 = 2.
+\]
+\[
+ 1 - 1 = 0.
+\]
+\[
+ 0 - 0 = 0.
+\]
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 class="sp2"&gt;tu tu la nanpa anpa en nanpa sewi2&lt;/h2&gt;
+&lt;section class="sp"&gt;
+nanpa weka li suli. &lt;br&gt;
+o lawa e ni. &lt;br&gt;
+zz toki pi (nasin nanpa) li lon la &lt;br&gt;
+\[
+ 8 - 4 = 8 + (-4).
+\]
+\[
+ 8 + 4 = 8 + (+ 4).
+\]
+zz nanpa te \(-4\) to li sama nanpa pi (anpa tu tu) &lt;br&gt;
+en nanpa te \(+4\) to li sama nanpa pi (sewi2 tu tu). &lt;br&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 class="sp2"&gt;luka la nasin lon toki pi (nasin nanpa)&lt;/h2&gt;
+&lt;section class="sp"&gt;
+sina lawa la &lt;br&gt;
+zz mi jo e sike tu tu. sina jo e sike luka. &lt;br&gt;
+zz jan seme li jo e sike mute. &lt;br&gt;
+&lt;br&gt;
+&lt;dialog id="tutupona"&gt;
+ sina pona. zz
+ &lt;form method="dialog"&gt;
+ &lt;button&gt;pini&lt;/button&gt;
+ &lt;/form&gt;
+&lt;/dialog&gt;
+&lt;dialog id="tutuike"&gt;
+ sina ike. o sin. zz
+ &lt;form method="dialog"&gt;
+ &lt;button&gt;pini&lt;/button&gt;
+ &lt;/form&gt;
+&lt;/dialog&gt;
+&lt;button style="font-family:'Fairfax Pona HD'" onclick="tutuike.showModal()"&gt;mi&lt;/button&gt;
+&lt;button onclick="tutupona.showModal()"&gt;sina&lt;/button&gt;
+&lt;br&gt;
+&lt;br&gt;
+tenpo ni3 li wile e nanpa sewi2 en nanpa anpa. &lt;br&gt;
+zz nanpa anpa li anpa e nanpa sewi2 zz &lt;br&gt;
+en nanpa sewi2 li sewi2 e nanpa anpa.
+&lt;/section&gt;
+&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>C++ Prelude</title><link>https://stau.space/posts/cpp-prelude/</link><pubDate>Mon, 08 Jan 2024 18:04:59 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/cpp-prelude/</guid><description>Sensible defaults for a very irrational language.</description><content:encoded>&lt;p&gt;Modern C++ makes me sad when I look at it. So this is my attempt to change
+several of the defaults we use to code in C++. Additionally, several features
+that are missing in the language (but enabled through obscure compiler macros
+and directives) are enabled.&lt;/p&gt;
+&lt;h1 id="project-page"&gt;&lt;a href="https://codeberg.org/stau/cpp-prelude" target="_blank" rel="external noopener noreferrer nofollow"&gt;project page&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="includes"&gt;Includes&lt;/h2&gt;
+&lt;p&gt;Several containers and algorithms can be included using the &lt;code&gt;CONTAINERS&lt;/code&gt; or
+&lt;code&gt;ALGORITHMS&lt;/code&gt; or &lt;code&gt;IO&lt;/code&gt; directive. I use these very frequently, others might not. For that
+reason they are opt-in. To enable them define the the containers or algorithms
+directive &lt;strong&gt;before&lt;/strong&gt; including the header.&lt;/p&gt;
+&lt;p&gt;Like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-cpp" data-lang="cpp"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#define CONTAINERS
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#define ALGORITHMS
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#define IO
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;#34;prelude.hpp&amp;#34;&lt;/span&gt;&lt;span class="cp"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The following containers are included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;unordered_map&lt;/li&gt;
+&lt;li&gt;unordered_set&lt;/li&gt;
+&lt;li&gt;queue&lt;/li&gt;
+&lt;li&gt;stack&lt;/li&gt;
+&lt;li&gt;list&lt;/li&gt;
+&lt;li&gt;span&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following algorithms are included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;algorithm&lt;/li&gt;
+&lt;li&gt;ranges&lt;/li&gt;
+&lt;li&gt;numeric&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following io headers are included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;format&lt;/li&gt;
+&lt;li&gt;fstream&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following headers are included by default:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cstdint&lt;/li&gt;
+&lt;li&gt;limits.h&lt;/li&gt;
+&lt;li&gt;iostream&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="types"&gt;Types&lt;/h2&gt;
+&lt;p&gt;A mix of the naming scheme in Rust and HolyC is very aesthetically pleasing.
+Types become terse with only the information you need at a first glance.
+Furthermore, for consistency, all types should begin with capital letters.&lt;/p&gt;
+&lt;h3 id="numeric-types"&gt;Numeric Types&lt;/h3&gt;
+&lt;h4 id="floats"&gt;Floats&lt;/h4&gt;
+&lt;p&gt;Most of the floating types that are mentioned in &lt;a href="https://en.wikipedia.org/wiki/IEEE_754" target="_blank" rel="external noopener noreferrer nofollow"&gt;IEEE 754&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Prelude&lt;/th&gt;
+ &lt;th&gt;Vanilla&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;BF16&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;F16&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;F32&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;float&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;D32&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;F64&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;double&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;D64&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;F80&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A or &lt;code&gt;long double&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;D128&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;F128&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Additional information on the &lt;a href="https://en.wikipedia.org/wiki/Bfloat16_floating-point_format" target="_blank" rel="external noopener noreferrer nofollow"&gt;brain floating data type&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Prelude&lt;/th&gt;
+ &lt;th&gt;Vanilla&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;Size&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;std::size_t&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;Int&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;U8&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;uint8_t&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;U16&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;uint16_t&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;U32&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;uint32_t&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;U64&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;uint64_t&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;U128&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;I8&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;int8_t&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;I16&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;int16_t&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;I32&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;int32_t&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;I64&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;int64_t&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;I128&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;These changes beg the question: What is wrong with &lt;code&gt;int&lt;/code&gt;?
+Well &lt;code&gt;int&lt;/code&gt; would be a perfectly valid type if C++ supported Big Integers like
+Java does. The problem is &lt;code&gt;int&lt;/code&gt; is fixed to a type that is &lt;em&gt;sometimes&lt;/em&gt; 32-bits
+and other times something else. I think this is very inelegant and needlessly
+terse. It is better to simply know what kind of integer and bit-width it takes
+up.&lt;/p&gt;
+&lt;p&gt;The only exception to this rule being &lt;code&gt;Size&lt;/code&gt; and &lt;code&gt;Int&lt;/code&gt;. For the former we want
+to preserve the ability to scale depending on what system runs the binary. For
+the latter we want to optimize the CI development cycle, so the less worries the
+better. If you want an &lt;code&gt;Int&lt;/code&gt; then have an &lt;code&gt;Int&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id="other-types"&gt;Other Types&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Prelude&lt;/th&gt;
+ &lt;th&gt;Vanilla&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;Unit&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;void&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;Void&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;Bool&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;bool&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;Char&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;char&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;Handle&amp;lt;T&amp;gt;&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;T*&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;Ref&amp;lt;T&amp;gt;&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;T&amp;amp;&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;Vector&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;std::vector&amp;lt;T&amp;gt;&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;String&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;std::string&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;CString&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;const char *&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;In most situations, it is clearer to write the type as a &lt;code&gt;Handle&amp;lt;T&amp;gt;&lt;/code&gt; than a &lt;code&gt;T*&lt;/code&gt;.
+Same goes for &lt;code&gt;Ref&amp;lt;T&amp;gt;&lt;/code&gt;.
+This also remains consistent with the implementation of smart pointers in the
+standard library, for example &lt;code&gt;std::unique_ptr&amp;lt;T&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;std::string_literals&lt;/code&gt; are enabled by default.&lt;/p&gt;
+&lt;h2 id="keywords"&gt;Keywords&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Prelude&lt;/th&gt;
+ &lt;th&gt;Vanilla&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;let&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;auto const&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;var&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;auto&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;fn&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;[[nodiscard, gnu::const]] auto&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;proc&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;[[nodiscard]] auto&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;ignored = foo();&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;static_cast&amp;lt;void&amp;gt;(foo());&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;fst&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;std::get&amp;lt;0&amp;gt;&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;snd&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;std::get&amp;lt;1&amp;gt;&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;thr&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;std::get&amp;lt;2&amp;gt;&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;You define terms as &lt;code&gt;let x = 0;&lt;/code&gt;. If you need the term to be of any specific
+numeric type then use suffixes like: &lt;code&gt;let x = 0u;&lt;/code&gt; (x is unsigned).
+If you need a variable term then use the &lt;code&gt;var&lt;/code&gt; keyword instead. The motivation
+for this is that you should prefer immutable terms before considering mutable
+variables.&lt;/p&gt;
+&lt;p&gt;All functions should be &lt;code&gt;[[nodiscard]]&lt;/code&gt; and be annotated with trailing return
+types.
+If you need to ignore the return value of a function then use &lt;code&gt;ignore = ...&lt;/code&gt; to
+explicitly ignore it.
+Additionally, the term &lt;code&gt;fn&lt;/code&gt; (function) should be used in its most literal
+mathematical sense, for a given input it will always produce the same output.
+If you want to do something that requires side effects then use the &lt;code&gt;proc&lt;/code&gt;
+(procedure) keyword instead.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;fst&lt;/code&gt;, &lt;code&gt;snd&lt;/code&gt; and &lt;code&gt;thr&lt;/code&gt; naming conventions are taken from Haskell. The motivation
+being that &lt;code&gt;std::get&amp;lt;#&amp;gt;&lt;/code&gt; is extremely verbose for accessing the
+first/second/third/etc members of that tuple.&lt;/p&gt;
+&lt;h2 id="better-main"&gt;Better Main&lt;/h2&gt;
+&lt;p&gt;The way &lt;code&gt;main&lt;/code&gt; is defined for use is very old. It is not type safe and uses old
+types like c-strings. We can, instead, make a better &lt;code&gt;Main&lt;/code&gt; that is the one we
+define our program in and forward the arguments in a type-safe manner.&lt;/p&gt;
+&lt;p&gt;Implementation taken from &lt;a href="https://www.youtube.com/watch?v=zCzD9uSDI8c" target="_blank" rel="external noopener noreferrer nofollow"&gt;C++ Weekly ep 361 by Jason Turner&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-cpp" data-lang="cpp"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;I32&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="n"&gt;I32&lt;/span&gt; &lt;span class="n"&gt;argc&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="n"&gt;Handle&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="n"&gt;CString&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// declare function inside main
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt;	&lt;span class="n"&gt;proc&lt;/span&gt; &lt;span class="n"&gt;Main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;span&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;string_view&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;noexcept&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;I32&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="c1"&gt;// pass arguments to safe main
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;&lt;/span&gt;	&lt;span class="n"&gt;let&lt;/span&gt; &lt;span class="n"&gt;args&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;vector&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;string_view&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;next&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;static_cast&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;ptrdiff_t&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;argc&lt;/span&gt;&lt;span class="p"&gt;)));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;Main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;NOTE: It has been mentioned that &lt;code&gt;argv&lt;/code&gt; has historically been used for passing
+sensitive information like passwords to programs. In that case, the array used
+to store the different arguments is chopped up to remove the sensitive
+information. For now, this method does not allow do that. Furthermore,
+sending sensitive information through command line arguments is a bad idea IMO.&lt;/p&gt;
+&lt;h3 id="short-example"&gt;Short example&lt;/h3&gt;
+&lt;p&gt;Solution for Rosetta Code &amp;ldquo;&lt;a href="https://rosettacode.org/wiki/Balanced_brackets" target="_blank" rel="external noopener noreferrer nofollow"&gt;Balanced Brackets&lt;/a&gt;&amp;rdquo;
+using this prelude.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;span class="lnt"&gt;23
+&lt;/span&gt;&lt;span class="lnt"&gt;24
+&lt;/span&gt;&lt;span class="lnt"&gt;25
+&lt;/span&gt;&lt;span class="lnt"&gt;26
+&lt;/span&gt;&lt;span class="lnt"&gt;27
+&lt;/span&gt;&lt;span class="lnt"&gt;28
+&lt;/span&gt;&lt;span class="lnt"&gt;29
+&lt;/span&gt;&lt;span class="lnt"&gt;30
+&lt;/span&gt;&lt;span class="lnt"&gt;31
+&lt;/span&gt;&lt;span class="lnt"&gt;32
+&lt;/span&gt;&lt;span class="lnt"&gt;33
+&lt;/span&gt;&lt;span class="lnt"&gt;34
+&lt;/span&gt;&lt;span class="lnt"&gt;35
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-cpp" data-lang="cpp"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;format&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;random&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;#34;prelude.hpp&amp;#34;&lt;/span&gt;&lt;span class="cp"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;proc&lt;/span&gt; &lt;span class="nf"&gt;generate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;I32&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Char&lt;/span&gt; &lt;span class="n"&gt;left&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sc"&gt;&amp;#39;[&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Char&lt;/span&gt; &lt;span class="n"&gt;right&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sc"&gt;&amp;#39;]&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;String&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;var&lt;/span&gt; &lt;span class="n"&gt;rd&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;random_device&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;var&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;left&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;right&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;shuffle&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;begin&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;end&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;mt19937&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;rd&lt;/span&gt;&lt;span class="p"&gt;()));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;fn&lt;/span&gt; &lt;span class="nf"&gt;balanced&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;string_view&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Char&lt;/span&gt; &lt;span class="n"&gt;left&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sc"&gt;&amp;#39;[&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Char&lt;/span&gt; &lt;span class="n"&gt;right&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sc"&gt;&amp;#39;]&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;Bool&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;var&lt;/span&gt; &lt;span class="n"&gt;count&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;let&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt; &lt;span class="nl"&gt;ch&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ch&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;left&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;			&lt;span class="n"&gt;count&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		&lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ch&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;right&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;			&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;count&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;				&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nb"&gt;false&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;count&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;proc&lt;/span&gt; &lt;span class="nf"&gt;Main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="na"&gt;[[maybe_unused]]&lt;/span&gt; &lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;span&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;string_view&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;I32&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;var&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		&lt;span class="n"&gt;let&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;generate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		&lt;span class="n"&gt;ignore&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;		 &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#34; {}: {}&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;balanced&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;?&lt;/span&gt; &lt;span class="s"&gt;&amp;#34;ok&amp;#34;&lt;/span&gt; &lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s"&gt;&amp;#34;bad&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h1 id="todo"&gt;TODO:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Add algorithms&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Improve range algorithms&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><category>Reference</category></item></channel></rss>

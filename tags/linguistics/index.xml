@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Linguistics on My website!</title><link>https://stau.space/tags/linguistics/</link><description>Recent Posts in Linguistics on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sun, 07 Dec 2025 20:07:57 -0400</lastBuildDate><atom:link href="https://stau.space/tags/linguistics/index.xml" rel="self" type="application/rss+xml"/><item><title>Nasin Toki</title><link>https://stau.space/posts/nasin-toki/</link><pubDate>Sat, 04 Oct 2025 16:29:43 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/nasin-toki/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="nasin-toki"&gt;nasin toki&lt;/h1&gt;
+&lt;p&gt;This is my nasin for writing toki pona. My nasin includes things meant for better typesetting, improved readability of text, and preserving the generally artistic nature of toki pona whether that is in sitelen pona or sitelen Lasina.&lt;/p&gt;
+&lt;h2 id="ala-la"&gt;ala la&lt;/h2&gt;
+&lt;p&gt;Most of the readability that I talk about boils down to:&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ Related things should be together.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;When dealing with multiple subjects, several headnouns or verbs, your text might get cluttered, and you might end up with a huge paragraph of text. This can be, and probably will be, readable, but it doesn’t have to be this way, and surely it could be better. Specially in sitelen pona where horizontal and vertical spaces and symmetry are significant to the piece of text you are writing about.&lt;/p&gt;
+&lt;h2 id="wan-la"&gt;wan la&lt;/h2&gt;
+&lt;p&gt;Let’s see an example about how to use la in a sentence.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ma ali la
+ jan li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: On all places of planet Earth, there are people.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When using la, I have found text to be a lot more readable when the next piece of text is on the next line and indented to the right.&lt;/p&gt;
+&lt;p&gt;You should also do this when using ni.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;mi kama sona e ni:
+ ma ali la
+ jan li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: I have recently learned this: on all places of planet Earth, there are people.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here I inserted a colon : after the ni. I don’t find this necessary for readability, but it makes the text look more formal, in my opinion. Use it as you deem necessary.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;NOTE&lt;/em&gt;: When writing ni in sitelen pona you should use the directional ni.&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ &lt;span lang="tok"&gt;mi kama sona e ni: ma ali la jan li lon.&lt;/span&gt;
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;You might have also noticed that this really only works if/when the font you are using has fixed-width letters and spaces (in other words, a monospaced font). For example, writing this sentence without a fixed-width font would look like this:&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;mi kama sona e ni:&lt;/p&gt;
+&lt;p&gt;ma ali la&lt;/p&gt;
+&lt;p&gt;jan li lon.&lt;/p&gt;
+
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;As you can see, the spacing between each letter is not consistent. This will be more apparent as we go on.&lt;/p&gt;
+&lt;h2 id="tu-la"&gt;tu la&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s see an example using en first:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;mi kama sona e ni:
+ ma ali la
+ jan
+ en soweli
+ en waso
+ en kala
+ en kasi li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: I have recently learned this: on all places of planet Earth, there are people, mammals, birds, fish, and plants.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We can start to see the benefits of this in sitelen pona.
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ &lt;span lang="tok"&gt;mi kama sona e ni: ma ali la jan en soweli en waso en kala en kili li lon.&lt;/span&gt;
+ &lt;blockquote&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;This lets the reader immediately find where all the headnouns are, as opposed to having all the headnouns interspersed inside the block of a paragraph.&lt;/p&gt;
+&lt;p&gt;These shouldn&amp;rsquo;t be hard and fast rules. Remember we are trying to optimize for readability. If at any moment these recommendations hinder readability, you should try something else. In that same manner, feel free to bend these recommendations if you feel like your situation is similar enough to what I have described previously.&lt;/p&gt;
+&lt;p&gt;For example, you can do the same using anu here.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ma ali la
+ jan li lon
+ anu soweli li lon
+ anu waso li lon
+ anu kala li lon
+ anu kasi li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: On all places of planet Earth, there are people or there are mammals or there are birds or there are fish or there are plants.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You could also do this with any word you feel like is repeated several times and could be aligned vertically. Some cases where this happens are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;li&lt;/li&gt;
+&lt;li&gt;headnouns&lt;/li&gt;
+&lt;li&gt;names&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tu-wan-la"&gt;tu wan la&lt;/h2&gt;
+&lt;p&gt;Names in toki pona have evolved over time. We have, slowly but surely, narrowed the general nasin that people use to write names. I would like to propose some more changes to this.&lt;/p&gt;
+&lt;p&gt;First, as you might have already noticed, I do not shy away from ASCII characters in toki pona that are not just the uppercase and lowercase Latin alphabet (e.g., like using : after ni or ending sentences with.). We can make use of other ASCII characters like we do in other languages.&lt;/p&gt;
+&lt;p&gt;When writing names in sitelen Lasina that people prefer to write with sitelen pona, I like surrounding different parts of the name using []. For example, imagine that the Lord of the Ring&amp;rsquo;s character Pippin likes writing their name in sitelen pona as the following.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jan Pipin&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I like writing names like this, like:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jan [pipi : n]&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If he wanted to include his last name, Took, as the following in sitelen pona.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jan Pipin Tuke&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then his name could look like &lt;code&gt;jan [pipi : n] [tu . ken .]&lt;/code&gt;. This way, we can also clearly see that Pippin&amp;rsquo;s name has two clauses: &lt;code&gt;[pipi : n]&lt;/code&gt; and &lt;code&gt;[tu . ken .]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This serves a dual purpose. Some sitelen pona fonts will actually render things between a pair of square brackets, &lt;code&gt;[]&lt;/code&gt;, inside a cartouche. Being completely honest, the original idea for this came from this use. While editing documents written in sitelen Lasina that would then be rendered as sitelen pona, I saw a very consistent use of this, and realized that it made reading names a lot more simple, for the tradeoff of using 2 non-standard ASCII characters. In my opinion, the tradeoff is worth it.&lt;/p&gt;
+&lt;h2 id="tu-wan-wan-la"&gt;tu wan wan la&lt;/h2&gt;
+&lt;p&gt;One more thing I&amp;rsquo;d like to add while talking about names is, and this is just me using this space to vent about a pet-peeve of mine:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;*&lt;em&gt;&lt;strong&gt;Please do not automatically translate someone&amp;rsquo;s name into sitelen pona.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In the previous section I stated that Pippin enjoys writing his name in sitelen pona and I converted it back to sitelen Lasina in a way that sort of preserves the intent behind the symbols that Pippin uses. If you go the other way around, and translate a sitelen Lasina name into sitelen pona by merely converting each Latin character to some pre-selected sitelen pona symbol, I think this is wrong.&lt;/p&gt;
+&lt;p&gt;To me, this seems very disrespectful, and really undermines the beauty of sitelen pona. To me, names hold a very significant amount of value, and that obviously doesn&amp;rsquo;t have to be true to you. But, to people who do care, simply asking how they prefer to write their name makes a world of difference (and you also get to show kindness towards someone else, which is always nice).&lt;/p&gt;
+&lt;p&gt;If I could, I would have asked J.R.R. Tolkien how Pippin would have enjoyed writing his name in sitelen pona, but unfortunately I can&amp;rsquo;t really do that anymore.&lt;/p&gt;
+&lt;p&gt;To conclude this section, I made this diagram.
+Basically, always ask the person or group the name refers to, unless you are converting from some other language to sitelen Lasina, which should be done using tokiponization or if you are converting from sitelen pona to sitelen Lasina, which should be done with the process I described.&lt;/p&gt;
+&lt;h2 id="tu-tu-la"&gt;tu tu la&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s look at the following sentence.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ilo pi linluwi mun pi loje suno li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I won&amp;rsquo;t translate this into English yet in order to make a point. In this sentence, is the ilo a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;linluwi mun&lt;/code&gt; (satellite in orbit) that is also &lt;code&gt;loje suno&lt;/code&gt; (bright red)&lt;/li&gt;
+&lt;li&gt;combined: a bright red satellite in orbit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Or is it a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;linluwi&lt;/code&gt; (internet device) that is &lt;code&gt;mun&lt;/code&gt; (can communicate with satellites) and is also &lt;code&gt;loje suno&lt;/code&gt; (bright red)&lt;/li&gt;
+&lt;li&gt;combined: a bright red satellite phone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a rhetorical question, there cannot really be an answer without having me give more context about the situation. Which is an “Okay” situation to be in, but it doesn&amp;rsquo;t have to be this way either.&lt;/p&gt;
+&lt;p&gt;Using the previous section as inspiration, it seems like many sitelen pona fonts render the long pi when you surround a word using &lt;code&gt;()&lt;/code&gt;. This would get rid of the ambiguity completely. So, the two versions of the previous sentences are.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ilo pi (linluwi mun) pi (loje suno) li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: The bright red satellite is above us.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ilo pi (linluwi mun pi (loje suno)) li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: Here is the bright red satellite phone.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I can recognize that some people simply don&amp;rsquo;t like using many pi for fear of creating phrases that are too big. Since this article focuses on creating pieces of text that are readable, I also agree with this. Use them sparingly and make sure that you know why you are using them.&lt;/p&gt;
+&lt;p&gt;&amp;ndash; &lt;code&gt;jan [sona :]&lt;/code&gt;&lt;/p&gt;</content:encoded><category>Reference</category></item></channel></rss>

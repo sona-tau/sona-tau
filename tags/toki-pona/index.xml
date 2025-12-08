@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Toki Pona on My website!</title><link>https://stau.space/tags/toki-pona/</link><description>Recent Posts in Toki Pona on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sun, 07 Dec 2025 20:07:57 -0400</lastBuildDate><atom:link href="https://stau.space/tags/toki-pona/index.xml" rel="self" type="application/rss+xml"/><item><title>Trivial toki pona Substitutions</title><link>https://stau.space/posts/ttps/</link><pubDate>Sun, 16 Nov 2025 17:23:50 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/ttps/</guid><description>Based off of Trivial Brainf*ck Substitutions</description><content:encoded>&lt;h1 id="toki-open"&gt;toki open&lt;/h1&gt;
+&lt;p&gt;There is a family of programming languages that are called &amp;ldquo;Trivial Brainf*ck
+Substitutions&amp;rdquo; (TBFS for short). They basically take the 8 characters used in
+Brainf*ck and represent them using other strings of characters. This is (somewhat) the same idea behind sitelen pona and sitelen kuwi. I would even guess that it&amp;rsquo;s the same idea behind sitelen sitelen, but I don&amp;rsquo;t know enough yet about sitelen sitelen to make that conclusion.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://esolangs.org/wiki/Trivial_brainfuck_substitution" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://esolangs.org/wiki/Trivial_brainfuck_substitution&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id="ttps"&gt;TTPS&lt;/h1&gt;
+&lt;p&gt;As the title says, this is my attempt at a &amp;ldquo;trivial toki pona substitution&amp;rdquo; (TTPS). Inspired from the following:&lt;/p&gt;
+&lt;p&gt;This is an English-styled TTPS that I created in 1 hour, I like to call it &amp;ldquo;sitelen ike&amp;rdquo;:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="text-align: center"&gt;toki pona&lt;/th&gt;
+ &lt;th style="text-align: center"&gt;sitelen ike&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;a&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;ha&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;akesi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;lizard&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ala&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;not&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;alasa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;hunt&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ale&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;all&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;anpa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;before&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ante&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;difference&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;anu&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;or&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;awen&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;stop&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;e&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;:&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;en&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;and&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;esun&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;buy&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ijo&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;thing&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ike&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;bad&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ilo&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;tool&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;insa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;inside&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;jaki&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;toxic&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;jan&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;person&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;jelo&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;yellow&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;jo&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;have&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kala&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;fish&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kalama&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;utter&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kama&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;come&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kasi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;plant&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ken&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;can&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kepeken&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;use&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kili&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;fruit&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kin&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;also&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kiwen&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;rock&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ko&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;goo&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kon&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;air&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kule&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;color&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kulupu&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;group&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;kute&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;listen&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;la&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;lape&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;sleep&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;laso&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;turquoise&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;lawa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;control&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;len&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;fabric&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;lete&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;cold&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;li&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;,&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;lili&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;small&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;linja&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;line&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;lipu&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;paper&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;loje&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;red&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;lon&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;exist&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;luka&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;hand&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;lukin&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;look&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;lupa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;hole&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ma&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;land&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;mama&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;parent&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;mani&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;currency&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;mi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;me&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;moku&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;eat&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;moli&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;die&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;monsi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;after&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;mu&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;onomatopoiea&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;mun&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;satellite&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;musi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;game&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;mute&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;many&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;nanpa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;number&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;nasa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;weird&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;nasin&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;way&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;nena&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;bump&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ni&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;this&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;nimi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;word&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;noka&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;foot&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;o&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;do&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;olin&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;love&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;ona&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;that&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;open&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;open&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pakala&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;break&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pali&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;work&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;palisa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;stick&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pan&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;bread&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pana&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;emit&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pilin&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;emotion&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pimeja&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;black&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pini&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;end&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pipi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;insect&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;poka&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;next&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;poki&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;cup&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pona&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;good&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;pu&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;Pu&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;sama&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;same&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;seli&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;hot&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;selo&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;layer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;seme&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;what&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;sewi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;supernatural&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;sijelo&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;silhouette&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;sike&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;circle&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;sin&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;new&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;sina&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;you&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;sinpin&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;wall&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;sitelen&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;image&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;sona&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;learn&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;soweli&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;animal&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;suli&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;big&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;suno&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;sun&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;supa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;sofa&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;suwi&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;sweet&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;tan&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;from&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;taso&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;only&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;tawa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;towards&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;telo&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;water&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;tenpo&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;time&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;toki&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;speak&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;tomo&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;residence&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;tu&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;two&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;unpa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;coitus&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;uta&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;sing&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;utala&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;war&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;walo&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;white&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;wan&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;one&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;waso&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;bird&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;wawa&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;power&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;weka&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;empty&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td style="text-align: center"&gt;wile&lt;/td&gt;
+ &lt;td style="text-align: center"&gt;necessity&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The following is the introduction for the text about the Buddha in tokipona.org:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;toki open tan jan pi ante toki&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;lipu lili ni li lipu nanpa wan tan lipu suli Sitata · wile kulupu la mi kama pana e lipu nanpa tu · lipu tu taso li lon · o toki e pilin sina e wile sina · toki kulupu la mi ken sona e wile jan ·&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;lipu ni li kama tan kon Eman Ese · taso ni li jan seme? tenpo pini la ona li jan lipu suli · ona li kama tan ma Tosi suli · lipu mute la ona li wile pana e sitelen pi alasa sona · kon jan pi lipu ona li alasa e lon e sona e nasin sewi · kon Ese la nasin mute li ken sewi · nasin wan li nasin taso ala ·&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;jan pi toki pona li lukin e lipu ni la ona o awen sona e ni · lipu ni li pana ala e sona lon pi nasin Puta, li pana ala e nasin sewi pi kon Ese · taso la ona li pana e sitelen wile pi kon Ese : sitelen la jan li ken alasa e lon e sewi kepeken nasin pi ona taso · jan ale o kama sona e lon ona · ken la lon ona li lon pi jan ante ala · taso ni li ike ala · sina wile kama sona lili e nasin Puta lon la mi pana e sitelen lili lon pini lipu · ni la jan li sona pona e ante pi nasin Puta e ante pi nasin Sitata e sitelen pi kon Ese ·&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;lipu Sitata li sitelen lon tenpo pi jan pini Puta · kon Ese li kepeken nimi mute li pana e ma mute tan tenpo pini pi jan Puta, tan lipu pi nasin Puta · jan li sona pona ala e nimi ni la sona lipu li ken nasa · ni la mi pana kin lon pini lipu e nimi ale ni pi toki ante · sina wile kama sona e kon e tan la o lukin · taso o sona kin e ni : mi ante e toki mama pi lipu Sitata la nimi li ken ante · ken la nimi pi toki Inli li kama ante kepeken nimi pi toki pona · ken la nimi tan tenpo pi jan Puta li kama weka, li kama nimi ante kepeken toki pona · mi ante e nimi la mi wile e ni : jan ale li ken sona pona kepeken toki pona ·&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;kulupu o lukin pona, o musi pona a!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;— jan Kala&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You can read more here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tokipona.org/sitata/" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://tokipona.org/sitata/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is the same text, in sitelen ike:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;speak open from person ; difference speak&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;paper small this , paper number one from paper big Sitata · necessity group - me come emit : paper number two · paper two only , exist · do speak : emotion you : necessity you · speak group - me can learn : necessity person ·&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;paper this , come from air Eman Ese · only this , person what? time end - that , person paper big · that , come from land Tosi big · paper many - that , necessity emit : image ; hunt learn · air person ; paper that , hunt : exist : learn : way hot · air Ese - way many , can hot · way one , way only not ·&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;person ; speak good , look : paper this - that do stop learn : this · paper this , emit not : learn exist ; way Puta , emit not : way hot ; air Ese · only - that , emit : image necessity ; air Ese : image - person , can hunt : exist : hot use way ; that only · person all do come learn : exist that · can - exist that , exist ; person difference not · only this , bad not · you necessity come learn small : way Puta exist - me emit : image small exist end paper · this - person , learn good : difference ; way Puta : difference ; way Sitata : image ; air Ese ·&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;paper Sitata , image exist time ; person end Puta · air Ese , use word many , emit : land many from time end ; person Puta from paper ; way Puta · person , learn good not : word this - learn paper , can weird · this - me emit also exist end paper : word all this ; speak difference · you necessity come learn : air : from - do look · only do learn also : ni : me difference : speak parent ; paper Sitata - word , can difference · can - word ; speak Inli , come difference use word ; speak good · can - word from time ; person Puta , come empty , come word difference use speak good · me difference : word - me necessity : this : person all , can learn good use speak good ·&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;group do look good, do game good ha!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;— person Kala&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id="faq"&gt;FAQ&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Why did you call it sitelen ike?
+&lt;ul&gt;
+&lt;li&gt;This script goes against the very nasin behind toki pona (IMO). So, it is &amp;ldquo;ike.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Why did you do this?
+&lt;ul&gt;
+&lt;li&gt;I was recently made aware of sitelen kuwi and sitelen telo. Though I really disagree with the philosphy behind sitelen telo, I really like sitelen kuwi! This really reminded me of TBFS so I tried doing the same for toki pona and ended up with that piece of text up there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://clockwise3411.github.io/lipu-sona-pi-sitelen-Kuwi/" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://clockwise3411.github.io/lipu-sona-pi-sitelen-Kuwi/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sona.pona.la/wiki/sitelen_telo" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://sona.pona.la/wiki/sitelen_telo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I would like to see some TTPS made for other natural languages. To me, sitelen ike is somewhat readable.&lt;/p&gt;</content:encoded><category>Areas</category></item><item><title>Nasin Toki</title><link>https://stau.space/posts/nasin-toki/</link><pubDate>Sat, 04 Oct 2025 16:29:43 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/nasin-toki/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="nasin-toki"&gt;nasin toki&lt;/h1&gt;
+&lt;p&gt;This is my nasin for writing toki pona. My nasin includes things meant for better typesetting, improved readability of text, and preserving the generally artistic nature of toki pona whether that is in sitelen pona or sitelen Lasina.&lt;/p&gt;
+&lt;h2 id="ala-la"&gt;ala la&lt;/h2&gt;
+&lt;p&gt;Most of the readability that I talk about boils down to:&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ Related things should be together.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;When dealing with multiple subjects, several headnouns or verbs, your text might get cluttered, and you might end up with a huge paragraph of text. This can be, and probably will be, readable, but it doesn’t have to be this way, and surely it could be better. Specially in sitelen pona where horizontal and vertical spaces and symmetry are significant to the piece of text you are writing about.&lt;/p&gt;
+&lt;h2 id="wan-la"&gt;wan la&lt;/h2&gt;
+&lt;p&gt;Let’s see an example about how to use la in a sentence.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ma ali la
+ jan li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: On all places of planet Earth, there are people.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When using la, I have found text to be a lot more readable when the next piece of text is on the next line and indented to the right.&lt;/p&gt;
+&lt;p&gt;You should also do this when using ni.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;mi kama sona e ni:
+ ma ali la
+ jan li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: I have recently learned this: on all places of planet Earth, there are people.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here I inserted a colon : after the ni. I don’t find this necessary for readability, but it makes the text look more formal, in my opinion. Use it as you deem necessary.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;NOTE&lt;/em&gt;: When writing ni in sitelen pona you should use the directional ni.&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ &lt;span lang="tok"&gt;mi kama sona e ni: ma ali la jan li lon.&lt;/span&gt;
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;You might have also noticed that this really only works if/when the font you are using has fixed-width letters and spaces (in other words, a monospaced font). For example, writing this sentence without a fixed-width font would look like this:&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ &lt;p&gt;mi kama sona e ni:&lt;/p&gt;
+&lt;p&gt;ma ali la&lt;/p&gt;
+&lt;p&gt;jan li lon.&lt;/p&gt;
+
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;As you can see, the spacing between each letter is not consistent. This will be more apparent as we go on.&lt;/p&gt;
+&lt;h2 id="tu-la"&gt;tu la&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s see an example using en first:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;mi kama sona e ni:
+ ma ali la
+ jan
+ en soweli
+ en waso
+ en kala
+ en kasi li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: I have recently learned this: on all places of planet Earth, there are people, mammals, birds, fish, and plants.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We can start to see the benefits of this in sitelen pona.
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ &lt;span lang="tok"&gt;mi kama sona e ni: ma ali la jan en soweli en waso en kala en kili li lon.&lt;/span&gt;
+ &lt;blockquote&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;This lets the reader immediately find where all the headnouns are, as opposed to having all the headnouns interspersed inside the block of a paragraph.&lt;/p&gt;
+&lt;p&gt;These shouldn&amp;rsquo;t be hard and fast rules. Remember we are trying to optimize for readability. If at any moment these recommendations hinder readability, you should try something else. In that same manner, feel free to bend these recommendations if you feel like your situation is similar enough to what I have described previously.&lt;/p&gt;
+&lt;p&gt;For example, you can do the same using anu here.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ma ali la
+ jan li lon
+ anu soweli li lon
+ anu waso li lon
+ anu kala li lon
+ anu kasi li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: On all places of planet Earth, there are people or there are mammals or there are birds or there are fish or there are plants.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You could also do this with any word you feel like is repeated several times and could be aligned vertically. Some cases where this happens are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;li&lt;/li&gt;
+&lt;li&gt;headnouns&lt;/li&gt;
+&lt;li&gt;names&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tu-wan-la"&gt;tu wan la&lt;/h2&gt;
+&lt;p&gt;Names in toki pona have evolved over time. We have, slowly but surely, narrowed the general nasin that people use to write names. I would like to propose some more changes to this.&lt;/p&gt;
+&lt;p&gt;First, as you might have already noticed, I do not shy away from ASCII characters in toki pona that are not just the uppercase and lowercase Latin alphabet (e.g., like using : after ni or ending sentences with.). We can make use of other ASCII characters like we do in other languages.&lt;/p&gt;
+&lt;p&gt;When writing names in sitelen Lasina that people prefer to write with sitelen pona, I like surrounding different parts of the name using []. For example, imagine that the Lord of the Ring&amp;rsquo;s character Pippin likes writing their name in sitelen pona as the following.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jan Pipin&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I like writing names like this, like:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jan [pipi : n]&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If he wanted to include his last name, Took, as the following in sitelen pona.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;jan Pipin Tuke&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then his name could look like &lt;code&gt;jan [pipi : n] [tu . ken .]&lt;/code&gt;. This way, we can also clearly see that Pippin&amp;rsquo;s name has two clauses: &lt;code&gt;[pipi : n]&lt;/code&gt; and &lt;code&gt;[tu . ken .]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This serves a dual purpose. Some sitelen pona fonts will actually render things between a pair of square brackets, &lt;code&gt;[]&lt;/code&gt;, inside a cartouche. Being completely honest, the original idea for this came from this use. While editing documents written in sitelen Lasina that would then be rendered as sitelen pona, I saw a very consistent use of this, and realized that it made reading names a lot more simple, for the tradeoff of using 2 non-standard ASCII characters. In my opinion, the tradeoff is worth it.&lt;/p&gt;
+&lt;h2 id="tu-wan-wan-la"&gt;tu wan wan la&lt;/h2&gt;
+&lt;p&gt;One more thing I&amp;rsquo;d like to add while talking about names is, and this is just me using this space to vent about a pet-peeve of mine:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;*&lt;em&gt;&lt;strong&gt;Please do not automatically translate someone&amp;rsquo;s name into sitelen pona.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In the previous section I stated that Pippin enjoys writing his name in sitelen pona and I converted it back to sitelen Lasina in a way that sort of preserves the intent behind the symbols that Pippin uses. If you go the other way around, and translate a sitelen Lasina name into sitelen pona by merely converting each Latin character to some pre-selected sitelen pona symbol, I think this is wrong.&lt;/p&gt;
+&lt;p&gt;To me, this seems very disrespectful, and really undermines the beauty of sitelen pona. To me, names hold a very significant amount of value, and that obviously doesn&amp;rsquo;t have to be true to you. But, to people who do care, simply asking how they prefer to write their name makes a world of difference (and you also get to show kindness towards someone else, which is always nice).&lt;/p&gt;
+&lt;p&gt;If I could, I would have asked J.R.R. Tolkien how Pippin would have enjoyed writing his name in sitelen pona, but unfortunately I can&amp;rsquo;t really do that anymore.&lt;/p&gt;
+&lt;p&gt;To conclude this section, I made this diagram.
+Basically, always ask the person or group the name refers to, unless you are converting from some other language to sitelen Lasina, which should be done using tokiponization or if you are converting from sitelen pona to sitelen Lasina, which should be done with the process I described.&lt;/p&gt;
+&lt;h2 id="tu-tu-la"&gt;tu tu la&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s look at the following sentence.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ilo pi linluwi mun pi loje suno li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I won&amp;rsquo;t translate this into English yet in order to make a point. In this sentence, is the ilo a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;linluwi mun&lt;/code&gt; (satellite in orbit) that is also &lt;code&gt;loje suno&lt;/code&gt; (bright red)&lt;/li&gt;
+&lt;li&gt;combined: a bright red satellite in orbit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Or is it a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;linluwi&lt;/code&gt; (internet device) that is &lt;code&gt;mun&lt;/code&gt; (can communicate with satellites) and is also &lt;code&gt;loje suno&lt;/code&gt; (bright red)&lt;/li&gt;
+&lt;li&gt;combined: a bright red satellite phone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a rhetorical question, there cannot really be an answer without having me give more context about the situation. Which is an “Okay” situation to be in, but it doesn&amp;rsquo;t have to be this way either.&lt;/p&gt;
+&lt;p&gt;Using the previous section as inspiration, it seems like many sitelen pona fonts render the long pi when you surround a word using &lt;code&gt;()&lt;/code&gt;. This would get rid of the ambiguity completely. So, the two versions of the previous sentences are.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ilo pi (linluwi mun) pi (loje suno) li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: The bright red satellite is above us.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ilo pi (linluwi mun pi (loje suno)) li lon.
+&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;p&gt;EN: Here is the bright red satellite phone.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I can recognize that some people simply don&amp;rsquo;t like using many pi for fear of creating phrases that are too big. Since this article focuses on creating pieces of text that are readable, I also agree with this. Use them sparingly and make sure that you know why you are using them.&lt;/p&gt;
+&lt;p&gt;&amp;ndash; &lt;code&gt;jan [sona :]&lt;/code&gt;&lt;/p&gt;</content:encoded><category>Reference</category></item><item><title>nasin toki</title><link>https://stau.space/posts/tok-style/</link><pubDate>Thu, 12 Jun 2025 20:27:45 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-style/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="toki-a"&gt;toki a&lt;/h1&gt;
+&lt;p&gt;This is my &lt;code&gt;nasin&lt;/code&gt; for writing &lt;span lang="tok"&gt;toki-pona&lt;/span&gt;.
+My &lt;code&gt;nasin&lt;/code&gt; includes things meant for better typesetting, improved readability of text, and preserving the generally artistic nature of &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; whether that is in &lt;span lang="tok"&gt;sitelen-pona&lt;/span&gt; or &lt;code&gt;sitilen Lasina&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="ala-la"&gt;ala la&lt;/h2&gt;
+&lt;p&gt;Most of the readability that I talk about boils down to &amp;ldquo;put stuff that&amp;rsquo;s similar together&amp;rdquo;.
+When dealing with multiple subjects, several headnouns or verbs, your text might get cluttered and you might end up with a huge paragraph of text.
+This can be readable, but it doesn&amp;rsquo;t have to be this way.
+Specially in &lt;span lang="tok"&gt;sitelen-pona&lt;/span&gt; where horizontal and vertical spaces and symmetry are significant to the piece of text you are writing about.&lt;/p&gt;
+&lt;h2 id="wan-la"&gt;wan la&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s see an example of using &lt;code&gt;la&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;
+ma ali la
+ jan li lon.
+&lt;/pre&gt;
+&lt;p&gt;When using &lt;code&gt;la&lt;/code&gt;, I have found text to be a lot more readable when the next piece of text is on the next line and indented to the right.&lt;/p&gt;
+&lt;p&gt;You should also do this when using &lt;code&gt;ni&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;
+mi kama sona e ni:
+ ma ali la
+ jan li lon.
+&lt;/pre&gt;
+&lt;p&gt;Here I inserted a colon &lt;code&gt;:&lt;/code&gt; after the &lt;code&gt;ni&lt;/code&gt;.
+I don&amp;rsquo;t find this necessary for readability but it makes the text look more formal in my opinion.
+Use it as you deem necessary.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;NOTE&lt;/em&gt;: When writing &lt;code&gt;ni&lt;/code&gt; in &lt;span lang="tok"&gt;sitelen-pona&lt;/span&gt; you should use the directional &lt;code&gt;ni&lt;/code&gt;.&lt;/p&gt;
+&lt;span lang="tok"&gt;
+mi kama sona e ni8 zz&lt;br&gt;
+&amp;#12288;ma ali la zz&lt;br&gt;
+zz zz jan li lon.
+&lt;/span&gt;
+&lt;p&gt;&lt;code&gt;ni&lt;/code&gt; should point in the direction to what you are referring to.
+This becomes specially helpful in sentences where you want to talk about &amp;ldquo;this&amp;rdquo; and &amp;ldquo;that&amp;rdquo; but can only use &lt;code&gt;ni&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="tu-la"&gt;tu la&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s see an example using &lt;code&gt;en&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;
+mi kama sona e ni:
+ ma ali la
+ jan
+ en soweli
+ en waso
+ en kala
+ en kasi li lon.
+&lt;/pre&gt;
+&lt;p&gt;When using &lt;code&gt;en&lt;/code&gt;, try aligning each occurrence of &lt;code&gt;en&lt;/code&gt; with each other.
+Another example of this can be,&lt;/p&gt;
+&lt;pre&gt;
+mi kama sona e ni:
+ ma ali la
+ jan en
+ soweli en
+ waso en
+ kala en
+ kasi li lon.
+&lt;/pre&gt;
+&lt;p&gt;This looks way better is &lt;span lang="tok"&gt;sitelen-pona&lt;/span&gt;&lt;/p&gt;
+&lt;span lang="tok"&gt;
+mi kama sona e ni zz &lt;br&gt;
+zz ma ali la
+&lt;/span&gt;
+&lt;p&gt;This lets the reader simply glance over all the headnouns and find the important parts of the sentence easier.&lt;/p&gt;
+&lt;p&gt;You can do this with &lt;code&gt;anu&lt;/code&gt; too:&lt;/p&gt;
+&lt;pre&gt;
+&gt; ma ali la
+&gt; jan li lon
+&gt; anu soweli li lon
+&gt; anu waso li lon
+&gt; anu kala li lon
+&gt; anu kasi li lon
+&lt;/pre&gt;
+&lt;p&gt;This sentence, has a different meaning, and also &lt;em&gt;feels&lt;/em&gt; a lot different.&lt;/p&gt;
+&lt;h2 id="tu-wan-la"&gt;tu wan la&lt;/h2&gt;
+&lt;p&gt;When using &lt;code&gt;ni&lt;/code&gt;,&lt;/p&gt;
+&lt;pre&gt;
+lipu ni: mi sitelen nasin lon toki pona.
+
+n la
+ o lukin e ni:
+ mi kepeken linluwi leko
+ en mi kama sona e ni:
+ ma ali la
+ jan li lon
+ anu soweli li lon
+ anu waso li lon
+ anu kala li lon
+ anu kasi li lon.
+
+ ni li nasin mi:
+ mi kepeken nimi La la
+ mi kepeken weka.
+ mi kepeken toki mi.
+ mi toki e ni:
+ te ma ali la
+ jan li lon to.
+ mi kepeken nimi En
+
+n la
+ sina kepeken nimi En la
+ tenpo linja pini la
+ sina sitelen weka
+ en sina sitelen nimi En
+ en sina sitelen nimi wile.
+
+n la
+ sina kepeken nimi Pi la
+ sina kepeken sitelen "("
+ en sina kepeken sitelen ")".
+&lt;/pre&gt;
+&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>Mathematics in toki pona</title><link>https://stau.space/posts/tok-mat-faq/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-mat-faq/</guid><description>seme</description><content:encoded>&lt;h1 id="faq"&gt;FAQ&lt;/h1&gt;
+&lt;p&gt;Frequently asked questions about &lt;a href="https://stau.space/posts/tok-mat/"&gt;&lt;span lang="tok"&gt;toki pi (nasin nanpa)&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Why not use &lt;span lang="tok"&gt;ijo&lt;/span&gt; symbol instead of &lt;span lang="tok"&gt;ijo&lt;/span&gt; symbol?&lt;/h3&gt;
+&lt;section&gt;
+These are NOT the only symbols you can use for this.
+Far from it, in fact.
+&lt;ul&gt;
+&lt;li&gt;It would make more intuitive sense to use &lt;span lang="tok"&gt;wan&lt;/span&gt; for addition, but then using &lt;span lang="tok"&gt;tu&lt;/span&gt; for subtraction could sound strange.&lt;/li&gt;
+&lt;li&gt;You could use &lt;span lang="tok"&gt;sin&lt;/span&gt; instead for multiplication or addition.&lt;/li&gt;
+&lt;li&gt;You could use &lt;span lang="tok"&gt;ala&lt;/span&gt; for subtraction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;h3&gt;The symbols you chose are weird.&lt;/h3&gt;
+&lt;section&gt;
+I really think this is not as important as people make it out to be.
+If you think there is a difference between multiplication and addition, let me remind you that
+&lt;p&gt;[(\mathbb{R}_{&amp;gt; 0}, \times) \cong (\mathbb{R}, +).]&lt;/p&gt;
+&lt;/section&gt;
+&lt;h3&gt;Why did you choose those symbols in specific?&lt;/h3&gt;
+&lt;section&gt;
+A distinction that I would like to make clear is that, in the language of Mathematics, there is a general difference between the "product" and "sum" of something.
+I think this is best expressed in examples:
+&lt;ul&gt;
+&lt;li&gt;algebra of sets:
+&lt;ul&gt;
+&lt;li&gt;(A \cap B) := product&lt;/li&gt;
+&lt;li&gt;(A \cup B) := sum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;boolean logic:
+&lt;ul&gt;
+&lt;li&gt;(a \land b) := product&lt;/li&gt;
+&lt;li&gt;(a \lor b) := sum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;order theory:
+&lt;ul&gt;
+&lt;li&gt;(\inf{a, b}) := product&lt;/li&gt;
+&lt;li&gt;(\sup{a, b}) := sum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;algebraic data types (Haskell):
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;(a, b)&lt;/code&gt; := product&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;a | b&lt;/code&gt; := sum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Boolean logic, being the closest to natural language in my opinion, has the clearest example of what a general &amp;ldquo;product&amp;rdquo; and &amp;ldquo;sum&amp;rdquo; expresses.
+The &amp;ldquo;product&amp;rdquo; should express the notion of &amp;ldquo;both&amp;rdquo; things and &amp;ldquo;sum&amp;rdquo; should express the notion of &amp;ldquo;either&amp;rdquo; things.&lt;/p&gt;
+&lt;p&gt;With this in mind,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I am using &lt;span lang="tok"&gt;namako&lt;/span&gt; for addition because it expresses &amp;ldquo;additonal&amp;rdquo; or &amp;ldquo;extra&amp;rdquo; things.&lt;/li&gt;
+&lt;li&gt;I am using &lt;span lang="tok"&gt;weka&lt;/span&gt; for subtraction because of the dual reasons of &lt;span lang="tok"&gt;namako&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;I am using &lt;span lang="tok"&gt;wan&lt;/span&gt; for multiplication because it expresses the idea of &amp;ldquo;both&amp;rdquo; things that a &amp;ldquo;product&amp;rdquo; should express.&lt;/li&gt;
+&lt;li&gt;I am using &lt;span lang="tok"&gt;tu&lt;/span&gt; for division because of the dual reasons of &lt;span lang="tok"&gt;wan&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;h3&gt;Isn't it confusing that &lt;span lang="tok"&gt;wan&lt;/span&gt; and &lt;span lang="tok"&gt;tu&lt;/span&gt; refer to a number and an operation?&lt;/h3&gt;
+Yes.
+&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>toki pi kulupu pini</title><link>https://stau.space/posts/kulupu-pini/</link><pubDate>Mon, 20 Jan 2025 07:50:59 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/kulupu-pini/</guid><description>The Cult of Done in toki pona</description><content:encoded>&lt;p&gt;The Cult of Done is a manifesto written by Bre Pettis with Kio Stark in August of 2016.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13" target="_blank" rel="external noopener noreferrer nofollow"&gt;English manifesto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="un-momento"&gt;Un momento,&lt;/h3&gt;
+&lt;p&gt;The header of the Cult of Done manifesto is written in &amp;ldquo;first-person English&amp;rdquo;
+which means that all references to &amp;ldquo;me&amp;rdquo; will be &amp;ldquo;mi&amp;rdquo; in toki pona.
+However, I (jan Sona) am not the author of this, I am a translator.&lt;/p&gt;
+&lt;hr&gt;
+&lt;span lang="tok"&gt;
+toki a la jan pi (kulupu pini) . zz&lt;br&gt;
+&lt;br&gt;
+mi li pana e toki pi (pali pini) tawa sina. zz&lt;br&gt;
+ni li sitelen tan mi en jan [kasi ilo open] [sike utala tan akesi kepeken e] zz&lt;br&gt;
+zz zz zz lon mute1tenpo lili tan mi jo e mute1tenpo lili. zz&lt;br&gt;
+&lt;br&gt;
+&lt;/span&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span lang="tok"&gt;toki pi (kulupu pini) li ni zz&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;span lang="tok"&gt;
+&lt;br&gt;
+wan. zz&lt;br&gt;
+zz sina lon e lon tu wan la zz&lt;br&gt;
+zz zz zz zz lon tu wan li lon e ni3sona+ala en pali en pini. zz&lt;br&gt;
+&lt;br&gt;
+tu. zz&lt;br&gt;
+zz o sina jo e ni3ali li pini ala. ni li pona e pali pini. zz&lt;br&gt;
+&lt;br&gt;
+tu-wan. zz&lt;br&gt;
+zz lon pali ante li lon-ala. zz&lt;br&gt;
+&lt;br&gt;
+tu-tu. zz&lt;br&gt;
+zz sina sona+lili sama lili sina sona+suli la zz&lt;br&gt;
+o sina jo e ni3sina jo e sona+suli taso sina sona+lili. zz&lt;br&gt;
+&lt;br&gt;
+luka. zz&lt;br&gt;
+zz o sina awen ala. zz&lt;br&gt;
+zzzz sina pali pini e ijo lon luka tu tenpo suno la &lt;br&gt;
+zz o sina lawa+ala e ijo. zz&lt;br&gt;
+&lt;br&gt;
+luka-wan. zz&lt;br&gt;
+zz sina pali pini e ijo tan sina pali pini ala e ijo ni zz&lt;br&gt;
+zzzzzzzzzz taso tan sina pali pini e ijo ante. zz&lt;br&gt;
+&lt;br&gt;
+luka-tu. zz&lt;br&gt;
+zz tenpo pi (pali pini) la o sina lawa+ala e ijo. zz&lt;br&gt;
+&lt;br&gt;
+luka-tu wan. zz&lt;br&gt;
+zz o sina toki e aaa tawa ijo+pona. zz&lt;br&gt;
+zz zz ni2li awen e sina kama pali pini. zz&lt;br&gt;
+&lt;br&gt;
+luka-tu tu. zz&lt;br&gt;
+zzzzzzzzzzzzzz jan pi (ko+ala lon luka) li ike. zz&lt;br&gt;
+zz sina pali e ijo la sina jo e ko lon luka. zz&lt;br&gt;
+zzzzzzzzzzzz sina jo e ko lon luka la sina pona. zz&lt;br&gt;
+&lt;br&gt;
+luka-luka. zz&lt;br&gt;
+zz pali pini ike sama pali pini. zz&lt;br&gt;
+zz o sina pali pini ike. zz&lt;br&gt;
+&lt;br&gt;
+luka-luka wan. zz&lt;br&gt;
+zz pakala sama lili pali pini. zz&lt;br&gt;
+&lt;br&gt;
+luka-luka tu. zz&lt;br&gt;
+zz sina jo e ijo pali taso sina pana e ijo pali lon linluwi la &lt;br&gt;
+zz ni2sama pali pini lili. zz&lt;br&gt;
+&lt;br&gt;
+luka-luka tu-wan. zz&lt;br&gt;
+zz pali pini li pana e mute. zz
+&lt;/span&gt;</content:encoded><category>Areas</category></item><item><title>Translations</title><link>https://stau.space/posts/stuff/</link><pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/stuff/</guid><description>Random stuff I've translated to toki pona.</description><content:encoded>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;
+&lt;span lang="tok"&gt;
+ijo li ike tawa kulupu pi (pipi waso) la &lt;br&gt;
+ona li ike tawa pipi waso
+&lt;/span&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Details&lt;/summary&gt;
+ &lt;p&gt;That which is not good for the beehive, cannot be good for the bees. - Marcus Aurelius&lt;/p&gt;
+&lt;/details&gt;
+
+&lt;span lang="tok"&gt;
+mi kulupu e jan pali zz&lt;br&gt;
+zzzz en jan pi (jo mute) &lt;br&gt;
+zzzz en jan pi (pilin ike) &lt;br&gt;
+zzzz en jan pi (kalama ike) &lt;br&gt;
+zzzz en jan pi (wile ike) &lt;br&gt;
+zzzz en jan pi (nasin ike).&lt;br&gt;&lt;br&gt;
+zz ona li pali e nasin tan zz&lt;br&gt;
+zz ona li sona+ala e ijo+pona anu ijo+ike. zz&lt;br&gt;
+taso mi ken lukin e nasin pona la ni4li pona. zz&lt;br&gt;
+ zz mi ken lukin e nasin ike la ni4li ike. zz&lt;br&gt;
+jan li pali e ike la &lt;br&gt;
+zz mi lukin e ona la &lt;br&gt;
+ jan sama mi. zz&lt;br&gt;&lt;br&gt;
+&lt;p&gt;zzzz nasin pi (jan li pali e ike) la &lt;br&gt;
+zzzzzzzz ona li sewi pali sama mi li sewi pali. zz&lt;br&gt;
+zzzzzzzzzz telo kule ona sama telo kule mi zz&lt;br&gt;
+zzzzzzzzzz en mama ona sama mama mi tan ala tu&lt;br&gt;
+taso ona li pali zz e lili sewi sama mi pali e lili sewi. zz&lt;br&gt;
+zz jan li pali zz e ike la &lt;br&gt;
+zz jan ken ala pakala e mi tan ala ken pona e ike mi. zz&lt;br&gt;&lt;br&gt;
+mi wile pilin utala ala tawa jan. zz&lt;br&gt;&lt;br&gt;
+sewi li pali e mi mute tan pali kulupu la &lt;br&gt;
+zzzzzzzzzzzzzzni2sama noka zz&lt;br&gt;
+zzzzzzzzzzzzzzzz sama luka zz&lt;br&gt;
+zzzzzzzzzzzzzzzz sama oko selo zz&lt;br&gt;
+zzzzzzzzzzzzzzzz sama kiwen walo uta. zz&lt;br&gt;
+mi lukin ala li sona+ala tawa jan la &lt;br&gt;
+zz mi pali ante tawa jan.zz
+&lt;/span&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Details&lt;/summary&gt;
+ &lt;p&gt;I shall meet with the busy-body, the ungrateful, arrogant, deceitful, envious,
+unsocial. All these things happen to them by reason of their ignorance of
+what is good and evil. But I who have seen the nature of the good, that it
+is beautiful, and of the bad, that it is ugly. And the nature of them who
+does wrong, that it is akin to me, not only of the same blood or seed, but
+that it participates in the same portion of the divitiy. I can neither be
+injured by any of them, for no one can fix on me what is ugly, nor can I be
+angry with my kinsperson, nor hate them. For we are made for co-operation,
+like feet, like hands, like eyelids, like the rows of the upper and lower
+teeth. To act against one another is to be vexed and to turn away.&lt;/p&gt;
+&lt;/details&gt;
+&lt;/p&gt;
+&lt;span lang="tok"&gt;
+ jan [pipi .... n] li toki a e ni2nasin lili li pali zz &lt;br&gt;
+ zzzzzzzzzzzzzzzzzzzz e zz nasin suli . zz
+&lt;/span&gt;
+
+&lt;details&gt;
+ &lt;summary&gt;Details&lt;/summary&gt;
+ &lt;p&gt;&amp;ldquo;Short cuts make long delays,&amp;rdquo; argued Pippin. - J.R.R. Tolkien, The Fellowship of the Ring&lt;/p&gt;
+&lt;/details&gt;</content:encoded><category>Projects</category></item><item><title>lipu lon luka</title><link>https://stau.space/posts/enchiridion-tok/</link><pubDate>Sun, 08 Dec 2024 19:19:04 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/enchiridion-tok/</guid><description>The Enchiridion by Epictetus in toki pona</description><content:encoded>&lt;h1 id="toki-open"&gt;&lt;span lang="tok"&gt;toki open&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;Translation of The Enchiridion by Epictetus into toki pona.
+Original translation taken from: &lt;a href="http://classics.mit.edu/Epictetus/epicench.1b.txt" target="_blank" rel="external noopener noreferrer nofollow"&gt;http://classics.mit.edu/Epictetus/epicench.1b.txt&lt;/a&gt;
+If you have any suggestions, feel free to contact me through any of my contacts, &lt;a href="../../contact/"&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;enchiridion&lt;/strong&gt;, &lt;em&gt;noun&lt;/em&gt;
+en·chi·rid·i·on [ˌen-ˌkī-ˈri-dē-ən]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Plural: enchiridia [ˌen-ˌkī-ˈri-dē-ə]&lt;/li&gt;
+&lt;li&gt;Meaning: handbook, manual&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://stau.space/posts/enchiridion-tok/lipu-lon-luka.svg" alt="sitelen pi lipu lon liku"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;span lang="tok"&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;wan. zz&amp;lt;br&amp;gt;
+zz mi ken zz lawa e ijo zz&amp;lt;br&amp;gt;
+taso mi ken ala lawa e ijo+ale. zz&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+mi ken zz lawa e nasin mi zz &amp;lt;br&amp;gt;
+zzzzzzzz en alasa zz&amp;lt;br&amp;gt;
+zzzzzzzz en wile zz&amp;lt;br&amp;gt;
+zzzzzzzz en pilin jaki zz&amp;lt;br&amp;gt;
+zzzzzzzz en pali mi. zz&amp;lt;br&amp;gt;
+mi ken ala lawa e sijelo zz&amp;lt;br&amp;gt;
+zzzzzzzz en ijo+ona zz&amp;lt;br&amp;gt;
+zzzzzzzz en pilin pi (jan ante) zz&amp;lt;br&amp;gt;
+zzzzzzzz en lawa pi (jan+kulupu) zz&amp;lt;br&amp;gt;
+zzzzzzzz en pali ona.zz
+&amp;lt;!--
+Some things are in our control and others not.
+Things in our control are opinion, pursuit, desire, aversion, and, in a
+word, whatever are our own actions.
+Things not in our control are body, property, reputation,
+command, and, in one word, whatever are not our own actions.
+--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/span&gt;
+&lt;blockquote&gt;
+&lt;span lang="tok"&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;zz mi ken lawa e ijo la &amp;lt;br&amp;gt;
+zz ni3li nasin weka zz&amp;lt;br&amp;gt;
+zzzz en lawa ala zz&amp;lt;br&amp;gt;
+zzzz en ike-ala zz&amp;lt;br&amp;gt;
+taso mi ken ala lawa e ijo la &amp;lt;br&amp;gt;
+zz ni3li wawa ike zz&amp;lt;br&amp;gt;
+zzzz en lawa ala zz&amp;lt;br&amp;gt;
+zzzz en jo ona. zz&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+o sina sona e ni zz&amp;lt;br&amp;gt;
+zzzzzz ijo+ona sama ijo pi (nasin weka) &amp;lt;br&amp;gt;
+zzzz en ijo+ona sama ijo+sina la &amp;lt;br&amp;gt;
+zzzz sina ken lawa ike la &amp;lt;br&amp;gt;
+zzzz sina pilin e pilin+ike zz&amp;lt;br&amp;gt;
+zzzzzzzz en pilin monsuta zz&amp;lt;br&amp;gt;
+kin la sina alasa e pakala lon sewi en jan. zz&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+taso ijo+sina sama ijo+sina zz&amp;lt;br&amp;gt;
+en ijo+ona sama ijo+ona la &amp;lt;br&amp;gt;
+ala li tan zz&amp;lt;br&amp;gt;
+zz li awen e sina. zz&amp;lt;br&amp;gt;
+kin la &amp;lt;br&amp;gt;
+sina zz alasa ala e pakala ona zz&amp;lt;br&amp;gt;
+zz li toki+ike ala tawa jan ante. zz&amp;lt;br&amp;gt;
+sina zz pali ala e pali utala tawa sina. zz&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;
+ala li ike e sina zz&amp;lt;br&amp;gt;
+sina jo ala e jan-ike zz&amp;lt;br&amp;gt;
+ala ken ala pana e pakala tawa sina. zz&amp;lt;br&amp;gt;
+&amp;lt;!--
+The things in our control are by nature free, unrestrained, unhindered;
+but those not in our control are weak, slavish, restrained, belonging
+to others.
+Remember, then, that if you suppose that things which are
+slavish by nature are also free, and that what belongs to others is
+your own, then you will be hindered.
+You will lament, you will be disturbed, and you will find fault both with gods and men.
+But if you suppose that only to be your own which is your own, and what belongs
+to others such as it really is, then no one will ever compel you or
+restrain you.
+Further, you will find fault with no one or accuse no
+one.
+You will do nothing against your will.
+No one will hurt you, you will have no enemies, and you not be harmed. 
+--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/span&gt;
+&lt;blockquote&gt;
+&lt;span lang="tok"&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;sina alasa e ijo suli la &amp;lt;br&amp;gt;
+zz o sina sona e ni zz&amp;lt;br&amp;gt;
+zzzzzzzzzz sina ken ala wile e ni3sina alasa e ijo+lili zz&amp;lt;br&amp;gt;
+lawa suli li alasa la pana pilin ken ala tawa lawa lili e jo.
+sina wile pini li awen.
+sina jo e lawa suli li mani suli la sina jo e mani suli ala tan sina wile e
+lawa suli : sina pakala e jo e lawa suli taso nasin li ken e pilin pona en pilin ken.
+&amp;lt;!--
+Aiming therefore at such great things, remember that you must not
+allow yourself to be carried, even with a slight tendency, towards
+the attainment of lesser things.
+Instead, you must entirely quit some things and for the present postpone
+the rest.
+But if you would both have these great things, along with power and riches,
+then you will not gain even the latter, because you aim at the former too: but you
+will absolutely fail of the former, by which alone happiness and freedom
+are achieved.
+--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/span&gt;
+&lt;blockquote&gt;
+&lt;span lang="tok"&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;pali la tenpo ike li lon la te ni li selo lili en ni li sijelo monsuta ala
+to.
+o sina lukin e ni: * ni li lawa sina anu seme ni li lawa sina ala la sina
+toki e te ni li weka to.
+&amp;lt;!--
+Work, therefore to be able to say to every harsh appearance, &amp;quot;You
+are but an appearance, and not absolutely the thing you appear to
+be.&amp;quot;
+And then examine it by those rules which you have, and first,
+and chiefly, by this: whether it concerns the things which are in
+our own control, or those which are not; and, if it concerns anything
+not in our control, be prepared to say that it is nothing to you.
+--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/span&gt;
+&lt;blockquote&gt;
+&lt;span lang="tok"&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;tu. zz&amp;lt;br&amp;gt;
+sina sona e ni: * sina wile e ijo-wile tan sina jo e ijo-wile taso sina weka e
+ijo-ike tan sina weka e ijo-ike.
+taso ona li pakala e lanpan e ijo-wile la ona pilin ike.
+sina jo e ijo ike la sina pilin ike.
+sina weka e lawa pi sina pali la sina jo ala e ijo ike tan sina lawa e lawa
+pi sina pali.
+sina weka e ijo ike anu moli anu mani ala la sina pilin ike.
+ijo pi lawa sina ala la sina weka e ijo.
+sina weka e ijo ale lawa ala.
+sina weka e ijo lawa.
+&amp;lt;!--
+2. Remember that following desire promises the attainment of that
+of which you are desirous; and aversion promises the avoiding that
+to which you are averse.
+However, he who fails to obtain the object of his desire is disappointed,
+and he who incurs the object of his aversion wretched.
+If, then, you confine your aversion to those objects only which are contrary
+to the natural use of your faculties, which you have in your own control,
+you will never incur anything to which you are averse.
+But if you are averse to sickness, or death, or poverty, you will be
+wretched.
+Remove aversion, then, from all things that are not in our control, and
+transfer it to things contrary to the nature of what is in our control.
+But, for the present, totally suppress desire: for, if you desire any of the
+things which are not in your own control, you must necessarily be
+disappointed; and of those which are, and which it would be laudable to
+desire, nothing is yet in your possession.
+Use only the appropriate actions of pursuit and avoidance; and even these
+lightly, and with gentleness and reservation.
+--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/span&gt;
+&lt;!--
+3. With regard to whatever objects give you delight, are useful, or
+are deeply loved, remember to tell yourself of what general nature
+they are, beginning from the most insignificant things. If, for example,
+you are fond of a specific ceramic cup, remind yourself that it is
+only ceramic cups in general of which you are fond. Then, if it breaks,
+you will not be disturbed. If you kiss your child, or your wife, say
+that you only kiss things which are human, and thus you will not be
+disturbed if either of them dies. 
+
+4. When you are going about any action, remind yourself what nature
+the action is. If you are going to bathe, picture to yourself the
+things which usually happen in the bath: some people splash the water,
+some push, some use abusive language, and others steal. Thus you will
+more safely go about this action if you say to yourself, "I will now
+go bathe, and keep my own mind in a state conformable to nature."
+And in the same manner with regard to every other action. For thus,
+if any hindrance arises in bathing, you will have it ready to say,
+"It was not only to bathe that I desired, but to keep my mind in a
+state conformable to nature; and I will not keep it if I am bothered
+at things that happen. 
+
+5. Men are disturbed, not by things, but by the principles and notions
+which they form concerning things. Death, for instance, is not terrible,
+else it would have appeared so to Socrates. But the terror consists
+in our notion of death that it is terrible. When therefore we are
+hindered, or disturbed, or grieved, let us never attribute it to others,
+but to ourselves; that is, to our own principles. An uninstructed
+person will lay the fault of his own bad condition upon others. Someone
+just starting instruction will lay the fault on himself. Some who
+is perfectly instructed will place blame neither on others nor on
+himself. 
+
+6. Don't be prideful with any excellence that is not your own. If
+a horse should be prideful and say, " I am handsome," it would be
+supportable. But when you are prideful, and say, " I have a handsome
+horse," know that you are proud of what is, in fact, only the good
+of the horse. What, then, is your own? Only your reaction to the appearances
+of things. Thus, when you behave conformably to nature in reaction
+to how things appear, you will be proud with reason; for you will
+take pride in some good of your own. 
+
+7. Consider when, on a voyage, your ship is anchored; if you go on
+shore to get water you may along the way amuse yourself with picking
+up a shellish, or an onion. However, your thoughts and continual attention
+ought to be bent towards the ship, waiting for the captain to call
+on board; you must then immediately leave all these things, otherwise
+you will be thrown into the ship, bound neck and feet like a sheep.
+So it is with life. If, instead of an onion or a shellfish, you are
+given a wife or child, that is fine. But if the captain calls, you
+must run to the ship, leaving them, and regarding none of them. But
+if you are old, never go far from the ship: lest, when you are called,
+you should be unable to come in time. 
+
+8. Don't demand that things happen as you wish, but wish that they
+happen as they do happen, and you will go on well. 
+
+9. Sickness is a hindrance to the body, but not to your ability to
+choose, unless that is your choice. Lameness is a hindrance to the
+leg, but not to your ability to choose. Say this to yourself with
+regard to everything that happens, then you will see such obstacles
+as hindrances to something else, but not to yourself. 
+
+10. With every accident, ask yourself what abilities you have for
+making a proper use of it. If you see an attractive person, you will
+find that self-restraint is the ability you have against your desire.
+If you are in pain, you will find fortitude. If you hear unpleasant
+language, you will find patience. And thus habituated, the appearances
+of things will not hurry you away along with them. 
+
+11. Never say of anything, "I have lost it"; but, "I have returned
+it." Is your child dead? It is returned. Is your wife dead? She is
+returned. Is your estate taken away? Well, and is not that likewise
+returned? "But he who took it away is a bad man." What difference
+is it to you who the giver assigns to take it back? While he gives
+it to you to possess, take care of it; but don't view it as your own,
+just as travelers view a hotel. 
+
+12. If you want to improve, reject such reasonings as these: "If I
+neglect my affairs, I'll have no income; if I don't correct my servant,
+he will be bad." For it is better to die with hunger, exempt from
+grief and fear, than to live in affluence with perturbation; and it
+is better your servant should be bad, than you unhappy. 
+
+Begin therefore from little things. Is a little oil spilt? A little
+wine stolen? Say to yourself, "This is the price paid for apathy,
+for tranquillity, and nothing is to be had for nothing." When you
+call your servant, it is possible that he may not come; or, if he
+does, he may not do what you want. But he is by no means of such importance
+that it should be in his power to give you any disturbance.
+
+13. If you want to improve, be content to be thought foolish and stupid
+with regard to external things. Don't wish to be thought to know anything;
+and even if you appear to be somebody important to others, distrust
+yourself. For, it is difficult to both keep your faculty of choice
+in a state conformable to nature, and at the same time acquire external
+things. But while you are careful about the one, you must of necessity
+neglect the other. 
+
+14. If you wish your children, and your wife, and your friends to
+live for ever, you are stupid; for you wish to be in control of things
+which you cannot, you wish for things that belong to others to be
+your own. So likewise, if you wish your servant to be without fault,
+you are a fool; for you wish vice not to be vice," but something else.
+But, if you wish to have your desires undisappointed, this is in your
+own control. Exercise, therefore, what is in your control. He is the
+master of every other person who is able to confer or remove whatever
+that person wishes either to have or to avoid. Whoever, then, would
+be free, let him wish nothing, let him decline nothing, which depends
+on others else he must necessarily be a slave. 
+
+15. Remember that you must behave in life as at a dinner party. Is
+anything brought around to you? Put out your hand and take your share
+with moderation. Does it pass by you? Don't stop it. Is it not yet
+come? Don't stretch your desire towards it, but wait till it reaches
+you. Do this with regard to children, to a wife, to public posts,
+to riches, and you will eventually be a worthy partner of the feasts
+of the gods. And if you don't even take the things which are set before
+you, but are able even to reject them, then you will not only be a
+partner at the feasts of the gods, but also of their empire. For,
+by doing this, Diogenes, Heraclitus and others like them, deservedly
+became, and were called, divine. 
+
+16. When you see anyone weeping in grief because his son has gone
+abroad, or is dead, or because he has suffered in his affairs, be
+careful that the appearance may not misdirect you. Instead, distinguish
+within your own mind, and be prepared to say, "It's not the accident
+that distresses this person., because it doesn't distress another
+person; it is the judgment which he makes about it." As far as words
+go, however, don't reduce yourself to his level, and certainly do
+not moan with him. Do not moan inwardly either. 
+
+17. Remember that you are an actor in a drama, of such a kind as the
+author pleases to make it. If short, of a short one; if long, of a
+long one. If it is his pleasure you should act a poor man, a cripple,
+a governor, or a private person, see that you act it naturally. For
+this is your business, to act well the character assigned you; to
+choose it is another's. 
+
+18. When a raven happens to croak unluckily, don't allow the appearance
+hurry you away with it, but immediately make the distinction to yourself,
+and say, "None of these things are foretold to me; but either to my
+paltry body, or property, or reputation, or children, or wife. But
+to me all omens are lucky, if I will. For whichever of these things
+happens, it is in my control to derive advantage from it."
+
+19. You may be unconquerable, if you enter into no combat in which
+it is not in your own control to conquer. When, therefore, you see
+anyone eminent in honors, or power, or in high esteem on any other
+account, take heed not to be hurried away with the appearance, and
+to pronounce him happy; for, if the essence of good consists in things
+in our own control, there will be no room for envy or emulation. But,
+for your part, don't wish to be a general, or a senator, or a consul,
+but to be free; and the only way to this is a contempt of things not
+in our own control. 
+
+20. Remember, that not he who gives ill language or a blow insults,
+but the principle which represents these things as insulting. When,
+therefore, anyone provokes you, be assured that it is your own opinion
+which provokes you. Try, therefore, in the first place, not to be
+hurried away with the appearance. For if you once gain time and respite,
+you will more easily command yourself. 
+
+21. Let death and exile, and all other things which appear terrible
+be daily before your eyes, but chiefly death, and you win never entertain
+any abject thought, nor too eagerly covet anything. 
+
+22. If you have an earnest desire of attaining to philosophy, prepare
+yourself from the very first to be laughed at, to be sneered by the
+multitude, to hear them say,." He is returned to us a philosopher
+all at once," and " Whence this supercilious look?" Now, for your
+part, don't have a supercilious look indeed; but keep steadily to
+those things which appear best to you as one appointed by God to this
+station. For remember that, if you adhere to the same point, those
+very persons who at first ridiculed will afterwards admire you. But
+if you are conquered by them, you will incur a double ridicule.
+
+23. If you ever happen to turn your attention to externals, so as
+to wish to please anyone, be assured that you have ruined your scheme
+of life. Be contented, then, in everything with being a philosopher;
+and, if you wish to be thought so likewise by anyone, appear so to
+yourself, and it will suffice you. 
+
+24. Don't allow such considerations as these distress you. "I will
+live in dishonor, and be nobody anywhere." For, if dishonor is an
+evil, you can no more be involved in any evil by the means of another,
+than be engaged in anything base. Is it any business of yours, then,
+to get power, or to be admitted to an entertainment? By no means.
+How, then, after all, is this a dishonor? And how is it true that
+you will be nobody anywhere, when you ought to be somebody in those
+things only which are in your own control, in which you may be of
+the greatest consequence? "But my friends will be unassisted." --
+What do you mean by unassisted? They will not have money from you,
+nor will you make them Roman citizens. Who told you, then, that these
+are among the things in our own control, and not the affair of others?
+And who can give to another the things which he has not himself? "Well,
+but get them, then, that we too may have a share." If I can get them
+with the preservation of my own honor and fidelity and greatness of
+mind, show me the way and I will get them; but if you require me to
+lose my own proper good that you may gain what is not good, consider
+how inequitable and foolish you are. Besides, which would you rather
+have, a sum of money, or a friend of fidelity and honor? Rather assist
+me, then, to gain this character than require me to do those things
+by which I may lose it. Well, but my country, say you, as far as depends
+on me, will be unassisted. Here again, what assistance is this you
+mean? "It will not have porticoes nor baths of your providing." And
+what signifies that? Why, neither does a smith provide it with shoes,
+or a shoemaker with arms. It is enough if everyone fully performs
+his own proper business. And were you to supply it with another citizen
+of honor and fidelity, would not he be of use to it? Yes. Therefore
+neither are you yourself useless to it. "What place, then, say you,
+will I hold in the state?" Whatever you can hold with the preservation
+of your fidelity and honor. But if, by desiring to be useful to that,
+you lose these, of what use can you be to your country when you are
+become faithless and void of shame. 
+
+25. Is anyone preferred before you at an entertainment, or in a compliment,
+or in being admitted to a consultation? If these things are good,
+you ought to be glad that he has gotten them; and if they are evil,
+don't be grieved that you have not gotten them. And remember that
+you cannot, without using the same means [which others do] to acquire
+things not in our own control, expect to be thought worthy of an equal
+share of them. For how can he who does not frequent the door of any
+[great] man, does not attend him, does not praise him, have an equal
+share with him who does? You are unjust, then, and insatiable, if
+you are unwilling to pay the price for which these things are sold,
+and would have them for nothing. For how much is lettuce sold? Fifty
+cents, for instance. If another, then, paying fifty cents, takes the
+lettuce, and you, not paying it, go without them, don't imagine that
+he has gained any advantage over you. For as he has the lettuce, so
+you have the fifty cents which you did not give. So, in the present
+case, you have not been invited to such a person's entertainment,
+because you have not paid him the price for which a supper is sold.
+It is sold for praise; it is sold for attendance. Give him then the
+value, if it is for your advantage. But if you would, at the same
+time, not pay the one and yet receive the other, you are insatiable,
+and a blockhead. Have you nothing, then, instead of the supper? Yes,
+indeed, you have: the not praising him, whom you don't like to praise;
+the not bearing with his behavior at coming in. 
+
+26. The will of nature may be learned from those things in which we
+don't distinguish from each other. For example, when our neighbor's
+boy breaks a cup, or the like, we are presently ready to say, "These
+things will happen." Be assured, then, that when your own cup likewise
+is broken, you ought to be affected just as when another's cup was
+broken. Apply this in like manner to greater things. Is the child
+or wife of another dead? There is no one who would not say, "This
+is a human accident." but if anyone's own child happens to die, it
+is presently, "Alas I how wretched am I!" But it should be remembered
+how we are affected in hearing the same thing concerning others.
+
+27. As a mark is not set up for the sake of missing the aim, so neither
+does the nature of evil exist in the world. 
+
+28. If a person gave your body to any stranger he met on his way,
+you would certainly be angry. And do you feel no shame in handing
+over your own mind to be confused and mystified by anyone who happens
+to verbally attack you? 
+
+29. In every affair consider what precedes and follows, and then undertake
+it. Otherwise you will begin with spirit; but not having thought of
+the consequences, when some of them appear you will shamefully desist.
+"I would conquer at the Olympic games." But consider what precedes
+and follows, and then, if it is for your advantage, engage in the
+affair. You must conform to rules, submit to a diet, refrain from
+dainties; exercise your body, whether you choose it or not, at a stated
+hour, in heat and cold; you must drink no cold water, nor sometimes
+even wine. In a word, you must give yourself up to your master, as
+to a physician. Then, in the combat, you may be thrown into a ditch,
+dislocate your arm, turn your ankle, swallow dust, be whipped, and,
+after all, lose the victory. When you have evaluated all this, if
+your inclination still holds, then go to war. Otherwise, take notice,
+you will behave like children who sometimes play like wrestlers, sometimes
+gladiators, sometimes blow a trumpet, and sometimes act a tragedy
+when they have seen and admired these shows. Thus you too will be
+at one time a wrestler, at another a gladiator, now a philosopher,
+then an orator; but with your whole soul, nothing at all. Like an
+ape, you mimic all you see, and one thing after another is sure to
+please you, but is out of favor as soon as it becomes familiar. For
+you have never entered upon anything considerately, nor after having
+viewed the whole matter on all sides, or made any scrutiny into it,
+but rashly, and with a cold inclination. Thus some, when they have
+seen a philosopher and heard a man speaking like Euphrates (though,
+indeed, who can speak like him?), have a mind to be philosophers too.
+Consider first, man, what the matter is, and what your own nature
+is able to bear. If you would be a wrestler, consider your shoulders,
+your back, your thighs; for different persons are made for different
+things. Do you think that you can act as you do, and be a philosopher?
+That you can eat and drink, and be angry and discontented as you are
+now? You must watch, you must labor, you must get the better of certain
+appetites, must quit your acquaintance, be despised by your servant,
+be laughed at by those you meet; come off worse than others in everything,
+in magistracies, in honors, in courts of judicature. When you have
+considered all these things round, approach, if you please; if, by
+parting with them, you have a mind to purchase apathy, freedom, and
+tranquillity. If not, don't come here; don't, like children, be one
+while a philosopher, then a publican, then an orator, and then one
+of Caesar's officers. These things are not consistent. You must be
+one man, either good or bad. You must cultivate either your own ruling
+faculty or externals, and apply yourself either to things within or
+without you; that is, be either a philosopher, or one of the vulgar.
+
+30. Duties are universally measured by relations. Is anyone a father?
+If so, it is implied that the children should take care of him, submit
+to him in everything, patiently listen to his reproaches, his correction.
+But he is a bad father. Is you naturally entitled, then, to a good
+father? No, only to a father. Is a brother unjust? Well, keep your
+own situation towards him. Consider not what he does, but what you
+are to do to keep your own faculty of choice in a state conformable
+to nature. For another will not hurt you unless you please. You will
+then be hurt when you think you are hurt. In this manner, therefore,
+you will find, from the idea of a neighbor, a citizen, a general,
+the corresponding duties if you accustom yourself to contemplate the
+several relations. 
+
+31. Be assured that the essential property of piety towards the gods
+is to form right opinions concerning them, as existing "I and as governing
+the universe with goodness and justice. And fix yourself in this resolution,
+to obey them, and yield to them, and willingly follow them in all
+events, as produced by the most perfect understanding. For thus you
+will never find fault with the gods, nor accuse them as neglecting
+you. And it is not possible for this to be effected any other way
+than by withdrawing yourself from things not in our own control, and
+placing good or evil in those only which are. For if you suppose any
+of the things not in our own control to be either good or evil, when
+you are disappointed of what you wish, or incur what you would avoid,
+you must necessarily find fault with and blame the authors. For every
+animal is naturally formed to fly and abhor things that appear hurtful,
+and the causes of them; and to pursue and admire those which appear
+beneficial, and the causes of them. It is impractical, then, that
+one who supposes himself to be hurt should be happy about the person
+who, he thinks, hurts him, just as it is impossible to be happy about
+the hurt itself. Hence, also, a father is reviled by a son, when he
+does not impart to him the things which he takes to be good; and the
+supposing empire to be a good made Polynices and Eteocles mutually
+enemies. On this account the husbandman, the sailor, the merchant,
+on this account those who lose wives and children, revile the gods.
+For where interest is, there too is piety placed. So that, whoever
+is careful to regulate his desires and aversions as he ought, is,
+by the very same means, careful of piety likewise. But it is also
+incumbent on everyone to offer libations and sacrifices and first
+fruits, conformably to the customs of his country, with purity, and
+not in a slovenly manner, nor negligently, nor sparingly, nor beyond
+his ability. 
+
+32. When you have recourse to divination, remember that you know not
+what the event will be, and you come to learn it of the diviner; but
+of what nature it is you know before you come, at least if you are
+a philosopher. For if it is among the things not in our own control,
+it can by no means be either good or evil. Don't, therefore, bring
+either desire or aversion with you to the diviner (else you will approach
+him trembling), but first acquire a distinct knowledge that every
+event is indifferent and nothing to you., of whatever sort it may
+be, for it will be in your power to make a right use of it, and this
+no one can hinder; then come with confidence to the gods, as your
+counselors, and afterwards, when any counsel is given you, remember
+what counselors you have assumed, and whose advice you will neglect
+if you disobey. Come to divination, as Socrates prescribed, in cases
+of which the whole consideration relates to the event, and in which
+no opportunities are afforded by reason, or any other art, to discover
+the thing proposed to be learned. When, therefore, it is our duty
+to share the danger of a friend or of our country, we ought not to
+consult the oracle whether we will share it with them or not. For,
+though the diviner should forewarn you that the victims are unfavorable,
+this means no more than that either death or mutilation or exile is
+portended. But we have reason within us, and it directs, even with
+these hazards, to the greater diviner, the Pythian god, who cast out
+of the temple the person who gave no assistance to his friend while
+another was murdering him. 
+
+33. Immediately prescribe some character and form of conduce to yourself,
+which you may keep both alone and in company. 
+
+Be for the most part silent, or speak merely what is necessary, and
+in few words. We may, however, enter, though sparingly, into discourse
+sometimes when occasion calls for it, but not on any of the common
+subjects, of gladiators, or horse races, or athletic champions, or
+feasts, the vulgar topics of conversation; but principally not of
+men, so as either to blame, or praise, or make comparisons. If you
+are able, then, by your own conversation bring over that of your company
+to proper subjects; but, if you happen to be taken among strangers,
+be silent. 
+
+Don't allow your laughter be much, nor on many occasions, nor profuse.
+
+Avoid swearing, if possible, altogether; if not, as far as you are
+able. 
+
+Avoid public and vulgar entertainments; but, if ever an occasion calls
+you to them, keep your attention upon the stretch, that you may not
+imperceptibly slide into vulgar manners. For be assured that if a
+person be ever so sound himself, yet, if his companion be infected,
+he who converses with him will be infected likewise. 
+
+Provide things relating to the body no further than mere use; as meat,
+drink, clothing, house, family. But strike off and reject everything
+relating to show and delicacy. 
+
+As far as possible, before marriage, keep yourself pure from familiarities
+with women, and, if you indulge them, let it be lawfully." But don't
+therefore be troublesome and full of reproofs to those who use these
+liberties, nor frequently boast that you yourself don't.
+
+If anyone tells you that such a person speaks ill of you, don't make
+excuses about what is said of you, but answer: " He does not know
+my other faults, else he would not have mentioned only these."
+
+It is not necessary for you to appear often at public spectacles;
+but if ever there is a proper occasion for you to be there, don't
+appear more solicitous for anyone than for yourself; that is, wish
+things to be only just as they are, and him only to conquer who is
+the conqueror, for thus you will meet with no hindrance. But abstain
+entirely from declamations and derision and violent emotions. And
+when you come away, don't discourse a great deal on what has passed,
+and what does not contribute to your own amendment. For it would appear
+by such discourse that you were immoderately struck with the show.
+
+Go not [of your own accord] to the rehearsals of any 
+(authors) , nor appear [at them] readily. But, if you do appear, keepyour
+gravity and sedateness, and at the same time avoid being morose.
+
+When you are going to confer with anyone, and particularly of those
+in a superior station, represent to yourself how Socrates or Zeno
+would behave in such a case, and you will not be at a loss to make
+a proper use of whatever may occur. 
+
+When you are going to any of the people in power, represent to yourself
+that you will not find him at home; that you will not be admitted;
+that the doors will not be opened to you; that he will take no notice
+of you. If, with all this, it is your duty to go, bear what happens,
+and never say [to yourself], " It was not worth so much." For this
+is vulgar, and like a man dazed by external things. 
+
+In parties of conversation, avoid a frequent and excessive mention
+of your own actions and dangers. For, however agreeable it may be
+to yourself to mention the risks you have run, it is not equally agreeable
+to others to hear your adventures. Avoid, likewise, an endeavor to
+excite laughter. For this is a slippery point, which may throw you
+into vulgar manners, and, besides, may be apt to lessen you in the
+esteem of your acquaintance. Approaches to indecent discourse are
+likewise dangerous. Whenever, therefore, anything of this sort happens,
+if there be a proper opportunity, rebuke him who makes advances that
+way; or, at least, by silence and blushing and a forbidding look,
+show yourself to be displeased by such talk. 
+
+34. If you are struck by the appearance of any promised pleasure,
+guard yourself against being hurried away by it; but let the affair
+wait your leisure, and procure yourself some delay. Then bring to
+your mind both points of time: that in which you will enjoy the pleasure,
+and that in which you will repent and reproach yourself after you
+have enjoyed it; and set before you, in opposition to these, how you
+will be glad and applaud yourself if you abstain. And even though
+it should appear to you a seasonable gratification, take heed that
+its enticing, and agreeable and attractive force may not subdue you;
+but set in opposition to this how much better it is to be conscious
+of having gained so great a victory. 
+
+35. When you do anything from a clear judgment that it ought to be
+done, never shun the being seen to do it, even though the world should
+make a wrong supposition about it; for, if you don't act right, shun
+the action itself; but, if you do, why are you afraid of those who
+censure you wrongly? 
+
+36. As the proposition, "Either it is day or it is night," is extremely
+proper for a disjunctive argument, but quite improper in a conjunctive
+one, so, at a feast, to choose the largest share is very suitable
+to the bodily appetite, but utterly inconsistent with the social spirit
+of an entertainment. When you eat with another, then, remember not
+only the value of those things which are set before you to the body,
+but the value of that behavior which ought to be observed towards
+the person who gives the entertainment. 
+
+37. If you have assumed any character above your strength, you have
+both made an ill figure in that and quitted one which you might have
+supported. 
+
+38. When walking, you are careful not to step on a nail or turn your
+foot; so likewise be careful not to hurt the ruling faculty of your
+mind. And, if we were to guard against this in every action, we should
+undertake the action with the greater safety. 
+
+39. The body is to everyone the measure of the possessions proper
+for it, just as the foot is of the shoe. If, therefore, you stop at
+this, you will keep the measure; but if you move beyond it, you must
+necessarily be carried forward, as down a cliff; as in the case of
+a shoe, if you go beyond its fitness to the foot, it comes first to
+be gilded, then purple, and then studded with jewels. For to that
+which once exceeds a due measure, there is no bound. 
+
+40. Women from fourteen years old are flattered with the title of
+"mistresses" by the men. Therefore, perceiving that they are regarded
+only as qualified to give the men pleasure, they begin to adorn themselves,
+and in that to place ill their hopes. We should, therefore, fix our
+attention on making them sensible that they are valued for the appearance
+of decent, modest and discreet behavior. 
+
+41. It is a mark of want of genius to spend much time in things relating
+to the body, as to be long in our exercises, in eating and drinking,
+and in the discharge of other animal functions. These should be done
+incidentally and slightly, and our whole attention be engaged in the
+care of the understanding. 
+
+42. When any person harms you, or speaks badly of you, remember that
+he acts or speaks from a supposition of its being his duty. Now, it
+is not possible that he should follow what appears right to you, but
+what appears so to himself. Therefore, if he judges from a wrong appearance,
+he is the person hurt, since he too is the person deceived. For if
+anyone should suppose a true proposition to be false, the proposition
+is not hurt, but he who is deceived about it. Setting out, then, from
+these principles, you will meekly bear a person who reviles you, for
+you will say upon every occasion, "It seemed so to him."
+
+43. Everything has two handles, the one by which it may be carried,
+the other by which it cannot. If your brother acts unjustly, don't
+lay hold on the action by the handle of his injustice, for by that
+it cannot be carried; but by the opposite, that he is your brother,
+that he was brought up with you; and thus you will lay hold on it,
+as it is to be carried. 
+
+44. These reasonings are unconnected: "I am richer than you, therefore
+I am better"; "I am more eloquent than you, therefore I am better."
+The connection is rather this: "I am richer than you, therefore my
+property is greater than yours;" "I am more eloquent than you, therefore
+my style is better than yours." But you, after all, are neither property
+nor style. 
+
+45. Does anyone bathe in a mighty little time? Don't say that he does
+it ill, but in a mighty little time. Does anyone drink a great quantity
+of wine? Don't say that he does ill, but that he drinks a great quantity.
+For, unless you perfectly understand the principle from which anyone
+acts, how should you know if he acts ill? Thus you will not run the
+hazard of assenting to any appearances but such as you fully comprehend.
+
+46. Never call yourself a philosopher, nor talk a great deal among
+the unlearned about theorems, but act conformably to them. Thus, at
+an entertainment, don't talk how persons ought to eat, but eat as
+you ought. For remember that in this manner Socrates also universally
+avoided all ostentation. And when persons came to him and desired
+to be recommended by him to philosophers, he took and- recommended
+them, so well did he bear being overlooked. So that if ever any talk
+should happen among the unlearned concerning philosophic theorems,
+be you, for the most part, silent. For there is great danger in immediately
+throwing out what you have not digested. And, if anyone tells you
+that you know nothing, and you are not nettled at it, then you may
+be sure that you have begun your business. For sheep don't throw up
+the grass to show the shepherds how much they have eaten; but, inwardly
+digesting their food, they outwardly produce wool and milk. Thus,
+therefore, do you likewise not show theorems to the unlearned, but
+the actions produced by them after they have been digested.
+
+47. When you have brought yourself to supply the necessities of your
+body at a small price, don't pique yourself upon it; nor, if you drink
+water, be saying upon every occasion, "I drink water." But first consider
+how much more sparing and patient of hardship the poor are than we.
+But if at any time you would inure yourself by exercise to labor,
+and bearing hard trials, do it for your own sake, and not for the
+world; don't grasp statues, but, when you are violently thirsty, take
+a little cold water in your mouth, and spurt it out and tell nobody.
+
+48. The condition and characteristic of a vulgar person, is, that
+he never expects either benefit or hurt from himself, but from externals.
+The condition and characteristic of a philosopher is, that he expects
+all hurt and benefit from himself. The marks of a proficient are,
+that he censures no one, praises no one, blames no one, accuses no
+one, says nothing concerning himself as being anybody, or knowing
+anything: when he is, in any instance, hindered or restrained, he
+accuses himself; and, if he is praised, he secretly laughs at the
+person who praises him; and, if he is censured, he makes no defense.
+But he goes about with the caution of sick or injured people, dreading
+to move anything that is set right, before it is perfectly fixed.
+He suppresses all desire in himself; he transfers his aversion to
+those things only which thwart the proper use of our own faculty of
+choice; the exertion of his active powers towards anything is very
+gentle; if he appears stupid or ignorant, he does not care, and, in
+a word, he watches himself as an enemy, and one in ambush.
+
+49. When anyone shows himself overly confident in ability to understand
+and interpret the works of Chrysippus, say to yourself, " Unless Chrysippus
+had written obscurely, this person would have had no subject for his
+vanity. But what do I desire? To understand nature and follow her.
+I ask, then, who interprets her, and, finding Chrysippus does, I have
+recourse to him. I don't understand his writings. I seek, therefore,
+one to interpret them." So far there is nothing to value myself upon.
+And when I find an interpreter, what remains is to make use of his
+instructions. This alone is the valuable thing. But, if I admire nothing
+but merely the interpretation, what do I become more than a grammarian
+instead of a philosopher? Except, indeed, that instead of Homer I
+interpret Chrysippus. When anyone, therefore, desires me to read Chrysippus
+to him, I rather blush when I cannot show my actions agreeable and
+consonant to his discourse. 
+
+50. Whatever moral rules you have deliberately proposed to yourself.
+abide by them as they were laws, and as if you would be guilty of
+impiety by violating any of them. Don't regard what anyone says of
+you, for this, after all, is no concern of yours. How long, then,
+will you put off thinking yourself worthy of the highest improvements
+and follow the distinctions of reason? You have received the philosophical
+theorems, with which you ought to be familiar, and you have been familiar
+with them. What other master, then, do you wait for, to throw upon
+that the delay of reforming yourself? You are no longer a boy, but
+a grown man. If, therefore, you will be negligent and slothful, and
+always add procrastination to procrastination, purpose to purpose,
+and fix day after day in which you will attend to yourself, you will
+insensibly continue without proficiency, and, living and dying, persevere
+in being one of the vulgar. This instant, then, think yourself worthy
+of living as a man grown up, and a proficient. Let whatever appears
+to be the best be to you an inviolable law. And if any instance of
+pain or pleasure, or glory or disgrace, is set before you, remember
+that now is the combat, now the Olympiad comes on, nor can it be put
+off. By once being defeated and giving way, proficiency is lost, or
+by the contrary preserved. Thus Socrates became perfect, improving
+himself by everything. attending to nothing but reason. And though
+you are not yet a Socrates, you ought, however, to live as one desirous
+of becoming a Socrates. 
+
+51. The first and most necessary topic in philosophy is that of the
+use of moral theorems, such as, "We ought not to lie;" the second
+is that of demonstrations, such as, "What is the origin of our obligation
+not to lie;" the third gives strength and articulation to the other
+two, such as, "What is the origin of this is a demonstration." For
+what is demonstration? What is consequence? What contradiction? What
+truth? What falsehood? The third topic, then, is necessary on the
+account of the second, and the second on the account of the first.
+But the most necessary, and that whereon we ought to rest, is the
+first. But we act just on the contrary. For we spend all our time
+on the third topic, and employ all our diligence about that, and entirely
+neglect the first. Therefore, at the same time that we lie, we are
+immediately prepared to show how it is demonstrated that lying is
+not right. 
+
+52. Upon all occasions we ought to have these maxims ready at hand:
+
+"Conduct me, Jove, and you, 0 Destiny, 
+Wherever your decrees have fixed my station." 
+(Cleanthes)
+
+"I follow cheerfully; and, did I not, 
+Wicked and wretched, I must follow still 
+Whoever yields properly to Fate, is deemed 
+Wise among men, and knows the laws of heaven." 
+(Euripides, Frag. 965)
+
+And this third: 
+
+"0 Crito, if it thus pleases the gods, thus let it be. Anytus and
+Melitus may kill me indeed, but hurt me they cannot." 
+(Plato's Crito and Apology) 
+
+THE END
+--&gt;</content:encoded><category>Projects</category></item><item><title>AOC day 1</title><link>https://stau.space/posts/aoc-2024-day1/</link><pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/aoc-2024-day1/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
+ wan wan. &lt;br&gt;
+ zz pana pi (toki tawa lipu) li nasin lipu tu e wan. &lt;br&gt;
+ zz pana pi (toki tawa lipu) li suli. &lt;br&gt;
+&lt;/span&gt;
+&lt;span lang="tok"&gt;
+ zz poka li sin pana ala li nanpa sewi e luka. &lt;br&gt;
+ zz ale li sin pana. &lt;br&gt;
+&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bqn" data-lang="bqn"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;⍉&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="o"&gt;˘&lt;/span&gt;&lt;span class="nf"&gt;⍉&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;|-&lt;/span&gt;&lt;span class="o"&gt;˝&lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="o"&gt;˘&lt;/span&gt;&lt;span class="nf"&gt;⍉&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;|-&lt;/span&gt;&lt;span class="o"&gt;˝&lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="o"&gt;˘&lt;/span&gt;&lt;span class="nf"&gt;⍉&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;span lang="tok"&gt;
+ wan tu. &lt;br&gt;
+ zz mi li wan poka en wan luka e pana pi (toki tawa lipu). &lt;br&gt;
+&lt;/span&gt;
+&lt;span lang="tok"&gt;
+ zz taso wan poka ijo li alasa e wan luka ijo. &lt;br&gt;
+ zz ni li sin sin pana e poka. &lt;br&gt;
+ zz ale li sin pana. &lt;br&gt;
+&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bqn" data-lang="bqn"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;←&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;⊑&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;luka&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;←&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="nf"&gt;⊑&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;=&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;luka&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="nf"&gt;×&lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;=&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;luka&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="nf"&gt;×&lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;=&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;luka&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="m"&gt;31&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 2</title><link>https://stau.space/posts/aoc-2024-day2/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/aoc-2024-day2/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
+ soweli suli li moku e sina. ijo li moku
+&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bqn" data-lang="bqn"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;•Show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;input&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;A&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;←&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="no"&gt;·&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;≤∧&lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;≥&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nf"&gt;|&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;=&lt;/span&gt;&lt;span class="ow"&gt;∘&lt;/span&gt;&lt;span class="nf"&gt;≠⍷&lt;/span&gt;&lt;span class="ow"&gt;∘&lt;/span&gt;&lt;span class="nf"&gt;×&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="nf"&gt;-&lt;/span&gt;&lt;span class="o"&gt;´˘&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="nf"&gt;↕&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;B&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;←&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="nf"&gt;∨&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;A&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="no"&gt;·&lt;/span&gt;&lt;span class="nf"&gt;/&lt;/span&gt;&lt;span class="ow"&gt;⟜&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="nf"&gt;&amp;lt;&lt;/span&gt;&lt;span class="o"&gt;˘&lt;/span&gt;&lt;span class="nf"&gt;¬=&lt;/span&gt;&lt;span class="o"&gt;⌜˜&lt;/span&gt;&lt;span class="nf"&gt;↕≠&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;•Show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;A&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;input&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;•Show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;B&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;input&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>Mathematics in toki pona</title><link>https://stau.space/posts/tok-mat/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-mat/</guid><description>o sina sona e nanpa!</description><content:encoded>&lt;p&gt;&lt;span class="tok"&gt;nasin nanpa lon toki-pona&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The language toki pona (&lt;span lang="tok"&gt;toki-pona&lt;/span&gt;) lacks a lot of common mathematical definitions.
+Although this is on purpose, I do enjoy talking about mathematics.
+In a language where kindness and compassion is so prevalent I see no reason why to avoid talking about something I feel so passionate about.
+Then, here is my documentation for how to speak about common mathematical terms.&lt;/p&gt;
+&lt;h1 id="始めます"&gt;始めます&lt;/h1&gt;
+&lt;p&gt;In &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; we have the general notion of numbers as defined in &lt;a href="https://sona.pona.la/wiki/Number_systems" target="_blank" rel="external noopener noreferrer nofollow"&gt;&amp;ldquo;nasin nanpa pona&amp;rdquo;&lt;/a&gt; (&lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt;).
+I will perhaps go through the core ideas of this number system later.
+For now, keep in mind that it is a very simple number system.
+In this document I attempt to talk about complex mathematical concepts in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt;.
+That means that in order to read this, you must be aware of how &lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt; works.
+Again, it is a very simple system and I highly encourage you to read up on it if you haven&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;There is no need to reinvent the wheel, specially in mathematics.
+I will use the standard mathematical symbols to refer to the four basic operations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(a + b) addition&lt;/li&gt;
+&lt;li&gt;(a - b) subtraction&lt;/li&gt;
+&lt;li&gt;(a \times b) multiplication&lt;/li&gt;
+&lt;li&gt;(\frac{a}{b}) division&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other common ascii symbols that I refer to are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system" target="_blank" rel="external noopener noreferrer nofollow"&gt;Hindu-Arabic numeral system&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;equality&lt;/li&gt;
+&lt;li&gt;exponentiation&lt;/li&gt;
+&lt;li&gt;parentheses&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The reason for this is that, personally, I consider mathematics to be its own language.
+Talking about Mathematics (the language) in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; should be the same as talking about any other language in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt;.
+The language of Mathematics has its own culture and conventions and, depending on where on the planet you grew up in, your ideas about Mathematics can be different.
+Knowing this, I fully expect that different people will have different opinions on how Mathematics in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; should be spoken.&lt;/p&gt;
+&lt;p&gt;To learn more, check out the following links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://stau.space/posts/tok-mat/faq/"&gt;Frequently Asked Questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sona.pona.la/wiki/Number_systems" target="_blank" rel="external noopener noreferrer nofollow"&gt;toki pona number systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sona.pona.la/wiki/nasin_nanpa_pona" target="_blank" rel="external noopener noreferrer nofollow"&gt;nasin nanpa pona&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From here on out, I will be using the &lt;a href="https://sona.pona.la/wiki/nasin_nanpa_pona" target="_blank" rel="external noopener noreferrer nofollow"&gt;&amp;quot;&lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt;&amp;quot;&lt;/a&gt; number system.&lt;/p&gt;
+&lt;details&gt;
+ &lt;summary&gt;&lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt;&lt;/summary&gt;
+ I would much rather use &lt;a href="https://seximal.net"&gt;seximal&lt;/a&gt; for this.
+ However, most people use &lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt; and since I want this to be digestable to the most amount of people, I shall use that instead.
+&lt;/details&gt;
+&lt;hr&gt;
+&lt;h2 class="sp2"&gt;toki open a&lt;/h2&gt;
+&lt;section class="sp"&gt;
+zz nanpa li lon mute. &lt;br&gt;
+zz kili 5 &lt;br&gt;
+en soweli wan &lt;br&gt;
+en lipu 31415 &lt;br&gt;
+en nanpa li lon e ma ali. &lt;br&gt;
+&lt;br&gt;
+nanpa li lon ala la &lt;br&gt;
+mi en sina en ona en ali li toki-pona ala. &lt;br&gt;
+&lt;br&gt;
+ni3 la nanpa li suli suli. &lt;br&gt;
+kin la nanpa li pona suli tawa oko en lawa. &lt;br&gt;
+&lt;br&gt;
+o sina sona e nanpa a zz
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 class="sp2"&gt;wan la toki pi (nasin nanpa)&lt;/h2&gt;
+&lt;section class="sp"&gt;
+lawa suli li toki tawa ona zz la &lt;br&gt;
+lawa suli li jo e nanpa nasa la &lt;br&gt;
+o sina pali lon toki pi (nasin nanpa) tawa ni7. zz &lt;br&gt;
+&lt;br&gt;
+tu la toki pi (ijo nanpa). &lt;br&gt;
+nanpa ni3 la te 0 1 2 3 4 5 6 7 8 9 to. &lt;br&gt;
+zz nanpa te 0 to li sama nanpa ala zz&lt;br&gt;
+en nanpa te 1 to li sama nanpa wan zz &lt;br&gt;
+en nanpa te 2 to li sama nanpa tu zz &lt;br&gt;
+en nanpa te 3 to li sama nanpa tu wan zz &lt;br&gt;
+en nanpa te 4 to li sama nanpa tu tu zz &lt;br&gt;
+en nanpa te 5 to li sama nanpa luka zz &lt;br&gt;
+en nanpa te 6 to li sama nanpa luka wan zz &lt;br&gt;
+en nanpa te 7 to li sama nanpa luka tu zz &lt;br&gt;
+en nanpa te 8 to li sama nanpa luka tu wan zz &lt;br&gt;
+en nanpa te 9 to li sama nanpa luka tu tu. &lt;br&gt;
+&lt;br&gt;
+o lukin e ni5 la
+&lt;img src="us.svg"&gt;
+&lt;br&gt;
+zz sina jo e kili tu zz &lt;br&gt;
+en mi jo e kili wan.
+o lukin e ni5 la
+&lt;img src="we.svg"&gt;
+&lt;br&gt;
+sina en mi li jo e kili tu wan. &lt;br&gt;
+&lt;br&gt;
+zz nanpa te 10 to li sama nanpa luka luka zz &lt;br&gt;
+en nanpa te 11 to li sama nanpa luka luka wan zz &lt;br&gt;
+en nanpa te 12 to li sama nanpa luka luka tu zz &lt;br&gt;
+en nanpa te 13 to li sama nanpa luka luka tu wan zz &lt;br&gt;
+zz . &lt;br&gt;
+zz . &lt;br&gt;
+zz . &lt;br&gt;
+nasin ni3 li sin. ni3 sama nanpa lon toki-pona.
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 class="sp2"&gt;tu wan la sama en namako en weka lon toki pi (nasin nanpa)&lt;/h2&gt;
+&lt;section class="sp"&gt;
+sama li sama te = to lon toki pi (nasin nanpa). &lt;br&gt;
+kon te = to li pona mute. kon te = to li sama kon sama. &lt;br&gt;
+o lukin e ni. &lt;br&gt;
+tu tu sama tu tu. &lt;br&gt;
+&lt;br&gt;
+namako li sama te + to lon toki pi (nasin nanpa). &lt;br&gt;
+o sina jo e ijo wan en ijo tu la &lt;br&gt;
+zz ijo wan namako ijo tu sama e ni2 ijo wan en ijo tu li pali wan. &lt;br&gt;
+&lt;br&gt;
+o lukin e ni. &lt;br&gt;
+zz tu zz namako wan zz zz zz sama tu wan. &lt;br&gt;
+zz luka zz namako tu tu zz zz sama luka tu tu. &lt;br&gt;
+zz tu wan namako tu wan namako luka sama luka luka wan. &lt;br&gt;
+ni3 li lukin e ni lon toki pi (nasin nanpa).
+\[
+ 2 + 1 = 3.
+\]
+\[
+ 5 + 4 = 9.
+\]
+\[
+ 3 + 3 + 5 = 11.
+\]
+&lt;br&gt;
+weka li sama te - to lon toki pi (nasin nanpa). &lt;br&gt;
+o sina jo e ijo wan en ijo tu la &lt;br&gt;
+zz ijo wan weka ijo tu sama e ni2 ijo wan en ijo tu li pali tu. &lt;br&gt;
+&lt;br&gt;
+o lukin e ni. &lt;br&gt;
+zz tu zz zz weka wan zz sama wan. &lt;br&gt;
+zz luka tu tu weka tu zz sama luka tu. &lt;br&gt;
+zz luka wan zz weka tu tu sama tu. &lt;br&gt;
+zz wan zz zz weka wan zz sama ala. &lt;br&gt;
+zz ala zz zz weka ala zz sama ala. &lt;br&gt;
+\[
+ 2 - 1 = 1.
+\]
+\[
+ 9 - 2 = 7.
+\]
+\[
+ 6 - 4 = 2.
+\]
+\[
+ 1 - 1 = 0.
+\]
+\[
+ 0 - 0 = 0.
+\]
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 class="sp2"&gt;tu tu la nanpa anpa en nanpa sewi2&lt;/h2&gt;
+&lt;section class="sp"&gt;
+nanpa weka li suli. &lt;br&gt;
+o lawa e ni. &lt;br&gt;
+zz toki pi (nasin nanpa) li lon la &lt;br&gt;
+\[
+ 8 - 4 = 8 + (-4).
+\]
+\[
+ 8 + 4 = 8 + (+ 4).
+\]
+zz nanpa te \(-4\) to li sama nanpa pi (anpa tu tu) &lt;br&gt;
+en nanpa te \(+4\) to li sama nanpa pi (sewi2 tu tu). &lt;br&gt;
+&lt;/section&gt;
+&lt;hr&gt;
+&lt;h2 class="sp2"&gt;luka la nasin lon toki pi (nasin nanpa)&lt;/h2&gt;
+&lt;section class="sp"&gt;
+sina lawa la &lt;br&gt;
+zz mi jo e sike tu tu. sina jo e sike luka. &lt;br&gt;
+zz jan seme li jo e sike mute. &lt;br&gt;
+&lt;br&gt;
+&lt;dialog id="tutupona"&gt;
+ sina pona. zz
+ &lt;form method="dialog"&gt;
+ &lt;button&gt;pini&lt;/button&gt;
+ &lt;/form&gt;
+&lt;/dialog&gt;
+&lt;dialog id="tutuike"&gt;
+ sina ike. o sin. zz
+ &lt;form method="dialog"&gt;
+ &lt;button&gt;pini&lt;/button&gt;
+ &lt;/form&gt;
+&lt;/dialog&gt;
+&lt;button style="font-family:'Fairfax Pona HD'" onclick="tutuike.showModal()"&gt;mi&lt;/button&gt;
+&lt;button onclick="tutupona.showModal()"&gt;sina&lt;/button&gt;
+&lt;br&gt;
+&lt;br&gt;
+tenpo ni3 li wile e nanpa sewi2 en nanpa anpa. &lt;br&gt;
+zz nanpa anpa li anpa e nanpa sewi2 zz &lt;br&gt;
+en nanpa sewi2 li sewi2 e nanpa anpa.
+&lt;/section&gt;
+&lt;hr&gt;</content:encoded><category>Reference</category></item></channel></rss>

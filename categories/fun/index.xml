@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Fun on My website!</title><link>https://stau.space/categories/fun/</link><description>Recent Posts in Fun on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sun, 07 Dec 2025 20:07:57 -0400</lastBuildDate><atom:link href="https://stau.space/categories/fun/index.xml" rel="self" type="application/rss+xml"/><item><title>¡Feliz Cumpleaños Izánder!</title><link>https://stau.space/posts/hbd/</link><pubDate>Mon, 07 Jul 2025 18:56:46 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/hbd/</guid><description>&lt;dialog id="hintbox" style="position:absolute;top:0.5vw"&gt;&lt;div id="hintboxmsg"&gt;&lt;/div&gt;&lt;form method="dialog"&gt;&lt;button&gt;Close.&lt;/button&gt;&lt;/form&gt;&lt;/dialog&gt;
+&lt;script&gt;
+function answer(id, answer, location, event) {
+ if (event == null || event.code == "Enter") {
+ if (id.value.toUpperCase() == answer.toUpperCase()) {
+ hintboxmsg.innerHTML = `
+ &lt;h2&gt;You did it!&lt;/h2&gt;
+ Tu regalo está en: ${location}
+ `;
+ hintbox.showModal();
+ if (id == riddle1) {
+ second.hidden = false;
+ } else if (id == riddle2) {
+ third.hidden = false;
+ } else if (id == riddle3) {
+ hintboxmsg.innerHTML = `
+ &lt;h2&gt;Felicidades, te amo Izánder y espero que hayas pasado un día bonito. :)&lt;/h2&gt;
+ Tu último regalo está: ${location}
+ `;
+ hintbox.showModal();
+ }
+ } else if (id == riddle2) {
+ hintboxmsg.innerHTML = `
+ &lt;h2&gt;:( La sacaste mal.&lt;/h2&gt;
+ `;
+ hintbox.showModal();
+ hint2.hidden = false;
+ } else {
+ hintboxmsg.innerHTML = `
+ &lt;h2&gt;:( La sacaste mal.&lt;/h2&gt;
+ `;
+ hintbox.showModal();
+ }
+ }
+}
+
+function hint(msg) {
+ hintboxmsg.innerHTML = msg;
+ hintbox.showModal();
+}
+&lt;/script&gt;
+&lt;h1 id="primer-riddle"&gt;Primer Riddle&lt;/h1&gt;
+&lt;p&gt;I have no door, but I open and close.&lt;/p&gt;</description><content:encoded>&lt;dialog id="hintbox" style="position:absolute;top:0.5vw"&gt;&lt;div id="hintboxmsg"&gt;&lt;/div&gt;&lt;form method="dialog"&gt;&lt;button&gt;Close.&lt;/button&gt;&lt;/form&gt;&lt;/dialog&gt;
+&lt;script&gt;
+function answer(id, answer, location, event) {
+ if (event == null || event.code == "Enter") {
+ if (id.value.toUpperCase() == answer.toUpperCase()) {
+ hintboxmsg.innerHTML = `
+ &lt;h2&gt;You did it!&lt;/h2&gt;
+ Tu regalo está en: ${location}
+ `;
+ hintbox.showModal();
+ if (id == riddle1) {
+ second.hidden = false;
+ } else if (id == riddle2) {
+ third.hidden = false;
+ } else if (id == riddle3) {
+ hintboxmsg.innerHTML = `
+ &lt;h2&gt;Felicidades, te amo Izánder y espero que hayas pasado un día bonito. :)&lt;/h2&gt;
+ Tu último regalo está: ${location}
+ `;
+ hintbox.showModal();
+ }
+ } else if (id == riddle2) {
+ hintboxmsg.innerHTML = `
+ &lt;h2&gt;:( La sacaste mal.&lt;/h2&gt;
+ `;
+ hintbox.showModal();
+ hint2.hidden = false;
+ } else {
+ hintboxmsg.innerHTML = `
+ &lt;h2&gt;:( La sacaste mal.&lt;/h2&gt;
+ `;
+ hintbox.showModal();
+ }
+ }
+}
+
+function hint(msg) {
+ hintboxmsg.innerHTML = msg;
+ hintbox.showModal();
+}
+&lt;/script&gt;
+&lt;h1 id="primer-riddle"&gt;Primer Riddle&lt;/h1&gt;
+&lt;p&gt;I have no door, but I open and close.&lt;/p&gt;
+&lt;p&gt;What am I?&lt;/p&gt;
+&lt;input id="riddle1" style="width: 50%" onkeyup="answer(riddle1, 'drawer', 'la primera gaveta de Alys.', event)"&gt;
+&lt;/input&gt;
+&lt;button onclick="answer(riddle1, 'drawer', 'la primera gaveta de Alys.')"&gt;Submit&lt;/button&gt;
+&lt;button onclick="hint('I keep your socks.')"&gt;Hint&lt;/button&gt;
+&lt;div id="second" hidden&gt;
+&lt;h1&gt;Segundo Riddle&lt;/h1&gt;
+&lt;p&gt;I can fill a room, but I take up no space.&lt;/p&gt;
+&lt;p&gt;What am I?&lt;/p&gt;
+&lt;input id="riddle2" style="width: 50%" onkeyup="answer(riddle2, 'light', 'la silla de Sona.', event)"&gt;
+&lt;/input&gt;
+&lt;button onclick="answer(riddle2, 'light', 'la silla de Sona.')"&gt;Submit&lt;/button&gt;
+&lt;button id='hint2' onclick="hint('on/off')" hidden&gt;Hint&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id="third" hidden&gt;
+&lt;h1&gt;Tercer Riddle&lt;/h1&gt;
+&lt;p&gt;I am an odd number.
+Take away a letter and I become even.
+What number am I?&lt;/p&gt;
+&lt;input id="riddle3" style="width: 50%" onkeyup="answer(riddle3, 'seven', 'debajo del escritorio de Mami.', event)"&gt;
+&lt;/input&gt;
+&lt;button onclick="answer(riddle3, 'seven', 'debajo del escritorio de Mami.')"&gt;Submit&lt;/button&gt;
+&lt;/div&gt;
+&lt;hr&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 1</title><link>https://stau.space/posts/aoc-2024-day1/</link><pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/aoc-2024-day1/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
+ wan wan. &lt;br&gt;
+ zz pana pi (toki tawa lipu) li nasin lipu tu e wan. &lt;br&gt;
+ zz pana pi (toki tawa lipu) li suli. &lt;br&gt;
+&lt;/span&gt;
+&lt;span lang="tok"&gt;
+ zz poka li sin pana ala li nanpa sewi e luka. &lt;br&gt;
+ zz ale li sin pana. &lt;br&gt;
+&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bqn" data-lang="bqn"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;⍉&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="o"&gt;˘&lt;/span&gt;&lt;span class="nf"&gt;⍉&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;|-&lt;/span&gt;&lt;span class="o"&gt;˝&lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="o"&gt;˘&lt;/span&gt;&lt;span class="nf"&gt;⍉&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;|-&lt;/span&gt;&lt;span class="o"&gt;˝&lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="o"&gt;˘&lt;/span&gt;&lt;span class="nf"&gt;⍉&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;span lang="tok"&gt;
+ wan tu. &lt;br&gt;
+ zz mi li wan poka en wan luka e pana pi (toki tawa lipu). &lt;br&gt;
+&lt;/span&gt;
+&lt;span lang="tok"&gt;
+ zz taso wan poka ijo li alasa e wan luka ijo. &lt;br&gt;
+ zz ni li sin sin pana e poka. &lt;br&gt;
+ zz ale li sin pana. &lt;br&gt;
+&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bqn" data-lang="bqn"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;←&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;⊑&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;5&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;luka&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;←&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="nf"&gt;⊑&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;pana&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;=&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;luka&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="nf"&gt;×&lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;=&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;luka&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="kp"&gt;⟨&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;4&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;9&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;⟩&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="nf"&gt;×&lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;=&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;luka&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;poka&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="m"&gt;31&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 2</title><link>https://stau.space/posts/aoc-2024-day2/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/aoc-2024-day2/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
+ soweli suli li moku e sina. ijo li moku
+&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bqn" data-lang="bqn"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;•Show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;input&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;A&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;←&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="no"&gt;·&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;≤∧&lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;≥&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nf"&gt;|&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;=&lt;/span&gt;&lt;span class="ow"&gt;∘&lt;/span&gt;&lt;span class="nf"&gt;≠⍷&lt;/span&gt;&lt;span class="ow"&gt;∘&lt;/span&gt;&lt;span class="nf"&gt;×&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="nf"&gt;-&lt;/span&gt;&lt;span class="o"&gt;´˘&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="nf"&gt;↕&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;B&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;←&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="nf"&gt;∨&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;A&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="no"&gt;·&lt;/span&gt;&lt;span class="nf"&gt;/&lt;/span&gt;&lt;span class="ow"&gt;⟜&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="nf"&gt;&amp;lt;&lt;/span&gt;&lt;span class="o"&gt;˘&lt;/span&gt;&lt;span class="nf"&gt;¬=&lt;/span&gt;&lt;span class="o"&gt;⌜˜&lt;/span&gt;&lt;span class="nf"&gt;↕≠&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;•Show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;A&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;input&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;•Show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;B&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;input&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content:encoded><category>Fun</category></item></channel></rss>
