@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Toki Pona on My website!</title><link>http://localhost:1313/tags/toki-pona/</link><description>Recent Posts in Toki Pona on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Fri, 12 Dec 2025 21:35:37 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/toki-pona/index.xml" rel="self" type="application/rss+xml"/><item><title>Trivial toki pona Substitutions</title><link>http://localhost:1313/posts/ttps/</link><pubDate>Sun, 16 Nov 2025 17:23:50 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/ttps/</guid><description>Based off of Trivial Brainf*ck Substitutions</description><content:encoded>&lt;h1 id="toki-open"&gt;toki open&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Toki Pona on My website!</title><link>https://stau.space/tags/toki-pona/</link><description>Recent Posts in Toki Pona on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Fri, 12 Dec 2025 21:50:10 -0400</lastBuildDate><atom:link href="https://stau.space/tags/toki-pona/index.xml" rel="self" type="application/rss+xml"/><item><title>Trivial toki pona Substitutions</title><link>https://stau.space/posts/ttps/</link><pubDate>Sun, 16 Nov 2025 17:23:50 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/ttps/</guid><description>Based off of Trivial Brainf*ck Substitutions</description><content:encoded>&lt;h1 id="toki-open"&gt;toki open&lt;/h1&gt;
 &lt;p&gt;There is a family of programming languages that are called &amp;ldquo;Trivial Brainf*ck
 Substitutions&amp;rdquo; (TBFS for short). They basically take the 8 characters used in
 Brainf*ck and represent them using other strings of characters. This is (somewhat) the same idea behind sitelen pona and sitelen kuwi. I would even guess that it&amp;rsquo;s the same idea behind sitelen sitelen, but I don&amp;rsquo;t know enough yet about sitelen sitelen to make that conclusion.&lt;/p&gt;
@@ -555,7 +555,7 @@ Brainf*ck and represent them using other strings of characters. This is (somewha
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://clockwise3411.github.io/lipu-sona-pi-sitelen-Kuwi/" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://clockwise3411.github.io/lipu-sona-pi-sitelen-Kuwi/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://sona.pona.la/wiki/sitelen_telo" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://sona.pona.la/wiki/sitelen_telo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I would like to see some TTPS made for other natural languages. To me, sitelen ike is somewhat readable.&lt;/p&gt;</content:encoded><category>Areas</category></item><item><title>Nasin Toki</title><link>http://localhost:1313/posts/nasin-toki/</link><pubDate>Sat, 04 Oct 2025 16:29:43 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/nasin-toki/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="nasin-toki"&gt;nasin toki&lt;/h1&gt;
+&lt;p&gt;I would like to see some TTPS made for other natural languages. To me, sitelen ike is somewhat readable.&lt;/p&gt;</content:encoded><category>Areas</category></item><item><title>Nasin Toki</title><link>https://stau.space/posts/nasin-toki/</link><pubDate>Sat, 04 Oct 2025 16:29:43 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/nasin-toki/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="nasin-toki"&gt;nasin toki&lt;/h1&gt;
 &lt;p&gt;This is my nasin for writing toki pona. My nasin includes things meant for better typesetting, improved readability of text, and preserving the generally artistic nature of toki pona whether that is in sitelen pona or sitelen Lasina.&lt;/p&gt;
 &lt;h2 id="ala-la"&gt;ala la&lt;/h2&gt;
 &lt;p&gt;Most of the readability that I talk about boils down to:&lt;/p&gt;
@@ -688,7 +688,7 @@ Basically, always ask the person or group the name refers to, unless you are con
 &lt;p&gt;EN: Here is the bright red satellite phone.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I can recognize that some people simply don&amp;rsquo;t like using many pi for fear of creating phrases that are too big. Since this article focuses on creating pieces of text that are readable, I also agree with this. Use them sparingly and make sure that you know why you are using them.&lt;/p&gt;
-&lt;p&gt;&amp;ndash; &lt;code&gt;jan [sona :]&lt;/code&gt;&lt;/p&gt;</content:encoded><category>Reference</category></item><item><title>nasin toki</title><link>http://localhost:1313/posts/tok-style/</link><pubDate>Thu, 12 Jun 2025 20:27:45 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/tok-style/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="toki-a"&gt;toki a&lt;/h1&gt;
+&lt;p&gt;&amp;ndash; &lt;code&gt;jan [sona :]&lt;/code&gt;&lt;/p&gt;</content:encoded><category>Reference</category></item><item><title>nasin toki</title><link>https://stau.space/posts/tok-style/</link><pubDate>Thu, 12 Jun 2025 20:27:45 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-style/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="toki-a"&gt;toki a&lt;/h1&gt;
 &lt;p&gt;This is my &lt;code&gt;nasin&lt;/code&gt; for writing &lt;span lang="tok"&gt;toki-pona&lt;/span&gt;.
 My &lt;code&gt;nasin&lt;/code&gt; includes things meant for better typesetting, improved readability of text, and preserving the generally artistic nature of &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; whether that is in &lt;span lang="tok"&gt;sitelen-pona&lt;/span&gt; or &lt;code&gt;sitilen Lasina&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id="ala-la"&gt;ala la&lt;/h2&gt;
@@ -795,8 +795,8 @@ n la
  sina kepeken sitelen "("
  en sina kepeken sitelen ")".
 &lt;/pre&gt;
-&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>Mathematics in toki pona</title><link>http://localhost:1313/posts/tok-mat-faq/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/tok-mat-faq/</guid><description>seme</description><content:encoded>&lt;h1 id="faq"&gt;FAQ&lt;/h1&gt;
-&lt;p&gt;Frequently asked questions about &lt;a href="http://localhost:1313/posts/tok-mat/"&gt;&lt;span lang="tok"&gt;toki pi (nasin nanpa)&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>Mathematics in toki pona</title><link>https://stau.space/posts/tok-mat-faq/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-mat-faq/</guid><description>seme</description><content:encoded>&lt;h1 id="faq"&gt;FAQ&lt;/h1&gt;
+&lt;p&gt;Frequently asked questions about &lt;a href="https://stau.space/posts/tok-mat/"&gt;&lt;span lang="tok"&gt;toki pi (nasin nanpa)&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Why not use &lt;span lang="tok"&gt;ijo&lt;/span&gt; symbol instead of &lt;span lang="tok"&gt;ijo&lt;/span&gt; symbol?&lt;/h3&gt;
 &lt;section&gt;
 These are NOT the only symbols you can use for this.
@@ -855,7 +855,7 @@ The &amp;ldquo;product&amp;rdquo; should express the notion of &amp;ldquo;both&a
 &lt;/section&gt;
 &lt;h3&gt;Isn't it confusing that &lt;span lang="tok"&gt;wan&lt;/span&gt; and &lt;span lang="tok"&gt;tu&lt;/span&gt; refer to a number and an operation?&lt;/h3&gt;
 Yes.
-&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>toki pi kulupu pini</title><link>http://localhost:1313/posts/kulupu-pini/</link><pubDate>Mon, 20 Jan 2025 07:50:59 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/kulupu-pini/</guid><description>The Cult of Done in toki pona</description><content:encoded>&lt;p&gt;The Cult of Done is a manifesto written by Bre Pettis with Kio Stark in August of 2016.&lt;/p&gt;
+&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>toki pi kulupu pini</title><link>https://stau.space/posts/kulupu-pini/</link><pubDate>Mon, 20 Jan 2025 07:50:59 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/kulupu-pini/</guid><description>The Cult of Done in toki pona</description><content:encoded>&lt;p&gt;The Cult of Done is a manifesto written by Bre Pettis with Kio Stark in August of 2016.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13" target="_blank" rel="external noopener noreferrer nofollow"&gt;English manifesto&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -925,7 +925,7 @@ zz ni2sama pali pini lili. zz&lt;br&gt;
 &lt;br&gt;
 luka-luka tu-wan. zz&lt;br&gt;
 zz pali pini li pana e mute. zz
-&lt;/span&gt;</content:encoded><category>Areas</category></item><item><title>Translations</title><link>http://localhost:1313/posts/stuff/</link><pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/stuff/</guid><description>Random stuff I've translated to toki pona.</description><content:encoded>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;
+&lt;/span&gt;</content:encoded><category>Areas</category></item><item><title>Translations</title><link>https://stau.space/posts/stuff/</link><pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/stuff/</guid><description>Random stuff I've translated to toki pona.</description><content:encoded>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;
 &lt;span lang="tok"&gt;
 ijo li ike tawa kulupu pi (pipi waso) la &lt;br&gt;
 ona li ike tawa pipi waso
@@ -989,7 +989,7 @@ teeth. To act against one another is to be vexed and to turn away.&lt;/p&gt;
 &lt;details&gt;
  &lt;summary&gt;Details&lt;/summary&gt;
  &lt;p&gt;&amp;ldquo;Short cuts make long delays,&amp;rdquo; argued Pippin. - J.R.R. Tolkien, The Fellowship of the Ring&lt;/p&gt;
-&lt;/details&gt;</content:encoded><category>Projects</category></item><item><title>lipu lon luka</title><link>http://localhost:1313/posts/enchiridion-tok/</link><pubDate>Sun, 08 Dec 2024 19:19:04 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/enchiridion-tok/</guid><description>The Enchiridion by Epictetus in toki pona</description><content:encoded>&lt;h1 id="toki-open"&gt;&lt;span lang="tok"&gt;toki open&lt;/span&gt;&lt;/h1&gt;
+&lt;/details&gt;</content:encoded><category>Projects</category></item><item><title>lipu lon luka</title><link>https://stau.space/posts/enchiridion-tok/</link><pubDate>Sun, 08 Dec 2024 19:19:04 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/enchiridion-tok/</guid><description>The Enchiridion by Epictetus in toki pona</description><content:encoded>&lt;h1 id="toki-open"&gt;&lt;span lang="tok"&gt;toki open&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;Translation of The Enchiridion by Epictetus into toki pona.
 Original translation taken from: &lt;a href="http://classics.mit.edu/Epictetus/epicench.1b.txt" target="_blank" rel="external noopener noreferrer nofollow"&gt;http://classics.mit.edu/Epictetus/epicench.1b.txt&lt;/a&gt;
 If you have any suggestions, feel free to contact me through any of my contacts, &lt;a href="../../contact/"&gt;here.&lt;/a&gt;&lt;/p&gt;
@@ -999,7 +999,7 @@ en·chi·rid·i·on [ˌen-ˌkī-ˈri-dē-ən]&lt;/p&gt;
 &lt;li&gt;Plural: enchiridia [ˌen-ˌkī-ˈri-dē-ə]&lt;/li&gt;
 &lt;li&gt;Meaning: handbook, manual&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="http://localhost:1313/posts/enchiridion-tok/lipu-lon-luka.svg" alt="sitelen pi lipu lon liku"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stau.space/posts/enchiridion-tok/lipu-lon-luka.svg" alt="sitelen pi lipu lon liku"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;span lang="tok"&gt;
 &lt;/blockquote&gt;
@@ -1798,7 +1798,7 @@ Melitus may kill me indeed, but hurt me they cannot."
 (Plato's Crito and Apology) 
 
 THE END
---&gt;</content:encoded><category>Projects</category></item><item><title>AOC day 1</title><link>http://localhost:1313/posts/aoc-2024-day1/</link><pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/aoc-2024-day1/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
+--&gt;</content:encoded><category>Projects</category></item><item><title>AOC day 1</title><link>https://stau.space/posts/aoc-2024-day1/</link><pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/aoc-2024-day1/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
  wan wan. &lt;br&gt;
  zz pana pi (toki tawa lipu) li nasin lipu tu e wan. &lt;br&gt;
  zz pana pi (toki tawa lipu) li suli. &lt;br&gt;
@@ -1866,7 +1866,7 @@ THE END
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="m"&gt;31&lt;/span&gt;&lt;span class="w"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 2</title><link>http://localhost:1313/posts/aoc-2024-day2/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/aoc-2024-day2/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
+&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 2</title><link>https://stau.space/posts/aoc-2024-day2/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/aoc-2024-day2/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
  soweli suli li moku e sina. ijo li moku
 &lt;/span&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -1885,7 +1885,7 @@ THE END
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;•Show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;B&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;input&lt;/span&gt;&lt;span class="w"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>Mathematics in toki pona</title><link>http://localhost:1313/posts/tok-mat/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/tok-mat/</guid><description>o sina sona e nanpa!</description><content:encoded>&lt;p&gt;&lt;span class="tok"&gt;nasin nanpa lon toki-pona&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>Mathematics in toki pona</title><link>https://stau.space/posts/tok-mat/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-mat/</guid><description>o sina sona e nanpa!</description><content:encoded>&lt;p&gt;&lt;span class="tok"&gt;nasin nanpa lon toki-pona&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The language toki pona (&lt;span lang="tok"&gt;toki-pona&lt;/span&gt;) lacks a lot of common mathematical definitions.
 Although this is on purpose, I do enjoy talking about mathematics.
 In a language where kindness and compassion is so prevalent I see no reason why to avoid talking about something I feel so passionate about.
@@ -1918,7 +1918,7 @@ The language of Mathematics has its own culture and conventions and, depending o
 Knowing this, I fully expect that different people will have different opinions on how Mathematics in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; should be spoken.&lt;/p&gt;
 &lt;p&gt;To learn more, check out the following links:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://localhost:1313/posts/tok-mat/faq/"&gt;Frequently Asked Questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stau.space/posts/tok-mat/faq/"&gt;Frequently Asked Questions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://sona.pona.la/wiki/Number_systems" target="_blank" rel="external noopener noreferrer nofollow"&gt;toki pona number systems&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://sona.pona.la/wiki/nasin_nanpa_pona" target="_blank" rel="external noopener noreferrer nofollow"&gt;nasin nanpa pona&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
