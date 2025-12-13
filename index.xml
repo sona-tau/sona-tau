@@ -1,4 +1,573 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>My website!</title><link>https://stau.space/</link><description>Recent Posts on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sun, 07 Dec 2025 20:13:16 -0400</lastBuildDate><atom:link href="https://stau.space/index.xml" rel="self" type="application/rss+xml"/><item><title>Trivial toki pona Substitutions</title><link>https://stau.space/posts/ttps/</link><pubDate>Sun, 16 Nov 2025 17:23:50 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/ttps/</guid><description>Based off of Trivial Brainf*ck Substitutions</description><content:encoded>&lt;h1 id="toki-open"&gt;toki open&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>My website!</title><link>http://localhost:1313/</link><description>Recent Posts on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Fri, 12 Dec 2025 21:35:37 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>The ETCS Manifesto</title><link>http://localhost:1313/posts/etcs/</link><pubDate>Sun, 07 Dec 2025 11:22:37 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/etcs/</guid><description>My favorite axiomatization for the foundations of Mathematics.</description><content:encoded>&lt;h1 id="pre-prelude"&gt;Pre-prelude&lt;/h1&gt;
+&lt;p&gt;I use syntax similar to inference rules so check that out here, if you haven&amp;rsquo;t heard about it before:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wikipedia.org/wiki/Rule_of_inference" target="_blank" rel="external noopener noreferrer nofollow"&gt;Rule of Inference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I do this because statements look very simple and clean like this, not because it is simpler to read.&lt;/p&gt;
+&lt;h1 id="prelude"&gt;Prelude&lt;/h1&gt;
+&lt;p&gt;First, there are mathematical objects. The mathematical objects that the following axioms apply to are:&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ There are &lt;strong&gt;sets&lt;/strong&gt;.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\frac{\qquad\qquad}{X}
+$$
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ For each set $A$ and $B$, there are some things called functions that go from $A$ to $B$.
+ &lt;blockquote&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Now, let&amp;rsquo;s define some notation. The notation for a function $f$ from $A$ to $B$ can be any of the following, they are all equivalent:
+$$
+f : A \to B \equiv A \overset{f}{\to} B.
+$$
+Additionally, in the case above, $A$ is called the &lt;strong&gt;domain&lt;/strong&gt; and $B$ is called the &lt;strong&gt;codomain&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;If we want to state two functions that go from A to B, we would write something like the following.&lt;/p&gt;
+&lt;p&gt;$$
+A \overset{f}{\to} B \land A \overset{g}{\to} B \equiv A \overset{f}{\underset{g}{\rightrightarrows}} B.
+$$&lt;/p&gt;
+&lt;p&gt;Additionally, we can also write the arrows pointing from right to left (while preserving the order of the domain and codomain).&lt;/p&gt;
+&lt;p&gt;$$
+A \overset{f}{\to} B \equiv B \overset{f}{\leftarrow} A.
+$$&lt;/p&gt;
+&lt;p&gt;When asserting that a function exists as a hypothesis, it is safe to assume that both the domain and codomain exist, without explicitly stating that they exist. So, in other words:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{}{\quad A \overset{f}{\to} B \quad}
+$$&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ Given two functions $f : A \to B$ and $g : B \to C$, there exists a function $g \circ f : A \to C$ called &lt;strong&gt;the composition of $f$ and $g$.&lt;/strong&gt;
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\frac{A \overset{f}{\to} B \overset{g}{\to} C}{A \overset{g \circ f}{\to} C}
+$$&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s define some more notation. We don&amp;rsquo;t want to write the composition symbol every time we compose two functions. So, we will simply write both of them juxtaposed.&lt;/p&gt;
+&lt;p&gt;$$
+g \circ f \equiv g f.
+$$&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ For each set $X$, a function $1_X : X \to X$ called &lt;strong&gt;the identity at $X$&lt;/strong&gt;.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\frac{X}{\quad X \overset{1_X}{\to} X \quad}
+$$&lt;/p&gt;
+&lt;p&gt;One more piece of notation, the identity at $X$ will also be written as $X$. This is safe to do because for each object, one can, and will, find an identity that is unique.&lt;/p&gt;
+&lt;p&gt;$$
+1_X \equiv X.
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id="axioms"&gt;Axioms&lt;/h1&gt;
+&lt;h2 id="first"&gt;First&lt;/h2&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ There shall be &lt;strong&gt;associativity&lt;/strong&gt;.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\frac{W \overset{f}{\to} X \overset{g}{\to} Y \overset{h}{\to} Z}
+{h \circ (g \circ f) = (h \circ g) \circ f}
+$$&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ There shall be &lt;strong&gt;identities&lt;/strong&gt;.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\frac{X \overset{f}{\to} Y \quad}{f \circ X = f \qquad Y \circ f = f}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="intermezzo-terminal-objects"&gt;Intermezzo: Terminal objects&lt;/h3&gt;
+&lt;p&gt;Look at this predicate:
+$$
+P(T): \forall X (\exists! X \to T).
+$$&lt;/p&gt;
+&lt;p&gt;This predicate states that: given a $T$, for all $X$, there exists a unique function from $X$ to $T$. Any object $T$ that satisfies this predicate is called &lt;strong&gt;a terminal object&lt;/strong&gt;. All sets that are terminal are equivalent (more on what this means later), so it is safe to pick one of them and give it a name. Call that object &lt;strong&gt;$1$&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;As a diagram, this would look like this:&lt;/p&gt;
+
+&lt;figure &gt;
+ &lt;input id="fig-e9d11ea7e40daec627ca0fa595802e40-6" class="marginpar-ctrl" type="checkbox" aria-controls="the-fig-e9d11ea7e40daec627ca0fa595802e40-6" hidden&gt;
+ &lt;label for="fig-e9d11ea7e40daec627ca0fa595802e40-6"&gt;&lt;/label&gt;
+ &lt;span id="the-fig-e9d11ea7e40daec627ca0fa595802e40-6" class="marginpar abs"&gt;
+ 
+ Terminal Object diagram
+ &lt;a href="https://wikipedia.org/wiki/Initial_and_terminal_objects"&gt;learn more here&lt;/a&gt;
+ &lt;/span&gt;
+ 
+ &lt;img src="http://localhost:1313/images/terminal-diagram.webp"
+ alt="An object T and a lot of other objects with arrows pointing at it"
+ title="An object T and a lot of other objects with arrows pointing at it"aria-describedby="fig-e9d11ea7e40daec627ca0fa595802e40-6"
+ loading="lazy"
+ &gt;
+ &lt;/figure&gt;
+&lt;hr&gt;
+&lt;h2 id="second"&gt;Second&lt;/h2&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ There shall be &lt;strong&gt;a terminal object&lt;/strong&gt;.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\frac{}{\quad 1 \quad}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="intermezzo-more-notation"&gt;Intermezzo: More notation&lt;/h3&gt;
+&lt;p&gt;Some notation.&lt;/p&gt;
+&lt;p&gt;Some more notation, we want to define set membership as a function from that terminal object to any set. In naive set theory, singleton sets pick an element of the set. So in this case, a function from the terminal object “picks” something in the set.&lt;/p&gt;
+&lt;p&gt;$$
+x \in X \equiv \mathbf{1} \overset{x}{\to} X.
+$$&lt;/p&gt;
+&lt;p&gt;Now, if we compose a function with a “picking” function, we can “pick” something in the codomain of the first function. This is exactly how evaluating a function at a value looks like. So, let&amp;rsquo;s define that as more notation.&lt;/p&gt;
+&lt;p&gt;$$
+\frac{X \overset{f}{\to} Y \qquad x \in X}
+{f(x) \equiv f \circ x}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="third"&gt;Third&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There shall be an empty set.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;$$
+\frac{\qquad \qquad \qquad \qquad}
+{\exists! X (\not{\exists} x \in X)}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="intermezzo-what-does-empty-mean"&gt;Intermezzo: What does “empty” mean?&lt;/h3&gt;
+&lt;p&gt;You can think of this axiom as basically stating that the following is not only well-formed, but that it is also true.&lt;/p&gt;
+&lt;p&gt;$$
+\exists!X(\not\exists x \in X).
+$$&lt;/p&gt;
+&lt;p&gt;The above predicate states that: there is a unique set X that does not have any members. A set that does not have any members must be empty.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="fourth"&gt;Fourth&lt;/h2&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ There shall be equality of functions.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\frac{X \overset{f}{\underset{g}{\rightrightarrows}} Y \qquad \forall x \in X (f(x) = g(x))}
+{f = g}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="intermezzo-products"&gt;Intermezzo: Products&lt;/h3&gt;
+&lt;p&gt;Say we have the sets $X$, $P$ and $Y$ with the functions $\pi_1 : P \to X$ and $\pi_2 : P \to Y$.&lt;/p&gt;
+&lt;p&gt;We will say that a product of $X$ and $Y$ is $P$, if for all sets $I$ with functions $f_1 : I \to X$ and $f_2 : I \to Y$, then there exists a unique function $\langle f_1, f_2\rangle : I \to P$ such that $\pi_1 \circ \langle f_1, f_2\rangle = f_1$ and $\pi_2 \circ \langle f_1, f_2\rangle = f_2$.&lt;/p&gt;
+&lt;p&gt;Using rules of inference, this looks like the following.&lt;/p&gt;
+&lt;p&gt;$$
+\frac{X \overset{\pi_1}{\leftarrow} P \overset{\pi_2}{\to} Y}
+{X \overset{f_1}{\leftarrow} I \overset{f_2}{\to} Y \implies \exists! I \overset{\langle f_1, f_2 \rangle}{\longrightarrow} P} \
+(\pi_1 \circ \langle f_1, f_2\rangle = f_1 \land \pi_2 \circ \langle f_1, f_2\rangle = f_2)
+$$&lt;/p&gt;
+&lt;p&gt;Using a diagram, this is a bit clearer. Whenever you have something like this:&lt;/p&gt;
+
+&lt;figure &gt;
+ &lt;input id="fig-e9d11ea7e40daec627ca0fa595802e40-9" class="marginpar-ctrl" type="checkbox" aria-controls="the-fig-e9d11ea7e40daec627ca0fa595802e40-9" hidden&gt;
+ &lt;label for="fig-e9d11ea7e40daec627ca0fa595802e40-9"&gt;&lt;/label&gt;
+ &lt;span id="the-fig-e9d11ea7e40daec627ca0fa595802e40-9" class="marginpar abs"&gt;
+ 
+ Product Object diagram, first step
+ &lt;a href="https://wikipedia.org/wiki/Product_%28category_theory%29"&gt;learn more here&lt;/a&gt;
+ &lt;/span&gt;
+ 
+ &lt;img src="http://localhost:1313/images/product-part1.webp"
+ alt="Two objects X and Y with an object P in the middle and two projections pi_1 and pi_2"
+ title="Two objects X and Y with an object P in the middle and two projections pi_1 and pi_2"aria-describedby="fig-e9d11ea7e40daec627ca0fa595802e40-9"
+ loading="lazy"
+ &gt;
+ &lt;/figure&gt;
+&lt;p&gt;If there exists an object I like this:&lt;/p&gt;
+
+&lt;figure &gt;
+ &lt;input id="fig-e9d11ea7e40daec627ca0fa595802e40-10" class="marginpar-ctrl" type="checkbox" aria-controls="the-fig-e9d11ea7e40daec627ca0fa595802e40-10" hidden&gt;
+ &lt;label for="fig-e9d11ea7e40daec627ca0fa595802e40-10"&gt;&lt;/label&gt;
+ &lt;span id="the-fig-e9d11ea7e40daec627ca0fa595802e40-10" class="marginpar abs"&gt;
+ 
+ Product Object diagram, second step
+ &lt;a href="https://wikipedia.org/wiki/Product_%28category_theory%29"&gt;learn more here&lt;/a&gt;
+ &lt;/span&gt;
+ 
+ &lt;img src="http://localhost:1313/images/product-part2.png"
+ alt="Two objects X and Y with an object P in the middle and two projections pi_1 and pi_2. Now a fourth object I with two functions f_1 and f_2."
+ title="Two objects X and Y with an object P in the middle and two projections pi_1 and pi_2. Now a fourth object I with two functions f_1 and f_2."aria-describedby="fig-e9d11ea7e40daec627ca0fa595802e40-10"
+ loading="lazy"
+ &gt;
+ &lt;/figure&gt;
+&lt;p&gt;You can find a function $\langle f_1, f_2\rangle$ such that this diagram commutes:&lt;/p&gt;
+
+&lt;figure &gt;
+ &lt;input id="fig-e9d11ea7e40daec627ca0fa595802e40-11" class="marginpar-ctrl" type="checkbox" aria-controls="the-fig-e9d11ea7e40daec627ca0fa595802e40-11" hidden&gt;
+ &lt;label for="fig-e9d11ea7e40daec627ca0fa595802e40-11"&gt;&lt;/label&gt;
+ &lt;span id="the-fig-e9d11ea7e40daec627ca0fa595802e40-11" class="marginpar abs"&gt;
+ 
+ Product Object diagram, third and final step
+ &lt;a href="https://wikipedia.org/wiki/Product_%28category_theory%29"&gt;learn more here&lt;/a&gt;
+ &lt;/span&gt;
+ 
+ &lt;img src="http://localhost:1313/images/product-part3.png"
+ alt="Two objects X and Y with an object P in the middle and two projections pi_1 and pi_2. Now a fourth object I with two functions f_1 and f_2. Then, a function (f_1, f_2)"
+ title="Two objects X and Y with an object P in the middle and two projections pi_1 and pi_2. Now a fourth object I with two functions f_1 and f_2. Then, a function (f_1, f_2)"aria-describedby="fig-e9d11ea7e40daec627ca0fa595802e40-11"
+ loading="lazy"
+ &gt;
+ &lt;/figure&gt;
+&lt;p&gt;Then, whenever the above is true for sets $P$, $X$ and $Y$, we will call this the product, and we have the following notation for this:&lt;/p&gt;
+&lt;p&gt;$$
+X \times Y \equiv P.
+$$&lt;/p&gt;
+&lt;p&gt;In this sense, the product of two sets is the Cartesian product as we would normally know it, but we also have two special functions. Namely, pi_1 and pi_2. The axiom does not state it but for all Cartesian products, these two functions are defined.&lt;/p&gt;
+&lt;p&gt;Also, there is some more notation.&lt;/p&gt;
+&lt;p&gt;$$
+(X, Y) \equiv X \times Y.
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="fifth"&gt;Fifth&lt;/h2&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ There shall be &lt;strong&gt;Cartesian products&lt;/strong&gt;.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\frac{X \quad Y}
+{X \times Y}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="intermezzo-functions"&gt;Intermezzo: Functions!&lt;/h3&gt;
+&lt;p&gt;Now we went to talk about the star of the show: functions. We would like to define a set of functions. For this, if we want to claim that a set $F$, is the set of functions from $X$ to $Y$, we will need one extra function $\epsilon : F \times X \to Y$. This function will take an element of $F$ (a function from $X$ to $Y$) and an element of $X$, and produce an element of $Y$. In other words:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{f : X \to Y \quad x \in X}
+{\epsilon(f, x) \in Y}
+$$
+It would be great if we had this function epsilon at our disposal (you will soon see why). So, how do we create such a function? If we find a way to “implement” it, we&amp;rsquo;re golden.&lt;/p&gt;
+&lt;p&gt;A way to implement this function is as follows:&lt;/p&gt;
+&lt;p&gt;$$
+(f : X \to Y, x \in X) \mapsto f(x).
+$$&lt;/p&gt;
+&lt;p&gt;In other words $\epsilon$ is a function that takes a function and an argument and applies that function to that argument. Now, we will use this to claim that $F$ really is the set we are looking for. If there is any other set $I$ with $\epsilon&amp;rsquo; : I \times X \to Y$, then there must exist a unique function $q : I \to X$ such that $t \in I$ and $x \in X$ implies that $\epsilon&amp;rsquo;(t,x) = \epsilon(q(t), x)$. Using rules of inference, this looks like the following.&lt;/p&gt;
+&lt;p&gt;$$
+\frac{F \quad F \times X \overset{\epsilon}{\to} Y}
+{I \times X \overset{\epsilon&amp;rsquo;}{\to} Y} \
+\rule[3pt]{15em}{0.05pt} \
+\frac{\exists! q : I \to F \quad t \in I \land x \in X}
+{\epsilon&amp;rsquo;(t, x) = \epsilon(q(t), x)}
+$$&lt;/p&gt;
+&lt;p&gt;Using a diagram, this looks like the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Given a sets, $F$, $X$, $Y$ and $\epsilon : F \times X \to Y$, we get the following diagram:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure &gt;
+ &lt;input id="fig-e9d11ea7e40daec627ca0fa595802e40-13" class="marginpar-ctrl" type="checkbox" aria-controls="the-fig-e9d11ea7e40daec627ca0fa595802e40-13" hidden&gt;
+ &lt;label for="fig-e9d11ea7e40daec627ca0fa595802e40-13"&gt;&lt;/label&gt;
+ &lt;span id="the-fig-e9d11ea7e40daec627ca0fa595802e40-13" class="marginpar abs"&gt;
+ 
+ Function Object diagram, first step
+ &lt;a href="https://wikipedia.org/wiki/Function_%28mathematics%29"&gt;learn more here&lt;/a&gt;
+ &lt;/span&gt;
+ 
+ &lt;img src="http://localhost:1313/images/functions-part1.webp"
+ alt="Objects F, (F, X), and Y with a function epsilon"
+ title="Objects F, (F, X), and Y with a function epsilon"aria-describedby="fig-e9d11ea7e40daec627ca0fa595802e40-13"
+ loading="lazy"
+ &gt;
+ &lt;/figure&gt;
+&lt;p&gt;If there exists a set $I$ and a function $\epsilon&amp;rsquo; : I \times X \to Y$ like this:&lt;/p&gt;
+
+&lt;figure &gt;
+ &lt;input id="fig-e9d11ea7e40daec627ca0fa595802e40-14" class="marginpar-ctrl" type="checkbox" aria-controls="the-fig-e9d11ea7e40daec627ca0fa595802e40-14" hidden&gt;
+ &lt;label for="fig-e9d11ea7e40daec627ca0fa595802e40-14"&gt;&lt;/label&gt;
+ &lt;span id="the-fig-e9d11ea7e40daec627ca0fa595802e40-14" class="marginpar abs"&gt;
+ 
+ Function Object diagram, second step
+ &lt;a href="https://wikipedia.org/wiki/Function_%28mathematics%29"&gt;learn more here&lt;/a&gt;
+ &lt;/span&gt;
+ 
+ &lt;img src="http://localhost:1313/images/functions-part2.webp"
+ alt="Objects F, (F, X), Y, I, and (I, X) with functions epsilon and epsilon&amp;#39;"
+ title="Objects F, (F, X), Y, I, and (I, X) with functions epsilon and epsilon&amp;#39;"aria-describedby="fig-e9d11ea7e40daec627ca0fa595802e40-14"
+ loading="lazy"
+ &gt;
+ &lt;/figure&gt;
+&lt;p&gt;There must exist a unique function $q : I \to F$ such that the following diagram commutes:&lt;/p&gt;
+
+&lt;figure &gt;
+ &lt;input id="fig-e9d11ea7e40daec627ca0fa595802e40-15" class="marginpar-ctrl" type="checkbox" aria-controls="the-fig-e9d11ea7e40daec627ca0fa595802e40-15" hidden&gt;
+ &lt;label for="fig-e9d11ea7e40daec627ca0fa595802e40-15"&gt;&lt;/label&gt;
+ &lt;span id="the-fig-e9d11ea7e40daec627ca0fa595802e40-15" class="marginpar abs"&gt;
+ 
+ Function Object diagram, third and final step
+ &lt;a href="https://wikipedia.org/wiki/Function_%28mathematics%29"&gt;learn more here&lt;/a&gt;
+ &lt;/span&gt;
+ 
+ &lt;img src="http://localhost:1313/images/functions-part3.webp"
+ alt="Objects F, (F, X), Y, I, and (I, X) with functions epsilon, epsilon&amp;#39;, q, and (q, x)"
+ title="Objects F, (F, X), Y, I, and (I, X) with functions epsilon, epsilon&amp;#39;, q, and (q, x)"aria-describedby="fig-e9d11ea7e40daec627ca0fa595802e40-15"
+ loading="lazy"
+ &gt;
+ &lt;/figure&gt;
+&lt;p&gt;Now, for this set $F$, we will have the following syntactic sugar.&lt;/p&gt;
+&lt;p&gt;$$
+Y^X \equiv F.
+$$&lt;/p&gt;
+&lt;p&gt;As it turns out, $|Y^X| = |Y|^{|X|}$. The amount of functions from $X$ to $Y$ is equal to $|Y|^{|X|}$, interesting!&lt;/p&gt;
+&lt;h2 id="sixth"&gt;Sixth&lt;/h2&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ There shall be &lt;strong&gt;function sets&lt;/strong&gt;.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\frac{X \quad Y}
+{Y^X}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="intermezzo"&gt;Intermezzo&lt;/h3&gt;
+&lt;p&gt;Not all functions have inverses. For example, the inverse of an element in the codomain of a function that isn&amp;rsquo;t surjective will not exist, and even if the element is in the image, if the function is not injective, the inverse could be any of a set of elements in its domain. For this, we must define the inverse of a function as a function that outputs a subset of the original function&amp;rsquo;s domain.&lt;/p&gt;
+&lt;p&gt;For this, let $f : X \to Y, y \in Y$ and $j : A \to X$. The inverse of $f$ under $y$ is the set $A$ if for any $I$ and $q : I \to X$ the following is true: If $t \in I$ and $f(q(t)) = y$, then $\exists! q&amp;rsquo; : I \to A$ such that $q = j \circ q&amp;rsquo;$.&lt;/p&gt;
+&lt;p&gt;In other words, the following.&lt;/p&gt;
+&lt;p&gt;$$
+A \overset{j}{\to} X \overset{f}{\to} Y \quad y \in Y \
+\rule[3pt]{15em}{0.05pt} \
+I \overset{q}{\to} X \
+\rule[3pt]{15em}{0.05pt} \
+t \in I \
+\rule[3pt]{15em}{0.05pt} \
+f(q(t)) = y \
+\rule[3pt]{15em}{0.05pt} \
+\exists! I \overset{q&amp;rsquo;}{\to} A
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align*}
+&amp;amp;InverseImage(\langle f : X \to Y, y \in Y, j : A \to X\rangle): \
+&amp;amp;\qquad \forall I \land q : I \to X \
+&amp;amp;\qquad \qquad (\forall t \in I (f(q(t)) = y) \implies \exists! \bar{q} : I \to A (q = j \circ \bar{q})).
+\end{align*}
+$$&lt;/p&gt;
+&lt;p&gt;Now define the syntactic sugar:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align*}
+&amp;amp;A \land X \land Y, \
+&amp;amp;y \in Y, \
+&amp;amp;f : X \to Y, \
+&amp;amp;j : A \to X, \
+&amp;amp;\forall a \in A (f(j(a)) = y), \
+&amp;amp;InverseImage(\langle f, y, j\rangle). \
+\vdash; &amp;amp;f^{-1}(y) := A.
+\end{align*}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="seventh"&gt;Seventh&lt;/h2&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ There shall be &lt;strong&gt;inverse images&lt;/strong&gt;.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\begin{align*}
+&amp;amp;X \land Y, \
+&amp;amp;y \in Y, \
+&amp;amp;f : X \to Y. \
+\vdash; &amp;amp;\exists f^{-1} \circ y (\top).
+\end{align*}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="intermezzo-1"&gt;Intermezzo&lt;/h3&gt;
+&lt;p&gt;Fix a set called $2$:&lt;/p&gt;
+&lt;p&gt;$$
+\vdash; \mathbf{2}.
+$$&lt;/p&gt;
+&lt;p&gt;These axioms imply that this set must have these two elements&lt;/p&gt;
+&lt;p&gt;$$
+\top \in \mathbf{2} \land \bot \in \mathbf{2}.
+$$&lt;/p&gt;
+&lt;p&gt;Define the syntactic sugar:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align*}
+&amp;amp;A \land X, \
+&amp;amp;j : A \to X, \
+&amp;amp;\forall a \in A \land a&amp;rsquo; \in A (j(a) = j(a&amp;rsquo;) \implies a = a&amp;rsquo;). \
+\vdash; &amp;amp;j : A \hookrightarrow X := j.
+\end{align*}
+$$&lt;/p&gt;
+&lt;p&gt;Define the predicate:&lt;/p&gt;
+&lt;p&gt;$$
+SubSet(\langle j : A \hookrightarrow X\rangle): \exists!\chi : X \to \mathbf{2} (\chi^{-1}(\top) = j).
+$$&lt;/p&gt;
+&lt;p&gt;Then, define the syntactic sugar:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align*}
+&amp;amp;A \land X, \
+&amp;amp;\exists j : A \hookrightarrow X. \
+\vdash; &amp;amp;A \subseteq X := SubSet(\langle j \rangle).
+\end{align*}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="eighth"&gt;Eighth&lt;/h2&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ There shall be a subset classifier.
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\begin{align*}
+\vdash; &amp;amp;\subseteq.
+\end{align*}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="intermezzo-2"&gt;Intermezzo&lt;/h3&gt;
+&lt;p&gt;Define the predicate:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align*}
+&amp;amp;NatSystem(\langle N, 0 \in N, s : N \to N\rangle): \
+&amp;amp;\qquad \forall X \land a \in X \land r : X \to X \
+&amp;amp;\qquad \qquad (\exists! x : N \to X \
+&amp;amp;\qquad \qquad \qquad (x(0) = a \land \forall n \in N (x(s(n)) = r(x(n))))).
+\end{align*}
+$$&lt;/p&gt;
+&lt;p&gt;Define the natural numbers as the following syntactic sugar:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align*}
+&amp;amp;N, \
+&amp;amp;0 \in N, \
+&amp;amp;s : N \to N, \
+&amp;amp;NatSystem(\langle N, 0, s \rangle). \
+\vdash; &amp;amp;\mathbb{N} := N.
+\end{align*}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="ninth"&gt;Ninth&lt;/h2&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ There shall be natural numbers
+ &lt;blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;$$
+\vdash; \mathbb{N}.
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="intermezzo-3"&gt;Intermezzo&lt;/h3&gt;</content:encoded><category>Reference</category></item><item><title>Logarithm of a functor</title><link>http://localhost:1313/posts/log-cat/</link><pubDate>Sun, 07 Dec 2025 11:22:33 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/log-cat/</guid><description>"What is the logarithm of a functor?"</description><content:encoded>&lt;p&gt;I was recently made aware of an interesting way to think about representable functors.&lt;/p&gt;
+&lt;h1 id="setting-the-stage"&gt;Setting the stage&lt;/h1&gt;
+&lt;p&gt;Let&amp;rsquo;s say you have a category $\cal{C}$ and endofunctors $F : \cal{C} \to \cal{C}$ and $\text{Id} : \cal{C} \to \cal{C}$ where $\text{Id}$ is the identity functor. For this demonstration, I will refer to the hom-functor $\hom(a, -)$ as $(-)^a$, the function set with an object missing. Furthermore, the Yoneda lemma says the following:&lt;/p&gt;
+
+&lt;span role="presentation" id="lemma"&gt;&lt;/span&gt;
+&lt;style&gt;
+ #lemma {
+ counter-reset: lemma;
+ }
+ .lemma::after {
+ counter-increment: lemma;
+ content: ' ' counter(lemma) '. ';
+ }
+&lt;/style&gt;
+&lt;blockquote role="complementary"&gt;
+ &lt;span class="lemma textssc" role="heading"&gt;Lemma&lt;/span&gt;
+ Given a category $\cal{C}$ and a contravariant functor $F : \cal{C}^{\text{op}} \to \mathbf{Set}$ we have that for any $a \in \text{b}(\cal{C})$,
+$$
+F a \cong \text{hom}(\text{hom}(a, -), F).
+$$
+&lt;/blockquote&gt;
+&lt;p&gt;There is something really neat when $F \cong \hom(a, -)$. This is called a &lt;strong&gt;representable functor&lt;/strong&gt;. This will be the star of the show here.&lt;/p&gt;
+&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s look at the &lt;code&gt;List&lt;/code&gt; and &lt;code&gt;Stream&lt;/code&gt; functors defined in Haskell, like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-haskell" data-lang="haskell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;type&lt;/span&gt; &lt;span class="kt"&gt;List&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;List&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="kt"&gt;Nil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;instance&lt;/span&gt; &lt;span class="kt"&gt;Functor&lt;/span&gt; &lt;span class="kt"&gt;List&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="kr"&gt;where&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;fmap&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="kt"&gt;Nil&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Nil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;fmap&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fmap&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;type&lt;/span&gt; &lt;span class="kt"&gt;Stream&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Stream&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;-- Notice that this does not have a Nil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;instance&lt;/span&gt; &lt;span class="kt"&gt;Functor&lt;/span&gt; &lt;span class="kt"&gt;Stream&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="kr"&gt;where&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;fmap&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fmap&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;My claim is that &lt;code&gt;Stream&lt;/code&gt; is representable. And in this case it will be naturally isomorphic to the hom-functor $\hom(\mathbb{N}, -)$ so here are the natural isomorphisms:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-haskell" data-lang="haskell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;index&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;Stream&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Nat&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;index&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kr"&gt;if&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="kr"&gt;then&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="kr"&gt;else&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;tabulate&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Nat&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Stream&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;tabulate&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tabulate&amp;#39;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="kr"&gt;where&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;tabulate&amp;#39;&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tabulate&amp;#39;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;And now, &lt;code&gt;List&lt;/code&gt; cannot be representable, at least with the previous functor, because &lt;code&gt;index&lt;/code&gt; is not implementable:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-haskell" data-lang="haskell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;index&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;List&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Nat&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;index&lt;/span&gt; &lt;span class="kt"&gt;[]&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;undefined&lt;/span&gt; &lt;span class="c1"&gt;-- There is no a for us to return here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;index&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kr"&gt;if&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="kr"&gt;then&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="kr"&gt;else&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="the-meat-and-potatoes"&gt;The Meat and Potatoes&lt;/h2&gt;
+&lt;p&gt;Now imagine this scenario:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your Calculus professor goes up to you and gives you a pen and paper. He says, “Solve for x.” On this piece of paper, you have the following:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;$$
+2 = 3^x.
+$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You think to yourself: “This looks pretty simple, you should just take the &lt;em&gt;logarithm&lt;/em&gt;.” As such, you write on the piece of paper the following:
+$$
+\log_3(2) = x.
+$$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your professor looks at your solution and says: “Marvelous, this is correct. Have a nice day!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This scenario is obviously a joke, but let us not forget that a lot of notation in Category Theory seems to also be jokes or hints at some underlying structure. We have something called the &lt;em&gt;hom-functor&lt;/em&gt; which looks like this: $(-)^x$. What if we applied some sort of “logarithm” to this?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When our functor $F$ is representable, e.g., $F \cong (-)^x$, we have that $\log F = x$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For a quick and dirty example, look at the endofunctor $\text{Id}$. In order for this functor to be representable, we need to enforce some requirements on $\cal{C}$. So for now, assume that it is representable to $\hom(a, -)$. The requirements are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Since $\text{codom}(\text{Id}) = \cal{C}$, then we need $\text{codom}(\hom(a, -)) = \cal{C}$. This means that $\cal{C}$ has internal homs.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Something fascinating happens when $F$ becomes a product or coproduct.&lt;/p&gt;
+&lt;p&gt;Let $F$ be a product like $F a := a \times b$. Then,
+$$&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;</content:encoded><category>Fun</category></item><item><title>Trivial toki pona Substitutions</title><link>http://localhost:1313/posts/ttps/</link><pubDate>Sun, 16 Nov 2025 17:23:50 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/ttps/</guid><description>Based off of Trivial Brainf*ck Substitutions</description><content:encoded>&lt;h1 id="toki-open"&gt;toki open&lt;/h1&gt;
 &lt;p&gt;There is a family of programming languages that are called &amp;ldquo;Trivial Brainf*ck
 Substitutions&amp;rdquo; (TBFS for short). They basically take the 8 characters used in
 Brainf*ck and represent them using other strings of characters. This is (somewhat) the same idea behind sitelen pona and sitelen kuwi. I would even guess that it&amp;rsquo;s the same idea behind sitelen sitelen, but I don&amp;rsquo;t know enough yet about sitelen sitelen to make that conclusion.&lt;/p&gt;
@@ -555,7 +1124,7 @@ Brainf*ck and represent them using other strings of characters. This is (somewha
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://clockwise3411.github.io/lipu-sona-pi-sitelen-Kuwi/" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://clockwise3411.github.io/lipu-sona-pi-sitelen-Kuwi/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://sona.pona.la/wiki/sitelen_telo" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://sona.pona.la/wiki/sitelen_telo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I would like to see some TTPS made for other natural languages. To me, sitelen ike is somewhat readable.&lt;/p&gt;</content:encoded><category>Areas</category></item><item><title>Nasin Toki</title><link>https://stau.space/posts/nasin-toki/</link><pubDate>Sat, 04 Oct 2025 16:29:43 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/nasin-toki/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="nasin-toki"&gt;nasin toki&lt;/h1&gt;
+&lt;p&gt;I would like to see some TTPS made for other natural languages. To me, sitelen ike is somewhat readable.&lt;/p&gt;</content:encoded><category>Areas</category></item><item><title>Nasin Toki</title><link>http://localhost:1313/posts/nasin-toki/</link><pubDate>Sat, 04 Oct 2025 16:29:43 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/nasin-toki/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="nasin-toki"&gt;nasin toki&lt;/h1&gt;
 &lt;p&gt;This is my nasin for writing toki pona. My nasin includes things meant for better typesetting, improved readability of text, and preserving the generally artistic nature of toki pona whether that is in sitelen pona or sitelen Lasina.&lt;/p&gt;
 &lt;h2 id="ala-la"&gt;ala la&lt;/h2&gt;
 &lt;p&gt;Most of the readability that I talk about boils down to:&lt;/p&gt;
@@ -688,7 +1257,7 @@ Basically, always ask the person or group the name refers to, unless you are con
 &lt;p&gt;EN: Here is the bright red satellite phone.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;I can recognize that some people simply don&amp;rsquo;t like using many pi for fear of creating phrases that are too big. Since this article focuses on creating pieces of text that are readable, I also agree with this. Use them sparingly and make sure that you know why you are using them.&lt;/p&gt;
-&lt;p&gt;&amp;ndash; &lt;code&gt;jan [sona :]&lt;/code&gt;&lt;/p&gt;</content:encoded><category>Reference</category></item><item><title>¡Feliz Cumpleaños Izánder!</title><link>https://stau.space/posts/hbd/</link><pubDate>Mon, 07 Jul 2025 18:56:46 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/hbd/</guid><description>&lt;dialog id="hintbox" style="position:absolute;top:0.5vw"&gt;&lt;div id="hintboxmsg"&gt;&lt;/div&gt;&lt;form method="dialog"&gt;&lt;button&gt;Close.&lt;/button&gt;&lt;/form&gt;&lt;/dialog&gt;
+&lt;p&gt;&amp;ndash; &lt;code&gt;jan [sona :]&lt;/code&gt;&lt;/p&gt;</content:encoded><category>Reference</category></item><item><title>¡Feliz Cumpleaños Izánder!</title><link>http://localhost:1313/posts/hbd/</link><pubDate>Mon, 07 Jul 2025 18:56:46 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/hbd/</guid><description>&lt;dialog id="hintbox" style="position:absolute;top:0.5vw"&gt;&lt;div id="hintboxmsg"&gt;&lt;/div&gt;&lt;form method="dialog"&gt;&lt;button&gt;Close.&lt;/button&gt;&lt;/form&gt;&lt;/dialog&gt;
 &lt;script&gt;
 function answer(id, answer, location, event) {
  if (event == null || event.code == "Enter") {
@@ -796,7 +1365,7 @@ What number am I?&lt;/p&gt;
 &lt;/input&gt;
 &lt;button onclick="answer(riddle3, 'seven', 'debajo del escritorio de Mami.')"&gt;Submit&lt;/button&gt;
 &lt;/div&gt;
-&lt;hr&gt;</content:encoded><category>Fun</category></item><item><title>nasin toki</title><link>https://stau.space/posts/tok-style/</link><pubDate>Thu, 12 Jun 2025 20:27:45 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-style/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="toki-a"&gt;toki a&lt;/h1&gt;
+&lt;hr&gt;</content:encoded><category>Fun</category></item><item><title>nasin toki</title><link>http://localhost:1313/posts/tok-style/</link><pubDate>Thu, 12 Jun 2025 20:27:45 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/tok-style/</guid><description>nasin lon sitelen pi (toki pona)</description><content:encoded>&lt;h1 id="toki-a"&gt;toki a&lt;/h1&gt;
 &lt;p&gt;This is my &lt;code&gt;nasin&lt;/code&gt; for writing &lt;span lang="tok"&gt;toki-pona&lt;/span&gt;.
 My &lt;code&gt;nasin&lt;/code&gt; includes things meant for better typesetting, improved readability of text, and preserving the generally artistic nature of &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; whether that is in &lt;span lang="tok"&gt;sitelen-pona&lt;/span&gt; or &lt;code&gt;sitilen Lasina&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id="ala-la"&gt;ala la&lt;/h2&gt;
@@ -903,8 +1472,8 @@ n la
  sina kepeken sitelen "("
  en sina kepeken sitelen ")".
 &lt;/pre&gt;
-&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>Mathematics in toki pona</title><link>https://stau.space/posts/tok-mat-faq/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-mat-faq/</guid><description>seme</description><content:encoded>&lt;h1 id="faq"&gt;FAQ&lt;/h1&gt;
-&lt;p&gt;Frequently asked questions about &lt;a href="https://stau.space/posts/tok-mat/"&gt;&lt;span lang="tok"&gt;toki pi (nasin nanpa)&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>Mathematics in toki pona</title><link>http://localhost:1313/posts/tok-mat-faq/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/tok-mat-faq/</guid><description>seme</description><content:encoded>&lt;h1 id="faq"&gt;FAQ&lt;/h1&gt;
+&lt;p&gt;Frequently asked questions about &lt;a href="http://localhost:1313/posts/tok-mat/"&gt;&lt;span lang="tok"&gt;toki pi (nasin nanpa)&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Why not use &lt;span lang="tok"&gt;ijo&lt;/span&gt; symbol instead of &lt;span lang="tok"&gt;ijo&lt;/span&gt; symbol?&lt;/h3&gt;
 &lt;section&gt;
 These are NOT the only symbols you can use for this.
@@ -963,7 +1532,7 @@ The &amp;ldquo;product&amp;rdquo; should express the notion of &amp;ldquo;both&a
 &lt;/section&gt;
 &lt;h3&gt;Isn't it confusing that &lt;span lang="tok"&gt;wan&lt;/span&gt; and &lt;span lang="tok"&gt;tu&lt;/span&gt; refer to a number and an operation?&lt;/h3&gt;
 Yes.
-&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>toki pi kulupu pini</title><link>https://stau.space/posts/kulupu-pini/</link><pubDate>Mon, 20 Jan 2025 07:50:59 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/kulupu-pini/</guid><description>The Cult of Done in toki pona</description><content:encoded>&lt;p&gt;The Cult of Done is a manifesto written by Bre Pettis with Kio Stark in August of 2016.&lt;/p&gt;
+&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>toki pi kulupu pini</title><link>http://localhost:1313/posts/kulupu-pini/</link><pubDate>Mon, 20 Jan 2025 07:50:59 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/kulupu-pini/</guid><description>The Cult of Done in toki pona</description><content:encoded>&lt;p&gt;The Cult of Done is a manifesto written by Bre Pettis with Kio Stark in August of 2016.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13" target="_blank" rel="external noopener noreferrer nofollow"&gt;English manifesto&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1033,7 +1602,7 @@ zz ni2sama pali pini lili. zz&lt;br&gt;
 &lt;br&gt;
 luka-luka tu-wan. zz&lt;br&gt;
 zz pali pini li pana e mute. zz
-&lt;/span&gt;</content:encoded><category>Areas</category></item><item><title>A Monad Is Not A Burrito</title><link>https://stau.space/posts/burritos/</link><pubDate>Sat, 21 Dec 2024 10:34:47 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/burritos/</guid><description>Okay, it kind of is but that's like calling an airplane a car.</description><content:encoded>&lt;p&gt;Repeat after me:&lt;/p&gt;
+&lt;/span&gt;</content:encoded><category>Areas</category></item><item><title>A Monad Is Not A Burrito</title><link>http://localhost:1313/posts/burritos/</link><pubDate>Sat, 21 Dec 2024 10:34:47 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/burritos/</guid><description>Okay, it kind of is but that's like calling an airplane a car.</description><content:encoded>&lt;p&gt;Repeat after me:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A monad is &lt;em&gt;NOT&lt;/em&gt; a burrito.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1095,7 +1664,7 @@ An example of this would be:&lt;/p&gt;
 &lt;code&gt;bool&lt;/code&gt;.
 In our category we will see this as an arrow being drawn from the dot that says
 &lt;code&gt;int&lt;/code&gt; to the dot that says &lt;code&gt;bool&lt;/code&gt; and that arrow&amp;rsquo;s name will be &lt;code&gt;is_even&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stau.space/intro1.png" alt="Our new category"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:1313/intro1.png" alt="Our new category"&gt;&lt;/p&gt;
 &lt;p&gt;Another example could be:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -1112,7 +1681,7 @@ In our category we will see this as an arrow being drawn from the dot that says
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;In which case our category would look like:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stau.space/intro2.png" alt="Only forty two"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:1313/intro2.png" alt="Only forty two"&gt;&lt;/p&gt;
 &lt;h1 id="a-functor-is-a-burrito"&gt;A functor is a burrito&lt;/h1&gt;
 &lt;p&gt;Don&amp;rsquo;t worry I will explain what a functor is in a moment.
 I want you to keep in the back of your mind the idea of a burrito: a tortilla
@@ -1190,12 +1759,12 @@ Our setup will now look like the following:&lt;/p&gt;
 &lt;li&gt;a type: &lt;code&gt;F a&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Our setup looks like this:
-&lt;img src="https://stau.space/sect2.1.png" alt="Setup"&gt;
+&lt;img src="http://localhost:1313/sect2.1.png" alt="Setup"&gt;
 The idea behind &lt;code&gt;fmap&lt;/code&gt; is that it puts the input side of &lt;code&gt;func&lt;/code&gt; inside the &lt;code&gt;F&lt;/code&gt;
 box that has an &lt;code&gt;a&lt;/code&gt; in it, &lt;code&gt;func&lt;/code&gt; will transform that &lt;code&gt;a&lt;/code&gt; into a &lt;code&gt;b&lt;/code&gt; inside that
 &lt;code&gt;F&lt;/code&gt; box, and that is what we want &lt;code&gt;fmap&lt;/code&gt; to do.
 Kind of like this:
-&lt;img src="https://stau.space/sect2.2.png" alt="fmap"&gt;&lt;/p&gt;
+&lt;img src="http://localhost:1313/sect2.2.png" alt="fmap"&gt;&lt;/p&gt;
 &lt;p&gt;Functors are very common in category theory.
 They might have a scary name but they are actually very simple building blocks
 used for other more complex category theory things.
@@ -1298,7 +1867,7 @@ code:
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
  &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/N9RUqGYuGfw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
  &lt;/div&gt;
-&lt;/p&gt;</content:encoded><category>Areas</category></item><item><title>Licker</title><link>https://stau.space/posts/licker/</link><pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/licker/</guid><description>&lt;h1 id="behold-the-licker"&gt;Behold The Licker&lt;/h1&gt;
+&lt;/p&gt;</content:encoded><category>Areas</category></item><item><title>Licker</title><link>http://localhost:1313/posts/licker/</link><pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/licker/</guid><description>&lt;h1 id="behold-the-licker"&gt;Behold The Licker&lt;/h1&gt;
 &lt;p&gt;The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p&gt;</description><content:encoded>&lt;h1 id="behold-the-licker"&gt;Behold The Licker&lt;/h1&gt;
 &lt;p&gt;The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;See it in action here:&lt;/p&gt;
@@ -1310,7 +1879,7 @@ I did enjoy how well documented the stdlib is and how much functionality it prov
 I have no idea why the default location for installing binaries with &lt;code&gt;go install&lt;/code&gt; is in &lt;code&gt;~/go&lt;/code&gt;.
 It would have been much nicer if it had asked me where it was going to start putting binaries first.
 Specially considering my home directory is a place where I do lots of things, it would not have been surprising to me if I had a folder named &lt;code&gt;go&lt;/code&gt; in home directory at any given time.
-Nevertheless, I just had to change a single environment variable to get it up and running in my preferred location: &lt;code&gt;$XDG_DATA_HOME/go&lt;/code&gt;.&lt;/p&gt;</content:encoded><category>Projects</category></item><item><title>Archiver</title><link>https://stau.space/posts/archiver/</link><pubDate>Sun, 08 Dec 2024 20:20:32 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/archiver/</guid><description>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;</description><content:encoded>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;
+Nevertheless, I just had to change a single environment variable to get it up and running in my preferred location: &lt;code&gt;$XDG_DATA_HOME/go&lt;/code&gt;.&lt;/p&gt;</content:encoded><category>Projects</category></item><item><title>Archiver</title><link>http://localhost:1313/posts/archiver/</link><pubDate>Sun, 08 Dec 2024 20:20:32 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/archiver/</guid><description>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;</description><content:encoded>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;
 &lt;h1 id="context"&gt;Context&lt;/h1&gt;
 &lt;p&gt;I had been trying to figure out a more efficient way of backing up directories on my computers. For example, I have a huge directory where my &lt;a href="https://obsidian.md/" target="_blank" rel="external noopener noreferrer nofollow"&gt;Obsidian&lt;/a&gt; vault lives. This vault is filled with a bunch of pdf and markdown files that I use for my everyday notes. &lt;em&gt;I do like keeping this folder backed up in case my laptop or PC dies.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The way I would backup this folder was by simply turning it into a GitHub repo and uploading everything privately to my GitHub account. This was not what GitHub was made for and I was nearing 2GB for the entire repo. It was time to search for a different solution.&lt;/p&gt;
@@ -1422,7 +1991,7 @@ Nevertheless, I just had to change a single environment variable to get it up an
 at the end of this.&lt;/li&gt;
 &lt;li&gt;Your &lt;code&gt;archives.json&lt;/code&gt; file is updated with all of the fresh timestamps and
 MD5-Sum.&lt;/li&gt;
-&lt;/ol&gt;</content:encoded><category>Projects</category></item><item><title>Algorithms</title><link>https://stau.space/posts/algorithms/</link><pubDate>Sun, 08 Dec 2024 20:18:33 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/algorithms/</guid><description>Villanova Summer REU</description><content:encoded>&lt;p&gt;So it was a fine summer morning.
+&lt;/ol&gt;</content:encoded><category>Projects</category></item><item><title>Algorithms</title><link>http://localhost:1313/posts/algorithms/</link><pubDate>Sun, 08 Dec 2024 20:18:33 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/algorithms/</guid><description>Villanova Summer REU</description><content:encoded>&lt;p&gt;So it was a fine summer morning.
 Our research team was about to start our project &amp;ldquo;Counting Arithmetical Structures on Cycles with a Doubled Edge&amp;rdquo;.
 From the description of the project it is immediately obvious that this kind of counting can be done by brute force, and me being the only computer scientist in my group of mathematicians I start coding up a couple algorithms for this.&lt;/p&gt;
 &lt;p&gt;Given the fact this article&amp;rsquo;s thesis isn&amp;rsquo;t arithmetical structures or combinatorics, you can read more about those here:&lt;/p&gt;
@@ -1732,7 +2301,7 @@ Now we need to iterate over every pair of two numbers from 1 to the upper bound 
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;First of all, we want to find the total count for&lt;/p&gt;</content:encoded><category>Areas</category></item><item><title>Translations</title><link>https://stau.space/posts/stuff/</link><pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/stuff/</guid><description>Random stuff I've translated to toki pona.</description><content:encoded>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;First of all, we want to find the total count for&lt;/p&gt;</content:encoded><category>Areas</category></item><item><title>Translations</title><link>http://localhost:1313/posts/stuff/</link><pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/stuff/</guid><description>Random stuff I've translated to toki pona.</description><content:encoded>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;
 &lt;span lang="tok"&gt;
 ijo li ike tawa kulupu pi (pipi waso) la &lt;br&gt;
 ona li ike tawa pipi waso
@@ -1796,7 +2365,7 @@ teeth. To act against one another is to be vexed and to turn away.&lt;/p&gt;
 &lt;details&gt;
  &lt;summary&gt;Details&lt;/summary&gt;
  &lt;p&gt;&amp;ldquo;Short cuts make long delays,&amp;rdquo; argued Pippin. - J.R.R. Tolkien, The Fellowship of the Ring&lt;/p&gt;
-&lt;/details&gt;</content:encoded><category>Projects</category></item><item><title>lipu lon luka</title><link>https://stau.space/posts/enchiridion-tok/</link><pubDate>Sun, 08 Dec 2024 19:19:04 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/enchiridion-tok/</guid><description>The Enchiridion by Epictetus in toki pona</description><content:encoded>&lt;h1 id="toki-open"&gt;&lt;span lang="tok"&gt;toki open&lt;/span&gt;&lt;/h1&gt;
+&lt;/details&gt;</content:encoded><category>Projects</category></item><item><title>lipu lon luka</title><link>http://localhost:1313/posts/enchiridion-tok/</link><pubDate>Sun, 08 Dec 2024 19:19:04 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/enchiridion-tok/</guid><description>The Enchiridion by Epictetus in toki pona</description><content:encoded>&lt;h1 id="toki-open"&gt;&lt;span lang="tok"&gt;toki open&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;Translation of The Enchiridion by Epictetus into toki pona.
 Original translation taken from: &lt;a href="http://classics.mit.edu/Epictetus/epicench.1b.txt" target="_blank" rel="external noopener noreferrer nofollow"&gt;http://classics.mit.edu/Epictetus/epicench.1b.txt&lt;/a&gt;
 If you have any suggestions, feel free to contact me through any of my contacts, &lt;a href="../../contact/"&gt;here.&lt;/a&gt;&lt;/p&gt;
@@ -1806,7 +2375,7 @@ en·chi·rid·i·on [ˌen-ˌkī-ˈri-dē-ən]&lt;/p&gt;
 &lt;li&gt;Plural: enchiridia [ˌen-ˌkī-ˈri-dē-ə]&lt;/li&gt;
 &lt;li&gt;Meaning: handbook, manual&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://stau.space/posts/enchiridion-tok/lipu-lon-luka.svg" alt="sitelen pi lipu lon liku"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:1313/posts/enchiridion-tok/lipu-lon-luka.svg" alt="sitelen pi lipu lon liku"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;span lang="tok"&gt;
 &lt;/blockquote&gt;
@@ -2605,7 +3174,7 @@ Melitus may kill me indeed, but hurt me they cannot."
 (Plato's Crito and Apology) 
 
 THE END
---&gt;</content:encoded><category>Projects</category></item><item><title>AOC day 1</title><link>https://stau.space/posts/aoc-2024-day1/</link><pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/aoc-2024-day1/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
+--&gt;</content:encoded><category>Projects</category></item><item><title>AOC day 1</title><link>http://localhost:1313/posts/aoc-2024-day1/</link><pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/aoc-2024-day1/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
  wan wan. &lt;br&gt;
  zz pana pi (toki tawa lipu) li nasin lipu tu e wan. &lt;br&gt;
  zz pana pi (toki tawa lipu) li suli. &lt;br&gt;
@@ -2673,217 +3242,4 @@ THE END
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="m"&gt;31&lt;/span&gt;&lt;span class="w"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 2</title><link>https://stau.space/posts/aoc-2024-day2/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/aoc-2024-day2/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
- soweli suli li moku e sina. ijo li moku
-&lt;/span&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
-&lt;/span&gt;&lt;span class="lnt"&gt;4
-&lt;/span&gt;&lt;span class="lnt"&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bqn" data-lang="bqn"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;•Show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;input&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;A&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;←&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="no"&gt;·&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;≤∧&lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;≥&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nf"&gt;|&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="nf"&gt;∧&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="ow"&gt;⊸&lt;/span&gt;&lt;span class="nf"&gt;=&lt;/span&gt;&lt;span class="ow"&gt;∘&lt;/span&gt;&lt;span class="nf"&gt;≠⍷&lt;/span&gt;&lt;span class="ow"&gt;∘&lt;/span&gt;&lt;span class="nf"&gt;×&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="nf"&gt;-&lt;/span&gt;&lt;span class="o"&gt;´˘&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="nf"&gt;↕&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;B&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;←&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kp"&gt;{&lt;/span&gt;&lt;span class="nf"&gt;∨&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;A&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="no"&gt;·&lt;/span&gt;&lt;span class="nf"&gt;/&lt;/span&gt;&lt;span class="ow"&gt;⟜&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="nf"&gt;&amp;lt;&lt;/span&gt;&lt;span class="o"&gt;˘&lt;/span&gt;&lt;span class="nf"&gt;¬=&lt;/span&gt;&lt;span class="o"&gt;⌜˜&lt;/span&gt;&lt;span class="nf"&gt;↕≠&lt;/span&gt;&lt;span class="n"&gt;𝕩&lt;/span&gt;&lt;span class="kp"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;•Show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;A&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;input&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="nf"&gt;•Show&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;+&lt;/span&gt;&lt;span class="o"&gt;´&lt;/span&gt;&lt;span class="nf"&gt;B&lt;/span&gt;&lt;span class="o"&gt;¨&lt;/span&gt;&lt;span class="n"&gt;input&lt;/span&gt;&lt;span class="w"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>Mathematics in toki pona</title><link>https://stau.space/posts/tok-mat/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/tok-mat/</guid><description>o sina sona e nanpa!</description><content:encoded>&lt;p&gt;&lt;span class="tok"&gt;nasin nanpa lon toki-pona&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;The language toki pona (&lt;span lang="tok"&gt;toki-pona&lt;/span&gt;) lacks a lot of common mathematical definitions.
-Although this is on purpose, I do enjoy talking about mathematics.
-In a language where kindness and compassion is so prevalent I see no reason why to avoid talking about something I feel so passionate about.
-Then, here is my documentation for how to speak about common mathematical terms.&lt;/p&gt;
-&lt;h1 id="始めます"&gt;始めます&lt;/h1&gt;
-&lt;p&gt;In &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; we have the general notion of numbers as defined in &lt;a href="https://sona.pona.la/wiki/Number_systems" target="_blank" rel="external noopener noreferrer nofollow"&gt;&amp;ldquo;nasin nanpa pona&amp;rdquo;&lt;/a&gt; (&lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt;).
-I will perhaps go through the core ideas of this number system later.
-For now, keep in mind that it is a very simple number system.
-In this document I attempt to talk about complex mathematical concepts in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt;.
-That means that in order to read this, you must be aware of how &lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt; works.
-Again, it is a very simple system and I highly encourage you to read up on it if you haven&amp;rsquo;t.&lt;/p&gt;
-&lt;p&gt;There is no need to reinvent the wheel, specially in mathematics.
-I will use the standard mathematical symbols to refer to the four basic operations:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;(a + b) addition&lt;/li&gt;
-&lt;li&gt;(a - b) subtraction&lt;/li&gt;
-&lt;li&gt;(a \times b) multiplication&lt;/li&gt;
-&lt;li&gt;(\frac{a}{b}) division&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Other common ascii symbols that I refer to are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system" target="_blank" rel="external noopener noreferrer nofollow"&gt;Hindu-Arabic numeral system&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;equality&lt;/li&gt;
-&lt;li&gt;exponentiation&lt;/li&gt;
-&lt;li&gt;parentheses&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The reason for this is that, personally, I consider mathematics to be its own language.
-Talking about Mathematics (the language) in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; should be the same as talking about any other language in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt;.
-The language of Mathematics has its own culture and conventions and, depending on where on the planet you grew up in, your ideas about Mathematics can be different.
-Knowing this, I fully expect that different people will have different opinions on how Mathematics in &lt;span lang="tok"&gt;toki-pona&lt;/span&gt; should be spoken.&lt;/p&gt;
-&lt;p&gt;To learn more, check out the following links:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://stau.space/posts/tok-mat/faq/"&gt;Frequently Asked Questions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://sona.pona.la/wiki/Number_systems" target="_blank" rel="external noopener noreferrer nofollow"&gt;toki pona number systems&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://sona.pona.la/wiki/nasin_nanpa_pona" target="_blank" rel="external noopener noreferrer nofollow"&gt;nasin nanpa pona&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;From here on out, I will be using the &lt;a href="https://sona.pona.la/wiki/nasin_nanpa_pona" target="_blank" rel="external noopener noreferrer nofollow"&gt;&amp;quot;&lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt;&amp;quot;&lt;/a&gt; number system.&lt;/p&gt;
-&lt;details&gt;
- &lt;summary&gt;&lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt;&lt;/summary&gt;
- I would much rather use &lt;a href="https://seximal.net"&gt;seximal&lt;/a&gt; for this.
- However, most people use &lt;span lang="tok"&gt;nasin nanpa pona&lt;/span&gt; and since I want this to be digestable to the most amount of people, I shall use that instead.
-&lt;/details&gt;
-&lt;hr&gt;
-&lt;h2 class="sp2"&gt;toki open a&lt;/h2&gt;
-&lt;section class="sp"&gt;
-zz nanpa li lon mute. &lt;br&gt;
-zz kili 5 &lt;br&gt;
-en soweli wan &lt;br&gt;
-en lipu 31415 &lt;br&gt;
-en nanpa li lon e ma ali. &lt;br&gt;
-&lt;br&gt;
-nanpa li lon ala la &lt;br&gt;
-mi en sina en ona en ali li toki-pona ala. &lt;br&gt;
-&lt;br&gt;
-ni3 la nanpa li suli suli. &lt;br&gt;
-kin la nanpa li pona suli tawa oko en lawa. &lt;br&gt;
-&lt;br&gt;
-o sina sona e nanpa a zz
-&lt;/section&gt;
-&lt;hr&gt;
-&lt;h2 class="sp2"&gt;wan la toki pi (nasin nanpa)&lt;/h2&gt;
-&lt;section class="sp"&gt;
-lawa suli li toki tawa ona zz la &lt;br&gt;
-lawa suli li jo e nanpa nasa la &lt;br&gt;
-o sina pali lon toki pi (nasin nanpa) tawa ni7. zz &lt;br&gt;
-&lt;br&gt;
-tu la toki pi (ijo nanpa). &lt;br&gt;
-nanpa ni3 la te 0 1 2 3 4 5 6 7 8 9 to. &lt;br&gt;
-zz nanpa te 0 to li sama nanpa ala zz&lt;br&gt;
-en nanpa te 1 to li sama nanpa wan zz &lt;br&gt;
-en nanpa te 2 to li sama nanpa tu zz &lt;br&gt;
-en nanpa te 3 to li sama nanpa tu wan zz &lt;br&gt;
-en nanpa te 4 to li sama nanpa tu tu zz &lt;br&gt;
-en nanpa te 5 to li sama nanpa luka zz &lt;br&gt;
-en nanpa te 6 to li sama nanpa luka wan zz &lt;br&gt;
-en nanpa te 7 to li sama nanpa luka tu zz &lt;br&gt;
-en nanpa te 8 to li sama nanpa luka tu wan zz &lt;br&gt;
-en nanpa te 9 to li sama nanpa luka tu tu. &lt;br&gt;
-&lt;br&gt;
-o lukin e ni5 la
-&lt;img src="us.svg"&gt;
-&lt;br&gt;
-zz sina jo e kili tu zz &lt;br&gt;
-en mi jo e kili wan.
-o lukin e ni5 la
-&lt;img src="we.svg"&gt;
-&lt;br&gt;
-sina en mi li jo e kili tu wan. &lt;br&gt;
-&lt;br&gt;
-zz nanpa te 10 to li sama nanpa luka luka zz &lt;br&gt;
-en nanpa te 11 to li sama nanpa luka luka wan zz &lt;br&gt;
-en nanpa te 12 to li sama nanpa luka luka tu zz &lt;br&gt;
-en nanpa te 13 to li sama nanpa luka luka tu wan zz &lt;br&gt;
-zz . &lt;br&gt;
-zz . &lt;br&gt;
-zz . &lt;br&gt;
-nasin ni3 li sin. ni3 sama nanpa lon toki-pona.
-&lt;/section&gt;
-&lt;hr&gt;
-&lt;h2 class="sp2"&gt;tu wan la sama en namako en weka lon toki pi (nasin nanpa)&lt;/h2&gt;
-&lt;section class="sp"&gt;
-sama li sama te = to lon toki pi (nasin nanpa). &lt;br&gt;
-kon te = to li pona mute. kon te = to li sama kon sama. &lt;br&gt;
-o lukin e ni. &lt;br&gt;
-tu tu sama tu tu. &lt;br&gt;
-&lt;br&gt;
-namako li sama te + to lon toki pi (nasin nanpa). &lt;br&gt;
-o sina jo e ijo wan en ijo tu la &lt;br&gt;
-zz ijo wan namako ijo tu sama e ni2 ijo wan en ijo tu li pali wan. &lt;br&gt;
-&lt;br&gt;
-o lukin e ni. &lt;br&gt;
-zz tu zz namako wan zz zz zz sama tu wan. &lt;br&gt;
-zz luka zz namako tu tu zz zz sama luka tu tu. &lt;br&gt;
-zz tu wan namako tu wan namako luka sama luka luka wan. &lt;br&gt;
-ni3 li lukin e ni lon toki pi (nasin nanpa).
-\[
- 2 + 1 = 3.
-\]
-\[
- 5 + 4 = 9.
-\]
-\[
- 3 + 3 + 5 = 11.
-\]
-&lt;br&gt;
-weka li sama te - to lon toki pi (nasin nanpa). &lt;br&gt;
-o sina jo e ijo wan en ijo tu la &lt;br&gt;
-zz ijo wan weka ijo tu sama e ni2 ijo wan en ijo tu li pali tu. &lt;br&gt;
-&lt;br&gt;
-o lukin e ni. &lt;br&gt;
-zz tu zz zz weka wan zz sama wan. &lt;br&gt;
-zz luka tu tu weka tu zz sama luka tu. &lt;br&gt;
-zz luka wan zz weka tu tu sama tu. &lt;br&gt;
-zz wan zz zz weka wan zz sama ala. &lt;br&gt;
-zz ala zz zz weka ala zz sama ala. &lt;br&gt;
-\[
- 2 - 1 = 1.
-\]
-\[
- 9 - 2 = 7.
-\]
-\[
- 6 - 4 = 2.
-\]
-\[
- 1 - 1 = 0.
-\]
-\[
- 0 - 0 = 0.
-\]
-&lt;/section&gt;
-&lt;hr&gt;
-&lt;h2 class="sp2"&gt;tu tu la nanpa anpa en nanpa sewi2&lt;/h2&gt;
-&lt;section class="sp"&gt;
-nanpa weka li suli. &lt;br&gt;
-o lawa e ni. &lt;br&gt;
-zz toki pi (nasin nanpa) li lon la &lt;br&gt;
-\[
- 8 - 4 = 8 + (-4).
-\]
-\[
- 8 + 4 = 8 + (+ 4).
-\]
-zz nanpa te \(-4\) to li sama nanpa pi (anpa tu tu) &lt;br&gt;
-en nanpa te \(+4\) to li sama nanpa pi (sewi2 tu tu). &lt;br&gt;
-&lt;/section&gt;
-&lt;hr&gt;
-&lt;h2 class="sp2"&gt;luka la nasin lon toki pi (nasin nanpa)&lt;/h2&gt;
-&lt;section class="sp"&gt;
-sina lawa la &lt;br&gt;
-zz mi jo e sike tu tu. sina jo e sike luka. &lt;br&gt;
-zz jan seme li jo e sike mute. &lt;br&gt;
-&lt;br&gt;
-&lt;dialog id="tutupona"&gt;
- sina pona. zz
- &lt;form method="dialog"&gt;
- &lt;button&gt;pini&lt;/button&gt;
- &lt;/form&gt;
-&lt;/dialog&gt;
-&lt;dialog id="tutuike"&gt;
- sina ike. o sin. zz
- &lt;form method="dialog"&gt;
- &lt;button&gt;pini&lt;/button&gt;
- &lt;/form&gt;
-&lt;/dialog&gt;
-&lt;button style="font-family:'Fairfax Pona HD'" onclick="tutuike.showModal()"&gt;mi&lt;/button&gt;
-&lt;button onclick="tutupona.showModal()"&gt;sina&lt;/button&gt;
-&lt;br&gt;
-&lt;br&gt;
-tenpo ni3 li wile e nanpa sewi2 en nanpa anpa. &lt;br&gt;
-zz nanpa anpa li anpa e nanpa sewi2 zz &lt;br&gt;
-en nanpa sewi2 li sewi2 e nanpa anpa.
-&lt;/section&gt;
-&lt;hr&gt;</content:encoded><category>Reference</category></item><item><title>Zig CTFP</title><link>https://stau.space/posts/zig-ctfp/</link><pubDate>Wed, 07 Aug 2024 11:38:20 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/zig-ctfp/</guid><description>Zig is a functional programming language</description><category>Areas</category></item><item><title>Hare Rope</title><link>https://stau.space/posts/hare-rope/</link><pubDate>Mon, 27 May 2024 21:10:02 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/hare-rope/</guid><description>Rope implementation in harelang.</description><category>Projects</category></item><item><title>R. O. N. DB Manager</title><link>https://stau.space/posts/rdbm/</link><pubDate>Sun, 31 Mar 2024 13:32:48 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/rdbm/</guid><description>Glorified getter and setter written in Rust.</description><category>Projects</category></item><item><title>C++ Prelude</title><link>https://stau.space/posts/cpp-prelude/</link><pubDate>Mon, 08 Jan 2024 18:04:59 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/cpp-prelude/</guid><description>Sensible defaults for a very irrational language.</description><category>Reference</category></item><item><title>Fractal Renderer</title><link>https://stau.space/posts/mandelbrot/</link><pubDate>Fri, 24 Nov 2023 21:28:33 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/mandelbrot/</guid><description>Rendering fractals in parallel with C lang.</description><category>Projects</category></item><item><title>We Lost the ICPC Regionals</title><link>https://stau.space/posts/icpc-regionals/</link><pubDate>Sat, 21 Oct 2023 22:00:00 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/icpc-regionals/</guid><description>&lt;p&gt;We lost the ICPC Regionals!!&lt;/p&gt;</description><category>Projects</category></item></channel></rss>
+&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 2</title><link>http://localhost:1313/posts/aoc-2024-day2/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/aoc-2024-day2/</guid><description>BQN - toki pona</description><category>Fun</category></item><item><title>Mathematics in toki pona</title><link>http://localhost:1313/posts/tok-mat/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/tok-mat/</guid><description>o sina sona e nanpa!</description><category>Reference</category></item><item><title>Zig CTFP</title><link>http://localhost:1313/posts/zig-ctfp/</link><pubDate>Wed, 07 Aug 2024 11:38:20 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/zig-ctfp/</guid><description>Zig is a functional programming language</description><category>Areas</category></item><item><title>Hare Rope</title><link>http://localhost:1313/posts/hare-rope/</link><pubDate>Mon, 27 May 2024 21:10:02 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/hare-rope/</guid><description>Rope implementation in harelang.</description><category>Projects</category></item><item><title>R. O. N. DB Manager</title><link>http://localhost:1313/posts/rdbm/</link><pubDate>Sun, 31 Mar 2024 13:32:48 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/rdbm/</guid><description>Glorified getter and setter written in Rust.</description><category>Projects</category></item><item><title>C++ Prelude</title><link>http://localhost:1313/posts/cpp-prelude/</link><pubDate>Mon, 08 Jan 2024 18:04:59 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/cpp-prelude/</guid><description>Sensible defaults for a very irrational language.</description><category>Reference</category></item><item><title>Fractal Renderer</title><link>http://localhost:1313/posts/mandelbrot/</link><pubDate>Fri, 24 Nov 2023 21:28:33 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/mandelbrot/</guid><description>Rendering fractals in parallel with C lang.</description><category>Projects</category></item><item><title>We Lost the ICPC Regionals</title><link>http://localhost:1313/posts/icpc-regionals/</link><pubDate>Sat, 21 Oct 2023 22:00:00 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/icpc-regionals/</guid><description>&lt;p&gt;We lost the ICPC Regionals!!&lt;/p&gt;</description><category>Projects</category></item></channel></rss>

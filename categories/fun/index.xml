@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Fun on My website!</title><link>https://stau.space/categories/fun/</link><description>Recent Posts in Fun on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sun, 07 Dec 2025 20:13:16 -0400</lastBuildDate><atom:link href="https://stau.space/categories/fun/index.xml" rel="self" type="application/rss+xml"/><item><title>¡Feliz Cumpleaños Izánder!</title><link>https://stau.space/posts/hbd/</link><pubDate>Mon, 07 Jul 2025 18:56:46 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/hbd/</guid><description>&lt;dialog id="hintbox" style="position:absolute;top:0.5vw"&gt;&lt;div id="hintboxmsg"&gt;&lt;/div&gt;&lt;form method="dialog"&gt;&lt;button&gt;Close.&lt;/button&gt;&lt;/form&gt;&lt;/dialog&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Fun on My website!</title><link>http://localhost:1313/categories/fun/</link><description>Recent Posts in Fun on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Fri, 12 Dec 2025 21:35:37 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/fun/index.xml" rel="self" type="application/rss+xml"/><item><title>Logarithm of a functor</title><link>http://localhost:1313/posts/log-cat/</link><pubDate>Sun, 07 Dec 2025 11:22:33 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/log-cat/</guid><description>"What is the logarithm of a functor?"</description><content:encoded>&lt;p&gt;I was recently made aware of an interesting way to think about representable functors.&lt;/p&gt;
+&lt;h1 id="setting-the-stage"&gt;Setting the stage&lt;/h1&gt;
+&lt;p&gt;Let&amp;rsquo;s say you have a category $\cal{C}$ and endofunctors $F : \cal{C} \to \cal{C}$ and $\text{Id} : \cal{C} \to \cal{C}$ where $\text{Id}$ is the identity functor. For this demonstration, I will refer to the hom-functor $\hom(a, -)$ as $(-)^a$, the function set with an object missing. Furthermore, the Yoneda lemma says the following:&lt;/p&gt;
+
+&lt;span role="presentation" id="lemma"&gt;&lt;/span&gt;
+&lt;style&gt;
+ #lemma {
+ counter-reset: lemma;
+ }
+ .lemma::after {
+ counter-increment: lemma;
+ content: ' ' counter(lemma) '. ';
+ }
+&lt;/style&gt;
+&lt;blockquote role="complementary"&gt;
+ &lt;span class="lemma textssc" role="heading"&gt;Lemma&lt;/span&gt;
+ Given a category $\cal{C}$ and a contravariant functor $F : \cal{C}^{\text{op}} \to \mathbf{Set}$ we have that for any $a \in \text{b}(\cal{C})$,
+$$
+F a \cong \text{hom}(\text{hom}(a, -), F).
+$$
+&lt;/blockquote&gt;
+&lt;p&gt;There is something really neat when $F \cong \hom(a, -)$. This is called a &lt;strong&gt;representable functor&lt;/strong&gt;. This will be the star of the show here.&lt;/p&gt;
+&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s look at the &lt;code&gt;List&lt;/code&gt; and &lt;code&gt;Stream&lt;/code&gt; functors defined in Haskell, like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-haskell" data-lang="haskell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;type&lt;/span&gt; &lt;span class="kt"&gt;List&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;List&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="kt"&gt;Nil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;instance&lt;/span&gt; &lt;span class="kt"&gt;Functor&lt;/span&gt; &lt;span class="kt"&gt;List&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="kr"&gt;where&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;fmap&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="kt"&gt;Nil&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Nil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;fmap&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fmap&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;type&lt;/span&gt; &lt;span class="kt"&gt;Stream&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Stream&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;-- Notice that this does not have a Nil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;instance&lt;/span&gt; &lt;span class="kt"&gt;Functor&lt;/span&gt; &lt;span class="kt"&gt;Stream&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="kr"&gt;where&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;fmap&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fmap&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;My claim is that &lt;code&gt;Stream&lt;/code&gt; is representable. And in this case it will be naturally isomorphic to the hom-functor $\hom(\mathbb{N}, -)$ so here are the natural isomorphisms:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-haskell" data-lang="haskell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;index&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;Stream&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Nat&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;index&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kr"&gt;if&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="kr"&gt;then&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="kr"&gt;else&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;tabulate&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Nat&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Stream&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;tabulate&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tabulate&amp;#39;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="kr"&gt;where&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;	&lt;span class="n"&gt;tabulate&amp;#39;&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tabulate&amp;#39;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;And now, &lt;code&gt;List&lt;/code&gt; cannot be representable, at least with the previous functor, because &lt;code&gt;index&lt;/code&gt; is not implementable:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-haskell" data-lang="haskell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;index&lt;/span&gt; &lt;span class="ow"&gt;::&lt;/span&gt; &lt;span class="kt"&gt;List&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kt"&gt;Nat&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;index&lt;/span&gt; &lt;span class="kt"&gt;[]&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;undefined&lt;/span&gt; &lt;span class="c1"&gt;-- There is no a for us to return here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;index&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;Cons&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="kr"&gt;if&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="kr"&gt;then&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="kr"&gt;else&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="the-meat-and-potatoes"&gt;The Meat and Potatoes&lt;/h2&gt;
+&lt;p&gt;Now imagine this scenario:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your Calculus professor goes up to you and gives you a pen and paper. He says, “Solve for x.” On this piece of paper, you have the following:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;$$
+2 = 3^x.
+$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You think to yourself: “This looks pretty simple, you should just take the &lt;em&gt;logarithm&lt;/em&gt;.” As such, you write on the piece of paper the following:
+$$
+\log_3(2) = x.
+$$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your professor looks at your solution and says: “Marvelous, this is correct. Have a nice day!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This scenario is obviously a joke, but let us not forget that a lot of notation in Category Theory seems to also be jokes or hints at some underlying structure. We have something called the &lt;em&gt;hom-functor&lt;/em&gt; which looks like this: $(-)^x$. What if we applied some sort of “logarithm” to this?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When our functor $F$ is representable, e.g., $F \cong (-)^x$, we have that $\log F = x$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For a quick and dirty example, look at the endofunctor $\text{Id}$. In order for this functor to be representable, we need to enforce some requirements on $\cal{C}$. So for now, assume that it is representable to $\hom(a, -)$. The requirements are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Since $\text{codom}(\text{Id}) = \cal{C}$, then we need $\text{codom}(\hom(a, -)) = \cal{C}$. This means that $\cal{C}$ has internal homs.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Something fascinating happens when $F$ becomes a product or coproduct.&lt;/p&gt;
+&lt;p&gt;Let $F$ be a product like $F a := a \times b$. Then,
+$$&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;</content:encoded><category>Fun</category></item><item><title>¡Feliz Cumpleaños Izánder!</title><link>http://localhost:1313/posts/hbd/</link><pubDate>Mon, 07 Jul 2025 18:56:46 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/hbd/</guid><description>&lt;dialog id="hintbox" style="position:absolute;top:0.5vw"&gt;&lt;div id="hintboxmsg"&gt;&lt;/div&gt;&lt;form method="dialog"&gt;&lt;button&gt;Close.&lt;/button&gt;&lt;/form&gt;&lt;/dialog&gt;
 &lt;script&gt;
 function answer(id, answer, location, event) {
  if (event == null || event.code == "Enter") {
@@ -106,7 +212,7 @@ What number am I?&lt;/p&gt;
 &lt;/input&gt;
 &lt;button onclick="answer(riddle3, 'seven', 'debajo del escritorio de Mami.')"&gt;Submit&lt;/button&gt;
 &lt;/div&gt;
-&lt;hr&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 1</title><link>https://stau.space/posts/aoc-2024-day1/</link><pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/aoc-2024-day1/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
+&lt;hr&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 1</title><link>http://localhost:1313/posts/aoc-2024-day1/</link><pubDate>Thu, 05 Dec 2024 13:55:24 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/aoc-2024-day1/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
  wan wan. &lt;br&gt;
  zz pana pi (toki tawa lipu) li nasin lipu tu e wan. &lt;br&gt;
  zz pana pi (toki tawa lipu) li suli. &lt;br&gt;
@@ -174,7 +280,7 @@ What number am I?&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt;&lt;/span&gt;&lt;span class="m"&gt;31&lt;/span&gt;&lt;span class="w"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 2</title><link>https://stau.space/posts/aoc-2024-day2/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/aoc-2024-day2/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
+&lt;/div&gt;</content:encoded><category>Fun</category></item><item><title>AOC day 2</title><link>http://localhost:1313/posts/aoc-2024-day2/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/aoc-2024-day2/</guid><description>BQN - toki pona</description><content:encoded>&lt;span lang="tok"&gt;
  soweli suli li moku e sina. ijo li moku
 &lt;/span&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;

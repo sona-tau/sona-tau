@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Projects on My website!</title><link>https://stau.space/categories/projects/</link><description>Recent Posts in Projects on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Sun, 07 Dec 2025 20:13:16 -0400</lastBuildDate><atom:link href="https://stau.space/categories/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Licker</title><link>https://stau.space/posts/licker/</link><pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/licker/</guid><description>&lt;h1 id="behold-the-licker"&gt;Behold The Licker&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Projects on My website!</title><link>http://localhost:1313/categories/projects/</link><description>Recent Posts in Projects on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Fri, 12 Dec 2025 21:35:37 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Licker</title><link>http://localhost:1313/posts/licker/</link><pubDate>Fri, 20 Dec 2024 09:35:31 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/licker/</guid><description>&lt;h1 id="behold-the-licker"&gt;Behold The Licker&lt;/h1&gt;
 &lt;p&gt;The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p&gt;</description><content:encoded>&lt;h1 id="behold-the-licker"&gt;Behold The Licker&lt;/h1&gt;
 &lt;p&gt;The title is a portmanteau of the words &amp;ldquo;license&amp;rdquo; and &amp;ldquo;picker&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;See it in action here:&lt;/p&gt;
@@ -10,7 +10,7 @@ I did enjoy how well documented the stdlib is and how much functionality it prov
 I have no idea why the default location for installing binaries with &lt;code&gt;go install&lt;/code&gt; is in &lt;code&gt;~/go&lt;/code&gt;.
 It would have been much nicer if it had asked me where it was going to start putting binaries first.
 Specially considering my home directory is a place where I do lots of things, it would not have been surprising to me if I had a folder named &lt;code&gt;go&lt;/code&gt; in home directory at any given time.
-Nevertheless, I just had to change a single environment variable to get it up and running in my preferred location: &lt;code&gt;$XDG_DATA_HOME/go&lt;/code&gt;.&lt;/p&gt;</content:encoded><category>Projects</category></item><item><title>Archiver</title><link>https://stau.space/posts/archiver/</link><pubDate>Sun, 08 Dec 2024 20:20:32 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/archiver/</guid><description>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;</description><content:encoded>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;
+Nevertheless, I just had to change a single environment variable to get it up and running in my preferred location: &lt;code&gt;$XDG_DATA_HOME/go&lt;/code&gt;.&lt;/p&gt;</content:encoded><category>Projects</category></item><item><title>Archiver</title><link>http://localhost:1313/posts/archiver/</link><pubDate>Sun, 08 Dec 2024 20:20:32 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/archiver/</guid><description>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;</description><content:encoded>&lt;p&gt;Want to archive folders however you want?&lt;/p&gt;
 &lt;h1 id="context"&gt;Context&lt;/h1&gt;
 &lt;p&gt;I had been trying to figure out a more efficient way of backing up directories on my computers. For example, I have a huge directory where my &lt;a href="https://obsidian.md/" target="_blank" rel="external noopener noreferrer nofollow"&gt;Obsidian&lt;/a&gt; vault lives. This vault is filled with a bunch of pdf and markdown files that I use for my everyday notes. &lt;em&gt;I do like keeping this folder backed up in case my laptop or PC dies.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The way I would backup this folder was by simply turning it into a GitHub repo and uploading everything privately to my GitHub account. This was not what GitHub was made for and I was nearing 2GB for the entire repo. It was time to search for a different solution.&lt;/p&gt;
@@ -122,7 +122,7 @@ Nevertheless, I just had to change a single environment variable to get it up an
 at the end of this.&lt;/li&gt;
 &lt;li&gt;Your &lt;code&gt;archives.json&lt;/code&gt; file is updated with all of the fresh timestamps and
 MD5-Sum.&lt;/li&gt;
-&lt;/ol&gt;</content:encoded><category>Projects</category></item><item><title>Translations</title><link>https://stau.space/posts/stuff/</link><pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/stuff/</guid><description>Random stuff I've translated to toki pona.</description><content:encoded>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;
+&lt;/ol&gt;</content:encoded><category>Projects</category></item><item><title>Translations</title><link>http://localhost:1313/posts/stuff/</link><pubDate>Sun, 08 Dec 2024 19:20:28 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/stuff/</guid><description>Random stuff I've translated to toki pona.</description><content:encoded>&lt;p&gt;Here are several excerpts from miscellaneous texts that I have translated into toki pona.&lt;/p&gt;
 &lt;span lang="tok"&gt;
 ijo li ike tawa kulupu pi (pipi waso) la &lt;br&gt;
 ona li ike tawa pipi waso
@@ -186,7 +186,7 @@ teeth. To act against one another is to be vexed and to turn away.&lt;/p&gt;
 &lt;details&gt;
  &lt;summary&gt;Details&lt;/summary&gt;
  &lt;p&gt;&amp;ldquo;Short cuts make long delays,&amp;rdquo; argued Pippin. - J.R.R. Tolkien, The Fellowship of the Ring&lt;/p&gt;
-&lt;/details&gt;</content:encoded><category>Projects</category></item><item><title>lipu lon luka</title><link>https://stau.space/posts/enchiridion-tok/</link><pubDate>Sun, 08 Dec 2024 19:19:04 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/enchiridion-tok/</guid><description>The Enchiridion by Epictetus in toki pona</description><content:encoded>&lt;h1 id="toki-open"&gt;&lt;span lang="tok"&gt;toki open&lt;/span&gt;&lt;/h1&gt;
+&lt;/details&gt;</content:encoded><category>Projects</category></item><item><title>lipu lon luka</title><link>http://localhost:1313/posts/enchiridion-tok/</link><pubDate>Sun, 08 Dec 2024 19:19:04 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/enchiridion-tok/</guid><description>The Enchiridion by Epictetus in toki pona</description><content:encoded>&lt;h1 id="toki-open"&gt;&lt;span lang="tok"&gt;toki open&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;Translation of The Enchiridion by Epictetus into toki pona.
 Original translation taken from: &lt;a href="http://classics.mit.edu/Epictetus/epicench.1b.txt" target="_blank" rel="external noopener noreferrer nofollow"&gt;http://classics.mit.edu/Epictetus/epicench.1b.txt&lt;/a&gt;
 If you have any suggestions, feel free to contact me through any of my contacts, &lt;a href="../../contact/"&gt;here.&lt;/a&gt;&lt;/p&gt;
@@ -196,7 +196,7 @@ en·chi·rid·i·on [ˌen-ˌkī-ˈri-dē-ən]&lt;/p&gt;
 &lt;li&gt;Plural: enchiridia [ˌen-ˌkī-ˈri-dē-ə]&lt;/li&gt;
 &lt;li&gt;Meaning: handbook, manual&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://stau.space/posts/enchiridion-tok/lipu-lon-luka.svg" alt="sitelen pi lipu lon liku"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:1313/posts/enchiridion-tok/lipu-lon-luka.svg" alt="sitelen pi lipu lon liku"&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;span lang="tok"&gt;
 &lt;/blockquote&gt;
@@ -995,7 +995,7 @@ Melitus may kill me indeed, but hurt me they cannot."
 (Plato's Crito and Apology) 
 
 THE END
---&gt;</content:encoded><category>Projects</category></item><item><title>Hare Rope</title><link>https://stau.space/posts/hare-rope/</link><pubDate>Mon, 27 May 2024 21:10:02 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/hare-rope/</guid><description>Rope implementation in harelang.</description><content:encoded>&lt;p&gt;A Rope is a data structure that manages an ordered set of characters. Just like
+--&gt;</content:encoded><category>Projects</category></item><item><title>Hare Rope</title><link>http://localhost:1313/posts/hare-rope/</link><pubDate>Mon, 27 May 2024 21:10:02 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/hare-rope/</guid><description>Rope implementation in harelang.</description><content:encoded>&lt;p&gt;A Rope is a data structure that manages an ordered set of characters. Just like
 a string!&lt;/p&gt;
 &lt;p&gt;You can read more about it on its &lt;a href="https://en.wikipedia.org/wiki/Rope_%28data_structure%29" target="_blank" rel="external noopener noreferrer nofollow"&gt;Wikipedia article.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Some of the key Big-O differences are the following:&lt;/p&gt;
@@ -1055,7 +1055,7 @@ a string!&lt;/p&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;em&gt;Table taken from &lt;a href="https://en.wikipedia.org/wiki/Rope_%28data_structure%29#Comparison_with_monolithic_arrays" target="_blank" rel="external noopener noreferrer nofollow"&gt;Comparison with monolithic arrays&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content:encoded><category>Projects</category></item><item><title>R. O. N. DB Manager</title><link>https://stau.space/posts/rdbm/</link><pubDate>Sun, 31 Mar 2024 13:32:48 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/rdbm/</guid><description>Glorified getter and setter written in Rust.</description><content:encoded>&lt;!-- LTeX: language=en,es --&gt;
+&lt;p&gt;&lt;em&gt;Table taken from &lt;a href="https://en.wikipedia.org/wiki/Rope_%28data_structure%29#Comparison_with_monolithic_arrays" target="_blank" rel="external noopener noreferrer nofollow"&gt;Comparison with monolithic arrays&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content:encoded><category>Projects</category></item><item><title>R. O. N. DB Manager</title><link>http://localhost:1313/posts/rdbm/</link><pubDate>Sun, 31 Mar 2024 13:32:48 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/rdbm/</guid><description>Glorified getter and setter written in Rust.</description><content:encoded>&lt;!-- LTeX: language=en,es --&gt;
 &lt;p&gt;&lt;strong&gt;rdbm&lt;/strong&gt; is a rust program for getting and setting a custom ron resource file.&lt;/p&gt;
 &lt;p&gt;Similar to &lt;code&gt;.Xresources&lt;/code&gt;, &lt;code&gt;rdbm&lt;/code&gt; will create a &lt;code&gt;resources.ron&lt;/code&gt; in your &lt;code&gt;~/.config/&lt;/code&gt; directory.
 You can then use &lt;code&gt;rdbm&lt;/code&gt; to set multiple &amp;ldquo;key-value&amp;rdquo; pairs similar to &lt;code&gt;.Xresources&lt;/code&gt;.
@@ -1085,8 +1085,8 @@ rdbm set --help
 &lt;li&gt;Group key-value pairs (similar to having &lt;code&gt;URxvt*color0&lt;/code&gt; and &lt;code&gt;xterm*color0&lt;/code&gt; in .Xresources)&lt;/li&gt;
 &lt;li&gt;Sort entries in resource file&lt;/li&gt;
 &lt;li&gt;Preserve order of entries in resource file&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><category>Projects</category></item><item><title>Fractal Renderer</title><link>https://stau.space/posts/mandelbrot/</link><pubDate>Fri, 24 Nov 2023 21:28:33 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/mandelbrot/</guid><description>Rendering fractals in parallel with C lang.</description><content:encoded>&lt;p&gt;Mandelbrot fractal research repo&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stau.space/posts/mandelbrot/mandelbrot.png" alt="1.5K mandelbrot image."&gt;&lt;/p&gt;
+&lt;/ul&gt;</content:encoded><category>Projects</category></item><item><title>Fractal Renderer</title><link>http://localhost:1313/posts/mandelbrot/</link><pubDate>Fri, 24 Nov 2023 21:28:33 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/mandelbrot/</guid><description>Rendering fractals in parallel with C lang.</description><content:encoded>&lt;p&gt;Mandelbrot fractal research repo&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:1313/posts/mandelbrot/mandelbrot.png" alt="1.5K mandelbrot image."&gt;&lt;/p&gt;
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ve worked on this project several times now and I&amp;rsquo;ve split it up into several parts:&lt;/p&gt;
 &lt;h2 id="c"&gt;C&lt;/h2&gt;
@@ -1104,8 +1104,8 @@ in the works but it&amp;rsquo;s supposed to be the same as mandelbrot-gamma but 
 lambdas&lt;/del&gt; I will probably remove this further on since mandelbrot-gamma has
 proven to be the way forward for this project.&lt;/p&gt;
 &lt;h2 id="here-it-is"&gt;Here it is:&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://stau.space/posts/mandelbrot/mandelbrot.png" alt="1.5K mandelbrot image."&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stau.space/posts/mandelbrot/mandelbrot-zoom.png" alt="1.5k mandelbrot image very zoomed in with a histogram applied."&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:1313/posts/mandelbrot/mandelbrot.png" alt="1.5K mandelbrot image."&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:1313/posts/mandelbrot/mandelbrot-zoom.png" alt="1.5k mandelbrot image very zoomed in with a histogram applied."&gt;&lt;/p&gt;
 &lt;h2 id="todo"&gt;TODO():&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; histogram coloring&lt;/li&gt;
@@ -1116,7 +1116,7 @@ proven to be the way forward for this project.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input disabled="" type="checkbox"&gt; animate&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><category>Projects</category></item><item><title>We Lost the ICPC Regionals</title><link>https://stau.space/posts/icpc-regionals/</link><pubDate>Sat, 21 Oct 2023 22:00:00 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/icpc-regionals/</guid><description>&lt;p&gt;We lost the ICPC Regionals!!&lt;/p&gt;</description><content:encoded>&lt;p&gt;We lost the ICPC Regionals!!&lt;/p&gt;
+&lt;/ul&gt;</content:encoded><category>Projects</category></item><item><title>We Lost the ICPC Regionals</title><link>http://localhost:1313/posts/icpc-regionals/</link><pubDate>Sat, 21 Oct 2023 22:00:00 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>http://localhost:1313/posts/icpc-regionals/</guid><description>&lt;p&gt;We lost the ICPC Regionals!!&lt;/p&gt;</description><content:encoded>&lt;p&gt;We lost the ICPC Regionals!!&lt;/p&gt;
 &lt;h1 id="intro"&gt;Intro&lt;/h1&gt;
 &lt;p&gt;After a grueling five hour match our team couldn&amp;rsquo;t solve a single exercise. We were very out of it at the end and just couldn&amp;rsquo;t find a way to solve any of the exercises. Even though the exercises were pretty hard some of our solutions were indeed correct but couldn&amp;rsquo;t beat the time limit they gave us for those exercises. For example one of the exercises was to find out all the numbers between 2 and N that fit the following description:&lt;/p&gt;
 &lt;p&gt;For x in &lt;code&gt;[2, N]&lt;/code&gt;, N base x is a palindrome. The complicated part of this problem being the fact that the largest N they give you is 2^15 and your time limit is 1 second. Changing a decimal number to a different base will always take an &lt;code&gt;O(log n)&lt;/code&gt; amount of steps; checking if it&amp;rsquo;s a palindrome will take &lt;code&gt;O(n/2)&lt;/code&gt; steps max; doing that for every number in &lt;code&gt;[2, N]&lt;/code&gt; is &lt;code&gt;O(n log(n))&lt;/code&gt;. Note that an average computer can only do 10^8 calculations per second, but our largest number is 2^15 which means that anything equal or slower in complexity than a linear solution would be too slow.&lt;/p&gt;
