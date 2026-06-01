@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Text/Plain on My website!</title><link>https://stau.space/categories/text/plain/</link><description>Recent Posts in Text/Plain on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Mon, 01 Jun 2026 07:51:01 -0400</lastBuildDate><atom:link href="https://stau.space/categories/text/plain/index.xml" rel="self" type="application/rss+xml"/><item><title>The Eight Plain Text Questions</title><link>https://stau.space/posts/the-eight-questions/</link><pubDate>Thu, 05 Mar 2026 10:10:57 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/the-eight-questions/</guid><description>Based off Ellane W's based off Scott Nesbit's Eight questions for Donald Brown</description><content:encoded>&lt;p&gt;Based off Ellane W&amp;rsquo;s based off Scott Nesbit&amp;rsquo;s Eight questions for Donald Brown.&lt;/p&gt;
+&lt;h2 id="when-did-you-start-using-plain-text"&gt;When did you start using plain text?&lt;/h2&gt;
+&lt;p&gt;High school, around 2016.&lt;/p&gt;
+&lt;h2 id="why-did-you-start-using-plain-text"&gt;Why did you start using plain text?&lt;/h2&gt;
+&lt;p&gt;I had seen a couple videos at the time about Linux, and about a week later I had been given a laptop.
+Like many experts in their field, I am acutely aware of all the ways in which the systems I work with can run optimally and how easily they can also break.
+Many software developers know and strive towards having resilient systems, built in the most elegant way possible.
+I used to take notes by hand in notebooks, and computers seemed very interesting to me back then.
+Because of this, I had a series of requirements which my writing system had to meet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It must be resilient.&lt;/li&gt;
+&lt;li&gt;It must be portable.&lt;/li&gt;
+&lt;li&gt;It must be easy to use.&lt;/li&gt;
+&lt;li&gt;It must be easy to extend.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For notetaking, this left me with only a few options.
+Those being:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Docs&lt;/li&gt;
+&lt;li&gt;Evernote&lt;/li&gt;
+&lt;li&gt;Microslop Word&lt;/li&gt;
+&lt;li&gt;OneNote&lt;/li&gt;
+&lt;li&gt;plain text + plain text editor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Because of the flaky electrical service in Puerto Rico, I couldn&amp;rsquo;t use anything that relied on a stable internet connection.
+This discarded most of the options here and left me with either Microslop word or plain text.
+Once I got rid of Windows in favor of Linux, I was forced to use plain text.&lt;/p&gt;
+&lt;h2 id="what-do-you-use-plain-text-for"&gt;What do you use plain text for?&lt;/h2&gt;
+&lt;p&gt;I use plain text for tracking my projects.
+(Soon, I&amp;rsquo;ll unveil my collection of projects.[1])
+My method for keeping track of projects is to have a prepend-only log of what I do every time that I work on it.
+I make sure to write what I just did and the reasons why I did those things, and the considerations that were taken in the decisions that were made.
+I finish each daily log with an &amp;ldquo;Immediate next steps&amp;rdquo; section so that I can continue the project right where I left it off the next time I need/want to work on it.&lt;/p&gt;
+&lt;h2 id="what-keeps-you-using-plain-text"&gt;What keeps you using plain text?&lt;/h2&gt;
+&lt;p&gt;I call it plain text but in reality, I use different languages depending on what I want to do.
+I feel like this is the fairest way to go about this: you use a programming language purposefully designed for the thing you want to do.
+In this case, when I want to track projects or write content for my website I use markdown.
+When I&amp;rsquo;m writing more professional works I use typst or $\LaTeX$.
+BTW I also consider programming languages that awer compiled from plain text files to also be plain text. (anything with the &lt;code&gt;text/plain&lt;/code&gt; mime-type; hence the tag I use for my plain-text series)&lt;/p&gt;
+&lt;h2 id="do-you-use-any-markup-or-formatting-languages-if-so-which-ones-and-why"&gt;Do you use any markup or formatting languages? If so, which ones and why?&lt;/h2&gt;
+&lt;p&gt;I use LanguageTool for spellchecking, hugo&amp;rsquo;s templates for special shortcodes like epigraphs.
+For example,&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-txt" data-lang="txt"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; epigraph pre=&amp;#34;Mario G. Harmon&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Everything happens for a reason.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; Sometimes the reason is you&amp;#39;re stupid and make bad decisions.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt;/ epigraph &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ &lt;pre&gt;&lt;code&gt;Everything happens for a reason.
+Sometimes the reason is you're stupid and make bad decisions.
+&lt;/code&gt;&lt;/pre&gt;
+
+ &lt;footer&gt;Mario G. Harmon
+ &lt;/footer&gt;
+ &lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;I also use obsidian to look at links between my notes.
+This has served useful in cases when I know that something I want to blog about is just a matter of stitching together several notes. For example, &lt;a href="https://stau.space/posts/burritos/"&gt;A Monad is not a Burrito&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="what-are-your-favourite-plain-text-tools-or-applications"&gt;What are your favourite plain text tools or applications?&lt;/h2&gt;
+&lt;p&gt;If we&amp;rsquo;re talking about tools, not in order of preference:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;vim&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Obsidian&lt;/li&gt;
+&lt;li&gt;the UNIX file stream utilities: &lt;code&gt;sed&lt;/code&gt;, &lt;code&gt;awk&lt;/code&gt;, &lt;code&gt;grep&lt;/code&gt;, &lt;code&gt;find&lt;/code&gt;, &amp;amp;c.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="is-there-one-tool-you-cant-do-without"&gt;Is there one tool you can’t do without?&lt;/h2&gt;
+&lt;p&gt;A text editor: &lt;code&gt;vim&lt;/code&gt;.
+Without it, I wouldn&amp;rsquo;t be able to edit anything and nothing would ever get made.
+Me without vim is like a painter without a brush, or a carpenter without a hammer; sure I can just &lt;code&gt;head&lt;/code&gt; and &lt;code&gt;tail&lt;/code&gt; with a &lt;code&gt;printf&lt;/code&gt; in between in order to edit text in files.
+I suppose I could even use &lt;code&gt;ed&lt;/code&gt; (pronounced as individual letters: &lt;a href="https://www.youtube.com/watch?v=NTfOnGZUZDk&amp;amp;t=119" target="_blank" rel="external noopener noreferrer nofollow"&gt;Where GREP Came From&lt;/a&gt;) to edit files.
+But, &lt;code&gt;vim&lt;/code&gt; is my editor of choice.&lt;/p&gt;
+&lt;h2 id="is-there-anything-you-cant-do-with-plain-text"&gt;Is there anything you can’t do with plain text?&lt;/h2&gt;
+&lt;p&gt;Visualizations!&lt;/p&gt;
+&lt;p&gt;I like being able to visualize data.
+As I said previously, whenever I&amp;rsquo;m writing more professional work I use typesetting programs.
+Well, when I take class notes, I like using plain text.
+Obsidian supports rendering content inside $ $ as $\LaTeX$ math code so that&amp;rsquo;s what I do for my most of my classes.&lt;/p&gt;</content:encoded><category>Text/Plain</category></item></channel></rss>

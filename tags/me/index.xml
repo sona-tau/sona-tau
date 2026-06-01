@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Me on My website!</title><link>https://stau.space/tags/me/</link><description>Recent Posts in Me on My website!</description><generator>Hugo 0.152.2</generator><language>en</language><managingEditor>sona@stau.space (Sona Tau Estrada Rivera)</managingEditor><webMaster>sona@stau.space (Sona Tau Estrada Rivera)</webMaster><lastBuildDate>Mon, 01 Jun 2026 07:51:01 -0400</lastBuildDate><atom:link href="https://stau.space/tags/me/index.xml" rel="self" type="application/rss+xml"/><item><title>The Explorer's Trial</title><link>https://stau.space/posts/exploring/</link><pubDate>Sat, 07 Mar 2026 08:24:15 -0400</pubDate><author>sona@stau.space (Sona Tau Estrada Rivera)</author><dc:creator>Sona Tau Estrada Rivera</dc:creator><guid>https://stau.space/posts/exploring/</guid><description>Exploring different utilities</description><content:encoded>&lt;p&gt;I really like trying out new software.
+Between me and my friends, I&amp;rsquo;m the designated weirdo who&amp;rsquo;s always trying out strange things on my devices.
+This gets me stares from others, but I don&amp;rsquo;t mind:&lt;/p&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ Can&amp;rsquo;t you just use something normal?
+ &lt;footer&gt;- Ran D. Ompersson
+ &lt;/footer&gt;
+ &lt;/blockquote&gt;
+&lt;/div&gt;
+
+&lt;div role="doc-epigraph" class="epigraph"&gt;
+ &lt;blockquote&gt;
+ This &lt;strong&gt;is&lt;/strong&gt; normal for me.
+ &lt;footer&gt;- Me
+ &lt;/footer&gt;
+ &lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;p&gt;Well, maybe I could use something more normal?
+But time has proven that there are actually a lot of really cool things people have made out there.
+You&amp;rsquo;ll see later what I mean about this.
+Many times a lot better and a lot buggier than the widely established software projects, but still really cool.
+Some of them have been long forgotten, dead.
+Some of them have been reborn, whether that is knowingly or unknowingly of the original project escapes me, but I&amp;rsquo;m certain that the motivation for doing so is out of wanting the same solution the original project sought to accomplish.&lt;/p&gt;
+&lt;p&gt;Using normal and/or established projects is the antithesis of innovation.&lt;/p&gt;
+&lt;p&gt;Isn&amp;rsquo;t this what the indie web is all about?
+Isn&amp;rsquo;t this what FOSS needs to survive?
+What about indie games or music?&lt;/p&gt;
+&lt;p&gt;The same normal things get boring. True excitement comes from new things. So go out there and give something weird a try!&lt;/p&gt;
+&lt;h1 id="array-languages"&gt;Array Languages&lt;/h1&gt;
+&lt;p&gt;I was looking at a YouTube channel called &lt;a href="https://www.youtube.com/@code_report" target="_blank" rel="external noopener noreferrer nofollow"&gt;Code Report&lt;/a&gt;. This channel makes lots of videos comparing different programming languages. From here I discovered combinators and array programming languages.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;PL&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://tryapl.org" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://tryapl.org&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;The first array language. Created in the 1960&amp;rsquo;s.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://mlochbaum.github.io/BQN/" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://mlochbaum.github.io/BQN/&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;An upgrade to APL with many new combinators.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://uiua.org" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://uiua.org&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;A stack-based array language, with many of BQN&amp;rsquo;s combinators.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://jsoftware.com" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://jsoftware.com&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;A more industrial version of APL with many more features.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="keyboard-layouts"&gt;Keyboard layouts&lt;/h1&gt;
+&lt;p&gt;Several years ago I found out about Dvorak. This sent me down a rabbit hole. I explored different layouts and why people used them. I decided I&amp;rsquo;d try the canonical &amp;ldquo;different QWERTY layout&amp;rdquo;: Dvorak. After a couple years I had gotten pretty used to it. Then I started trying different layouts that built on the strengths of Dvorak. I finally decided on using MTGAP. On my phone however, these layouts don&amp;rsquo;t make any sense since you&amp;rsquo;re really just typing with your thumbs. I tried Clearflow and loved it until my phone&amp;rsquo;s OS alerted me that my location was being sent to a Google server even though I had turned off location permissions for the app :( Then I moved to KeyBee, which also seems pretty nice, but I do miss the swipe typing that ClearFlow offers.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Layout&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://wikipedia.org/wiki/Dvorak_keyboard_layout" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://wikipedia.org/wiki/Dvorak_keyboard_layout&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;One of the first layouts that differs to QWERTY. Made so that typing from the homerow was easier.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://wikipedia.org/wiki/HexInput" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://wikipedia.org/wiki/HexInput&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;A hexagonal grid of characters, some repeated, to optimize for swipe typing.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://github.com/KeybeeKeyboard" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://github.com/KeybeeKeyboard&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;A modern implementation of HexInput for phones, available in different languages.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://clearflowkeyboard.github.io" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://clearflowkeyboard.github.io&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Phon layout optimized to minimize swipe typing ambiguity for English.&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="https://github.com/kenranunderscore/mtgap-layout" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://github.com/kenranunderscore/mtgap-layout&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Keyboard layout optimized for &amp;ldquo;rolling.&amp;rdquo;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="other-stuff"&gt;Other Stuff&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/ATS_%28programming_language%29" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://en.wikipedia.org/wiki/ATS_(programming_language)&lt;/a&gt;: type safe PL arguably as fast as C&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://harelang.org/" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://harelang.org/&lt;/a&gt;: C with namespaces (this is huge)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://c9x.me/compile/" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://c9x.me/compile/&lt;/a&gt;: The IR that Hare uses, seems very easy to start using.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tph.tuwien.ac.at/~oemer/qcl.html" target="_blank" rel="external noopener noreferrer nofollow"&gt;http://tph.tuwien.ac.at/~oemer/qcl.html&lt;/a&gt;: If you want to get into quantum algorithms without the bloat supplied by IBM et al.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nushell.sh/" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://www.nushell.sh/&lt;/a&gt;: Alternative shell that structures data between commands (it&amp;rsquo;s not all plain text).&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/niri-wm/niri" target="_blank" rel="external noopener noreferrer nofollow"&gt;https://github.com/niri-wm/niri&lt;/a&gt;: Tiling window manager with infinite vertical and horizontal scroll (now widely used)&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><category>Reference</category><category>Fun</category></item></channel></rss>
